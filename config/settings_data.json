@@ -3546,6 +3546,16 @@
               "title": "WATCHES",
               "url": "shopify:\/\/collections\/watches"
             }
+          },
+          "collection_NMHnr3": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image": "shopify:\/\/shop_images\/522d946d27c4fd7045c4a47e33546ebf_3.png",
+              "img_align": "center",
+              "title": "Bracelet",
+              "url": "shopify:\/\/collections\/bracelets"
+            }
           }
         },
         "block_order": [
@@ -3553,7 +3563,8 @@
           "collection_R3LfkP",
           "collection_egc4QH",
           "collection_jyBgc9",
-          "collection_jRjy7V"
+          "collection_jRjy7V",
+          "collection_NMHnr3"
         ],
         "settings": {
           "title": "Collection list",
