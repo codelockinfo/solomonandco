@@ -817,11 +817,12 @@
           "1581507860120": {
             "type": "copy",
             "settings": {
-              "text": "Copyright © [year] <span class=\"cp\">Gecko<\/span> All Rights Reserved. Powered by <a href=\"https:\/\/the4.co\">The4<\/a>"
+              "text": "© Copyright 2024, Solomon Jewelers All Rights Reserved"
             }
           },
           "1581507855652": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "menu": "footer"
             }
@@ -832,7 +833,7 @@
           "1581507855652"
         ],
         "settings": {
-          "layout": "6",
+          "layout": "12",
           "bg": "#222222",
           "cl": "#ffffff",
           "cl_a": "#ffffff",
