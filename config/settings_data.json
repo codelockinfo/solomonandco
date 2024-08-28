@@ -3359,6 +3359,42 @@
       },
       "custom_offer_section_MWqimb": {
         "type": "custom-offer-section",
+        "blocks": {
+          "text_NdaYY6": {
+            "type": "text",
+            "settings": {
+              "countno": "",
+              "counttime": ""
+            }
+          },
+          "text_xxaYtJ": {
+            "type": "text",
+            "settings": {
+              "countno": "",
+              "counttime": ""
+            }
+          },
+          "text_bXtqyP": {
+            "type": "text",
+            "settings": {
+              "countno": "",
+              "counttime": ""
+            }
+          },
+          "text_Ynjhnx": {
+            "type": "text",
+            "settings": {
+              "countno": "",
+              "counttime": ""
+            }
+          }
+        },
+        "block_order": [
+          "text_NdaYY6",
+          "text_xxaYtJ",
+          "text_bXtqyP",
+          "text_Ynjhnx"
+        ],
         "settings": {
           "desktop_bg_image": "shopify:\/\/shop_images\/Rectangle_36_1.png",
           "mobile_bg_image": "shopify:\/\/shop_images\/Rectangle_36_4.png",
