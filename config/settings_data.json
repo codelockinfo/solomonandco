@@ -3761,6 +3761,45 @@
       },
       "celebrity_slider_yXceq8": {
         "type": "celebrity-slider",
+        "blocks": {
+          "text_6DHXqL": {
+            "type": "text",
+            "settings": {
+              "nametext": ""
+            }
+          },
+          "text_VYbg94": {
+            "type": "text",
+            "settings": {
+              "nametext": ""
+            }
+          },
+          "text_UpDzfT": {
+            "type": "text",
+            "settings": {
+              "nametext": ""
+            }
+          },
+          "text_9MJFVW": {
+            "type": "text",
+            "settings": {
+              "nametext": ""
+            }
+          },
+          "text_a7d6E9": {
+            "type": "text",
+            "settings": {
+              "nametext": ""
+            }
+          }
+        },
+        "block_order": [
+          "text_6DHXqL",
+          "text_VYbg94",
+          "text_UpDzfT",
+          "text_9MJFVW",
+          "text_a7d6E9"
+        ],
         "settings": {
           "sectionhead": "Celebrity Jewelry"
         }
