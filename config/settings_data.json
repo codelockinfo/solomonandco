@@ -822,7 +822,7 @@
           "cl_btn": "#b59677",
           "bg": "#000000",
           "bg_repeat": "no-repeat",
-          "bg_size": "contain",
+          "bg_size": "inherit",
           "bg_att": "scroll",
           "bg_pos": "center center",
           "cl_overlay": "#000000",
