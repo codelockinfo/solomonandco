@@ -3541,7 +3541,7 @@
             "type": "collection",
             "settings": {
               "collection": "",
-              "image": "shopify:\/\/shop_images\/522d946d27c4fd7045c4a47e33546ebf_3_1.png",
+              "image": "shopify:\/\/shop_images\/522d946d27c4fd7045c4a47e33546ebf_2_1.png",
               "img_align": "center",
               "title": "",
               "url": ""
@@ -3567,7 +3567,7 @@
           "cat_design": "1",
           "cat_space": "30",
           "image_ratio": "ratio_nt",
-          "col": "3",
+          "col": "15",
           "col_md": "3",
           "col_mb": "6",
           "spn_txt": "Shop now",
