@@ -3717,13 +3717,6 @@
               "title": "Question and answer",
               "content": "<p>This section doesn’t currently include any content. <b>Add content to this section using the sidebar.<\/b><\/p>"
             }
-          },
-          "faq_MARXwE": {
-            "type": "faq",
-            "settings": {
-              "title": "Question and answer",
-              "content": "<p>This section doesn’t currently include any content. <b>Add content to this section using the sidebar.<\/b><\/p>"
-            }
           }
         },
         "block_order": [
@@ -3731,8 +3724,7 @@
           "faq_ADCera",
           "faq_nycej7",
           "faq_YXTAHY",
-          "faq_hX3bjE",
-          "faq_MARXwE"
+          "faq_hX3bjE"
         ],
         "settings": {
           "title": "Frequently Asked Questions",
