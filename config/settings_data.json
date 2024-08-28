@@ -3480,7 +3480,7 @@
           "se_height": "default",
           "se_height_tb": "500px",
           "se_height_mb": "350px",
-          "effect": "1",
+          "effect": "0",
           "loop": true,
           "autoplay": false,
           "au_time": 6,
