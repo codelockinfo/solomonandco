@@ -3462,7 +3462,6 @@
           "style_title": "title_10",
           "ic_tt": "gem",
           "show_clpr": false,
-          "bg_image": "shopify:\/\/shop_images\/Frame_4_1.png",
           "collection": "bracelets",
           "limit": 8,
           "space": 30,
@@ -3824,6 +3823,30 @@
           "sectionhead": "Celebrity Jewelry",
           "backimg": "shopify:\/\/shop_images\/Frame_4_1.png"
         }
+      },
+      "image_text_B4eceG": {
+        "type": "image_text",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Group_1000004498.png",
+          "img_align": "center",
+          "img_position": "2",
+          "image_ratio": "auto",
+          "text_size": "60,18",
+          "title": "Discounts up to <br>20% are waiting for you…",
+          "text": "<p>Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque.<\/p>",
+          "button_label": "Shop Now",
+          "button_link": "shopify:\/\/collections\/all",
+          "open_link": "_blank",
+          "txt_align": "tl",
+          "use_shadow": false,
+          "cl_txt": "dark",
+          "layout": "container",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
       }
     },
     "content_for_index": [
@@ -3834,7 +3857,8 @@
       "banner_collection_4fcpKT",
       "shipping_8RgVhV",
       "celebrity_slider_yXceq8",
-      "faq_AEFrpd"
+      "faq_AEFrpd",
+      "image_text_B4eceG"
     ]
   }
 }
