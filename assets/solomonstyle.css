@@ -21,6 +21,22 @@
     z-index: 1;
     pointer-events: none;
 }
+.tab-heading {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 31.2px;
+    letter-spacing: 0.05em;
+}
+.type_faq .sp-tab-content{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23.4px;
+    letter-spacing: 0.05em;
+    border-top: 1px solid #D9D9D9 !important;
+}
+.tab-heading .nav_link_icon{
+    border: 1px solid #000000;
+}
 @media screen and (max-width: 768px){
     .SlideshowWrapper .slideshow__slide .item__position::after{
         content: '';

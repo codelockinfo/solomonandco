@@ -1979,18 +1979,18 @@ border-bottom: 1px solid #e5e5e5;
     opacity: 0;
 }
 .tab-heading .nav_link_icon {
-    width: 44px;
-    height: 44px;
+    width: 30px;
+    height: 30px;
     background-color: #222;
     color: #fff;
 }
 .tab-heading .nav_link_icon:before {
-    width: 15px;
+    width: 12px;
     height: 2px;
 }
 .tab-heading .nav_link_icon:after {
     width: 2px;
-    height: 15px;
+    height: 12px;
 }
 li.menu-item.menu-item-infos {
     border-bottom: 1px solid rgba(129,129,129,.2);
