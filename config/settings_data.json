@@ -2881,7 +2881,7 @@
           "arrow": false,
           "border": true,
           "color": "#ececec",
-          "source": "1",
+          "source": "0",
           "txt": "Welcome to our store!",
           "social": "2",
           "align": "tc",
