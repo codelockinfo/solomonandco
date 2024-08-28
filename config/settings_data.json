@@ -3360,9 +3360,11 @@
       "custom_offer_section_MWqimb": {
         "type": "custom-offer-section",
         "settings": {
-          "heading": "",
-          "paragraph": "",
-          "btntext": "",
+          "desktop_bg_image": "shopify:\/\/shop_images\/Rectangle_36_1.png",
+          "mobile_bg_image": "shopify:\/\/shop_images\/Rectangle_36_4.png",
+          "heading": "Sale 50% Off",
+          "paragraph": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some",
+          "btntext": "Shop Now",
           "btnurl": ""
         }
       }
