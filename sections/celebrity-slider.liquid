@@ -6,7 +6,7 @@
   <div class="width-container">
     <div class="celeb-container">
       <div class="heading_icons">
-        <div class="slider_heading">Celebrity Jewelry</div>
+        <div class="slider_heading">{{section.settings.sectionhead}}</div>
         <div class="next-prev-icons">
           <img src="https://img.icons8.com/?size=30&id=99996&format=png" class="button-prev">
           <img src="https://img.icons8.com/?size=30&id=99982&format=png" class="button-next">
@@ -15,7 +15,9 @@
       <div class="swiper-wrapper">
         {% for block in section.blocks %}
           <div class="swiper-slide">
+            {% if block.settings.sectionhead != blank %}
             <div class="name_text">{{ block.settings.nametext }}</div>
+        {% endif %}
             <img src="{{ block.settings.image | img_url: 'master' }}" alt="" class="collection_img">
             {% if block.settings.smallimg != blank %}
               <div class="jewel_img_box">
@@ -40,7 +42,13 @@
 {% schema %}
 {
   "name": "Golden_Image Slider",
-  "settings": [],
+  "settings": [
+    {
+      "type": "text",
+      "id": "sectionhead",
+      "label": "Section heading"
+    }
+  ],
   "blocks": [
     {
       "name": "block",
