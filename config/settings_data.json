@@ -3363,29 +3363,29 @@
           "text_NdaYY6": {
             "type": "text",
             "settings": {
-              "countno": "",
-              "counttime": ""
+              "countno": "23",
+              "counttime": "Hours"
             }
           },
           "text_xxaYtJ": {
             "type": "text",
             "settings": {
-              "countno": "",
-              "counttime": ""
+              "countno": "05",
+              "counttime": "Days"
             }
           },
           "text_bXtqyP": {
             "type": "text",
             "settings": {
-              "countno": "",
-              "counttime": ""
+              "countno": "59",
+              "counttime": "Minutes"
             }
           },
           "text_Ynjhnx": {
             "type": "text",
             "settings": {
-              "countno": "",
-              "counttime": ""
+              "countno": "35",
+              "counttime": "Seconds"
             }
           }
         },
