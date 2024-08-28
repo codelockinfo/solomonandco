@@ -1438,6 +1438,7 @@
           },
           "1585640443284": {
             "type": "subhd",
+            "disabled": true,
             "settings": {
               "font": "f_body",
               "title": "MEGA SUMMER SALE",
@@ -1452,17 +1453,10 @@
               "hide": false
             }
           },
-          "1585640460694": {
-            "type": "space",
-            "settings": {
-              "sp": 15,
-              "sp_mb": 10
-            }
-          },
           "1585640447349": {
             "type": "hd",
             "settings": {
-              "title": "<span class=\"cp\">BIG DISCOUNT<\/span> UP TO 50%",
+              "title": "<span class=\"cp\">One stop <\/span><br>\n<span class=\"cp\">\nJewelry shopping<\/span>",
               "color": "#ffffff",
               "fw_text": 700,
               "fs_text": 50,
@@ -1480,12 +1474,34 @@
               "sp_mb": 10
             }
           },
+          "txt_xQbR7c": {
+            "type": "txt",
+            "settings": {
+              "title": "There are many variations of passages of Lorem Ipsum <br>available, but the majority have suffered alteration in some",
+              "color": "#fff",
+              "fw_text": 400,
+              "fs_text": 14,
+              "lh_text": 0,
+              "ls_text": 0,
+              "fs_mb_text": 14,
+              "lh_mb_text": 0,
+              "ls_mb_text": 0,
+              "hide": false
+            }
+          },
+          "1585640460694": {
+            "type": "space",
+            "settings": {
+              "sp": 15,
+              "sp_mb": 10
+            }
+          },
           "1585640453760": {
             "type": "btn",
             "settings": {
-              "title": "START SHOPPING",
-              "btn_link": "shopify:\/\/collections\/trending",
-              "title2": "Shop Now",
+              "title": "SHOP NOW",
+              "btn_link": "shopify:\/\/collections\/bracelets",
+              "title2": "",
               "btn_link2": "",
               "btn_round": false,
               "btn_icon": false,
@@ -1503,6 +1519,7 @@
           },
           "1585640159361": {
             "type": "img",
+            "disabled": true,
             "settings": {
               "pos_img": "center center",
               "cl_img": "",
@@ -1533,6 +1550,7 @@
           },
           "1585640474337": {
             "type": "subhd",
+            "disabled": true,
             "settings": {
               "font": "f_body",
               "title": "SPRING - SUMMER 2020",
@@ -1549,6 +1567,7 @@
           },
           "1585640490350": {
             "type": "space",
+            "disabled": true,
             "settings": {
               "sp": 25,
               "sp_mb": 15
@@ -1556,6 +1575,7 @@
           },
           "1585640480446": {
             "type": "hd",
+            "disabled": true,
             "settings": {
               "title": "<span class=\"cp\">NEW ARRIVALS <\/span> COLLECTION",
               "color": "#ffffff",
@@ -1570,6 +1590,7 @@
           },
           "1585640492985": {
             "type": "space",
+            "disabled": true,
             "settings": {
               "sp": 25,
               "sp_mb": 15
@@ -1577,6 +1598,7 @@
           },
           "1585640485544": {
             "type": "btn",
+            "disabled": true,
             "settings": {
               "title": "SHOP NOW",
               "btn_link": "shopify:\/\/collections\/trending",
@@ -1600,9 +1622,10 @@
         "block_order": [
           "1585640154849",
           "1585640443284",
-          "1585640460694",
           "1585640447349",
           "1585640466340",
+          "txt_xQbR7c",
+          "1585640460694",
           "1585640453760",
           "1585640159361",
           "1585640474337",
