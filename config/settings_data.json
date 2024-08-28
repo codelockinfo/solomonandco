@@ -9,7 +9,7 @@
 */
 {
   "current": {
-    "general_layout": "full_width",
+    "general_layout": "wide",
     "cus_w_bd": 1170,
     "body_bg": "#fff",
     "body_bg_image": "",
@@ -29,10 +29,10 @@
     "catalog_mode": false,
     "enable_toolbar": true,
     "enable_new_pp": false,
-    "enable_pro_pr_pp": true,
+    "enable_pro_pr_pp": false,
     "enable_ck_pp": false,
     "enable_age_pp": false,
-    "enable_salse_pp": true,
+    "enable_salse_pp": false,
     "enable_salse_pp_mb": false,
     "platform_email": "1",
     "klaviyo_list_id": "",
@@ -60,49 +60,52 @@
     "enable_meta": true,
     "enable_tag": true,
     "filter_price_list": "$7-$50, $50-$150, $150-$500",
-    "logo_svg": "logo.svg",
-    "logo": "",
+    "logo_svg": "",
+    "logo": "shopify:\/\/shop_images\/SOLOMON_CO_2.png",
     "logo_retina": "",
-    "logo_width": 180,
+    "logo_width": 275,
     "logos": "",
     "logos_retina": "",
-    "logos_width": 180,
+    "logos_width": 270,
     "logo_mb": "",
     "logo_mb_retina": "",
     "logo_mb_width": 110,
     "logo_tr_svg": "",
     "logo_tr": "",
     "logo_tr_retina": "",
-    "logo_tr_width": 100,
+    "logo_tr_width": 280,
     "h_banner": false,
     "h_topbar": true,
     "full_header": true,
     "sticky_header": true,
     "scroll_header": false,
-    "header_design": "3",
-    "h_transparent": false,
+    "header_design": "4",
+    "h_transparent": true,
     "h_tr_top": false,
     "h_navmb": 62,
-    "mb_cat": true,
+    "mb_cat": false,
     "only_icon": false,
     "first_cat": false,
     "h__bgimg": "",
     "bgnav": "#ffffff",
     "opnav": 100,
-    "clnav": "#4d5959",
+    "clnav": "#1e3957",
+    "clnav_hover": "#1e3957",
     "bgnavst": "#ffffff",
     "opnavst": 100,
-    "clnavst": "#222222",
-    "bgnavtr": "#000000",
+    "clnavst": "#1e3957",
+    "clnavst_hover": "#1e3957",
+    "bgnavtr": "#ffffff",
     "opnavtr": 40,
-    "clnavtr": "#ffffff",
+    "clnavtr": "#1e3957",
+    "clnavtr_hover": "#ffffff",
     "h_icon": "iccl",
     "show_search": true,
     "show_wis": true,
     "show_acc": true,
     "cart_des": "1",
-    "bg_hc": "#000000",
-    "cl_hc": "#ffffff",
+    "bg_hc": "#ffffff",
+    "cl_hc": "#1e3957",
     "btnt4_style": "1",
     "cl_bd_text": "#999999",
     "color_primary": "#b59677",
@@ -150,9 +153,9 @@
     "fnt_bd": "poppins_n4",
     "fnt_heading": "poppins_n4",
     "fnt_sub_tt": "poppins_n4",
-    "fnt_bd2": "Lato",
+    "fnt_bd2": "IBM Plex Sans",
     "fnt_heading2": "Montserrat",
-    "fnt_sub_tt2": "Libre Baskerville",
+    "fnt_sub_tt2": "Poppins",
     "size_bd_text": 14,
     "fw_bd": 400,
     "bd_line_height": 1.7,
@@ -325,9 +328,9 @@
     "social_facebook_link": "https:\/\/facebook.com\/shopify",
     "social_twitter_link": "https:\/\/twitter.com\/shopify",
     "social_instagram_link": "https:\/\/instagram.com\/shopify",
-    "social_dribbble_link": "https:\/\/dribbble.com\/shopify",
-    "social_linkedin_link": "",
-    "social_pinterest_link": "https:\/\/pinterest.com\/shopify",
+    "social_dribbble_link": "",
+    "social_linkedin_link": "https:\/\/www.linkedin.com\/company\/shopify",
+    "social_pinterest_link": "",
     "social_tumblr_link": "",
     "social_youtube_link": "https:\/\/www.youtube.com\/shopify",
     "social_behance_link": "",
@@ -429,38 +432,37 @@
       "header_top": {
         "type": "header_top",
         "blocks": {
-          "1595994733101": {
-            "type": "social",
+          "text_AmxLB4": {
+            "type": "text",
             "settings": {
-              "social": "2",
-              "border_bl": true,
-              "black_bl": false,
+              "text": "Hurry up offer is running for a limited time only",
               "hide": true,
               "col": "4"
             }
           },
-          "1596007070336": {
+          "text2_gXgMfF": {
             "type": "text2",
             "settings": {
-              "text": "<p>Summer sale discount off <a href=\"#cr\" title=\"#cr\"><strong>50%<\/strong><\/a>! <a href=\"\/collections\/clothing\" title=\"Clothing\">Shop Now<\/a>;;;<\/p><p>The Best Shopify Themes.;;;<\/p><p>MADE WITH LOVE;;;<\/p><p>Customer support is second to none;;;<\/p><p>Fantastic theme! Beautifully designed!<\/p>",
+              "text": "<p>A summer state of mind starts with the perfect stack<a href=\"\/collections\" title=\"All collections\"> Shop Now<\/a><\/p>",
               "effect": "1",
-              "au_time": 2.5,
+              "au_time": 3.5,
               "hide": false,
               "col": "4"
             }
           },
-          "header_top-2": {
-            "type": "cur",
+          "text_PkE6bz": {
+            "type": "text",
             "settings": {
+              "text": "Hurry up offer is running for a limited time only",
               "hide": true,
               "col": "4"
             }
           }
         },
         "block_order": [
-          "1595994733101",
-          "1596007070336",
-          "header_top-2"
+          "text_AmxLB4",
+          "text2_gXgMfF",
+          "text_PkE6bz"
         ],
         "settings": {
           "height": 50,
@@ -737,10 +739,11 @@
           "1581507819652": {
             "type": "logo",
             "settings": {
-              "logo_width": 200,
-              "title": "GET IN TOUCH",
-              "content": "<p><i class=\"pegk pe-7s-map-marker\"> <\/i><span>184 Main Rd E, St Albans <br> <span class=\"pl__30\">VIC 3021, Australia<\/span><\/span><\/p><p><i class=\"pegk pe-7s-mail\"><\/i><span> <a href=\"mailto:contact@company.com\">contact@company.com<\/a><\/span><\/p><p><i class=\"pegk pe-7s-call\"><\/i> <span>+001 2233 456 <\/span><\/p>",
-              "social_mode": "3",
+              "image": "shopify:\/\/shop_images\/SOLOMON_CO_1.png",
+              "logo_width": 100,
+              "title": "",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit",
+              "social_mode": "1",
               "order": "1",
               "cl": "3",
               "cl_tb": "6",
@@ -750,8 +753,8 @@
           "1581507824602": {
             "type": "menu",
             "settings": {
-              "title": "CATEGORIES",
-              "menu": "",
+              "title": "Useful link",
+              "menu": "useful-link",
               "order": "1",
               "cl": "2",
               "cl_tb": "6",
@@ -761,37 +764,23 @@
           "1581507828337": {
             "type": "menu",
             "settings": {
-              "title": "INFORMATION",
-              "menu": "",
-              "order": "1",
-              "cl": "2",
-              "cl_tb": "6",
-              "cl_mb": "12"
-            }
-          },
-          "1581507840818": {
-            "type": "menu",
-            "settings": {
-              "title": "USEFUL LINKS",
-              "menu": "",
-              "order": "1",
-              "cl": "2",
-              "cl_tb": "6",
-              "cl_mb": "12"
-            }
-          },
-          "1581507835369": {
-            "type": "mail",
-            "settings": {
-              "newl_des": "1",
-              "btn_icon": false,
-              "title": "NEWSLETTER SIGNUP",
-              "sub_title": "Subscribe to our newsletter and get 10% off your first purchase",
-              "source": "1",
-              "svg": "amazon_payments,american_express,apple_pay,bitcoin,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,google_pay,jcb,klarna,klarna-pay-later,litecoin,maestro,master,paypal,shopify_pay,sofort,visa",
-              "height": 30,
+              "title": "Policies & Services",
+              "menu": "policies-services",
               "order": "1",
               "cl": "3",
+              "cl_tb": "6",
+              "cl_mb": "12"
+            }
+          },
+          "logo_yAQDcy": {
+            "type": "logo",
+            "settings": {
+              "logo_width": 100,
+              "title": "Contact Details",
+              "content": "<p><i class=\"pegk pe-7s-map-marker\"> <\/i><span>Houston, Texas 77039,\nUnited States <\/span><\/p><p><i class=\"pegk pe-7s-mail\"><\/i><span> <a href=\"mailto:sales.Solomonjewelers@gmail.com%0A\">sales.Solomonjewelers@gmail.com\n<\/a><\/span><\/p>",
+              "social_mode": "3",
+              "order": "1",
+              "cl": "4",
               "cl_tb": "6",
               "cl_mb": "12"
             }
@@ -801,8 +790,7 @@
           "1581507819652",
           "1581507824602",
           "1581507828337",
-          "1581507840818",
-          "1581507835369"
+          "logo_yAQDcy"
         ],
         "settings": {
           "sticky": false,
@@ -816,9 +804,9 @@
           "cl_ip": "#ffffff",
           "bd_ip": "#878787",
           "cl_btn": "#b59677",
-          "bg": "#000000",
+          "bg": "#1e3957",
           "bg_repeat": "no-repeat",
-          "bg_size": "cover",
+          "bg_size": "inherit",
           "bg_att": "scroll",
           "bg_pos": "center center",
           "cl_overlay": "#000000",
@@ -831,11 +819,12 @@
           "1581507860120": {
             "type": "copy",
             "settings": {
-              "text": "Copyright © [year] <span class=\"cp\">Gecko<\/span> All Rights Reserved. Powered by <a href=\"https:\/\/the4.co\">The4<\/a>"
+              "text": "© Copyright 2024, Solomon Jewelers All Rights Reserved"
             }
           },
           "1581507855652": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "menu": "footer"
             }
@@ -846,8 +835,8 @@
           "1581507855652"
         ],
         "settings": {
-          "layout": "6",
-          "bg": "#222222",
+          "layout": "12",
+          "bg": "#1e3957",
           "cl": "#ffffff",
           "cl_a": "#ffffff",
           "cl_hover": "#b59677"
@@ -855,19 +844,6 @@
       },
       "nt_custom_color": {
         "type": "nt_custom_color",
-        "blocks": {
-          "1600078759493": {
-            "type": "lb_menu",
-            "settings": {
-              "title": "hot",
-              "color_1_c": "#ff3e11",
-              "color_txt": "#ffffff"
-            }
-          }
-        },
-        "block_order": [
-          "1600078759493"
-        ],
         "settings": {
         }
       },
@@ -945,8 +921,8 @@
           "mb_nav-0": {
             "type": "menu",
             "settings": {
-              "title": "Demo",
-              "url": "",
+              "title": "Home",
+              "url": "\/",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -957,8 +933,8 @@
           "mb_nav-1": {
             "type": "menu",
             "settings": {
-              "title": "Shop",
-              "url": "",
+              "title": "Men's",
+              "url": "shopify:\/\/collections\/gold-chains",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -969,8 +945,8 @@
           "mb_nav-2": {
             "type": "menu",
             "settings": {
-              "title": "Product",
-              "url": "",
+              "title": "Women's",
+              "url": "shopify:\/\/collections\/earrings",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -981,8 +957,8 @@
           "1585642902196": {
             "type": "menu",
             "settings": {
-              "title": "Sale",
-              "url": "",
+              "title": "Gold Chains",
+              "url": "shopify:\/\/collections\/gold-chains",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -993,8 +969,8 @@
           "1585642908420": {
             "type": "menu",
             "settings": {
-              "title": "Portfolio",
-              "url": "",
+              "title": "Engagement",
+              "url": "shopify:\/\/collections\/gold-rings",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -1005,8 +981,8 @@
           "mb_nav-3": {
             "type": "menu",
             "settings": {
-              "title": "Lookbook",
-              "url": "",
+              "title": "Travel Cases",
+              "url": "\/",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -1017,8 +993,8 @@
           "1585642887352": {
             "type": "menu",
             "settings": {
-              "title": "Blog",
-              "url": "",
+              "title": "Watches",
+              "url": "shopify:\/\/collections\/watches",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -1028,11 +1004,6 @@
           },
           "mb_nav-4": {
             "type": "wis",
-            "settings": {
-            }
-          },
-          "b30e9037-eb1b-450d-b6e5-b0fbdc6c3063": {
-            "type": "compe",
             "settings": {
             }
           },
@@ -1048,6 +1019,7 @@
           },
           "mb_nav-7": {
             "type": "help",
+            "disabled": true,
             "settings": {
               "title": "Need help?",
               "text": "<i class=\"pegk pe-7s-call fwb mr__10\"><\/i>+01 23456789<br><i class=\"pegk pe-7s-mail fwb mr__10\"><\/i><a class=\"cg\" href=\"mailto:gecko@domain.com\">gecko@domain.com<\/a>"
@@ -1055,6 +1027,7 @@
           },
           "mb_nav-8": {
             "type": "cur",
+            "disabled": true,
             "settings": {
             }
           }
@@ -1068,7 +1041,6 @@
           "mb_nav-3",
           "1585642887352",
           "mb_nav-4",
-          "b30e9037-eb1b-450d-b6e5-b0fbdc6c3063",
           "mb_nav-5",
           "mb_nav-6",
           "mb_nav-7",
@@ -1084,12 +1056,12 @@
             "type": "cat",
             "settings": {
               "cat": "",
-              "title": "Women’s Clothing",
+              "title": "Home",
               "url": "",
               "menu": "",
               "lb": "",
               "lb_cl": "#e91e63",
-              "icons_op": "2",
+              "icons_op": "0",
               "icon": "female"
             }
           },
@@ -1097,16 +1069,68 @@
             "type": "cat",
             "settings": {
               "cat": "",
-              "title": "Men’s Clothing",
+              "title": "Men's",
               "url": "",
               "menu": "",
               "lb": "",
               "lb_cl": "#e91e63",
-              "icons_op": "2",
+              "icons_op": "0",
               "icon": "male"
             }
           },
           "1585642167981": {
+            "type": "cat",
+            "settings": {
+              "cat": "",
+              "title": "Women's",
+              "url": "",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "#e91e63",
+              "icons_op": "0",
+              "icon": "clock"
+            }
+          },
+          "1585642277236": {
+            "type": "cat",
+            "settings": {
+              "cat": "",
+              "title": "Gold Chains",
+              "url": "",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "#e91e63",
+              "icons_op": "0",
+              "icon": "glasses"
+            }
+          },
+          "1585642450066": {
+            "type": "cat",
+            "settings": {
+              "cat": "",
+              "title": "Engagement",
+              "url": "",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "#e91e63",
+              "icons_op": "0",
+              "icon": "camera-retro"
+            }
+          },
+          "1585642600575": {
+            "type": "cat",
+            "settings": {
+              "cat": "",
+              "title": "Travel Cases",
+              "url": "",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "#e91e63",
+              "icons_op": "0",
+              "icon": "shoe-prints"
+            }
+          },
+          "1585642629333": {
             "type": "cat",
             "settings": {
               "cat": "",
@@ -1115,59 +1139,7 @@
               "menu": "",
               "lb": "",
               "lb_cl": "#e91e63",
-              "icons_op": "2",
-              "icon": "clock"
-            }
-          },
-          "1585642277236": {
-            "type": "cat",
-            "settings": {
-              "cat": "",
-              "title": "Acessories",
-              "url": "",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "2",
-              "icon": "glasses"
-            }
-          },
-          "1585642450066": {
-            "type": "cat",
-            "settings": {
-              "cat": "",
-              "title": "",
-              "url": "",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "2",
-              "icon": "camera-retro"
-            }
-          },
-          "1585642600575": {
-            "type": "cat",
-            "settings": {
-              "cat": "",
-              "title": "Shoes",
-              "url": "",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "2",
-              "icon": "shoe-prints"
-            }
-          },
-          "1585642629333": {
-            "type": "cat",
-            "settings": {
-              "cat": "",
-              "title": "Jewellery",
-              "url": "",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "2",
+              "icons_op": "0",
               "icon": "gem"
             }
           },
@@ -1175,12 +1147,12 @@
             "type": "cat",
             "settings": {
               "cat": "",
-              "title": "T-Shirt",
+              "title": "Custom",
               "url": "",
               "menu": "",
               "lb": "",
               "lb_cl": "#e91e63",
-              "icons_op": "2",
+              "icons_op": "0",
               "icon": "tshirt"
             }
           },
@@ -1188,26 +1160,13 @@
             "type": "cat",
             "settings": {
               "cat": "",
-              "title": "Toys, Kids & Baby",
+              "title": "Made To Order",
               "url": "",
               "menu": "",
               "lb": "",
               "lb_cl": "#e91e63",
-              "icons_op": "2",
+              "icons_op": "0",
               "icon": "child"
-            }
-          },
-          "1585642798957": {
-            "type": "cat",
-            "settings": {
-              "cat": "",
-              "title": "Decor",
-              "url": "",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "2",
-              "icon": "chair"
             }
           }
         },
@@ -1220,8 +1179,7 @@
           "1585642600575",
           "1585642629333",
           "1585642644518",
-          "1585642780875",
-          "1585642798957"
+          "1585642780875"
         ],
         "settings": {
         }
@@ -1286,172 +1244,14 @@
           "show_txt": true
         }
       },
-      "1581505821233": {
-        "type": "collection-list_packery",
-        "blocks": {
-          "1581505821233-3": {
-            "type": "collection",
-            "settings": {
-              "collection": "clothing",
-              "img_align": "top",
-              "title": "ACCESSORIES",
-              "url": ""
-            }
-          },
-          "1581505821233-1": {
-            "type": "collection",
-            "settings": {
-              "collection": "clothing",
-              "img_align": "center",
-              "title": "CLOTHING",
-              "url": ""
-            }
-          },
-          "1581505821233-2": {
-            "type": "collection",
-            "settings": {
-              "collection": "clothing",
-              "img_align": "center",
-              "title": "FOOTWEAR",
-              "url": ""
-            }
-          },
-          "1581505821233-0": {
-            "type": "collection",
-            "settings": {
-              "collection": "clothing",
-              "img_align": "center",
-              "title": "HANDBAG",
-              "url": ""
-            }
-          }
-        },
-        "block_order": [
-          "1581505821233-3",
-          "1581505821233-1",
-          "1581505821233-2",
-          "1581505821233-0"
-        ],
-        "settings": {
-          "title": "",
-          "sub_title": "",
-          "sub_font": "2",
-          "style_title": "title_1",
-          "ic_tt": "gem",
-          "show_clpr": false,
-          "hoverz": true,
-          "cat_design": "9",
-          "cat_space": "30",
-          "spn_txt": "Shop now",
-          "pr_txt": "products",
-          "cat_lay4": 2,
-          "cat_lay5": 3,
-          "hidden": false,
-          "cp_code": false,
-          "layout": "container",
-          "cl_bg": "",
-          "mg": "50px,,90px,",
-          "pd": "",
-          "mg_mb": ",,60px,",
-          "pd_mb": ""
-        }
-      },
-      "1581505838591": {
-        "type": "featured_collection",
-        "settings": {
-          "title": "LATEST PRODUCTS",
-          "sub_title": "",
-          "sub_font": "2",
-          "btn_title": "See all products",
-          "style_title": "title_1",
-          "ic_tt": "gem",
-          "show_clpr": false,
-          "collection": "clothing",
-          "limit": 6,
-          "space": 30,
-          "use_pagination": "more",
-          "use_bar_lm": false,
-          "btn_rd": false,
-          "btn_icon": true,
-          "btn_style": "primary",
-          "col_pr": "4",
-          "col_pr_tb": "3",
-          "col_pr_mb": "6",
-          "pr_des": "1 tc",
-          "show_vendor": false,
-          "use_cdt": true,
-          "round_cd": true,
-          "cdt_des": "5",
-          "use_eq_height": false,
-          "image_ratio": "ratio_nt",
-          "image_size": "nt_cover",
-          "image_position": "8",
-          "hidden": false,
-          "cp_code": false,
-          "layout": "container",
-          "cl_bg": "",
-          "mg": ",,90px,",
-          "pd": "",
-          "mg_mb": ",,60px,",
-          "pd_mb": ""
-        }
-      },
-      "1581508031759": {
-        "type": "featured_blog",
-        "settings": {
-          "title": "LATES FROM BLOG",
-          "sub_title": "",
-          "sub_font": "2",
-          "btn_title": "See all posts",
-          "style_title": "title_1",
-          "ic_tt": "pencil-alt",
-          "show_clpr": false,
-          "layout_des": "1",
-          "art_des": "1",
-          "blog": "life-style",
-          "limit": 3,
-          "use_pagination": "more",
-          "use_bar_lm": false,
-          "btn_rd": true,
-          "btn_icon": true,
-          "btn_style": "primary",
-          "date": "date",
-          "col_pr": "4",
-          "col_pr_tb": "4",
-          "col_pr_mb": "12",
-          "show_cnt": true,
-          "show_au": true,
-          "show_dt": true,
-          "show_cm": false,
-          "show_rm": false,
-          "loop": false,
-          "au_time": 0,
-          "au_hover": true,
-          "button": true,
-          "btn_vi": "1",
-          "btn_owl": "1",
-          "btn_color": "3",
-          "dot": false,
-          "dot_owl": "1",
-          "dot_color": "1",
-          "use_eq_height": true,
-          "image_ratio": "ratio4_3",
-          "image_size": "nt_cover",
-          "image_position": "8",
-          "layout": "container",
-          "cl_bg": "#f7f7f7",
-          "mg": "",
-          "pd": "120px,,120px,",
-          "mg_mb": "",
-          "pd_mb": "60px,,60px,"
-        }
-      },
       "1581505806578": {
         "type": "slideshow",
         "blocks": {
           "1585640154849": {
             "type": "img",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Rectangle_5.png",
+              "image_mb": "shopify:\/\/shop_images\/for_mobile_1_1.png",
               "pos_img": "center center",
               "cl_img": "",
               "link_img1": "",
@@ -1481,6 +1281,7 @@
           },
           "1585640443284": {
             "type": "subhd",
+            "disabled": true,
             "settings": {
               "font": "f_body",
               "title": "MEGA SUMMER SALE",
@@ -1495,23 +1296,16 @@
               "hide": false
             }
           },
-          "1585640460694": {
-            "type": "space",
-            "settings": {
-              "sp": 15,
-              "sp_mb": 10
-            }
-          },
           "1585640447349": {
             "type": "hd",
             "settings": {
-              "title": "<span class=\"cp\">BIG DISCOUNT<\/span> UP TO 50%",
+              "title": "<span class=\"cp\">One stop <\/span><br>\n<span class=\"cp\">\nJewelry shopping<\/span>",
               "color": "#ffffff",
               "fw_text": 700,
               "fs_text": 50,
               "lh_text": 0,
               "ls_text": 1,
-              "fs_mb_text": 25,
+              "fs_mb_text": 40,
               "lh_mb_text": 0,
               "ls_mb_text": 0
             }
@@ -1523,29 +1317,52 @@
               "sp_mb": 10
             }
           },
+          "txt_xQbR7c": {
+            "type": "txt",
+            "settings": {
+              "title": "There are many variations of passages of Lorem Ipsum <br>available, but the majority have suffered alteration in some",
+              "color": "#fff",
+              "fw_text": 400,
+              "fs_text": 20,
+              "lh_text": 0,
+              "ls_text": 0,
+              "fs_mb_text": 16,
+              "lh_mb_text": 0,
+              "ls_mb_text": 0,
+              "hide": false
+            }
+          },
+          "1585640460694": {
+            "type": "space",
+            "settings": {
+              "sp": 15,
+              "sp_mb": 10
+            }
+          },
           "1585640453760": {
             "type": "btn",
             "settings": {
-              "title": "START SHOPPING",
-              "btn_link": "shopify:\/\/collections\/trending",
-              "title2": "Shop Now",
+              "title": "SHOP NOW",
+              "btn_link": "shopify:\/\/collections\/bracelets",
+              "title2": "",
               "btn_link2": "",
               "btn_round": false,
               "btn_icon": false,
-              "cl_txt": "#ffffff",
-              "cl_bg": "rgba(0,0,0,0)",
+              "cl_txt": "#0a2749",
+              "cl_bg": "#ffffff",
               "cl_bd": "#ffffff",
-              "fs_text": 11,
-              "fw_text": 400,
+              "fs_text": 18,
+              "fw_text": 600,
               "h": 42,
               "ls_text": 3,
-              "fs_mb_text": 14,
+              "fs_mb_text": 18,
               "h_mb": 40,
               "ls_mb_text": 0
             }
           },
           "1585640159361": {
             "type": "img",
+            "disabled": true,
             "settings": {
               "pos_img": "center center",
               "cl_img": "",
@@ -1576,6 +1393,7 @@
           },
           "1585640474337": {
             "type": "subhd",
+            "disabled": true,
             "settings": {
               "font": "f_body",
               "title": "SPRING - SUMMER 2020",
@@ -1592,6 +1410,7 @@
           },
           "1585640490350": {
             "type": "space",
+            "disabled": true,
             "settings": {
               "sp": 25,
               "sp_mb": 15
@@ -1599,6 +1418,7 @@
           },
           "1585640480446": {
             "type": "hd",
+            "disabled": true,
             "settings": {
               "title": "<span class=\"cp\">NEW ARRIVALS <\/span> COLLECTION",
               "color": "#ffffff",
@@ -1613,6 +1433,7 @@
           },
           "1585640492985": {
             "type": "space",
+            "disabled": true,
             "settings": {
               "sp": 25,
               "sp_mb": 15
@@ -1620,6 +1441,7 @@
           },
           "1585640485544": {
             "type": "btn",
+            "disabled": true,
             "settings": {
               "title": "SHOP NOW",
               "btn_link": "shopify:\/\/collections\/trending",
@@ -1643,9 +1465,10 @@
         "block_order": [
           "1585640154849",
           "1585640443284",
-          "1585640460694",
           "1585640447349",
           "1585640466340",
+          "txt_xQbR7c",
+          "1585640460694",
           "1585640453760",
           "1585640159361",
           "1585640474337",
@@ -2758,107 +2581,6 @@
         "settings": {
         }
       },
-      "1595988840822": {
-        "type": "image_text_overlay",
-        "blocks": {
-          "1595988840822-2": {
-            "type": "2",
-            "settings": {
-              "font": "f_body",
-              "title": "MY NAME’S GECKO",
-              "color": "#ffffff",
-              "fw_text": 400,
-              "fs_text": 20,
-              "lh_text": 0,
-              "ls_text": 0,
-              "fs_mb_text": 15,
-              "lh_mb_text": 0,
-              "ls_mb_text": 0,
-              "hide": false
-            }
-          },
-          "1595988840822-1": {
-            "type": "6",
-            "settings": {
-              "sp": 20,
-              "sp_mb": 10
-            }
-          },
-          "1595988840822-0": {
-            "type": "1",
-            "settings": {
-              "title": "<span class=\"cp\">THE BEST<\/span> SHOPIFY THEME",
-              "color": "#ffffff",
-              "fw_text": 700,
-              "fs_text": 50,
-              "lh_text": 0,
-              "ls_text": 0,
-              "fs_mb_text": 30,
-              "lh_mb_text": 0,
-              "ls_mb_text": 0
-            }
-          },
-          "1595988840822-3": {
-            "type": "6",
-            "settings": {
-              "sp": 20,
-              "sp_mb": 10
-            }
-          },
-          "1595988840822-4": {
-            "type": "3",
-            "settings": {
-              "title": "PURCHASE NOW",
-              "btn_link": "shopify:\/\/collections\/clothing",
-              "open_link": "_blank",
-              "title2": "Shop Now 2",
-              "btn_link2": "",
-              "open_link2": "_blank",
-              "btn_round": true,
-              "btn_icon": false,
-              "cl_txt": "#ffffff",
-              "cl_bg": "rgba(0,0,0,0)",
-              "cl_bd": "#ffffff",
-              "fs_text": 14,
-              "fw_text": 500,
-              "h": 42,
-              "ls_text": 0,
-              "fs_mb_text": 14,
-              "h_mb": 40,
-              "ls_mb_text": 0
-            }
-          }
-        },
-        "block_order": [
-          "1595988840822-2",
-          "1595988840822-1",
-          "1595988840822-0",
-          "1595988840822-3",
-          "1595988840822-4"
-        ],
-        "settings": {
-          "se_height": "cus_h",
-          "use_custom_h": "1",
-          "h_des": "500px",
-          "h_tb": "500px",
-          "h_mb": "350px",
-          "use_pr": true,
-          "img_align": "center",
-          "caption_w": "2",
-          "cap_v_pos": 50,
-          "cap_h_pos": 50,
-          "txt_align": "tc",
-          "use_shadow": true,
-          "cl_overlay": "#000000",
-          "cl_opacity": 0,
-          "layout": "nt_full",
-          "cl_bg": "",
-          "mg": "",
-          "pd": "",
-          "mg_mb": "",
-          "pd_mb": ""
-        }
-      },
       "nt_filter2": {
         "type": "nt_filter2",
         "blocks": {
@@ -3021,355 +2743,137 @@
         "settings": {
         }
       },
-      "1596624928746": {
-        "type": "instagram_feed",
-        "blocks": {
-          "1596624928746-0": {
-            "type": "1",
-            "settings": {
-              "title": "@ FOLLOW US ON INSTAGRAM",
-              "sub_title": "",
-              "sub_font": "2",
-              "style_title": "title_1",
-              "ic_tt": "gem",
-              "show_clpr": false
-            }
-          },
-          "1596624928746-1": {
-            "type": "img",
-            "settings": {
-              "url": ""
-            }
-          },
-          "1596624928746-3": {
-            "type": "img",
-            "settings": {
-              "url": ""
-            }
-          },
-          "1596625080751": {
-            "type": "img",
-            "settings": {
-              "url": ""
-            }
-          },
-          "1596625123291": {
-            "type": "img",
-            "settings": {
-              "url": ""
-            }
-          },
-          "1596625119199": {
-            "type": "img",
-            "settings": {
-              "url": ""
-            }
-          },
-          "1596624928746-5": {
-            "type": "img",
-            "settings": {
-              "url": ""
-            }
-          },
-          "1596624928746-2": {
-            "type": "img",
-            "settings": {
-              "url": ""
-            }
-          },
-          "1596624928746-6": {
-            "type": "img",
-            "settings": {
-              "url": ""
-            }
-          },
-          "1596624928746-4": {
-            "type": "img",
-            "settings": {
-              "url": ""
-            }
-          },
-          "1596625109835": {
-            "type": "img",
-            "settings": {
-              "url": ""
-            }
-          },
-          "1596625121506": {
-            "type": "img",
-            "settings": {
-              "url": ""
-            }
-          },
-          "1596625107692": {
-            "type": "img",
-            "settings": {
-              "url": ""
-            }
-          }
-        },
-        "block_order": [
-          "1596624928746-0",
-          "1596624928746-1",
-          "1596624928746-3",
-          "1596625080751",
-          "1596625123291",
-          "1596625119199",
-          "1596624928746-5",
-          "1596624928746-2",
-          "1596624928746-6",
-          "1596624928746-4",
-          "1596625109835",
-          "1596625121506",
-          "1596625107692"
-        ],
-        "settings": {
-          "open_link": "_self",
-          "layout_des": "2",
-          "space": "0",
-          "rounded_ins": "0",
-          "col_pr": "2",
-          "col_pr_tb": "3",
-          "col_pr_mb": "6",
-          "loop": false,
-          "au_time": 0,
-          "au_hover": true,
-          "button": true,
-          "btn_vi": "2",
-          "btn_owl": "1",
-          "btn_color": "3",
-          "dot": false,
-          "dot_owl": "1",
-          "dot_color": "1",
-          "use_eq_height": true,
-          "image_ratio": "ratio1_1",
-          "image_size": "nt_cover",
-          "image_position": "8",
-          "layout": "nt_full",
-          "cl_bg": "#ffffff",
-          "mg": "120px,,,",
-          "pd": "",
-          "mg_mb": "60px,,,",
-          "pd_mb": ""
-        }
-      },
-      "1597058003104": {
-        "type": "store_info",
-        "settings": {
-          "max_width": 700,
-          "html": "<h3>GECKO STORE<\/h3><p>184 Main Rd E, St Albans VIC 3021, Australia<\/p><div class=\"separate\"><\/div><h4>Opening Hours<\/h4><p>Monday to Friday: 9:00 AM – 9:00 PM<br>Saturday to Sunday: 9:30 AM – 8:00 PM<\/p>",
-          "use_pr": true,
-          "img_align": "center",
-          "cl_heading": "#ffffff",
-          "bg_cl": "#b59677",
-          "cl_opacity": 80,
-          "layout": "nt_full",
-          "cl_bg": "#f5f5f5",
-          "mg": "",
-          "pd": "120px,,120px,",
-          "mg_mb": "",
-          "pd_mb": "50px,,50px,"
-        }
-      },
-      "1597120285267": {
-        "type": "tab_collection_owl",
-        "blocks": {
-          "1597120285267-0": {
-            "type": "collection",
-            "settings": {
-              "title": "Best Seller",
-              "collection": "clothing",
-              "limit": 3,
-              "space": 30,
-              "use_pagination": "none",
-              "btn_rd": true,
-              "btn_icon": false,
-              "btn_style": "default",
-              "col_pr": "4",
-              "col_pr_tb": "4",
-              "col_pr_mb": "6",
-              "pr_des": "1 tc",
-              "show_vendor": false,
-              "use_cdt": false,
-              "round_cd": false,
-              "cdt_des": "1",
-              "use_eq_height": false,
-              "image_ratio": "ratio_nt",
-              "image_size": "nt_cover",
-              "image_position": "8",
-              "loop": true,
-              "au_time": 0,
-              "au_hover": true,
-              "button": true,
-              "btn_vi": "1",
-              "btn_owl": "1",
-              "btn_color": "0",
-              "dot": false,
-              "dot_owl": "1",
-              "dot_color": "1"
-            }
-          },
-          "1597120285267-1": {
-            "type": "collection",
-            "settings": {
-              "title": "Sale",
-              "collection": "clothing",
-              "limit": 3,
-              "space": 30,
-              "use_pagination": "none",
-              "btn_rd": true,
-              "btn_icon": false,
-              "btn_style": "default",
-              "col_pr": "4",
-              "col_pr_tb": "4",
-              "col_pr_mb": "6",
-              "pr_des": "1 tc",
-              "show_vendor": false,
-              "use_cdt": false,
-              "round_cd": false,
-              "cdt_des": "1",
-              "use_eq_height": false,
-              "image_ratio": "ratio_nt",
-              "image_size": "nt_cover",
-              "image_position": "8",
-              "loop": true,
-              "au_time": 0,
-              "au_hover": true,
-              "button": true,
-              "btn_vi": "1",
-              "btn_owl": "1",
-              "btn_color": "0",
-              "dot": false,
-              "dot_owl": "1",
-              "dot_color": "1"
-            }
-          },
-          "1597120285267-2": {
-            "type": "collection",
-            "settings": {
-              "title": "Featured",
-              "collection": "clothing",
-              "limit": 3,
-              "space": 30,
-              "use_pagination": "none",
-              "btn_rd": true,
-              "btn_icon": false,
-              "btn_style": "default",
-              "col_pr": "4",
-              "col_pr_tb": "4",
-              "col_pr_mb": "6",
-              "pr_des": "1 tc",
-              "show_vendor": false,
-              "use_cdt": false,
-              "round_cd": false,
-              "cdt_des": "1",
-              "use_eq_height": false,
-              "image_ratio": "ratio_nt",
-              "image_size": "nt_cover",
-              "image_position": "8",
-              "loop": true,
-              "au_time": 0,
-              "au_hover": true,
-              "button": true,
-              "btn_vi": "1",
-              "btn_owl": "1",
-              "btn_color": "0",
-              "dot": false,
-              "dot_owl": "1",
-              "dot_color": "1"
-            }
-          },
-          "1597126760834": {
-            "type": "collection",
-            "settings": {
-              "title": "Top Rate",
-              "collection": "clothing",
-              "limit": 3,
-              "space": 30,
-              "use_pagination": "none",
-              "btn_rd": true,
-              "btn_icon": false,
-              "btn_style": "default",
-              "col_pr": "4",
-              "col_pr_tb": "4",
-              "col_pr_mb": "6",
-              "pr_des": "1 tc",
-              "show_vendor": false,
-              "use_cdt": false,
-              "round_cd": false,
-              "cdt_des": "1",
-              "use_eq_height": false,
-              "image_ratio": "ratio_nt",
-              "image_size": "nt_cover",
-              "image_position": "8",
-              "loop": true,
-              "au_time": 0,
-              "au_hover": true,
-              "button": true,
-              "btn_vi": "1",
-              "btn_owl": "1",
-              "btn_color": "0",
-              "dot": false,
-              "dot_owl": "1",
-              "dot_color": "1"
-            }
-          }
-        },
-        "block_order": [
-          "1597120285267-0",
-          "1597120285267-1",
-          "1597120285267-2",
-          "1597126760834"
-        ],
-        "settings": {
-          "title": "OUR PRODUCTS",
-          "sub_title": "",
-          "sub_font": "2",
-          "style_title": "title_1",
-          "ic_tt": "gem",
-          "show_clpr": false,
-          "des_tab": "2",
-          "layout": "container",
-          "cl_bg": "",
-          "mg": "120px,,120px,",
-          "pd": "",
-          "mg_mb": "60px,,60px,",
-          "pd_mb": ""
-        }
-      },
       "header_4": {
         "type": "header_4",
         "blocks": {
-          "header_4-0": {
+          "header_4-1": {
             "type": "simple",
             "settings": {
-              "title": "Heading 1",
-              "url": "#",
+              "title": "Home",
+              "url": "\/",
               "open_link": "_self",
               "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
+              "cus_cl": true,
+              "cl": "#000000",
               "lb": "",
               "lb_cl": "rgba(0,0,0,0)"
             }
           },
-          "header_4-1": {
+          "header_4-0": {
             "type": "simple",
             "settings": {
-              "title": "Heading 2",
-              "url": "#",
+              "title": "Men's",
+              "url": "\/",
               "open_link": "_self",
               "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
+              "cus_cl": true,
+              "cl": "#000000",
+              "lb": "",
+              "lb_cl": "rgba(0,0,0,0)"
+            }
+          },
+          "simple_H3GTCF": {
+            "type": "simple",
+            "settings": {
+              "title": "Women's",
+              "url": "\/",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": true,
+              "cl": "#000000",
+              "lb": "",
+              "lb_cl": "rgba(0,0,0,0)"
+            }
+          },
+          "simple_EhtBnB": {
+            "type": "simple",
+            "settings": {
+              "title": "Gold Chains",
+              "url": "\/",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": true,
+              "cl": "#000000",
+              "lb": "",
+              "lb_cl": "rgba(0,0,0,0)"
+            }
+          },
+          "simple_mVyKfA": {
+            "type": "simple",
+            "settings": {
+              "title": "Engagement",
+              "url": "\/",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": true,
+              "cl": "#000000",
+              "lb": "",
+              "lb_cl": "rgba(0,0,0,0)"
+            }
+          },
+          "simple_Q4hLeY": {
+            "type": "simple",
+            "settings": {
+              "title": "Travel Cases",
+              "url": "\/",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": true,
+              "cl": "#000000",
+              "lb": "",
+              "lb_cl": "rgba(0,0,0,0)"
+            }
+          },
+          "simple_En9Tga": {
+            "type": "simple",
+            "settings": {
+              "title": "Watches",
+              "url": "\/",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": true,
+              "cl": "#000000",
+              "lb": "",
+              "lb_cl": "rgba(0,0,0,0)"
+            }
+          },
+          "simple_KGCtB9": {
+            "type": "simple",
+            "settings": {
+              "title": "Custom",
+              "url": "\/",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": true,
+              "cl": "#000000",
+              "lb": "",
+              "lb_cl": "rgba(0,0,0,0)"
+            }
+          },
+          "simple_wT4d7Y": {
+            "type": "simple",
+            "settings": {
+              "title": "Made To Order",
+              "url": "\/",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": true,
+              "cl": "#000000",
               "lb": "",
               "lb_cl": "rgba(0,0,0,0)"
             }
           }
         },
         "block_order": [
+          "header_4-1",
           "header_4-0",
-          "header_4-1"
+          "simple_H3GTCF",
+          "simple_EhtBnB",
+          "simple_mVyKfA",
+          "simple_Q4hLeY",
+          "simple_En9Tga",
+          "simple_KGCtB9",
+          "simple_wT4d7Y"
         ],
         "settings": {
           "height": 62,
@@ -3747,17 +3251,116 @@
         ],
         "settings": {
         }
+      },
+      "header_1": {
+        "type": "header_1",
+        "settings": {
+          "height": 62
+        }
+      },
+      "header_2": {
+        "type": "header_2",
+        "blocks": {
+          "header_2-0": {
+            "type": "simple",
+            "settings": {
+              "title": "Heading 1",
+              "url": "#",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "header_2-1": {
+            "type": "logo",
+            "settings": {
+            }
+          },
+          "header_2-2": {
+            "type": "simple",
+            "settings": {
+              "title": "Heading 2",
+              "url": "#",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          }
+        },
+        "block_order": [
+          "header_2-0",
+          "header_2-1",
+          "header_2-2"
+        ],
+        "settings": {
+          "height": 62,
+          "arrow": false,
+          "source": "1",
+          "txt": "Welcome to our store!",
+          "social": "2",
+          "align": "tc",
+          "hover": "hover_side_up"
+        }
+      },
+      "featured_collection_owl_G74YTc": {
+        "type": "featured_collection_owl",
+        "settings": {
+          "title": "Collections",
+          "sub_title": "Sub Text",
+          "sub_font": "2",
+          "btn_title": "See all products",
+          "style_title": "title_10",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "collection": "",
+          "limit": 8,
+          "space": 30,
+          "use_pagination": "none",
+          "btn_rd": true,
+          "btn_icon": false,
+          "btn_style": "default",
+          "col_pr": "3",
+          "col_pr_tb": "3",
+          "col_pr_mb": "6",
+          "pr_des": "1",
+          "show_vendor": false,
+          "use_cdt": false,
+          "round_cd": false,
+          "cdt_des": "1",
+          "loop": true,
+          "au_time": 0,
+          "au_hover": true,
+          "button": false,
+          "btn_vi": "1",
+          "btn_owl": "1",
+          "btn_color": "0",
+          "dot": true,
+          "dot_owl": "1",
+          "dot_color": "1",
+          "use_eq_height": false,
+          "image_ratio": "ratio_nt",
+          "image_size": "nt_cover",
+          "image_position": "8",
+          "hidden": false,
+          "cp_code": false,
+          "layout": "wrap",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
       }
     },
     "content_for_index": [
       "1581505806578",
-      "1581505821233",
-      "1581505838591",
-      "1595988840822",
-      "1597120285267",
-      "1581508031759",
-      "1596624928746",
-      "1597058003104"
+      "featured_collection_owl_G74YTc"
     ]
   }
 }
