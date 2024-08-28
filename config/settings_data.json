@@ -3330,8 +3330,8 @@
               "url": "\/",
               "open_link": "_self",
               "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
+              "cus_cl": true,
+              "cl": "#000000",
               "lb": "",
               "lb_cl": "rgba(0,0,0,0)"
             }
