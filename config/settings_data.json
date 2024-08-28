@@ -3773,7 +3773,9 @@
           "text_VYbg94": {
             "type": "text",
             "settings": {
-              "nametext": ""
+              "image": "shopify:\/\/shop_images\/Rectangle_186.png",
+              "smallimg": "shopify:\/\/shop_images\/edfcef34f5458fb0398432c95a37f9f5.png",
+              "nametext": "<p>Mr.\u2028<br\/><strong>Beast<\/strong><\/p>"
             }
           },
           "text_UpDzfT": {
