@@ -429,22 +429,11 @@
       "header_top": {
         "type": "header_top",
         "blocks": {
-          "1596007070336": {
-            "type": "text2",
-            "disabled": true,
-            "settings": {
-              "text": "<p>Summer sale discount off <a href=\"#cr\" title=\"#cr\"><strong>50%<\/strong><\/a>! <a href=\"\/collections\/clothing\" title=\"Clothing\">Shop Now<\/a>;;;<\/p><p>The Best Shopify Themes.;;;<\/p><p>MADE WITH LOVE;;;<\/p><p>Customer support is second to none;;;<\/p><p>Fantastic theme! Beautifully designed!<\/p>",
-              "effect": "1",
-              "au_time": 2.5,
-              "hide": false,
-              "col": "4"
-            }
-          },
           "text_AmxLB4": {
             "type": "text",
             "settings": {
               "text": "Hurry up offer is running for a limited time only",
-              "hide": false,
+              "hide": true,
               "col": "4"
             }
           },
@@ -457,12 +446,20 @@
               "hide": false,
               "col": "4"
             }
+          },
+          "text_PkE6bz": {
+            "type": "text",
+            "settings": {
+              "text": "Hurry up offer is running for a limited time only",
+              "hide": true,
+              "col": "4"
+            }
           }
         },
         "block_order": [
-          "1596007070336",
           "text_AmxLB4",
-          "text2_gXgMfF"
+          "text2_gXgMfF",
+          "text_PkE6bz"
         ],
         "settings": {
           "height": 50,
