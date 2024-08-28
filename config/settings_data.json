@@ -79,7 +79,7 @@
     "full_header": true,
     "sticky_header": true,
     "scroll_header": false,
-    "header_design": "3",
+    "header_design": "4",
     "h_transparent": true,
     "h_tr_top": false,
     "h_navmb": 62,
@@ -93,7 +93,7 @@
     "bgnavst": "#ffffff",
     "opnavst": 100,
     "clnavst": "#222222",
-    "bgnavtr": "rgba(0,0,0,0)",
+    "bgnavtr": "#000000",
     "opnavtr": 40,
     "clnavtr": "#ffffff",
     "h_icon": "iccl",
@@ -3726,6 +3726,62 @@
           "4143db8f-06cf-493a-ae3c-e9974cd2e53f"
         ],
         "settings": {
+        }
+      },
+      "header_1": {
+        "type": "header_1",
+        "settings": {
+          "height": 62
+        }
+      },
+      "header_2": {
+        "type": "header_2",
+        "blocks": {
+          "header_2-0": {
+            "type": "simple",
+            "settings": {
+              "title": "Heading 1",
+              "url": "#",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "header_2-1": {
+            "type": "logo",
+            "settings": {
+            }
+          },
+          "header_2-2": {
+            "type": "simple",
+            "settings": {
+              "title": "Heading 2",
+              "url": "#",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          }
+        },
+        "block_order": [
+          "header_2-0",
+          "header_2-1",
+          "header_2-2"
+        ],
+        "settings": {
+          "height": 62,
+          "arrow": false,
+          "source": "1",
+          "txt": "Welcome to our store!",
+          "social": "2",
+          "align": "tc",
+          "hover": "hover_side_up"
         }
       }
     },
