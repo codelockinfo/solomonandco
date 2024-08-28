@@ -754,7 +754,7 @@
               "title": "Useful link",
               "menu": "useful-link",
               "order": "1",
-              "cl": "3",
+              "cl": "2",
               "cl_tb": "6",
               "cl_mb": "12"
             }
@@ -786,13 +786,27 @@
               "cl_tb": "6",
               "cl_mb": "12"
             }
+          },
+          "logo_yAQDcy": {
+            "type": "logo",
+            "settings": {
+              "logo_width": 100,
+              "title": "Contact Details",
+              "content": "<p><i class=\"pegk pe-7s-map-marker\"> <\/i><span>Houston, Texas 77039, <br> <span class=\"pl__30\">\nUnited States\n<\/span><\/span><\/p><p><i class=\"pegk pe-7s-mail\"><\/i><span> <a href=\"mailto:sales.Solomonjewelers@gmail.com%0A\">sales.Solomonjewelers@gmail.com\n<\/a><\/span><\/p><p><i class=\"pegk pe-7s-call\"><\/i> <span>+001 2233 456 <\/span><\/p>",
+              "social_mode": "3",
+              "order": "1",
+              "cl": "4",
+              "cl_tb": "6",
+              "cl_mb": "12"
+            }
           }
         },
         "block_order": [
           "1581507819652",
           "1581507824602",
           "1581507828337",
-          "1581507835369"
+          "1581507835369",
+          "logo_yAQDcy"
         ],
         "settings": {
           "sticky": false,
