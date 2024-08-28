@@ -3326,7 +3326,7 @@
           "header_4-0": {
             "type": "simple",
             "settings": {
-              "title": "Home",
+              "title": "Men's",
               "url": "\/",
               "open_link": "_self",
               "icon": "",
@@ -3339,8 +3339,8 @@
           "header_4-1": {
             "type": "simple",
             "settings": {
-              "title": "Heading 2",
-              "url": "#",
+              "title": "Home",
+              "url": "\/",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
