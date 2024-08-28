@@ -3603,6 +3603,82 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "banner_collection_4fcpKT": {
+        "type": "banner_collection",
+        "blocks": {
+          "img_EKC8Kb": {
+            "type": "img",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Rectangle_38.png",
+              "pos_img": "center center",
+              "size_img": "cover",
+              "link_img1": "shopify:\/\/collections\/all",
+              "open_link": "_blank",
+              "caption_w": "2",
+              "cap_v_pos": 50,
+              "cap_h_pos": 39,
+              "txt_align": "tl_md",
+              "cap_v_pos_mb": 50,
+              "cap_h_pos_mb": 50,
+              "txt_align_mb": "tl",
+              "cl_overlay": "#000000",
+              "cl_opacity": 0,
+              "ani_img": "none",
+              "ani_txt": "none"
+            }
+          }
+        },
+        "block_order": [
+          "img_EKC8Kb"
+        ],
+        "settings": {
+          "title": "Trending Jewelry",
+          "sub_title": "",
+          "sub_font": "2",
+          "btn_title": "",
+          "style_title": "title_10",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "collection": "bracelets",
+          "limit": 8,
+          "space": 30,
+          "col_pr": "6",
+          "col_pr_tb": "3",
+          "col_pr_mb": "6",
+          "pr_des": "1",
+          "show_vendor": false,
+          "show_border": false,
+          "use_cdt": false,
+          "round_cd": false,
+          "cdt_des": "1",
+          "use_eq_height": false,
+          "image_ratio": "ratio_nt",
+          "image_size": "nt_cover",
+          "image_position": "8",
+          "layout": "container",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": "",
+          "img_pos": "right",
+          "se_height": "default",
+          "se_height_tb": "500px",
+          "se_height_mb": "350px",
+          "effect": "0",
+          "loop": true,
+          "autoplay": false,
+          "au_time": 6,
+          "au_hover": true,
+          "button": true,
+          "btn_vi": "1",
+          "btn_owl": "2",
+          "btn_color": "0",
+          "dot": false,
+          "dot_owl": "1",
+          "dot_color": "1"
+        }
       }
     },
     "content_for_index": [
@@ -3610,6 +3686,7 @@
       "collection_list_XqDyYF",
       "banner_collection_knYRRW",
       "custom_offer_section_MWqimb",
+      "banner_collection_4fcpKT",
       "shipping_8RgVhV"
     ]
   }
