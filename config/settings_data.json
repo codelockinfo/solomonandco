@@ -3326,8 +3326,8 @@
           "header_4-0": {
             "type": "simple",
             "settings": {
-              "title": "Heading 1",
-              "url": "#",
+              "title": "Home",
+              "url": "\/",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
