@@ -166,8 +166,8 @@
     "fs_nav": 14,
     "fw_nav": 400,
     "ls_nav": 3,
-    "size_se_tt": 20,
-    "fw_se_tt": 400,
+    "size_se_tt": 40,
+    "fw_se_tt": 600,
     "lh_se_tt": 0,
     "ls_se_tt": 0,
     "size_se_tt_mb": 20,
@@ -260,12 +260,12 @@
     "style_color": "1",
     "swatch_style": "1",
     "swatch_size": "medium",
-    "show_pr_color": true,
+    "show_pr_color": false,
     "show_color_type": "1",
     "pr_swatch_setting": "1",
     "swatch_home_size": "small",
     "swatch_style_settings": "rounded",
-    "show_pr_size": true,
+    "show_pr_size": false,
     "show_size_type": "1",
     "size_ck": "",
     "min_qty": "0",
@@ -470,17 +470,17 @@
           "cl": "#ffffff",
           "cl_a": "#222222",
           "cl_cr": "#b59677",
-          "bg": "#3e3e3e",
+          "bg": "#1e3957",
           "bg_op": 100,
           "show_border": false,
-          "bd_cl": "#000000",
+          "bd_cl": "#1e3957",
           "cl_tr": "#ffffff",
           "cl_a_tr": "#ffffff",
           "cl_cr_tr": "#ec0101",
-          "bg_tr": "#000000",
+          "bg_tr": "#1e3957",
           "bg_op_tr": 10,
           "show_border_tr": false,
-          "bd_cl_tr": "#b3b3b3"
+          "bd_cl_tr": "#1e3957"
         }
       },
       "header_3": {
@@ -3308,55 +3308,6 @@
           "hover": "hover_side_up"
         }
       },
-      "featured_collection_owl_G74YTc": {
-        "type": "featured_collection_owl",
-        "settings": {
-          "title": "Collections",
-          "sub_title": "Sub Text",
-          "sub_font": "2",
-          "btn_title": "See all products",
-          "style_title": "title_10",
-          "ic_tt": "gem",
-          "show_clpr": false,
-          "collection": "",
-          "limit": 8,
-          "space": 30,
-          "use_pagination": "none",
-          "btn_rd": true,
-          "btn_icon": false,
-          "btn_style": "default",
-          "col_pr": "3",
-          "col_pr_tb": "3",
-          "col_pr_mb": "6",
-          "pr_des": "1",
-          "show_vendor": false,
-          "use_cdt": false,
-          "round_cd": false,
-          "cdt_des": "1",
-          "loop": true,
-          "au_time": 0,
-          "au_hover": true,
-          "button": false,
-          "btn_vi": "1",
-          "btn_owl": "1",
-          "btn_color": "0",
-          "dot": true,
-          "dot_owl": "1",
-          "dot_color": "1",
-          "use_eq_height": false,
-          "image_ratio": "ratio_nt",
-          "image_size": "nt_cover",
-          "image_position": "8",
-          "hidden": false,
-          "cp_code": false,
-          "layout": "wrap",
-          "cl_bg": "",
-          "mg": "50px,,50px,",
-          "pd": "",
-          "mg_mb": "",
-          "pd_mb": ""
-        }
-      },
       "custom_offer_section_MWqimb": {
         "type": "custom-offer-section",
         "blocks": {
@@ -3403,12 +3354,420 @@
           "btntext": "Shop Now",
           "btnurl": ""
         }
+      },
+      "shipping_8RgVhV": {
+        "type": "shipping",
+        "blocks": {
+          "shipping_8FjhfE": {
+            "type": "shipping",
+            "settings": {
+              "icon": "",
+              "title": "MONEY RETURN",
+              "text": "30 days for free return"
+            }
+          },
+          "shipping_Q3Tw94": {
+            "type": "shipping",
+            "settings": {
+              "icon": "",
+              "title": "ONLINE SUPPORT",
+              "text": "Support 24 hours a day"
+            }
+          },
+          "shipping_HyPth3": {
+            "type": "shipping",
+            "settings": {
+              "icon": "",
+              "title": "DEALS & PROMOTIONS",
+              "text": "Price savings, discounts"
+            }
+          },
+          "shipping_D7VceY": {
+            "type": "shipping",
+            "settings": {
+              "icon": "",
+              "title": "FREE SHIPPING",
+              "text": "Free shipping all order"
+            }
+          }
+        },
+        "block_order": [
+          "shipping_8FjhfE",
+          "shipping_Q3Tw94",
+          "shipping_HyPth3",
+          "shipping_D7VceY"
+        ],
+        "settings": {
+          "source": "pegk",
+          "icon_des": "deafult",
+          "icon_align": "tl",
+          "icon_size": "medium",
+          "col_pr": "3",
+          "col_pr_tb": "6",
+          "col_mb": "fl_nowrap",
+          "layout": "wrap",
+          "cl_bg": "",
+          "border": false,
+          "cl_bd": "#dddddd",
+          "cl_ic": "#9e9e9e",
+          "cl_hd": "#222222",
+          "cl_cot": "#878787",
+          "mg": "50px,,,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
+      },
+      "banner_collection_knYRRW": {
+        "type": "banner_collection",
+        "blocks": {
+          "img_7iqxFT": {
+            "type": "img",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Rectangle_25_1.png",
+              "pos_img": "center center",
+              "size_img": "cover",
+              "link_img1": "shopify:\/\/collections\/all",
+              "open_link": "_blank",
+              "caption_w": "2",
+              "cap_v_pos": 50,
+              "cap_h_pos": 39,
+              "txt_align": "tl_md",
+              "cap_v_pos_mb": 50,
+              "cap_h_pos_mb": 50,
+              "txt_align_mb": "tl",
+              "cl_overlay": "#000000",
+              "cl_opacity": 0,
+              "ani_img": "none",
+              "ani_txt": "none"
+            }
+          }
+        },
+        "block_order": [
+          "img_7iqxFT"
+        ],
+        "settings": {
+          "title": "Trending Jewelry",
+          "sub_title": "",
+          "sub_font": "2",
+          "btn_title": "",
+          "style_title": "title_10",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "collection": "bracelets",
+          "limit": 8,
+          "space": 30,
+          "col_pr": "6",
+          "col_pr_tb": "3",
+          "col_pr_mb": "6",
+          "pr_des": "1",
+          "show_vendor": false,
+          "show_border": false,
+          "use_cdt": false,
+          "round_cd": false,
+          "cdt_des": "1",
+          "use_eq_height": false,
+          "image_ratio": "ratio_nt",
+          "image_size": "nt_cover",
+          "image_position": "8",
+          "layout": "container",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": "",
+          "img_pos": "left",
+          "se_height": "default",
+          "se_height_tb": "500px",
+          "se_height_mb": "350px",
+          "effect": "0",
+          "loop": true,
+          "autoplay": false,
+          "au_time": 6,
+          "au_hover": true,
+          "button": true,
+          "btn_vi": "1",
+          "btn_owl": "2",
+          "btn_color": "0",
+          "dot": false,
+          "dot_owl": "1",
+          "dot_color": "1"
+        }
+      },
+      "collection_list_XqDyYF": {
+        "type": "collection-list",
+        "blocks": {
+          "collection_hdJ69V": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image": "shopify:\/\/shop_images\/522d946d27c4fd7045c4a47e33546ebf_1.png",
+              "img_align": "center",
+              "title": "EARRINGS",
+              "url": "shopify:\/\/collections\/earrings"
+            }
+          },
+          "collection_R3LfkP": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image": "shopify:\/\/shop_images\/522d946d27c4fd7045c4a47e33546ebf_3.png",
+              "img_align": "center",
+              "title": "Bracelet",
+              "url": "shopify:\/\/collections\/bracelets"
+            }
+          },
+          "collection_egc4QH": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image": "shopify:\/\/shop_images\/522d946d27c4fd7045c4a47e33546ebf_2.png",
+              "img_align": "center",
+              "title": "GOLD CHAINS",
+              "url": "shopify:\/\/collections\/gold-chains"
+            }
+          },
+          "collection_jyBgc9": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image": "shopify:\/\/shop_images\/522d946d27c4fd7045c4a47e33546ebf_3_1.png",
+              "img_align": "center",
+              "title": "RING",
+              "url": "shopify:\/\/collections\/rings"
+            }
+          },
+          "collection_jRjy7V": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image": "shopify:\/\/shop_images\/522d946d27c4fd7045c4a47e33546ebf_2_1.png",
+              "img_align": "center",
+              "title": "WATCHES",
+              "url": "shopify:\/\/collections\/watches"
+            }
+          },
+          "collection_NMHnr3": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image": "shopify:\/\/shop_images\/522d946d27c4fd7045c4a47e33546ebf_3.png",
+              "img_align": "center",
+              "title": "Bracelet",
+              "url": "shopify:\/\/collections\/bracelets"
+            }
+          }
+        },
+        "block_order": [
+          "collection_hdJ69V",
+          "collection_R3LfkP",
+          "collection_egc4QH",
+          "collection_jyBgc9",
+          "collection_jRjy7V",
+          "collection_NMHnr3"
+        ],
+        "settings": {
+          "title": "Collection list",
+          "sub_title": "",
+          "sub_font": "2",
+          "style_title": "title_10",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "cat_layout": "2",
+          "hoverz": true,
+          "cat_design": "5",
+          "cat_space": "30",
+          "image_ratio": "ratio_nt",
+          "col": "15",
+          "col_md": "3",
+          "col_mb": "6",
+          "spn_txt": "",
+          "pr_txt": "",
+          "loop": true,
+          "autoplay": false,
+          "au_time": 6,
+          "au_hover": true,
+          "button": false,
+          "btn_vi": "1",
+          "btn_owl": "2",
+          "btn_color": "0",
+          "dot": false,
+          "dot_owl": "1",
+          "dot_color": "1",
+          "hidden": false,
+          "cp_code": false,
+          "layout": "wrap",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
+      },
+      "banner_collection_4fcpKT": {
+        "type": "banner_collection",
+        "blocks": {
+          "img_EKC8Kb": {
+            "type": "img",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Rectangle_38.png",
+              "pos_img": "center center",
+              "size_img": "cover",
+              "link_img1": "shopify:\/\/collections\/all",
+              "open_link": "_blank",
+              "caption_w": "2",
+              "cap_v_pos": 50,
+              "cap_h_pos": 39,
+              "txt_align": "tl_md",
+              "cap_v_pos_mb": 50,
+              "cap_h_pos_mb": 50,
+              "txt_align_mb": "tl",
+              "cl_overlay": "#000000",
+              "cl_opacity": 0,
+              "ani_img": "none",
+              "ani_txt": "none"
+            }
+          }
+        },
+        "block_order": [
+          "img_EKC8Kb"
+        ],
+        "settings": {
+          "title": "Trending Jewelry",
+          "sub_title": "",
+          "sub_font": "2",
+          "btn_title": "",
+          "style_title": "title_10",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "collection": "bracelets",
+          "limit": 8,
+          "space": 30,
+          "col_pr": "6",
+          "col_pr_tb": "3",
+          "col_pr_mb": "6",
+          "pr_des": "1",
+          "show_vendor": false,
+          "show_border": false,
+          "use_cdt": false,
+          "round_cd": false,
+          "cdt_des": "1",
+          "use_eq_height": false,
+          "image_ratio": "ratio_nt",
+          "image_size": "nt_cover",
+          "image_position": "8",
+          "layout": "container",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": "",
+          "img_pos": "right",
+          "se_height": "default",
+          "se_height_tb": "500px",
+          "se_height_mb": "350px",
+          "effect": "0",
+          "loop": true,
+          "autoplay": false,
+          "au_time": 6,
+          "au_hover": true,
+          "button": true,
+          "btn_vi": "1",
+          "btn_owl": "2",
+          "btn_color": "0",
+          "dot": false,
+          "dot_owl": "1",
+          "dot_color": "1"
+        }
+      },
+      "faq_AEFrpd": {
+        "type": "faq",
+        "blocks": {
+          "faq_yMxrpF": {
+            "type": "faq",
+            "settings": {
+              "title": "How long does it take for home delivery?",
+              "content": "<p>Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque. Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque.<\/p>"
+            }
+          },
+          "faq_LMTW3M": {
+            "type": "faq",
+            "settings": {
+              "title": "How long does it take for home delivery?",
+              "content": "<p>Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque. Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque.<\/p>"
+            }
+          },
+          "faq_8yMjHP": {
+            "type": "faq",
+            "settings": {
+              "title": "How long does it take for home delivery?",
+              "content": "<p>Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque. Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque.<\/p>"
+            }
+          },
+          "faq_KXgAQU": {
+            "type": "faq",
+            "settings": {
+              "title": "How long does it take for home delivery?",
+              "content": "<p>Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque. Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque.<\/p>"
+            }
+          },
+          "faq_riL7Hf": {
+            "type": "faq",
+            "settings": {
+              "title": "How long does it take for home delivery?",
+              "content": "<p>Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque. Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "faq_yMxrpF",
+          "faq_LMTW3M",
+          "faq_8yMjHP",
+          "faq_KXgAQU",
+          "faq_riL7Hf"
+        ],
+        "settings": {
+          "title": "Frequently Asked Questions",
+          "sub_title": "",
+          "sub_font": "2",
+          "style_title": "title_1",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "faq_des": "2",
+          "active_first": true,
+          "use_pr": false,
+          "layout": "nt_boxed",
+          "cl_bg": "#f5f5f5",
+          "cl_overlay": "#000000",
+          "cl_opacity": 0,
+          "section_bg_color": "#f5f5f5",
+          "tt_cl": "#1e3957",
+          "hd_bg": "#ffffff",
+          "hd_cl": "#222222",
+          "hd_bg_atc": "#ffffff",
+          "hd_cl_atc": "#000000",
+          "btn_bg": "#ffffff",
+          "btn_cl": "#000000",
+          "btn_bg_atc": "#ffffff",
+          "btn_cl_atc": "#000000",
+          "ct_bg": "#ffffff",
+          "ct_cl": "#222222",
+          "bd_cl": "#ffffff",
+          "mg": "",
+          "pd": "100px,,100px,",
+          "mg_mb": "",
+          "pd_mb": "50px,,50px,"
+        }
       }
     },
     "content_for_index": [
       "1581505806578",
-      "featured_collection_owl_G74YTc",
-      "custom_offer_section_MWqimb"
+      "collection_list_XqDyYF",
+      "banner_collection_knYRRW",
+      "custom_offer_section_MWqimb",
+      "banner_collection_4fcpKT",
+      "shipping_8RgVhV",
+      "faq_AEFrpd"
     ]
   }
 }
