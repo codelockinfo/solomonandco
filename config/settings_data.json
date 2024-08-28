@@ -3308,55 +3308,6 @@
           "hover": "hover_side_up"
         }
       },
-      "featured_collection_owl_G74YTc": {
-        "type": "featured_collection_owl",
-        "settings": {
-          "title": "Collections",
-          "sub_title": "Sub Text",
-          "sub_font": "2",
-          "btn_title": "See all products",
-          "style_title": "title_10",
-          "ic_tt": "gem",
-          "show_clpr": false,
-          "collection": "",
-          "limit": 8,
-          "space": 30,
-          "use_pagination": "none",
-          "btn_rd": true,
-          "btn_icon": false,
-          "btn_style": "default",
-          "col_pr": "3",
-          "col_pr_tb": "3",
-          "col_pr_mb": "6",
-          "pr_des": "1",
-          "show_vendor": false,
-          "use_cdt": false,
-          "round_cd": false,
-          "cdt_des": "1",
-          "loop": true,
-          "au_time": 0,
-          "au_hover": true,
-          "button": false,
-          "btn_vi": "1",
-          "btn_owl": "1",
-          "btn_color": "0",
-          "dot": true,
-          "dot_owl": "1",
-          "dot_color": "1",
-          "use_eq_height": false,
-          "image_ratio": "ratio_nt",
-          "image_size": "nt_cover",
-          "image_position": "8",
-          "hidden": false,
-          "cp_code": false,
-          "layout": "wrap",
-          "cl_bg": "",
-          "mg": "50px,,50px,",
-          "pd": "",
-          "mg_mb": "",
-          "pd_mb": ""
-        }
-      },
       "custom_offer_section_MWqimb": {
         "type": "custom-offer-section",
         "blocks": {
@@ -3542,11 +3493,95 @@
           "dot_owl": "1",
           "dot_color": "1"
         }
+      },
+      "collection_list_XqDyYF": {
+        "type": "collection-list",
+        "blocks": {
+          "collection_hdJ69V": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_R3LfkP": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_egc4QH": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_jyBgc9": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          }
+        },
+        "block_order": [
+          "collection_hdJ69V",
+          "collection_R3LfkP",
+          "collection_egc4QH",
+          "collection_jyBgc9"
+        ],
+        "settings": {
+          "title": "Collection list",
+          "sub_title": "Sub Text",
+          "sub_font": "2",
+          "style_title": "title_1",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "cat_layout": "1",
+          "hoverz": true,
+          "cat_design": "1",
+          "cat_space": "30",
+          "image_ratio": "ratio_nt",
+          "col": "3",
+          "col_md": "3",
+          "col_mb": "6",
+          "spn_txt": "Shop now",
+          "pr_txt": "products",
+          "loop": true,
+          "autoplay": false,
+          "au_time": 6,
+          "au_hover": true,
+          "button": false,
+          "btn_vi": "1",
+          "btn_owl": "1",
+          "btn_color": "0",
+          "dot": true,
+          "dot_owl": "1",
+          "dot_color": "1",
+          "hidden": false,
+          "cp_code": false,
+          "layout": "wrap",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
       }
     },
     "content_for_index": [
       "1581505806578",
-      "featured_collection_owl_G74YTc",
+      "collection_list_XqDyYF",
       "banner_collection_knYRRW",
       "custom_offer_section_MWqimb",
       "shipping_8RgVhV"
