@@ -1084,12 +1084,12 @@
             "type": "cat",
             "settings": {
               "cat": "",
-              "title": "Women’s Clothing",
+              "title": "Home",
               "url": "",
               "menu": "",
               "lb": "",
               "lb_cl": "#e91e63",
-              "icons_op": "2",
+              "icons_op": "0",
               "icon": "female"
             }
           },
@@ -1097,16 +1097,68 @@
             "type": "cat",
             "settings": {
               "cat": "",
-              "title": "Men’s Clothing",
+              "title": "Men's",
               "url": "",
               "menu": "",
               "lb": "",
               "lb_cl": "#e91e63",
-              "icons_op": "2",
+              "icons_op": "0",
               "icon": "male"
             }
           },
           "1585642167981": {
+            "type": "cat",
+            "settings": {
+              "cat": "",
+              "title": "Women's",
+              "url": "",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "#e91e63",
+              "icons_op": "0",
+              "icon": "clock"
+            }
+          },
+          "1585642277236": {
+            "type": "cat",
+            "settings": {
+              "cat": "",
+              "title": "Gold Chains",
+              "url": "",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "#e91e63",
+              "icons_op": "0",
+              "icon": "glasses"
+            }
+          },
+          "1585642450066": {
+            "type": "cat",
+            "settings": {
+              "cat": "",
+              "title": "Engagement",
+              "url": "",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "#e91e63",
+              "icons_op": "0",
+              "icon": "camera-retro"
+            }
+          },
+          "1585642600575": {
+            "type": "cat",
+            "settings": {
+              "cat": "",
+              "title": "Travel Cases",
+              "url": "",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "#e91e63",
+              "icons_op": "0",
+              "icon": "shoe-prints"
+            }
+          },
+          "1585642629333": {
             "type": "cat",
             "settings": {
               "cat": "",
@@ -1115,59 +1167,7 @@
               "menu": "",
               "lb": "",
               "lb_cl": "#e91e63",
-              "icons_op": "2",
-              "icon": "clock"
-            }
-          },
-          "1585642277236": {
-            "type": "cat",
-            "settings": {
-              "cat": "",
-              "title": "Acessories",
-              "url": "",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "2",
-              "icon": "glasses"
-            }
-          },
-          "1585642450066": {
-            "type": "cat",
-            "settings": {
-              "cat": "",
-              "title": "",
-              "url": "",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "2",
-              "icon": "camera-retro"
-            }
-          },
-          "1585642600575": {
-            "type": "cat",
-            "settings": {
-              "cat": "",
-              "title": "Shoes",
-              "url": "",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "2",
-              "icon": "shoe-prints"
-            }
-          },
-          "1585642629333": {
-            "type": "cat",
-            "settings": {
-              "cat": "",
-              "title": "Jewellery",
-              "url": "",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "2",
+              "icons_op": "0",
               "icon": "gem"
             }
           },
@@ -1175,12 +1175,12 @@
             "type": "cat",
             "settings": {
               "cat": "",
-              "title": "T-Shirt",
+              "title": "Custom",
               "url": "",
               "menu": "",
               "lb": "",
               "lb_cl": "#e91e63",
-              "icons_op": "2",
+              "icons_op": "0",
               "icon": "tshirt"
             }
           },
@@ -1188,26 +1188,13 @@
             "type": "cat",
             "settings": {
               "cat": "",
-              "title": "Toys, Kids & Baby",
+              "title": "Made To Order",
               "url": "",
               "menu": "",
               "lb": "",
               "lb_cl": "#e91e63",
-              "icons_op": "2",
+              "icons_op": "0",
               "icon": "child"
-            }
-          },
-          "1585642798957": {
-            "type": "cat",
-            "settings": {
-              "cat": "",
-              "title": "Decor",
-              "url": "",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "2",
-              "icon": "chair"
             }
           }
         },
@@ -1220,8 +1207,7 @@
           "1585642600575",
           "1585642629333",
           "1585642644518",
-          "1585642780875",
-          "1585642798957"
+          "1585642780875"
         ],
         "settings": {
         }
