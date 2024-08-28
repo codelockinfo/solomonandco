@@ -47,6 +47,11 @@
       "type": "text",
       "id": "sectionhead",
       "label": "Section heading"
+    },
+    {
+      "type": "image_picker",
+      "id": "backimg",
+      "label": "Background image"
     }
   ],
   "blocks": [
@@ -84,7 +89,10 @@
   .image_section {
     max-width: 100%;
     padding: 60px 0px;
-    background-color: #f6f4f2;
+    background-color: #F6F5F3;
+    background-image: url('{{ section.settings.backimg | img_url:'master' }}');
+    background-size: contain;
+    background-position: center right;
   }
 
   .collection_image {
@@ -116,7 +124,7 @@
   }
   .heading_icons .slider_heading {
     font-family: Ivy Mode;
-    font-size: 75px;
+    font-size: 64px;
     font-weight: 600;
     line-height: 94.95px;
     /* letter-spacing: 0.05em; */
