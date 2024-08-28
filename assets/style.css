@@ -5882,7 +5882,7 @@ input.button.btn_back:hover {
 }
 .mini_search_frm {
     padding: 30px 20px;
-    border-bottom: 1px solid rgba(129,129,129,.2);
+    border-bottom: 0px solid rgba(129,129,129,.2);
 }
 input.search_header__input:not([type="submit"]):not([type="checkbox"]) {
     padding: 0 50px 0 20px;
