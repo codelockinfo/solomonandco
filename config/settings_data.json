@@ -3361,33 +3361,33 @@
           "shipping_8FjhfE": {
             "type": "shipping",
             "settings": {
-              "icon": "pe-7s-car",
-              "title": "FREE SHIPPING",
-              "text": "Free shipping on all US order or order above $100"
+              "icon": "",
+              "title": "MONEY RETURN",
+              "text": "30 days for free return"
             }
           },
           "shipping_Q3Tw94": {
             "type": "shipping",
             "settings": {
-              "icon": "pe-7s-help2",
-              "title": "SUPPORT 24\/7",
-              "text": "Contact us 24 hours a day, 7 days a week"
+              "icon": "",
+              "title": "ONLINE SUPPORT",
+              "text": "Support 24 hours a day"
             }
           },
           "shipping_HyPth3": {
             "type": "shipping",
             "settings": {
-              "icon": "pe-7s-refresh",
-              "title": "30 DAYS RETURN",
-              "text": "Simply return it within 30 days for an exchange."
+              "icon": "",
+              "title": "DEALS & PROMOTIONS",
+              "text": "Price savings, discounts"
             }
           },
           "shipping_D7VceY": {
             "type": "shipping",
             "settings": {
-              "icon": "pe-7s-door-lock",
-              "title": "100% PAYMENT SECURE",
-              "text": "We ensure secure payment with PEV"
+              "icon": "",
+              "title": "FREE SHIPPING",
+              "text": "Free shipping all order"
             }
           }
         },
