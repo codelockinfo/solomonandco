@@ -3762,7 +3762,7 @@
       "celebrity_slider_yXceq8": {
         "type": "celebrity-slider",
         "blocks": {
-          "text_6DHXqL": {
+          "text_3zjMLN": {
             "type": "text",
             "settings": {
               "image": "shopify:\/\/shop_images\/Rectangle_185_1.png",
@@ -3794,19 +3794,21 @@
               "nametext": "<p>Cardi<br\/><strong>B<\/strong><\/p>"
             }
           },
-          "text_a7d6E9": {
+          "text_6DHXqL": {
             "type": "text",
             "settings": {
-              "nametext": ""
+              "image": "shopify:\/\/shop_images\/Rectangle_185_1.png",
+              "smallimg": "shopify:\/\/shop_images\/8ec1f1122866a8403506c5f321a7d7d6.png",
+              "nametext": "<p>Busta<br\/><strong>Rhymes<\/strong><\/p>"
             }
           }
         },
         "block_order": [
-          "text_6DHXqL",
+          "text_3zjMLN",
           "text_VYbg94",
           "text_UpDzfT",
           "text_9MJFVW",
-          "text_a7d6E9"
+          "text_6DHXqL"
         ],
         "settings": {
           "sectionhead": "Celebrity Jewelry"
