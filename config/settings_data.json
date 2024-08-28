@@ -431,10 +431,9 @@
         "blocks": {
           "1595994733101": {
             "type": "social",
-            "disabled": true,
             "settings": {
               "social": "2",
-              "border_bl": true,
+              "border_bl": false,
               "black_bl": false,
               "hide": true,
               "col": "4"
