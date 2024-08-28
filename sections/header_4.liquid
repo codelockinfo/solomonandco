@@ -13,6 +13,34 @@
      <div class="row al_center css_h_se">
         <div class="col-lg-3 col-md-3 col-3">
            {%- render 'push_menu' with 'dn_lg' -%}
+          <div class="custom_search frm_search_ac pr widget dn db_lg">
+              <form action="{{ routes_search_url }}" method="get" class="search_header mini_search_frm pr js_frm_search flex al_center" role="search">
+                <input type="hidden" name="type" value="product">
+                <input type="hidden" name="options[unavailable_products]" value="{{settings.unavailable_prs}}">
+                <input type="hidden" name="options[prefix]" value="{{settings.prefix}}">
+                {%- if settings.filter_type_search and shop.types.size > 0 -%}
+                <div class="frm_search_cat">
+                  <select name="product_type">
+                    <option value="*">{{ 'general.search.all_cat' | t }}</option>
+                    {%- for product_type in shop.types -%}{%- if product_type == blank %}{% continue-%}{% endif -%}<option value="{{product_type}}"{% if search_pr_type == product_type %} selected="selected"{% endif %}>{{product_type}}</option>{%- endfor -%}
+                  </select>
+                </div>
+                <div class="frm_search_bd"></div>
+                {%- endif -%}
+                  <div class="frm_search_input pr oh w__100">
+                    <input class="search_header__input js_iput_search" autocomplete="off" type="text" name="q" placeholder="{{ 'general.search.placeholder' | t }}">
+                    <button class="flex al_center fl_center search_header__submit js_btn_search{% if settings.ajax_search %} pe_none{% endif %}" type="submit">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+                      <path d="M20.314 19.1277L15.316 13.9295C16.601 12.4018 17.3051 10.4797 17.3051 8.47874C17.3051 3.80364 13.5015 0 8.8264 0C4.15129 0 0.347656 3.80364 0.347656 8.47874C0.347656 13.1538 4.15129 16.9575 8.8264 16.9575C10.5815 16.9575 12.254 16.4281 13.684 15.4232L18.72 20.6609C18.9305 20.8795 19.2136 21 19.517 21C19.8042 21 20.0766 20.8905 20.2834 20.6914C20.7228 20.2686 20.7368 19.5675 20.314 19.1277ZM8.8264 2.21185C12.282 2.21185 15.0933 5.0231 15.0933 8.47874C15.0933 11.9344 12.282 14.7456 8.8264 14.7456C5.37076 14.7456 2.5595 11.9344 2.5595 8.47874C2.5595 5.0231 5.37076 2.21185 8.8264 2.21185Z" fill="#1E3957"/>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="ld_bar_search"></div>
+              </form>
+              <div class="search_h_break pa w__100"></div>
+              <div class="search_header__prs fwsb cd pa dn js_prs_search product_list_widget"></div> 
+          </div>
+          <a class="222222222 icon_search push_side cb chp dn_lg" data-id="#nt_search_canvas" href="{{ routes_search_url }}"><i class="{{arric[0]}}"></i></a>
            <div class="dn db_lg cus_txt_h">
             {%- if section.settings.source == '1' -%}{{section.settings.txt}}
             {%- elsif section.settings.source == '0' -%}
