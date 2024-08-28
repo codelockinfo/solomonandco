@@ -1321,7 +1321,7 @@
             "type": "txt",
             "settings": {
               "title": "There are many variations of passages of Lorem Ipsum <br>available, but the majority have suffered alteration in some",
-              "color": "#fff",
+              "color": "#ffffff",
               "fw_text": 400,
               "fs_text": 20,
               "lh_text": 0,
@@ -3356,11 +3356,21 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "custom_offer_section_MWqimb": {
+        "type": "custom-offer-section",
+        "settings": {
+          "heading": "",
+          "paragraph": "",
+          "btntext": "",
+          "btnurl": ""
+        }
       }
     },
     "content_for_index": [
       "1581505806578",
-      "featured_collection_owl_G74YTc"
+      "featured_collection_owl_G74YTc",
+      "custom_offer_section_MWqimb"
     ]
   }
 }
