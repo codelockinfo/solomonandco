@@ -3369,6 +3369,7 @@
           "shipping_8FjhfE": {
             "type": "shipping",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Group_1000004462.png",
               "icon": "",
               "title": "MONEY RETURN",
               "text": "30 days for free return"
@@ -3377,6 +3378,7 @@
           "shipping_Q3Tw94": {
             "type": "shipping",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Vector_2.png",
               "icon": "",
               "title": "ONLINE SUPPORT",
               "text": "Support 24 hours a day"
@@ -3385,6 +3387,7 @@
           "shipping_HyPth3": {
             "type": "shipping",
             "settings": {
+              "image": "shopify:\/\/shop_images\/handshake_1.png",
               "icon": "",
               "title": "DEALS & PROMOTIONS",
               "text": "Price savings, discounts"
@@ -3393,6 +3396,7 @@
           "shipping_D7VceY": {
             "type": "shipping",
             "settings": {
+              "image": "shopify:\/\/shop_images\/fast_1.png",
               "icon": "",
               "title": "FREE SHIPPING",
               "text": "Free shipping all order"
