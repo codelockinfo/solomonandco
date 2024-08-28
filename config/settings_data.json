@@ -737,10 +737,11 @@
           "1581507819652": {
             "type": "logo",
             "settings": {
-              "logo_width": 200,
+              "image": "shopify:\/\/shop_images\/SOLOMON_CO_1.png",
+              "logo_width": 100,
               "title": "GET IN TOUCH",
-              "content": "<p><i class=\"pegk pe-7s-map-marker\"> <\/i><span>184 Main Rd E, St Albans <br> <span class=\"pl__30\">VIC 3021, Australia<\/span><\/span><\/p><p><i class=\"pegk pe-7s-mail\"><\/i><span> <a href=\"mailto:contact@company.com\">contact@company.com<\/a><\/span><\/p><p><i class=\"pegk pe-7s-call\"><\/i> <span>+001 2233 456 <\/span><\/p>",
-              "social_mode": "3",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit",
+              "social_mode": "1",
               "order": "1",
               "cl": "3",
               "cl_tb": "6",
@@ -750,10 +751,10 @@
           "1581507824602": {
             "type": "menu",
             "settings": {
-              "title": "CATEGORIES",
+              "title": "Useful link",
               "menu": "",
               "order": "1",
-              "cl": "2",
+              "cl": "3",
               "cl_tb": "6",
               "cl_mb": "12"
             }
@@ -761,27 +762,17 @@
           "1581507828337": {
             "type": "menu",
             "settings": {
-              "title": "INFORMATION",
+              "title": "Policies & Services",
               "menu": "",
               "order": "1",
-              "cl": "2",
-              "cl_tb": "6",
-              "cl_mb": "12"
-            }
-          },
-          "1581507840818": {
-            "type": "menu",
-            "settings": {
-              "title": "USEFUL LINKS",
-              "menu": "",
-              "order": "1",
-              "cl": "2",
+              "cl": "3",
               "cl_tb": "6",
               "cl_mb": "12"
             }
           },
           "1581507835369": {
             "type": "mail",
+            "disabled": true,
             "settings": {
               "newl_des": "1",
               "btn_icon": false,
@@ -801,7 +792,6 @@
           "1581507819652",
           "1581507824602",
           "1581507828337",
-          "1581507840818",
           "1581507835369"
         ],
         "settings": {
@@ -855,19 +845,6 @@
       },
       "nt_custom_color": {
         "type": "nt_custom_color",
-        "blocks": {
-          "1600078759493": {
-            "type": "lb_menu",
-            "settings": {
-              "title": "hot",
-              "color_1_c": "#ff3e11",
-              "color_txt": "#ffffff"
-            }
-          }
-        },
-        "block_order": [
-          "1600078759493"
-        ],
         "settings": {
         }
       },
