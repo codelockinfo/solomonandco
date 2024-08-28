@@ -3311,6 +3311,13 @@
       "custom_offer_section_MWqimb": {
         "type": "custom-offer-section",
         "blocks": {
+          "text_rBEK8a": {
+            "type": "text",
+            "settings": {
+              "countno": "",
+              "counttime": ""
+            }
+          },
           "text_NdaYY6": {
             "type": "text",
             "settings": {
@@ -3341,6 +3348,7 @@
           }
         },
         "block_order": [
+          "text_rBEK8a",
           "text_NdaYY6",
           "text_xxaYtJ",
           "text_bXtqyP",
@@ -3454,6 +3462,7 @@
           "style_title": "title_10",
           "ic_tt": "gem",
           "show_clpr": false,
+          "bg_image": "shopify:\/\/shop_images\/Frame_4_1.png",
           "collection": "bracelets",
           "limit": 8,
           "space": 30,
@@ -3597,7 +3606,8 @@
           "hidden": false,
           "cp_code": false,
           "layout": "wrap",
-          "cl_bg": "",
+          "cl_bg": "#f6f5f3",
+          "image": "shopify:\/\/shop_images\/Frame_4_1.png",
           "mg": "50px,,50px,",
           "pd": "",
           "mg_mb": "",
@@ -3811,7 +3821,8 @@
           "text_6DHXqL"
         ],
         "settings": {
-          "sectionhead": "Celebrity Jewelry"
+          "sectionhead": "Celebrity Jewelry",
+          "backimg": "shopify:\/\/shop_images\/Frame_4_1.png"
         }
       }
     },
