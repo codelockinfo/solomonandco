@@ -3758,6 +3758,11 @@
           "mg_mb": "",
           "pd_mb": "50px,,50px,"
         }
+      },
+      "celebrity_slider_yXceq8": {
+        "type": "celebrity-slider",
+        "settings": {
+        }
       }
     },
     "content_for_index": [
@@ -3767,7 +3772,8 @@
       "custom_offer_section_MWqimb",
       "banner_collection_4fcpKT",
       "shipping_8RgVhV",
-      "faq_AEFrpd"
+      "faq_AEFrpd",
+      "celebrity_slider_yXceq8"
     ]
   }
 }
