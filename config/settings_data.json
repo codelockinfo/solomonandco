@@ -3454,6 +3454,7 @@
           "style_title": "title_10",
           "ic_tt": "gem",
           "show_clpr": false,
+          "bg_image": "shopify:\/\/shop_images\/Frame_4_1.png",
           "collection": "bracelets",
           "limit": 8,
           "space": 30,
