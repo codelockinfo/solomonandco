@@ -1,0 +1,179 @@
+.width-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+
+/* OFFER SECTION  */
+
+
+
+
+.offer_main_box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.offer_box1 {
+    width: 50%;
+}
+
+.offer_box1 {
+    position: relative;
+    z-index: 9;
+}
+
+.offer_box2 {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    width: 55%;
+}
+
+.heading_offer {
+    font-family: Ivy Mode;
+    font-size: 96px;
+    font-weight: 600;
+    /* line-height: 60px; */
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #fff;
+}
+
+.paragraph_offer {
+    font-family: IBM Plex Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 3vw;
+}
+
+.offer_button {
+    padding: 10px 20px;
+    color: #000;
+    background-color: #fff;
+    border: 0;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-align: center;
+}
+
+.offer_content_box {
+    padding: 80px 0;
+}
+.count_offer_box{
+    display: flex;
+}
+.count_offer_box .count_box{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background: #F8F8FF52;
+    margin-right: 10px;
+}
+.count_number{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 20px;
+text-align: left;
+color: #fff;
+}
+.count_info{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 31px;
+    text-align: left;    
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+/* MEDIA QUERY  */
+@media (max-width:1220px) {
+    .heading_offer {
+        font-size: 80px;
+    }
+}
+@media (max-width:1024px) {
+    .heading_offer {
+        font-size: 72px;
+    }
+}
+@media (max-width:949px) {
+    .heading_offer {
+        font-size: 64px;
+    }
+}
+@media (max-width:768px) {
+    .heading_offer  {
+        font-size: 48px;
+    }
+    .offer_box1 {
+        width: 65%;
+    }
+    .count_offer_box .count_box{
+        width: 80px;
+        height: 80px;
+    }
+    .offer_content_box{
+        padding: 50px 0;
+    }
+}
+@media (max-width:879px) {
+    
+    .count_offer_box .count_box{
+        width: 90px;
+        height: 90px;
+    }
+}
+@media (max-width:576px) {
+   
+    .heading_offer  {
+        font-size: 24px;
+    }
+    .offer_box1 {
+        width: 70%;
+    }
+    .count_number{
+        font-size: 16px;
+    }
+    .paragraph_offer{
+        font-size: 16px;
+    }
+    .count_info{
+        font-size: 10px;
+    }
+    .count_offer_box .count_box{
+        width: 70px;
+        height: 70px;
+    }
+    .offer_button {
+        font-size: 14px;
+    }
+    .offer_content_box{
+        padding: 40px 0;
+    }
+}
+@media (max-width:499px) {
+    .offer_box1 {
+        width: 100%;
+    }
+}

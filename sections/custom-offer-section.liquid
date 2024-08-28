@@ -1,0 +1,99 @@
+<div class="offer_section">
+  <div class="width-container">
+    <div class="offer_main_box">
+      <div class="offer_box1">
+        <div class=" offer_content_box">
+          <div class="count_offer_box">
+            {% for block in section.blocks %}
+              <div class="count_box">
+                <div class="count_number">{{ block.settings.countno }}</div>
+                <div class="count_info">{{ block.settings.counttime }}</div>
+              </div>
+            {% endfor %}
+          </div>
+          <div class="heading_offer">{{ section.settings.heading }}</div>
+          <div class="paragraph_offer">
+            {{ section.settings.paragraph }}
+          </div>
+          <a href="{{section.settings.btnurl}}" class="offer_button">{{ section.settings.btntext }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Custom offer section ",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "desktop_bg_image",
+      "label": "Desktop Background Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_bg_image",
+      "label": "Mobile Background Image"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading text"
+    },
+    {
+      "type": "text",
+      "id": "paragraph",
+      "label": "Content text"
+    },
+    {
+      "type": "text",
+      "id": "btntext",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "btnurl",
+      "label": "Button url"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Count box",
+      "type": "text",
+      "settings": [
+        {
+          "type": "text",
+          "id": "countno",
+          "label": "Number "
+        },
+        {
+          "type": "text",
+          "id": "counttime",
+          "label": "Time/day/hour/minuts"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom offer section ",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}
+ <style>
+    .offer_section {
+    background-image: url('{{ section.settings.desktop_bg_image | img_url:'master' }}');
+    background-size: cover;
+    background-position: center center; 
+}
+
+/* Change background image for mobile view (max-width 768px) */
+@media screen and (max-width: 768px) {
+    .offer_section {
+        background-image: url('{{ section.settings.mobile_bg_image | img_url:'master' }}');
+    }
+}
+ </style>
