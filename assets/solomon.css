@@ -68,13 +68,15 @@
 .offer_content_box {
     padding: 80px 0;
 }
-.count_offer_box{
+
+.count_offer_box {
     display: flex;
 }
-.count_offer_box .count_box{
+
+.count_offer_box .count_box {
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     border-radius: 50%;
     width: 100px;
@@ -82,24 +84,24 @@
     background: #F8F8FF52;
     margin-right: 10px;
 }
-.count_number{
+
+.count_number {
     font-family: Poppins;
-font-size: 20px;
-font-weight: 600;
-line-height: 20px;
-text-align: left;
-color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: #fff;
 }
-.count_info{
+
+.count_info {
     font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
     line-height: 31px;
-    text-align: left;    
+    text-align: left;
     color: #fff;
 }
-
-
 
 
 
@@ -111,69 +113,144 @@ color: #fff;
     .heading_offer {
         font-size: 80px;
     }
+   
 }
+
 @media (max-width:1024px) {
     .heading_offer {
         font-size: 72px;
     }
+    .section-title{
+        font-size: 64px  !important;
+    }
 }
+
 @media (max-width:949px) {
     .heading_offer {
         font-size: 64px;
     }
 }
+
 @media (max-width:768px) {
-    .heading_offer  {
+    .heading_offer {
         font-size: 48px;
     }
+
     .offer_box1 {
         width: 65%;
     }
-    .count_offer_box .count_box{
+
+    .count_offer_box .count_box {
         width: 80px;
         height: 80px;
     }
-    .offer_content_box{
+
+    .offer_content_box {
         padding: 50px 0;
     }
 }
+
 @media (max-width:879px) {
-    
-    .count_offer_box .count_box{
+
+    .count_offer_box .count_box {
         width: 90px;
         height: 90px;
     }
 }
+
 @media (max-width:576px) {
-   
-    .heading_offer  {
+
+    .heading_offer {
         font-size: 24px;
     }
+
     .offer_box1 {
         width: 70%;
     }
-    .count_number{
+
+    .count_number {
         font-size: 16px;
     }
-    .paragraph_offer{
+
+    .paragraph_offer {
         font-size: 16px;
     }
-    .count_info{
+
+    .count_info {
         font-size: 10px;
     }
-    .count_offer_box .count_box{
+
+    .count_offer_box .count_box {
         width: 70px;
         height: 70px;
     }
+
     .offer_button {
         font-size: 14px;
     }
-    .offer_content_box{
+
+    .offer_content_box {
         padding: 40px 0;
     }
+    .section-title{
+        font-size: 40px  !important;
+    }
 }
+
 @media (max-width:499px) {
     .offer_box1 {
         width: 100%;
     }
+}
+
+/* THEME PROPERTY CHANGES */
+
+.product-inner {
+    background-color: #FAF7F2;
+    padding: 20px;
+}
+
+.product-title  .cd{
+    font-family: IBM Plex Sans !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    color: #000 !important ;
+}
+.section-title{
+    font-family: Ivy Mode !important;
+    font-size: 64px;
+    font-weight: 600;
+    color: #1E3957;
+}
+.product-info .price {
+    font-family: IBM Plex Sans !important;
+font-size: 14px !important;
+font-weight: 600 !important;
+color: #CAA45D !important;
+}
+
+.cat_grid_item__content {
+    padding: 10px !important;
+    background: #fff !important;
+}
+.positionremove{
+    position: relative !important;
+ bottom: 0 !important;
+}
+.positionremove .cat_grid_item__title {
+    font-family: IBM Plex Sans !important;
+font-size: 18px !important;
+font-weight: 600 !important;
+color: #1E3957 !important;
+/* line-height: 31.2px; */
+/* letter-spacing: 0.05em; */
+/* text-align: center; */
+
+}
+.cat_design_5 .cat_grid_item__overlay{
+    margin-bottom: 5px !important;
+}
+.nt_se_collection_list_XqDyYF {
+    background-size: contain;
+    background-position: center center;
 }
