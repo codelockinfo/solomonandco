@@ -16,8 +16,8 @@
         {% for block in section.blocks %}
           <div class="swiper-slide">
             {% if block.settings.sectionhead != blank %}
+            {% endif %}
             <div class="name_text">{{ block.settings.nametext }}</div>
-        {% endif %}
             <img src="{{ block.settings.image | img_url: 'master' }}" alt="" class="collection_img">
             {% if block.settings.smallimg != blank %}
               <div class="jewel_img_box">
