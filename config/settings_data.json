@@ -957,8 +957,8 @@
           "mb_nav-1": {
             "type": "menu",
             "settings": {
-              "title": "Shop",
-              "url": "",
+              "title": "Men's",
+              "url": "shopify:\/\/collections\/gold-chains",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -969,8 +969,8 @@
           "mb_nav-2": {
             "type": "menu",
             "settings": {
-              "title": "Product",
-              "url": "",
+              "title": "Women's",
+              "url": "shopify:\/\/collections\/earrings",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -981,8 +981,8 @@
           "1585642902196": {
             "type": "menu",
             "settings": {
-              "title": "Sale",
-              "url": "",
+              "title": "Gold Chains",
+              "url": "shopify:\/\/collections\/gold-chains",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -993,8 +993,8 @@
           "1585642908420": {
             "type": "menu",
             "settings": {
-              "title": "Portfolio",
-              "url": "",
+              "title": "Engagement",
+              "url": "shopify:\/\/collections\/gold-rings",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -1005,8 +1005,8 @@
           "mb_nav-3": {
             "type": "menu",
             "settings": {
-              "title": "Lookbook",
-              "url": "",
+              "title": "Travel Cases",
+              "url": "\/",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -1017,8 +1017,8 @@
           "1585642887352": {
             "type": "menu",
             "settings": {
-              "title": "Blog",
-              "url": "",
+              "title": "Watches",
+              "url": "shopify:\/\/collections\/watches",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -1028,11 +1028,6 @@
           },
           "mb_nav-4": {
             "type": "wis",
-            "settings": {
-            }
-          },
-          "b30e9037-eb1b-450d-b6e5-b0fbdc6c3063": {
-            "type": "compe",
             "settings": {
             }
           },
@@ -1048,6 +1043,7 @@
           },
           "mb_nav-7": {
             "type": "help",
+            "disabled": true,
             "settings": {
               "title": "Need help?",
               "text": "<i class=\"pegk pe-7s-call fwb mr__10\"><\/i>+01 23456789<br><i class=\"pegk pe-7s-mail fwb mr__10\"><\/i><a class=\"cg\" href=\"mailto:gecko@domain.com\">gecko@domain.com<\/a>"
@@ -1055,6 +1051,7 @@
           },
           "mb_nav-8": {
             "type": "cur",
+            "disabled": true,
             "settings": {
             }
           }
@@ -1068,7 +1065,6 @@
           "mb_nav-3",
           "1585642887352",
           "mb_nav-4",
-          "b30e9037-eb1b-450d-b6e5-b0fbdc6c3063",
           "mb_nav-5",
           "mb_nav-6",
           "mb_nav-7",
