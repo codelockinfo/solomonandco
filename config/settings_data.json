@@ -93,7 +93,7 @@
     "bgnavst": "#ffffff",
     "opnavst": 100,
     "clnavst": "#222222",
-    "bgnavtr": "#000000",
+    "bgnavtr": "rgba(0,0,0,0)",
     "opnavtr": 40,
     "clnavtr": "#ffffff",
     "h_icon": "iccl",
