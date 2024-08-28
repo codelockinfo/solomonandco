@@ -429,18 +429,9 @@
       "header_top": {
         "type": "header_top",
         "blocks": {
-          "1595994733101": {
-            "type": "social",
-            "settings": {
-              "social": "2",
-              "border_bl": false,
-              "black_bl": false,
-              "hide": true,
-              "col": "4"
-            }
-          },
           "1596007070336": {
             "type": "text2",
+            "disabled": true,
             "settings": {
               "text": "<p>Summer sale discount off <a href=\"#cr\" title=\"#cr\"><strong>50%<\/strong><\/a>! <a href=\"\/collections\/clothing\" title=\"Clothing\">Shop Now<\/a>;;;<\/p><p>The Best Shopify Themes.;;;<\/p><p>MADE WITH LOVE;;;<\/p><p>Customer support is second to none;;;<\/p><p>Fantastic theme! Beautifully designed!<\/p>",
               "effect": "1",
@@ -449,18 +440,29 @@
               "col": "4"
             }
           },
-          "header_top-2": {
-            "type": "cur",
+          "text_AmxLB4": {
+            "type": "text",
             "settings": {
-              "hide": true,
+              "text": "Hurry up offer is running for a limited time only",
+              "hide": false,
+              "col": "4"
+            }
+          },
+          "text2_gXgMfF": {
+            "type": "text2",
+            "settings": {
+              "text": "<p>A summer state of mind starts with the perfect stack<a href=\"\/collections\" title=\"All collections\"> Shop Now<\/a><\/p>",
+              "effect": "1",
+              "au_time": 3.5,
+              "hide": false,
               "col": "4"
             }
           }
         },
         "block_order": [
-          "1595994733101",
           "1596007070336",
-          "header_top-2"
+          "text_AmxLB4",
+          "text2_gXgMfF"
         ],
         "settings": {
           "height": 50,
