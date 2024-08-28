@@ -834,7 +834,7 @@
         ],
         "settings": {
           "layout": "12",
-          "bg": "#222222",
+          "bg": "#1e3957",
           "cl": "#ffffff",
           "cl_a": "#ffffff",
           "cl_hover": "#b59677"
