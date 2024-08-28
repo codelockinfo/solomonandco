@@ -96,7 +96,7 @@
     "clnavst": "#1e3957",
     "clnavst_hover": "#1e3957",
     "bgnavtr": "#ffffff",
-    "opnavtr": 40,
+    "opnavtr": 69,
     "clnavtr": "#1e3957",
     "clnavtr_hover": "#ffffff",
     "h_icon": "iccl",
@@ -1259,7 +1259,7 @@
               "caption_w": "1",
               "cap_v_pos": 50,
               "cap_h_pos": 50,
-              "txt_align": "tc_md",
+              "txt_align": "tl_md",
               "cap_v_pos_mb": 50,
               "cap_h_pos_mb": 50,
               "txt_align_mb": "tc",
@@ -1480,7 +1480,7 @@
         "settings": {
           "se_height": "cus_h",
           "use_custom_h": "1",
-          "h_des": "600px",
+          "h_des": "750px",
           "h_tb": "600px",
           "h_mb": "350px",
           "effect": "1",
@@ -3758,6 +3758,61 @@
           "mg_mb": "",
           "pd_mb": "50px,,50px,"
         }
+      },
+      "celebrity_slider_yXceq8": {
+        "type": "celebrity-slider",
+        "blocks": {
+          "text_3zjMLN": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Rectangle_185_1.png",
+              "smallimg": "shopify:\/\/shop_images\/8ec1f1122866a8403506c5f321a7d7d6.png",
+              "nametext": "<p>Busta<br\/><strong>Rhymes<\/strong><\/p>"
+            }
+          },
+          "text_VYbg94": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Rectangle_186.png",
+              "smallimg": "shopify:\/\/shop_images\/edfcef34f5458fb0398432c95a37f9f5.png",
+              "nametext": "<p>Mr.\u2028<br\/><strong>Beast<\/strong><\/p>"
+            }
+          },
+          "text_UpDzfT": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Rectangle_187.png",
+              "smallimg": "shopify:\/\/shop_images\/1f6ace2b608ee4e2c5859eaa1664cd81.png",
+              "nametext": "<p>Kodak\u2028<br\/><strong>Black<\/strong><\/p>"
+            }
+          },
+          "text_9MJFVW": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Rectangle_188.png",
+              "smallimg": "shopify:\/\/shop_images\/656b323ef6ad4c260effc739dc7f8b8c.png",
+              "nametext": "<p>Cardi<br\/><strong>B<\/strong><\/p>"
+            }
+          },
+          "text_6DHXqL": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Rectangle_185_1.png",
+              "smallimg": "shopify:\/\/shop_images\/8ec1f1122866a8403506c5f321a7d7d6.png",
+              "nametext": "<p>Busta<br\/><strong>Rhymes<\/strong><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "text_3zjMLN",
+          "text_VYbg94",
+          "text_UpDzfT",
+          "text_9MJFVW",
+          "text_6DHXqL"
+        ],
+        "settings": {
+          "sectionhead": "Celebrity Jewelry"
+        }
       }
     },
     "content_for_index": [
@@ -3767,6 +3822,7 @@
       "custom_offer_section_MWqimb",
       "banner_collection_4fcpKT",
       "shipping_8RgVhV",
+      "celebrity_slider_yXceq8",
       "faq_AEFrpd"
     ]
   }

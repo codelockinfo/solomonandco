@@ -1,0 +1,300 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+<section class="image_section">
+  <div class="width-container">
+    <div class="celeb-container">
+      <div class="heading_icons">
+        <div class="slider_heading">{{section.settings.sectionhead}}</div>
+        <div class="next-prev-icons">
+          <img src="https://img.icons8.com/?size=30&id=99996&format=png" class="button-prev">
+          <img src="https://img.icons8.com/?size=30&id=99982&format=png" class="button-next">
+        </div>
+      </div>
+      <div class="swiper-wrapper">
+        {% for block in section.blocks %}
+          <div class="swiper-slide">
+            {% if block.settings.sectionhead != blank %}
+            {% endif %}
+            <div class="name_text">{{ block.settings.nametext }}</div>
+            <img src="{{ block.settings.image | img_url: 'master' }}" alt="" class="collection_img">
+            {% if block.settings.smallimg != blank %}
+              <div class="jewel_img_box">
+                <img
+                  src="{{ block.settings.smallimg | img_url: 'master' }}"
+                  class="j_img"
+                  alt=""
+                >
+              </div>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+      <div class="next-prev-btn">
+        <img src="https://img.icons8.com/?size=30&id=99996&format=png" class="button-prev">
+        <img src="https://img.icons8.com/?size=30&id=99982&format=png" class="button-next">
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Golden_Image Slider",
+  "settings": [
+    {
+      "type": "text",
+      "id": "sectionhead",
+      "label": "Section heading"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "block",
+      "type": "text",
+      "settings": [
+        {
+          "id": "image",
+          "type": "image_picker",
+          "label": "Image"
+        },
+        {
+          "id": "smallimg",
+          "type": "image_picker",
+          "label": "Small img"
+        },
+        {
+          "type": "richtext",
+          "id": "nametext",
+          "label": "Name text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Golden_Image Slider"
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+  .image_section {
+    max-width: 100%;
+    padding: 60px 0px;
+    background-color: #f6f4f2;
+  }
+
+  .collection_image {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 132.48px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .name_text {
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #000000;
+  }
+  .name_text p {
+    margin-bottom: 10px;
+  }
+  .heading_icons {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .heading_icons .slider_heading {
+    font-family: Ivy Mode;
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 94.95px;
+    /* letter-spacing: 0.05em; */
+    text-align: left;
+    color: #1e3957;
+  }
+  .jewel_img_box {
+    width: 120px;
+    height: 120px;
+    border: 4px solid #f6f5f3;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 85%;
+    left: 6vw;
+  }
+  .jewel_img_box .j_img {
+    object-position: center center;
+  }
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+    padding: 80px 0px 100px;
+  }
+
+  .collection_img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .button-next,
+  .button-prev {
+    width: 40px;
+    border: 1px solid black;
+    margin: 4px;
+    padding: 5px;
+  }
+
+  .next-prev-icons {
+    display: flex;
+    /* width: 95%; */
+    /* margin-top: -34px; */
+    justify-content: end;
+    /* margin-bottom: 40px; */
+  }
+
+  .btn-next,
+  .btn-prev {
+    width: 32px;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin: 4px;
+    padding: 5px;
+  }
+
+  .next-prev-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  @media (max-width: 1440px) {
+    .swiper-container {
+      padding: 30px 0px;
+    }
+  }
+  @media (max-width: 1300px) {
+    .jewel_img_box {
+      width: 100px;
+      height: 100px;
+      left: 6.7vw;
+    }
+  }
+  @media (max-width: 1024px) {
+    .heading_icons .slider_heading {
+      font-size: 64px;
+    }
+  }
+  @media (max-width: 1100px) {
+    .jewel_img_box {
+      width: 90px;
+      height: 90px;
+    }
+  }
+  @media (max-width: 991px) {
+    .jewel_img_box {
+      left: 10vw;
+    }
+  }
+
+  @media (min-width: 769px) {
+    .next-prev-btn {
+      display: none;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .collection_logo {
+      width: 15%;
+      margin-bottom: 20px;
+    }
+    .jewel_img_box {
+      left: 9vw;
+    }
+    .heading_icons .slider_heading {
+      font-size: 64px;
+    }
+    .next-prev-icons {
+      display: none;
+    }
+    .next-prev-btn {
+      margin-top: 13%;
+    }
+  }
+  @media (max-width: 576px) {
+    .jewel_img_box {
+      left: 13vw;
+    }
+    .heading_icons .slider_heading {
+      font-size: 40px;
+    }
+  }
+  @media (max-width: 679px) {
+    .next-prev-btn {
+      margin-top: 17%;
+    }
+  }
+  @media (max-width: 500px) {
+    .jewel_img_box {
+      left: 31vw;
+      top: 90%;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .collection_logo {
+      width: 20%;
+    }
+    .jewel_img_box {
+      left: 28vw;
+      top: 85%;
+    }
+    .next-prev-btn {
+      margin-top: 20%;
+    }
+  }
+</style>
+
+<script>
+  $(document).ready(function () {
+    // Initialize Swiper for the main container
+    new Swiper('.celeb-container', {
+      // loop: true,
+      nextButton: '.button-next',
+      prevButton: '.button-prev',
+      slidesPerView: 4.2,
+      spaceBetween: 15,
+      breakpoints: {
+        500: {
+          slidesPerView: 1.2,
+          spaceBetween: 15,
+        },
+        576: {
+          slidesPerView: 2.2,
+          spaceBetween: 15,
+        },
+        768: {
+          slidesPerView: 3.2,
+          spaceBetween: 15,
+        },
+        991: {
+          slidesPerView: 3.2,
+          spaceBetween: 15,
+        },
+        1028: {
+          slidesPerView: 4.2,
+          spaceBetween: 15,
+        },
+      },
+    });
+  });
+</script>
