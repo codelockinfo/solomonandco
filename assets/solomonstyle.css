@@ -1,0 +1,12 @@
+#ntheader .my-account .push_side{
+    color: #fff;
+    padding: 5px 10px;
+    background: #1E3957;
+}
+.custom_search.frm_search_ac .search_header__input:not([type=submit]):not([type=checkbox]){
+    border-radius: 10px;
+    background: unset;
+    border: 1px solid #1E3957;
+    font-size: 16px;
+    color: #0A2749;
+}

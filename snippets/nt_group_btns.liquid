@@ -14,77 +14,13 @@
 endcase -%}
  
 <div class="nt_action in_flex al_center cart_des_{{cart_des}}">
-   {%- if settings.show_search -%}
-     {%- if frm_search -%}
-     <div class="frm_search_ac pr widget dn db_lg">
-        <form action="{{ routes_search_url }}" method="get" class="search_header mini_search_frm pr js_frm_search flex al_center" role="search">
-          <input type="hidden" name="type" value="product">
-          <input type="hidden" name="options[unavailable_products]" value="{{settings.unavailable_prs}}">
-          <input type="hidden" name="options[prefix]" value="{{settings.prefix}}">
-          {%- if settings.filter_type_search and shop.types.size > 0 -%}
-          <div class="frm_search_cat">
-             <select name="product_type">
-               <option value="*">{{ 'general.search.all_cat' | t }}</option>
-               {%- for product_type in shop.types -%}{%- if product_type == blank %}{% continue-%}{% endif -%}<option value="{{product_type}}"{% if search_pr_type == product_type %} selected="selected"{% endif %}>{{product_type}}</option>{%- endfor -%}
-             </select>
-          </div>
-          <div class="frm_search_bd"></div>
-         {%- endif -%}
-          <div class="frm_search_input pr oh">
-            <input class="search_header__input js_iput_search" autocomplete="off" type="text" name="q" placeholder="{{ 'general.search.placeholder' | t }}">
-            <button class="search_header__submit js_btn_search{% if settings.ajax_search %} pe_none{% endif %}" type="submit"><i class="iccl iccl-search"></i></button>
-          </div>
-          <div class="ld_bar_search"></div>
-        </form>
-        <div class="search_h_break pa w__100"></div>
-        <div class="search_header__prs fwsb cd pa dn js_prs_search product_list_widget"></div> 
-     </div>
-    <a class="icon_search push_side cb chp dn_lg" data-id="#nt_search_canvas" href="{{ routes_search_url }}"><i class="{{arric[0]}}"></i></a>
-    {%- else -%}
-    <a class="icon_search push_side cb chp" data-id="#nt_search_canvas" href="{{ routes_search_url }}"><i class="{{arric[0]}}"></i></a>
-    {%- endif -%}
-   {%- endif -%}
-   {%- if shop.customer_accounts_enabled and settings.show_acc -%}
-  
-     {% capture the_snippet_auth %}{% render 'socialshopwave-widget-auth' %}{% endcapture %}
-     {% if the_snippet_auth contains 'Liquid error' or settings.growave_social_login == false %}
-          <div class="my-account ts__05 pr dn db_md">
-             <a class="cb chp db push_side" href="{% if customer %}{{routes.account_url}}{% else %}{{ routes.account_login_url }}{% endif %}" data-id="#nt_login_canvas"><i class="{{arric[1]}}"></i></a>
-             {%- if customer -%}
-             <ul class="pa pe_none op__0 tl">
-                <li><a class="db cg chp" href="{{routes.account_url}}">{{ 'general.account_text.dashboard' | t }}</a></li>
-                <li><a class="db cg chp" href="{{routes.account_addresses_url}}">{{ 'general.account_text.addresses' | t }}</a></li>
-                <li><a class="db cg chp" href="{{routes.account_logout_url}}" data-no-instant>{{ 'general.account_text.logout' | t }}</a></li>
-             </ul>
-            {%- endif -%}
-          </div>
-      {%- else -%}
-          <div id="ssw-topauth" class="ssw-topauth">
-            {% if customer %}
-            <div class="ssw-tprofile ssw-dropdown ssw-custom-login ts__05 pr dn db_md">
-              <a class="ssw-dropdown-toggle cb chp db push_side" data-toggle="ssw-dropdown" href="javascript:void(0);">
-                <i class="{{arric[1]}}"></i>
-              </a>
-              <ul class="ssw-dropdown-menu" role="menu" aria-labelledby="dLabel">
-                <li id="customer_myorders_li"><a tabindex="-1" href="{{routes.account_url}}">{{ 'socialshopwave.my_orders' | t }}</a></li>
-                {% render 'ssw-widget-dropdown' %}
-                <li class="ssw-divider"></li>
-                <li><a id="customer_logout_link" tabindex="-1" href="{{routes.account_logout_url}}" data-no-instant>{{ 'socialshopwave.logout' | t }}</a></li>
-              </ul>
-            </div>
-            {% else %}
-            <div class="ssw-custom-login ts__05 pr dn db_md">
-              <a id="customer_login_link" class="cb chp db push_side" href="javascript:void(0);" data-toggle="ssw-modal" data-target="#login_modal" onclick="trackShopStats('login_popup_view', 'all')">
-                <i class="{{arric[1]}}"></i>
-              </a>
-            </div>
-            {% endif %}
-          </div>
-      {%- endif -%}
-   {%- endif -%}
    {%- if settings.show_wis -%}
     {%- if settings.wishlist_type != '3' -%}
-     <a class="icon_like cb chp pr dn db_md js_link_wis" href="{{ routes_search_url }}/?view=wish"><i class="{{arric[2]}} pr"><span class="op__0 ts_op pa tcount jswcount bgb br__50 cw tc">0</span></i></a>
+     <a class="flex icon_like cb chp pr dn db_md js_link_wis" href="{{ routes_search_url }}/?view=wish">
+      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 25 22" fill="none">
+        <path d="M17.8594 0.46875C16.557 0.46875 15.363 0.881437 14.3106 1.69537C13.192 2.5605 11.2768 2.5605 10.1581 1.69537C9.1057 0.881437 7.9117 0.46875 6.60938 0.46875C2.97506 0.46875 0.234375 3.44142 0.234375 7.38347C0.234375 11.6423 3.65358 14.556 8.8298 18.9671C9.7088 19.7162 10.7051 20.5653 11.7407 21.4709C11.8772 21.5904 12.0525 21.6562 12.2344 21.6562C12.4163 21.6562 12.5916 21.5904 12.7281 21.471C13.7637 20.5652 14.76 19.7162 15.6395 18.9667C20.8152 14.556 24.2344 11.6423 24.2344 7.38347C24.2344 3.44142 21.4937 0.46875 17.8594 0.46875Z" fill="#1E3957"/>
+      </svg>
+     </a>
     {%- else -%}
       {% capture the_snippet_fave_icon_menu %}{% render 'ssw-widget-faveicon-menu' with product.id %}{% endcapture %}
       {% unless the_snippet_fave_icon_menu contains 'Liquid error' %}
@@ -104,8 +40,54 @@ endcase -%}
            <div class="icon_cart pr in_flex al_center"><a class="pr cb chp dib push_side" data-id="#nt_cart_canvas" href="{{routes.cart_url}}"><i class="{{arric[3]}}"></i><span class="js_cat_ttprice ch_tt_price dn dib_lg fwm cd ml__5">{{cart.total_price | money}}</span></a></div>
            {%- comment -%}<div class="icon_cart pr push_side in_flex al_center" data-id="#nt_cart_canvas"><a class="pr cb chp dib" href="{{routes.cart_url}}"><i class="{{ic_stt}} {{arric[3]}}"></i><span class="op__0 ts_op pa tcount jsccount bgb br__50 cw tc">{{ cart.item_count }}</span></a><span class="ch_tt_divider dn dib_lg">/</span><span class="js_cat_ttprice ch_tt_price dn dib_lg fwm cd">{{cart.total_price | money}}</span></div>{%- endcomment -%}
          {%- else -%}
-          <div class="icon_cart pr"><a class="push_side pr cb chp db" href="{{routes.cart_url}}" data-id="#nt_cart_canvas"><i class="{{arric[3]}} pr"><span class="op__0 ts_op pa tcount jsccount bgb br__50 cw tc">{{ cart.item_count }}</span></i></a></div>
+          <div class="icon_cart pr">
+            <a class="push_side pr cb chp db" href="{{routes.cart_url}}" data-id="#nt_cart_canvas">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="25" viewBox="0 0 26 25" fill="none" class="pr">
+                <path d="M1.26302 0.103516C0.664712 0.103516 0.179688 0.569886 0.179688 1.14518C0.179688 1.72048 0.664712 2.18685 1.26302 2.18685H3.19059C3.34832 2.18685 3.50205 2.23457 3.63001 2.32325C3.75796 2.41194 3.85365 2.53708 3.90352 2.68096L7.47526 12.986C7.63387 13.4435 7.65404 13.9362 7.53239 14.4041L7.23828 15.5373C6.80674 17.197 8.1504 18.8535 9.92969 18.8535H22.9297C23.528 18.8535 24.013 18.3871 24.013 17.8118C24.013 17.2366 23.528 16.7702 22.9297 16.7702H9.92969C9.50785 16.7702 9.23705 16.4374 9.33936 16.0439L9.56115 15.1921C9.59873 15.0478 9.6854 14.9197 9.80737 14.8281C9.92935 14.7366 10.0796 14.6869 10.2344 14.6868H21.8464C22.3128 14.6871 22.7271 14.4002 22.8747 13.9748L25.7629 5.64144C25.9968 4.96666 25.4743 4.26986 24.7345 4.27018H7.2806C7.12287 4.27018 6.96913 4.22246 6.84118 4.13378C6.71322 4.0451 6.61752 3.91996 6.56764 3.77608L5.54134 0.815593C5.39372 0.390135 4.97947 0.103281 4.51302 0.103516H1.26302ZM8.84635 19.8952C7.64974 19.8952 6.67969 20.8279 6.67969 21.9785C6.67969 23.1291 7.64974 24.0619 8.84635 24.0619C10.043 24.0619 11.013 23.1291 11.013 21.9785C11.013 20.8279 10.043 19.8952 8.84635 19.8952ZM21.8464 19.8952C20.6497 19.8952 19.6797 20.8279 19.6797 21.9785C19.6797 23.1291 20.6497 24.0619 21.8464 24.0619C23.043 24.0619 24.013 23.1291 24.013 21.9785C24.013 20.8279 23.043 19.8952 21.8464 19.8952Z" fill="#1E3957"/>
+              </svg>
+              <span class="op__0 ts_op pa tcount jsccount bgb br__50 cw tc">{{ cart.item_count }}</span>
+            </a>
+          </div>
       {%- endcase -%}
    {%- endif -%}
+   
+   {%- if shop.customer_accounts_enabled and settings.show_acc -%}
+  
+   {% capture the_snippet_auth %}{% render 'socialshopwave-widget-auth' %}{% endcapture %}
+   {% if the_snippet_auth contains 'Liquid error' or settings.growave_social_login == false %}
+        <div class="my-account ts__05 pr dn db_md">
+           <a class="cb chp db push_side" href="{% if customer %}{{routes.account_url}}{% else %}{{ routes.account_login_url }}{% endif %}" data-id="#nt_login_canvas">{% if customer %}Account{% else %}Login{% endif %}</a>
+           {%- if customer -%}
+           <ul class="pa pe_none op__0 tl">
+              <li><a class="db cg chp" href="{{routes.account_url}}">{{ 'general.account_text.dashboard' | t }}</a></li>
+              <li><a class="db cg chp" href="{{routes.account_addresses_url}}">{{ 'general.account_text.addresses' | t }}</a></li>
+              <li><a class="db cg chp" href="{{routes.account_logout_url}}" data-no-instant>{{ 'general.account_text.logout' | t }}</a></li>
+           </ul>
+          {%- endif -%}
+        </div>
+    {%- else -%}
+        <div id="ssw-topauth" class="ssw-topauth">
+          {% if customer %}
+          <div class="ssw-tprofile ssw-dropdown ssw-custom-login ts__05 pr dn db_md">
+            <a class="ssw-dropdown-toggle cb chp db push_side" data-toggle="ssw-dropdown" href="javascript:void(0);">
+              <i class="{{arric[1]}}"></i>
+            </a>
+            <ul class="ssw-dropdown-menu" role="menu" aria-labelledby="dLabel">
+              <li id="customer_myorders_li"><a tabindex="-1" href="{{routes.account_url}}">{{ 'socialshopwave.my_orders' | t }}</a></li>
+              {% render 'ssw-widget-dropdown' %}
+              <li class="ssw-divider"></li>
+              <li><a id="customer_logout_link" tabindex="-1" href="{{routes.account_logout_url}}" data-no-instant>{{ 'socialshopwave.logout' | t }}</a></li>
+            </ul>
+          </div>
+          {% else %}
+          <div class="ssw-custom-login ts__05 pr dn db_md">
+            <a id="customer_login_link" class="cb chp db push_side" href="javascript:void(0);" data-toggle="ssw-modal" data-target="#login_modal" onclick="trackShopStats('login_popup_view', 'all')">
+              <i class="{{arric[1]}}"></i>
+            </a>
+          </div>
+          {% endif %}
+        </div>
+    {%- endif -%}
+ {%- endif -%}
    {%- if nt_group_btns -%}{%- render 'push_menu' with 'ml__5 dn db_lg' -%}{%- endif -%}
 </div>
