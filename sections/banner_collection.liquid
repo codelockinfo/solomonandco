@@ -26,7 +26,7 @@
   assign show_size = settings.show_pr_size -%}
   {%- capture url_cat %}{% if collection %}/collections/{{collection.handle}}{% endif %}{% endcapture -%}
 
-  <div class="nt_se_{{sid}} {{se_stts.layout}} se_cat_height{{se_stts.se_height}} bgimg_back">
+  <div class="nt_se_{{sid}} {{se_stts.layout}} se_cat_height{{se_stts.se_height}} ">
     {%- render 'section_title',url:collection.url,section_title:'mb__40' -%}
     <div class="banner_collection_wrap row no-gutters">
 
@@ -154,12 +154,12 @@
 
   <style>
   
-   .bgimg_back{
+   /* .bgimg_back{
     background-image: url('{{ section.settings.bg_image | img_url:'master' }}');
     background-size: inherit;
     background-position: top left;
     background-repeat: no-repeat;
-   }
+   } */
   .type_banner_collection .cat_banner_img {height: {{se_stts.se_height_mb}} }
   @media (min-width: 768px) {
     .type_banner_collection .cat_banner_img {height: {{se_stts.se_height_tb}} }
@@ -312,11 +312,11 @@
         "type": "paragraph",
         "content": "[Get icons Line awesome](https://icons8.com/line-awesome)"
       },
-        {
-         "type": "image_picker",
-         "id": "bg_image",
-         "label": "Background image"
-       },
+      //   {
+      //    "type": "image_picker",
+      //    "id": "bg_image",
+      //    "label": "Background image"
+      //  },
       {
         "type": "header",
         "content": "== General Settings"
