@@ -3873,6 +3873,82 @@
           "mg_mb": "",
           "pd_mb": "25px,,25px,"
         }
+      },
+      "testimonials_TeXgYA": {
+        "type": "testimonials",
+        "blocks": {
+          "quote_QiTdnH": {
+            "type": "quote",
+            "settings": {
+              "content": "<p>Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque.<\/p>",
+              "title": "Rock -DAB los angeles, USA",
+              "pos": "",
+              "rating": 4
+            }
+          },
+          "quote_4d8dRY": {
+            "type": "quote",
+            "settings": {
+              "content": "<p>Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque.<\/p>",
+              "title": "Rock -DAB los angeles, USA",
+              "pos": "",
+              "rating": 4
+            }
+          },
+          "quote_EU9izj": {
+            "type": "quote",
+            "settings": {
+              "content": "<p>Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque.<\/p>",
+              "title": "Rock -DAB los angeles, USA",
+              "pos": "",
+              "rating": 4
+            }
+          },
+          "quote_zhw8N8": {
+            "type": "quote",
+            "settings": {
+              "content": "<p>Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque.<\/p>",
+              "title": "Rock -DAB los angeles, USA",
+              "pos": "",
+              "rating": 4
+            }
+          }
+        },
+        "block_order": [
+          "quote_QiTdnH",
+          "quote_4d8dRY",
+          "quote_EU9izj",
+          "quote_zhw8N8"
+        ],
+        "settings": {
+          "title": "Customer Reviews",
+          "sub_title": "",
+          "sub_font": "2",
+          "style_title": "title_10",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "layout_des": "2",
+          "ter_des": "4",
+          "col_pr": "4",
+          "col_pr_tb": "6",
+          "loop": true,
+          "au_time": 0,
+          "au_hover": true,
+          "button": true,
+          "btn_vi": "1",
+          "btn_owl": "2",
+          "btn_color": "0",
+          "dot": false,
+          "dot_owl": "2",
+          "dot_color": "1",
+          "layout": "wrap",
+          "cl_bg": "#f6f5f3",
+          "image": "shopify:\/\/shop_images\/Frame_5.png",
+          "mg": "",
+          "pd": "50px,,50px,",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
       }
     },
     "content_for_index": [
@@ -3883,6 +3959,7 @@
       "banner_collection_4fcpKT",
       "image_text_B4eceG",
       "shipping_8RgVhV",
+      "testimonials_TeXgYA",
       "celebrity_slider_yXceq8",
       "text_marquee_taRjyi",
       "faq_AEFrpd",
