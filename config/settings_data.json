@@ -468,11 +468,11 @@
           "text_PkE6bz"
         ],
         "settings": {
-          "heading": "<p>Hurry up offer is running for a limited time only                    A summer state of mind starts with the perfect stack Shop Now<\/p>",
+          "heading": "<p>Hurry up offer is running for a limited time only     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                       A summer state of mind starts with the perfect stack  <a href=\"\/collections\" title=\"All collections\">Shop Now<\/a>  <\/p>",
           "height": 50,
           "fontsize": 14,
           "cl": "#ffffff",
-          "cl_a": "#222222",
+          "cl_a": "#b59677",
           "cl_cr": "#b59677",
           "bg": "#1e3957",
           "bg_op": 100,
