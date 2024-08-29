@@ -3410,7 +3410,7 @@
           "col_pr_tb": "6",
           "col_mb": "fl_nowrap",
           "layout": "wrap",
-          "cl_bg": "",
+          "cl_bg": "#f6f5f3",
           "border": false,
           "cl_bd": "#dddddd",
           "cl_ic": "#9e9e9e",
