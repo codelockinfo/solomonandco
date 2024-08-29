@@ -3847,6 +3847,14 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "text_marquee_taRjyi": {
+        "type": "text-marquee",
+        "settings": {
+          "heading": " UP TO 60% OFF SPRING STYLES.    FREE DELIVERY WORLDWIDE.",
+          "bg-color": "",
+          "clrmer": ""
+        }
       }
     },
     "content_for_index": [
@@ -3858,6 +3866,7 @@
       "image_text_B4eceG",
       "shipping_8RgVhV",
       "celebrity_slider_yXceq8",
+      "text_marquee_taRjyi",
       "faq_AEFrpd"
     ]
   }
