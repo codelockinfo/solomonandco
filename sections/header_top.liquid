@@ -16,11 +16,12 @@
       <div class="main-accordian">
           <div class="globalp text-marquee">
               <div class="d-flex-b">
-                  <div class="header-text announce-text">{{ section.settings.heading }}</div>
-                  <div class="header-text announce-text">{{ section.settings.heading }}</div>
-                  <div class="header-text announce-text">{{ section.settings.heading }}</div>
-                  <div class="header-text announce-text">{{ section.settings.heading }}</div>
-                  <div class="header-text announce-text">{{ section.settings.heading }}</div>
+                {%- assign announce_txt = section.settings.heading  |remove:'<p>' |remove:'</p>' | compact -%}
+                  <div class="header-text announce-text">{{ announce_txt }}</div>
+                  <div class="header-text announce-text">{{ announce_txt }}</div>
+                  <div class="header-text announce-text">{{ announce_txt }}</div>
+                  <div class="header-text announce-text">{{ announce_txt }}</div>
+                  <div class="header-text announce-text">{{ announce_txt }}</div>
               </div>
           </div>
       </div>
