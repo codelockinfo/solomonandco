@@ -434,6 +434,7 @@
         "blocks": {
           "text_AmxLB4": {
             "type": "text",
+            "disabled": true,
             "settings": {
               "text": "Hurry up offer is running for a limited time only",
               "hide": true,
@@ -442,6 +443,7 @@
           },
           "text2_gXgMfF": {
             "type": "text2",
+            "disabled": true,
             "settings": {
               "text": "<p>A summer state of mind starts with the perfect stack<a href=\"\/collections\" title=\"All collections\"> Shop Now<\/a><\/p>",
               "effect": "1",
@@ -452,6 +454,7 @@
           },
           "text_PkE6bz": {
             "type": "text",
+            "disabled": true,
             "settings": {
               "text": "Hurry up offer is running for a limited time only",
               "hide": true,
@@ -465,6 +468,7 @@
           "text_PkE6bz"
         ],
         "settings": {
+          "heading": "<p>Hurry up offer is running for a limited time only                    A summer state of mind starts with the perfect stack Shop Now<\/p>",
           "height": 50,
           "fontsize": 14,
           "cl": "#ffffff",
