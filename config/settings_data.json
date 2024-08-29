@@ -3837,7 +3837,7 @@
           "use_shadow": false,
           "cl_txt": "dark",
           "layout": "container",
-          "cl_bg": "",
+          "cl_bg": "#f6f5f3",
           "mg": "50px,,50px,",
           "pd": "",
           "mg_mb": "",
