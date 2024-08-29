@@ -6,6 +6,7 @@
   assign ck = true 
  endif
  assign image = section.settings.image
+ assign bgimage = section.settings.bgimage
  assign url = section.settings.button_link 
  if section.settings.cl_txt == 'dark' 
   assign cl_txt = 'cd,cg' 
@@ -15,7 +16,7 @@
  assign cl_arr = cl_txt | split:"," -%}
 
 {%- capture image_layout -%}
-<div class="col-12 col-md-6">
+<div class="col-12 col-md-5 nt_se_{{sid}} {{layout}}{%- if bgimage != blank %} hide_bgimg_{{se_stts.hide_bgimg}} lazyload se_t4_bg nt_parallax_{{se_stts.use_pr}}{%- endif -%}"{% if bgimage != blank %} data-bgset="{{ bgimage | img_url: '1x1' }}" data-ratio="{{image.aspect_ratio}}" data-sizes="auto" data-parent-fit="cover"{% endif %}>
   <div class="nt_img_txt oh pr middle center">
     {%- comment -%}<a href="{{ url | default:'#' }}" class="db">{%- endcomment -%}
       {%- if image != blank -%}
@@ -30,7 +31,7 @@
 <div class="nt_se_{{sid}} {{section.settings.layout}} txt_shadow_{{section.settings.use_shadow}}">
   <div class="row no-gutters equal_nt {{img_ratio}} al_center">
     {%- if section.settings.img_position == '1' -%}{{- image_layout -}}{%- endif -%}
-    <div class="col-12 col-md-6 txt_col_img">
+    <div class="col-12 col-md-7 txt_col_img">
       <div class="flex column pl__20 pr__20 pb__20 pt__20 shadow_wrap {{section.settings.txt_align}} {{cl_arr[1]}}">
           <h3 class="section-title mb__20 mt__0 fs__30 {{cl_arr[0]}} lh__1">{{section.settings.title}}</h3>
           <div class="text-content">{{section.settings.text}}</div>
@@ -304,6 +305,9 @@
         "type": "color",
         "id": "cl_bg",
         "label": "Background Color"
+      },
+      {
+        "type": "image_picker","id": "bgimage","label": "Background Image"
       },
       {
         "type": "text",
