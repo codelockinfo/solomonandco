@@ -3847,7 +3847,7 @@
           "cl_bg": "#f6f5f3",
           "bgimage": "shopify:\/\/shop_images\/Frame_4_1.png",
           "mg": "",
-          "pd": ",,50px,",
+          "pd": "50px,,50px,",
           "mg_mb": "",
           "pd_mb": ""
         }
