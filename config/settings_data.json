@@ -3852,8 +3852,8 @@
         "type": "text-marquee",
         "settings": {
           "heading": " UP TO 60% OFF SPRING STYLES.    FREE DELIVERY WORLDWIDE.",
-          "bg-color": "",
-          "clrmer": ""
+          "bg-color": "#1e3957",
+          "clrmer": "#ffffff"
         }
       }
     },
