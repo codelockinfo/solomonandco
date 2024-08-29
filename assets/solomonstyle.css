@@ -69,6 +69,42 @@
 .type_faq  .background-size-auto{
    background-size: auto; 
 }
+/* announce text marquee */
+.announce-text{
+    margin: 0 20px;
+}
+/* announce text marquee */
+/* text marquee */
+.clsheadtitle{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+.globalp{
+    width: 100%;
+    overflow: hidden;
+}
+.d-flex-b{
+    display: flex;
+    justify-content: space-between;
+}
+.gward a  img{
+    width: 190px;
+    max-width: 190px;
+}
+.main-marq{
+    z-index: 999; 
+    padding: 11px 0px;
+}
+ .clsheadtitle  img{
+    margin-right:10px;
+    width:30px;
+    object-fit: cover;
+    height: 30px;    
+}
+/* text marquee */
 @media screen and (max-width: 768px){
     .SlideshowWrapper .slideshow__slide .item__position::after{
         content: '';
@@ -80,5 +116,9 @@
         background: linear-gradient(360deg, #092B54 0%, rgba(9, 43, 83, 0.71) 31.84%, rgba(10, 39, 73, 0) 65%);
         z-index: 1;
         pointer-events: none;
+    }
+    .clsheadtitle{
+        font-size: 22px;
+        line-height: 28.6px;
     }
 }

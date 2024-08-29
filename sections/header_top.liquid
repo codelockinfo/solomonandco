@@ -10,6 +10,22 @@
   
 <div class="h__top bgbl pt__10 pb__10 fs__12 flex fl_center al_center"><div class="container">
    <div class="row al_center">
+    
+{% if section.settings.heading != blank %}
+  <div id="{{ section.id }}">
+      <div class="main-accordian">
+          <div class="globalp text-marquee">
+              <div class="d-flex-b">
+                  <div class="header-text announce-text">{{ section.settings.heading }}</div>
+                  <div class="header-text announce-text">{{ section.settings.heading }}</div>
+                  <div class="header-text announce-text">{{ section.settings.heading }}</div>
+                  <div class="header-text announce-text">{{ section.settings.heading }}</div>
+                  <div class="header-text announce-text">{{ section.settings.heading }}</div>
+              </div>
+          </div>
+      </div>
+  </div>
+{% endif %}
       {%- for block in section_blocks -%}<div class="col-lg-{{block.settings.col}} col-12 tc {% cycle class_1, class_2, 'col-md-12 tr_lg' %} dn_{{block.settings.hide}}_1024">
         {%- case block.type -%}
           {%- when 'cur' -%}
@@ -47,6 +63,11 @@
     "max_blocks": 3,
     "class": "type_carousel",
     "settings": [
+      {
+          "id" : "heading",
+          "type" : "text",
+          "label" : "Heading"
+      },
       {
         "type": "range",
         "id": "height",
@@ -512,3 +533,14 @@
     }
   }
 {% endschema %}
+<script src="//cdnjs.cloudflare.com/ajax/libs/jQuery.Marquee/1.5.0/jquery.marquee.min.js"></script>
+<script>
+    $(' #{{ section.id }} .main-accordian .text-marquee').marquee({
+        direction: 'left',
+        duration: 200000,
+        gap: 10,
+        delayBeforeStart: 0,
+        duplicated: true,
+        startVisible: true
+    });
+</script>
