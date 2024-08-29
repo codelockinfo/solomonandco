@@ -3883,7 +3883,8 @@
               "content": "<p>Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque.<\/p>",
               "title": "Rock -DAB los angeles, USA",
               "pos": "",
-              "rating": 4
+              "rating": 4,
+              "product": ""
             }
           },
           "quote_4d8dRY": {
@@ -3892,7 +3893,8 @@
               "content": "<p>Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque.<\/p>",
               "title": "Rock -DAB los angeles, USA",
               "pos": "",
-              "rating": 4
+              "rating": 4,
+              "product": ""
             }
           },
           "quote_EU9izj": {
@@ -3901,7 +3903,8 @@
               "content": "<p>Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque.<\/p>",
               "title": "Rock -DAB los angeles, USA",
               "pos": "",
-              "rating": 4
+              "rating": 4,
+              "product": ""
             }
           },
           "quote_zhw8N8": {
@@ -3910,7 +3913,8 @@
               "content": "<p>Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque.<\/p>",
               "title": "Rock -DAB los angeles, USA",
               "pos": "",
-              "rating": 4
+              "rating": 4,
+              "product": ""
             }
           }
         },
@@ -3920,7 +3924,6 @@
           "quote_EU9izj",
           "quote_zhw8N8"
         ],
-        "disabled": true,
         "settings": {
           "title": "Customer Reviews",
           "sub_title": "",
