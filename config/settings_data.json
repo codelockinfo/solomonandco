@@ -3421,9 +3421,9 @@
           "cl_hd": "#000000",
           "cl_cot": "#848484",
           "mg": "",
-          "pd": "50px,,50px,",
+          "pd": "0px,,50px,",
           "mg_mb": "",
-          "pd_mb": ""
+          "pd_mb": "30px,,30px,"
         }
       },
       "banner_collection_knYRRW": {
@@ -3849,7 +3849,7 @@
           "mg": "",
           "pd": "50px,,50px,",
           "mg_mb": "",
-          "pd_mb": ""
+          "pd_mb": "30px,,30px,"
         }
       },
       "text_marquee_taRjyi": {
