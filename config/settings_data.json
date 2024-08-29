@@ -3859,6 +3859,20 @@
           "bg-color": "#1e3957",
           "clrmer": "#ffffff"
         }
+      },
+      "discount_explore_9qqeyL": {
+        "type": "discount-explore",
+        "settings": {
+          "heading": "Discounts up to 20% are waiting for you…",
+          "buttontext": "Explore",
+          "buttonlink": "shopify:\/\/collections\/all",
+          "layout": "nt_boxed",
+          "cl_bg": "#caa45d",
+          "mg": "",
+          "pd": "30px,,30px,",
+          "mg_mb": "",
+          "pd_mb": "50px,,50px,"
+        }
       }
     },
     "content_for_index": [
@@ -3871,7 +3885,8 @@
       "shipping_8RgVhV",
       "celebrity_slider_yXceq8",
       "text_marquee_taRjyi",
-      "faq_AEFrpd"
+      "faq_AEFrpd",
+      "discount_explore_9qqeyL"
     ]
   }
 }
