@@ -5159,7 +5159,8 @@ i.dn.title_6 {
   }
 
   .nt_shipping .title {
-      font-size: 14px
+      font-size: 18px;
+      font-weight: 600;
   }
 
   .nt_shipping.tr .content,.nt_shipping.tl .content {
@@ -5281,7 +5282,7 @@ i.dn.title_6 {
       font-size: 13px;
       line-height: 20px;
       letter-spacing: .17em;
-      margin-bottom: 0;
+      /* margin-bottom: 0; */
       font-weight: 500;
   }
   .quotes_des_4 .quote_position {

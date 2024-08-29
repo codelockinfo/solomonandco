@@ -13,7 +13,7 @@
    assign html_layout = '__' | split:'__'
   endif -%}
 
-<div class="nt_se_{{sid}} {{layout}}{%- if image != blank %} hide_bgimg_{{se_stts.hide_bgimg}} lazyload se_t4_bg nt_parallax_{{se_stts.use_pr}}{%- endif -%}"{% if image != blank %} data-bgset="{{ image | img_url: '1x1' }}" data-ratio="{{image.aspect_ratio}}" data-sizes="auto" data-parent-fit="cover"{% endif %}>
+<div class="nt_se_{{sid}} {{layout}}{%- if image != blank %} hide_bgimg_{{se_stts.hide_bgimg}} lazyload bg_rp_norepeat nt_parallax_{{se_stts.use_pr}}{%- endif -%}"{% if image != blank %} data-bgset="{{ image | img_url: '1x1' }}" data-ratio="{{image.aspect_ratio}}" data-sizes="auto" data-parent-fit="cover"{% endif %}>
   {{-html_layout[0]-}}
   {%- render 'section_title',section_title:'mb__40' -%}
   <div class="equal_nt position_8 row{% if ter_des == '4' %} no-gutters{% endif %} quotes_wrapper quotes_des_{{ter_des}}{% if layout_des == '2' %} js_carousel nt_slider prev_next_{{se_stts.btn_color}} btn_owl_{{se_stts.btn_owl}} dot_owl_{{se_stts.dot_owl}} dot_color_{{se_stts.dot_color}} btn_vi_{{se_stts.btn_vi}}{% endif %}"{% if layout_des == '2' %} data-flickity='{"imagesLoaded": 0,"adaptiveHeight": 1, "contain": 1, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": {{se_stts.loop}},"prevNextButtons": {{se_stts.button}},"percentPosition": 1,"pageDots": {{se_stts.dot}}, "autoPlay" : {{ se_stts.au_time | times: 1000 }}, "pauseAutoPlayOnHover" : {{se_stts.au_hover}}, "rightToLeft": {{settings.use_rtl}} }'{% endif %}>
@@ -21,7 +21,23 @@
       {%- if ter_des == '3' or ter_des == '6' -%}
         {%- for block in section.blocks -%}<div class="quote_col col-12 col-md-{{col_tb}} col-lg-{{col}} mb__35">{%- render 'quote_3',block:block,rating:block.settings.rating -%}</div>{%- endfor -%}
       {%- elsif ter_des == '4' -%}
-        {%- for block in section.blocks -%}<div class="quote_col col-12 col-md-{{col_tb}} col-lg-{{col}}">{%- render 'quote_4',block:block,rating:block.settings.rating -%}</div>{%- endfor -%}
+        {%- for block in section.blocks -%}
+          <div class="quote_col col-12 col-md-{{col_tb}} col-lg-{{col}}">
+            <svg xmlns="http://www.w3.org/2000/svg" width="51" height="36" viewBox="0 0 51 36" fill="none">
+            <path d="M9.64569 35.2622C6.48835 35.2622 4.14169 34.4942 2.60569 32.9582C1.15502 31.4222 0.429688 29.4596 0.429688 27.0702V24.8942C0.429688 22.8462 0.728354 20.7129 1.32569 18.4942C2.00835 16.2755 2.90435 14.0995 4.01369 11.9662C5.12302 9.83288 6.44569 7.78488 7.98169 5.82221C9.51769 3.85955 11.2244 2.11021 13.1017 0.574219H22.9577C20.3124 3.21955 18.0937 5.82222 16.3017 8.38222C14.595 10.8569 13.315 13.6302 12.4617 16.7022C14.6804 17.1289 16.3017 18.1102 17.3257 19.6462C18.3497 21.0969 18.8617 22.8036 18.8617 24.7662V27.0702C18.8617 29.4596 18.0937 31.4222 16.5577 32.9582C15.107 34.4942 12.803 35.2622 9.64569 35.2622ZM37.4217 35.2622C34.2644 35.2622 31.9177 34.4942 30.3817 32.9582C28.931 31.4222 28.2057 29.4596 28.2057 27.0702V24.8942C28.2057 22.8462 28.5044 20.7129 29.1017 18.4942C29.7844 16.2755 30.6804 14.0995 31.7897 11.9662C32.899 9.83288 34.2217 7.78488 35.7577 5.82221C37.2937 3.85955 39.0004 2.11021 40.8777 0.574219H50.7337C48.0884 3.21955 45.8697 5.82222 44.0777 8.38222C42.371 10.8569 41.091 13.6302 40.2377 16.7022C42.4564 17.1289 44.0777 18.1102 45.1017 19.6462C46.1257 21.0969 46.6377 22.8036 46.6377 24.7662V27.0702C46.6377 29.4596 45.8697 31.4222 44.3337 32.9582C42.883 34.4942 40.579 35.2622 37.4217 35.2622Z" fill="#1E3957"/>
+            </svg>
+            {%- render 'quote_4',block:block,rating:block.settings.rating -%}
+            {% if block.settings.product !=  blank %}
+                <div class="flex al_center fl_center">
+                  <div class="w-25"><img src="{{  block.settings.product.featured_media  |  img_url: "small"  }}" /></div>
+                  <div class="w-75">
+                    <div class="quote_producttitle">{{ block.settings.product.title | escape  }}</div>
+                    <div class="quote_productvendor">{{ block.settings.product.vendor | escape  }}</div>
+                  </div>
+                </div>
+            {% endif %}
+          </div>
+        {%- endfor -%}
       {%- else -%}
         {%- for block in section.blocks -%}<div class="quote_col col-12 col-md-{{col_tb}} col-lg-{{col}} mb__35">{%- render 'quote',block:block,rating:block.settings.rating -%}</div>{%- endfor -%}
       {%- endif -%}
@@ -499,6 +515,11 @@
             "label": "Rating",
             "info": "Set less than '1' to disable Rating.",
             "default": 5
+          },
+          {
+            "type": "product",
+            "id": "product",
+            "label": "Select Product",
           }
         ]
       }

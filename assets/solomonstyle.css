@@ -120,6 +120,59 @@
     height: 30px;    
 }
 /* text marquee */
+/* Testimonial */
+.quote_slide .quote_texts {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.4px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #000000;
+}
+.quote_slide  .quote_author{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.quote_producttitle{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.quote_productvendor{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.8px;
+    letter-spacing: 0.05em;
+    color: #CAA45D;
+}
+.w-25{
+    width: 25%;
+}
+.w-75{
+    width: 75%;
+}
+.quotes_des_4 .quote_col{
+    border: 10px solid #F6F5F3;
+    background:#E9E8E4;
+    border-radius: 25px;
+    /* border: 1px solid #D9D9D9;
+    background:#D9D9D9; */
+}
+.quote_rating .cra2 {
+    color: #BCBCBC;
+}
+/* Testimonial */
+.shippingtext-content{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    color: #848484;
+}
 @media screen and (max-width: 1024px){
     .container-border:first-child,.container-border:nth-child(2){
         border-bottom: none;
@@ -152,5 +205,18 @@
     }
     .container-border{
         border-left: 1px solid #D9D9D9;
+    }
+    .quote_slide .quote_texts,
+    .quote_slide  .quote_author,
+    .quote_productvendor {
+        font-size: 14px;
+        line-height: 18.2px;
+        letter-spacing: 0.05em;        
+    }
+    .quote_producttitle{
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 18.2px;
+        letter-spacing: 0.05em;
     }
 }
