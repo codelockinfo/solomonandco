@@ -55,6 +55,9 @@
     text-transform: uppercase;
 }
 /* Menu  */
+.type_banner_collection  .se_t4_bg {
+    background-size: auto;
+}
 .text-content{
     font-size: 20px;
     font-weight: 400;
