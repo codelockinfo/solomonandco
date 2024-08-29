@@ -4,6 +4,9 @@
 .color-white{
     color: #fff !important;
 }
+.gap-20{
+    gap:20px;
+}
 #ntheader .my-account {
     padding-left: 15px;
 }
@@ -120,5 +123,8 @@
     .clsheadtitle{
         font-size: 22px;
         line-height: 28.6px;
+    }
+    .button-center{
+        margin: 0 auto;
     }
 }

@@ -6017,9 +6017,10 @@ font-weight: 400;
     -ms-flex-negative: 0;
     flex-shrink: 0;
 }
-.type_faq .nt_boxed {
+.type_faq .nt_boxed,
+.discount-explore .nt_boxed {
     max-width: 1200px;
-        width: 100%;
+    width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
