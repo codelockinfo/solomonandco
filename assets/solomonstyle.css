@@ -1,6 +1,9 @@
+#ntheader .my-account {
+    padding-left: 15px;
+}
 #ntheader .my-account .push_side{
     color: #fff;
-    padding: 5px 10px;
+    padding: 5px 20px;
     background: #1E3957;
 }
 .custom_search.frm_search_ac .search_header__input:not([type=submit]):not([type=checkbox]){
@@ -10,6 +13,7 @@
     font-size: 16px;
     color: #0A2749;
 }
+/* banner shoadow */
 .SlideshowWrapper .slideshow__slide .item__position::after{
     content: '';
     position: absolute;
@@ -21,6 +25,8 @@
     z-index: 1;
     pointer-events: none;
 }
+/* banner shoadow */
+/* accordian */
 .tab-heading {
     font-size: 18px;
     font-weight: 700;
@@ -37,6 +43,12 @@
 .tab-heading .nav_link_icon{
     border: 1px solid #000000;
 }
+/* accordian */
+/* Menu  */
+.nt_menu li a{
+    text-transform: uppercase;
+}
+/* Menu  */
 @media screen and (max-width: 768px){
     .SlideshowWrapper .slideshow__slide .item__position::after{
         content: '';
