@@ -1,5 +1,5 @@
 .bg-blue{
-    background: #1E3957 !important;
+    background: #0A1229 !important;
 }
 .color-white{
     color: #fff !important;
@@ -13,12 +13,12 @@
 #ntheader .my-account .push_side{
     color: #fff;
     padding: 5px 20px;
-    background: #1E3957;
+    background: #0A1229;
 }
 .custom_search.frm_search_ac .search_header__input:not([type=submit]):not([type=checkbox]){
     border-radius: 10px;
     background: unset;
-    border: 1px solid #1E3957;
+    border: 1px solid #0A1229;
     font-size: 16px;
     color: #0A2749;
 }
