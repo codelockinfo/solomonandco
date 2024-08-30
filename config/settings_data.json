@@ -2780,7 +2780,7 @@
             "type": "simple",
             "settings": {
               "title": "Women's",
-              "url": "\/",
+              "url": "shopify:\/\/collections\/gold-chains",
               "open_link": "_self",
               "icon": "",
               "cus_cl": true,
