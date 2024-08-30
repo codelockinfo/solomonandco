@@ -3490,7 +3490,7 @@
           "pd_mb": "",
           "img_pos": "left",
           "se_height": "default",
-          "se_height_tb": "300px",
+          "se_height_tb": "500px",
           "se_height_mb": "350px",
           "effect": "0",
           "loop": true,
@@ -3782,7 +3782,8 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Rectangle_185_1.png",
               "smallimg": "shopify:\/\/shop_images\/8ec1f1122866a8403506c5f321a7d7d6.png",
-              "nametext": "<p>Busta<br\/><strong>Rhymes<\/strong><\/p>"
+              "nametext": "<p>Busta<br\/><strong>Rhymes<\/strong><\/p>",
+              "prourl": "copy-of-2-5mm-gold-10k-ice-chain"
             }
           },
           "text_VYbg94": {
@@ -3790,7 +3791,8 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Rectangle_186.png",
               "smallimg": "shopify:\/\/shop_images\/edfcef34f5458fb0398432c95a37f9f5.png",
-              "nametext": "<p>Mr.\u2028<br\/><strong>Beast<\/strong><\/p>"
+              "nametext": "<p>Mr.\u2028<br\/><strong>Beast<\/strong><\/p>",
+              "prourl": "tennis-bracelet"
             }
           },
           "text_UpDzfT": {
@@ -3798,7 +3800,8 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Rectangle_187.png",
               "smallimg": "shopify:\/\/shop_images\/1f6ace2b608ee4e2c5859eaa1664cd81.png",
-              "nametext": "<p>Kodak\u2028<br\/><strong>Black<\/strong><\/p>"
+              "nametext": "<p>Kodak\u2028<br\/><strong>Black<\/strong><\/p>",
+              "prourl": "14k-gold-c-z-twisted-rope-ring"
             }
           },
           "text_9MJFVW": {
@@ -3806,7 +3809,8 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Rectangle_188.png",
               "smallimg": "shopify:\/\/shop_images\/656b323ef6ad4c260effc739dc7f8b8c.png",
-              "nametext": "<p>Cardi<br\/><strong>B<\/strong><\/p>"
+              "nametext": "<p>Cardi<br\/><strong>B<\/strong><\/p>",
+              "prourl": "7-0mm-yellow-gold-10k-rope-chain"
             }
           },
           "text_6DHXqL": {
@@ -3814,7 +3818,8 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Rectangle_185_1.png",
               "smallimg": "shopify:\/\/shop_images\/8ec1f1122866a8403506c5f321a7d7d6.png",
-              "nametext": "<p>Busta<br\/><strong>Rhymes<\/strong><\/p>"
+              "nametext": "<p>Busta<br\/><strong>Rhymes<\/strong><\/p>",
+              "prourl": "copy-of-2-5mm-yellow-gold-10k-ice-chain"
             }
           }
         },
