@@ -203,7 +203,7 @@
     "cat_sticky": false,
     "shop_filters": true,
     "pop_style": "pop_default",
-    "type_filters": "1",
+    "type_filters": "2",
     "logic_filter": "2",
     "auto_hide_ofsock": false,
     "show_hide_ofsock": false,
@@ -3952,6 +3952,11 @@
           "pd": "50px,,50px,",
           "mg_mb": "",
           "pd_mb": ""
+        }
+      },
+      "sidebar_shop": {
+        "type": "sidebar_shop",
+        "settings": {
         }
       }
     },
