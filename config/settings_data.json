@@ -808,7 +808,7 @@
           "cl_ip": "#ffffff",
           "bd_ip": "#878787",
           "cl_btn": "#b59677",
-          "bg": "#1e3957",
+          "bg": "#0a1229",
           "bg_repeat": "no-repeat",
           "bg_size": "inherit",
           "bg_att": "scroll",
@@ -840,7 +840,7 @@
         ],
         "settings": {
           "layout": "12",
-          "bg": "#1e3957",
+          "bg": "#0a1229",
           "cl": "#ffffff",
           "cl_a": "#ffffff",
           "cl_hover": "#b59677"
