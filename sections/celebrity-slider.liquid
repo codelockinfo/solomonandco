@@ -20,6 +20,7 @@
             <div class="name_text">{{ block.settings.nametext }}</div>
             <img src="{{ block.settings.image | img_url: 'master' }}" alt="" class="collection_img">
             {% if block.settings.smallimg != blank %}
+              <a href="{{block.settings.prourl}}">
               <div class="jewel_img_box">
                 <img
                   src="{{ block.settings.smallimg | img_url: 'master' }}"
@@ -27,6 +28,7 @@
                   alt=""
                 >
               </div>
+              </a>
             {% endif %}
           </div>
         {% endfor %}
@@ -73,6 +75,11 @@
           "type": "richtext",
           "id": "nametext",
           "label": "Name text"
+        },
+        {
+          "type": "product",
+          "id": "prourl",
+          "label": "Add product"
         }
       ]
     }
