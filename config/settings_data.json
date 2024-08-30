@@ -474,17 +474,17 @@
           "cl": "#ffffff",
           "cl_a": "#b59677",
           "cl_cr": "#b59677",
-          "bg": "#0A1229",
+          "bg": "#0a1229",
           "bg_op": 100,
           "show_border": false,
-          "bd_cl": "#0A1229",
+          "bd_cl": "#0a1229",
           "cl_tr": "#ffffff",
           "cl_a_tr": "#ffffff",
           "cl_cr_tr": "#ec0101",
-          "bg_tr": "#0A1229",
+          "bg_tr": "#0a1229",
           "bg_op_tr": 10,
           "show_border_tr": false,
-          "bd_cl_tr": "#0A1229"
+          "bd_cl_tr": "#0a1229"
         }
       },
       "header_3": {
@@ -3756,7 +3756,7 @@
           "cl_overlay": "#000000",
           "cl_opacity": 0,
           "section_bg_color": "#e9e8e4",
-          "tt_cl": "#0A1229",
+          "tt_cl": "#0a1229",
           "hd_bg": "#ffffff",
           "hd_cl": "#222222",
           "hd_bg_atc": "#ffffff",
@@ -3864,7 +3864,7 @@
         "type": "text-marquee",
         "settings": {
           "heading": " UP TO 60% OFF SPRING STYLES.    FREE DELIVERY WORLDWIDE.",
-          "bg-color": "#0A1229",
+          "bg-color": "#0a1229",
           "clrmer": "#ffffff"
         }
       },
@@ -3970,6 +3970,7 @@
     },
     "content_for_index": [
       "1581505806578",
+      "celebrity_slider_yXceq8",
       "collection_list_XqDyYF",
       "banner_collection_knYRRW",
       "custom_offer_section_MWqimb",
@@ -3977,7 +3978,6 @@
       "image_text_B4eceG",
       "shipping_8RgVhV",
       "testimonials_TeXgYA",
-      "celebrity_slider_yXceq8",
       "text_marquee_taRjyi",
       "faq_AEFrpd",
       "discount_explore_9qqeyL"
