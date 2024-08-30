@@ -2,7 +2,7 @@
    <div class="container pr tc">
       <div class="row">{%- assign col = section.settings.layout -%}
          {%- for block in section.blocks -%}
-         <div class="col-lg-{{col}} col-md-12 col-12 col_{{forloop.index}}">
+         <div class="footer_border col-lg-{{col}} col-md-12 col-12 col_{{forloop.index}}">
             {%- case block.type -%}
 
                {%- when 'copy' -%}
@@ -163,3 +163,11 @@
     ]
   }
 {% endschema %}
+
+
+<style>
+  .footer_border{
+    border-top: 1px solid #ffffff2b;
+    padding-top: 20px;
+    }
+</style>
