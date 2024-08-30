@@ -40,10 +40,10 @@
 
 <div class="nt_se_{{sid}} {{layout}}{%- if image != blank %} hide_bgimg_{{se_stts.hide_bgimg}} lazyload se_t4_bg nt_parallax_{{se_stts.use_pr}}{%- endif -%}"{% if image != blank %} data-bgset="{{ image | img_url: '1x1' }}" data-ratio="{{image.aspect_ratio}}" data-sizes="auto" data-parent-fit="cover"{% endif %}>
   {{-html_layout[0]-}}
-  <div class="row fl_wrap use_border_{{se_stts.border}}">
+  <div class="shipping_custom row fl_wrap use_border_{{se_stts.border}}">
     {%- if section.blocks.size > 0 -%}
       {%- for block in section.blocks %}{% assign bk_stts = block.settings %}{% assign image = bk_stts.image -%}
-        <div class="{{cl_mb}} col-md-{{col_tb}} col-lg-{{col}} bl_{{block.id}} border">
+        <div class="col-12 {{cl_mb}} col-md-{{col_tb}} col-lg-{{col}} bl_{{block.id}} border">
           <div class="nt_shipping nt_icon_{{icon_des}} {{icon_align}} row no-gutters al_center_">
             {%- if image != blank -%}
               <div class="col-auto icon {{icon_size}} ship_img lazyload nt_bg_lz" data-bg="{{image| img_url:img_size}}"></div>

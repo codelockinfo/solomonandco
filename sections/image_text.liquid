@@ -16,8 +16,8 @@
  assign cl_arr = cl_txt | split:"," -%}
 
 {%- capture image_layout -%}
-<div class="col-12 col-md-5 nt_se_{{sid}} {{layout}}{%- if bgimage != blank %} hide_bgimg_{{se_stts.hide_bgimg}} lazyload se_t4_bg nt_parallax_{{se_stts.use_pr}}{%- endif -%}"{% if bgimage != blank %} data-bgset="{{ bgimage | img_url: '1x1' }}" data-ratio="{{image.aspect_ratio}}" data-sizes="auto" data-parent-fit="cover"{% endif %}>
-  <div class="nt_img_txt oh pr middle center">
+<div class="img_order_class1 col-12 col-md-5 nt_se_{{sid}} {{layout}}{%- if bgimage != blank %} hide_bgimg_{{se_stts.hide_bgimg}} lazyload se_t4_bg nt_parallax_{{se_stts.use_pr}}{%- endif -%}"{% if bgimage != blank %} data-bgset="{{ bgimage | img_url: '1x1' }}" data-ratio="{{image.aspect_ratio}}" data-sizes="auto" data-parent-fit="cover"{% endif %}>
+  <div class=" nt_img_txt oh pr middle center">
     {%- comment -%}<a href="{{ url | default:'#' }}" class="db">{%- endcomment -%}
       {%- if image != blank -%}
         <div class="nt_bg_lz lazyload item__position {{section.settings.img_align}}" data-bgset="{{ image | img_url: '1x1' }}" data-sizes="auto" data-ratio="{{image.aspect_ratio}}" data-parent-fit="cover" style="padding-top:{{ 1 | divided_by: image.aspect_ratio | times: 100}}%;"></div>
@@ -28,10 +28,10 @@
   </div>
 </div>
 {%- endcapture -%}
-<div class="nt_se_{{sid}} {{section.settings.layout}} txt_shadow_{{section.settings.use_shadow}}">
+<div class="nt_se_{{sid}} {{section.settings.layout}} txt_shadow_{{section.settings.use_shadow}} ">
   <div class="row no-gutters equal_nt {{img_ratio}} al_center">
     {%- if section.settings.img_position == '1' -%}{{- image_layout -}}{%- endif -%}
-    <div class="col-12 col-md-7 txt_col_img">
+    <div class="img_order_class2 col-12 col-md-7 txt_col_img ">
       <div class="flex column pl__20 pr__20 pb__20 pt__20 shadow_wrap {{section.settings.txt_align}} {{cl_arr[1]}}">
           <h3 class="section-title mb__20 mt__0 fs__30 {{cl_arr[0]}} lh__1">{{section.settings.title}}</h3>
           <div class="text-content">{{section.settings.text}}</div>
