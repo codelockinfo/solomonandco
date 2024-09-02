@@ -2721,6 +2721,16 @@
               "arra_enter": "Allcolor,Gold,Rose,White",
               "style": "ck"
             }
+          },
+          "tag2_qjjLV6": {
+            "type": "tag2",
+            "settings": {
+              "hidden_block": false,
+              "count": false,
+              "title": "Style",
+              "arra_enter": "Solitaire,Halo,Pave,Eternity,Half,Eternity,Three Stone,Championship ,Religious,Hip Hop",
+              "style": "ck"
+            }
           }
         },
         "block_order": [
@@ -2730,7 +2740,8 @@
           "sidebar_shop2-3",
           "tag2_inKy6V",
           "tag2_MNDmca",
-          "tag2_wBHzLq"
+          "tag2_wBHzLq",
+          "tag2_qjjLV6"
         ],
         "settings": {
         }
