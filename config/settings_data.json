@@ -2711,6 +2711,16 @@
               "arra_enter": "All,1 mm,2 mm,3 mm,4 mm,5 mm,6 mm+",
               "style": "ck"
             }
+          },
+          "tag2_wBHzLq": {
+            "type": "tag2",
+            "settings": {
+              "hidden_block": false,
+              "count": false,
+              "title": "Color",
+              "arra_enter": "Allcolor,Gold,Rose,White",
+              "style": "ck"
+            }
           }
         },
         "block_order": [
@@ -2719,7 +2729,8 @@
           "sidebar_shop2-2",
           "sidebar_shop2-3",
           "tag2_inKy6V",
-          "tag2_MNDmca"
+          "tag2_MNDmca",
+          "tag2_wBHzLq"
         ],
         "settings": {
         }
