@@ -1907,11 +1907,12 @@
               "size_ck": "",
               "delivery": true,
               "page_dr": "",
-              "ask": true
+              "ask": false
             }
           },
           "pr_summary-5": {
             "type": "meta",
+            "disabled": true,
             "settings": {
               "show_pr_vendor": false,
               "show_sku": true,
@@ -1921,6 +1922,7 @@
           },
           "pr_summary-6": {
             "type": "social",
+            "disabled": true,
             "settings": {
               "class": "tc"
             }
