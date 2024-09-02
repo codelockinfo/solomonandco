@@ -8,8 +8,8 @@
       <div class="heading_icons">
         <div class="slider_heading">{{section.settings.sectionhead}}</div>
         <div class="next-prev-icons">
-          <img src="https://img.icons8.com/?size=30&id=99996&format=png" class="button-prev">
-          <img src="https://img.icons8.com/?size=30&id=99982&format=png" class="button-next">
+          <i class="fa-solid fa-chevron-left button-prev"></i>
+          <i class="fa-solid fa-chevron-right button-next"></i>
         </div>
       </div>
       <div class="swiper-wrapper">
@@ -34,8 +34,8 @@
         {% endfor %}
       </div>
       <div class="next-prev-btn">
-        <img src="https://img.icons8.com/?size=30&id=99996&format=png" class="button-prev">
-        <img src="https://img.icons8.com/?size=30&id=99982&format=png" class="button-next">
+        <i class="fa-solid fa-chevron-left button-prev"></i>
+          <i class="fa-solid fa-chevron-right button-next"></i>
       </div>
     </div>
   </div>
@@ -166,11 +166,14 @@
   .button-next,
   .button-prev {
     width: 40px;
+    height: 40px;
     border: 1px solid black;
     margin: 4px;
-    padding: 5px;
-  }
-
+    text-align: center;
+    color: #000;
+    line-height: 40px;
+    font-size: 18px;
+}
   .next-prev-icons {
     display: flex;
     /* width: 95%; */
