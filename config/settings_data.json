@@ -1861,6 +1861,7 @@
           },
           "pr_summary-2": {
             "type": "des",
+            "disabled": true,
             "settings": {
               "des": "2",
               "page": "",
