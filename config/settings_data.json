@@ -2658,6 +2658,7 @@
         "blocks": {
           "sidebar_shop2-0": {
             "type": "title",
+            "disabled": true,
             "settings": {
               "hidden_block": false,
               "title": "By Title"
@@ -2672,6 +2673,7 @@
           },
           "sidebar_shop2-2": {
             "type": "variants",
+            "disabled": true,
             "settings": {
               "hidden_block": false,
               "count": true,
@@ -2682,6 +2684,7 @@
           },
           "sidebar_shop2-3": {
             "type": "color",
+            "disabled": true,
             "settings": {
               "hidden_block": false,
               "count": true,
@@ -2689,49 +2692,23 @@
               "key": "Color"
             }
           },
-          "sidebar_shop2-4": {
-            "type": "vendor",
-            "settings": {
-              "hidden_block": false,
-              "count": true,
-              "title": "By Vendor",
-              "style": "ck"
-            }
-          },
-          "sidebar_shop2-5": {
-            "type": "available",
-            "settings": {
-              "hidden_block": false,
-              "count": true,
-              "title": "Product status"
-            }
-          },
-          "1596191009077": {
-            "type": "variants",
+          "tag2_inKy6V": {
+            "type": "tag2",
             "settings": {
               "hidden_block": false,
               "count": false,
-              "title": "By Shoes Size",
-              "key": "Shoes Size",
+              "title": "Gender",
+              "arra_enter": "Men,Women",
               "style": "ck"
             }
           },
-          "1596419303044": {
-            "type": "tags",
+          "tag2_MNDmca": {
+            "type": "tag2",
             "settings": {
               "hidden_block": false,
-              "count": true,
-              "title": "By Tags",
-              "style": "ck"
-            }
-          },
-          "1596419377121": {
-            "type": "tag",
-            "settings": {
-              "hidden_block": false,
-              "count": true,
-              "title": "By Tag Color",
-              "key": "color",
+              "count": false,
+              "title": "Thickness",
+              "arra_enter": "All,1 mm,2 mm,3 mm,4 mm,5 mm,6 mm+",
               "style": "ck"
             }
           }
@@ -2741,11 +2718,8 @@
           "sidebar_shop2-1",
           "sidebar_shop2-2",
           "sidebar_shop2-3",
-          "sidebar_shop2-4",
-          "sidebar_shop2-5",
-          "1596191009077",
-          "1596419303044",
-          "1596419377121"
+          "tag2_inKy6V",
+          "tag2_MNDmca"
         ],
         "settings": {
         }
