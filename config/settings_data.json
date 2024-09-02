@@ -1959,6 +1959,7 @@
           },
           "1585724379549": {
             "type": "html",
+            "disabled": true,
             "settings": {
               "title": "Custom tab",
               "page": ""
