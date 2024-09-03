@@ -10,6 +10,9 @@
 .color_gray{
     color:#777777
 }
+.justy_between{
+    justify-content: space-between;
+}
 /* OFFER SECTION  */
 
 
@@ -421,6 +424,23 @@ color: #777777;
     line-height: 31.2px;
     text-align: left;
     color: #282828;
+    margin-right: 10px;
+}
+.sku {
+    font-family: IBM Plex Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 26px;
+text-align: left;
+color: #282828;
+}
+.sku_wrapper {
+    font-family: IBM Plex Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 26px;
+text-align: left;
+color: #282828;
 }
 
 @media (max-width:1440px) {

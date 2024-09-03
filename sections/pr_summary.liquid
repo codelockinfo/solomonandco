@@ -83,7 +83,7 @@
           <a href="{{product.url | within: collection}}">{{ product.title }}</a>
         </h1>
       {%- endif -%}
-
+      <div class="flex align-i-center justy_between"><div class="rating"></div><div class="sku_div"><span class="sku_wrapper">{{ 'products.product.product_sku' | t }} <span class="sku value cb{% if current_variant.sku == blank %} dn{% endif %}" id="pr_sku{{call_cl}}">{{current_variant.sku}}</span><span class="sku value{% if current_variant.sku != blank %} dn{% endif %}" id="pr_sku_na{{call_cl}}">{{ 'products.product.na' | t }}</span></span></div></div>
       {%- when 'pricereview' -%}
         <div class="flex wrap fl_between al_center price-review mt__15 pb__10 mb__20 price_stock">
           <p class="price_range" id="price{{call_cl}}">
@@ -162,7 +162,8 @@
               {%- endif -%}
             {%- endif -%}
           </p>
-  
+        
+
           {%- if block.settings.show_available -%}
             <span class="available_wrapper"
               ><span class="available value"
@@ -465,7 +466,7 @@
                      {% assign inforations = descriptioninformation | split: '","' %}
                     {% for inforation in inforations %}
                      <div class="info_box">
-                         {% assign inforationValue = inforation | split: ':' %}
+                         {% assign inforationValue = inforation | remove: '\' | split: ':' %}
                           <div class="info1">{{ inforationValue[0] }}</div>
                           <div class="info2"><span class="color_gray">:</span> &nbsp&nbsp&nbsp {{ inforationValue[1] }}</div>
                        </div>
