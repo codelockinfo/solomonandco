@@ -1006,6 +1006,18 @@
               "lb_cl": ""
             }
           },
+          "menu_VUfWJn": {
+            "type": "menu",
+            "settings": {
+              "title": "Custom",
+              "url": "\/",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
           "mb_nav-4": {
             "type": "wis",
             "settings": {
@@ -1044,6 +1056,7 @@
           "1585642908420",
           "mb_nav-3",
           "1585642887352",
+          "menu_VUfWJn",
           "mb_nav-4",
           "mb_nav-5",
           "mb_nav-6",
