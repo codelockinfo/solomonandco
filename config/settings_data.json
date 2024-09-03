@@ -1373,7 +1373,7 @@
             "type": "btn",
             "settings": {
               "title": "SHOP NOW",
-              "btn_link": "shopify:\/\/collections\/bracelets",
+              "btn_link": "shopify:\/\/collections",
               "title2": "",
               "btn_link2": "",
               "btn_round": false,
