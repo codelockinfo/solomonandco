@@ -3984,7 +3984,7 @@
           "buttonlink": "shopify:\/\/collections\/all",
           "layout": "nt_boxed",
           "cl_bg": "#caa45d",
-          "mg": "50px,,,",
+          "mg": "",
           "pd": "30px,,30px,",
           "mg_mb": "",
           "pd_mb": "25px,,25px,"
