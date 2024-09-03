@@ -98,7 +98,7 @@
 
 <div class="sp-single {{singles_sp}} des_pr_layout_{{des_pr_layout}} mb__60">
   {%- if ck_next_pr or settings.breadcrumb_pr -%}
-  <div class="bgbl pt__20 pb__20 lh__1">
+  <div class="bgbl pt__20 pb__20 lh__1 dn">
    <div class="container">
     <div class="row al_center">
       <div class="col">{% if settings.breadcrumb_pr %}<nav class="sp-breadcrumb"><a href="{{ routes.root_url }}" class="dib">{{ 'general.breadcrumbs.home' | t }}</a>{% if collection.url != blank %}<i class="facl facl-angle-right"></i><a href="{{collection.url}}" class="dib">{{collection.title}}</a>{% endif %}<i class="facl facl-angle-right"></i>{{product.title}}</nav>{% endif %}</div>
