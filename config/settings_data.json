@@ -1888,7 +1888,7 @@
             "type": "pricereview",
             "settings": {
               "price": "0",
-              "show_available": true,
+              "show_available": false,
               "rating": true
             }
           },
@@ -3889,7 +3889,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/11_1.jpg",
               "smallimg": "shopify:\/\/shop_images\/11_1.png",
-              "nametext": "<p>SUO<br\/>RGY<\/p>",
+              "nametext": "<p>SUO<\/p><p>RGY<\/p>",
               "product": ""
             }
           }
