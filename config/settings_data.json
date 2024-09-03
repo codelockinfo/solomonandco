@@ -3865,6 +3865,15 @@
               "nametext": "<p>ABCD<br\/>Abg<\/p>",
               "product": ""
             }
+          },
+          "text_zfhYML": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/14_1.jpg",
+              "smallimg": "shopify:\/\/shop_images\/14_1.png",
+              "nametext": "<p>GJU<\/p><p>AIL<\/p>",
+              "product": ""
+            }
           }
         },
         "block_order": [
@@ -3873,7 +3882,8 @@
           "text_UpDzfT",
           "text_9MJFVW",
           "text_6DHXqL",
-          "text_GGhe8M"
+          "text_GGhe8M",
+          "text_zfhYML"
         ],
         "settings": {
           "sectionhead": "Celebrity Jewelry",
