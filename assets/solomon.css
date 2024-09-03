@@ -443,6 +443,18 @@ text-align: left;
 color: #282828;
 }
 
+.matching_collection{
+    padding: 30px 0;
+}
+.priceoff {
+	color: #C02727;
+	margin-left: 6px;
+	font-family: Montserrat Alternates;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24.38px;
+	text-align: left;
+}
 @media (max-width:1440px) {
     .testimonial_custom .flickity-prev-next-button.previous {
         left: 93% !important;
