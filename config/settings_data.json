@@ -3856,6 +3856,15 @@
               "nametext": "<p>Busta<br\/><strong>Rhymes<\/strong><\/p>",
               "product": "70ctw-i-love-you-diamond-bracelet"
             }
+          },
+          "text_GGhe8M": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/12_1.jpg",
+              "smallimg": "shopify:\/\/shop_images\/12_1.png",
+              "nametext": "<p>ABCD<\/p>",
+              "product": ""
+            }
           }
         },
         "block_order": [
@@ -3863,7 +3872,8 @@
           "text_VYbg94",
           "text_UpDzfT",
           "text_9MJFVW",
-          "text_6DHXqL"
+          "text_6DHXqL",
+          "text_GGhe8M"
         ],
         "settings": {
           "sectionhead": "Celebrity Jewelry",
