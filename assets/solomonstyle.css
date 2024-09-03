@@ -70,7 +70,7 @@
     text-transform: uppercase;
 }
 /* Menu  */
-.type_banner_collection  .se_t4_bg {
+.type_banner_collection  .se_t4_bg,.nt_se_product-recommendations.se_t4_bg {
     background-size: auto;
 }
 .text-content{
@@ -218,7 +218,7 @@
     background-color: #FAF7F2;
     padding: 10px;
 }
-.page_section_heading .collection-heading{
+.page_section_heading .banner-heading{
     font-family: Ivy Mode;
     font-size: 40px;
     font-weight: 400;
@@ -243,6 +243,23 @@ svg.custom-pagination-arrow {
     fill: currentcolor;
 }
 /* collection page */
+/* product page */
+.priceoff{
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31.2px;
+    text-align: left;
+    color: #C02727;
+}
+.pr_text{
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18.2px;
+    color:#282828;
+}
+/* product page */
 @media screen and (max-width: 1024px){
     .container-border:first-child,.container-border:nth-child(2){
         border-bottom: none;
@@ -290,7 +307,7 @@ svg.custom-pagination-arrow {
         letter-spacing: 0.05em;
     }
     /* collection page */
-    .page_section_heading .collection-heading{
+    .page_section_heading .banner-heading{
         font-weight: 700;
     }
     .sp-breadcrumb a.dib {

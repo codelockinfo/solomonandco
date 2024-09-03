@@ -336,7 +336,7 @@
 .des_tab {
     border-top: 1px solid #D9D9D9;
     border-bottom: 1px solid #D9D9D9;
-    padding: 8px 0;
+    padding: 5px 0;
 }
 
 .des_tab .active {
@@ -401,7 +401,7 @@ min-width: 90px;
 color: #282828;
 }
 .quantity_head{
-    margin-right:10px;
+    margin-right:20px;
     font-family: IBM Plex Sans;
 font-size: 20px;
 font-weight: 600;
