@@ -1639,14 +1639,21 @@
             "disabled": true,
             "settings": {
             }
+          },
+          "3_wcGKJL": {
+            "type": "3",
+            "settings": {
+            }
           }
         },
         "block_order": [
           "cat_heading-0",
-          "cat_heading-1"
+          "cat_heading-1",
+          "3_wcGKJL"
         ],
         "settings": {
           "shown": true,
+          "image": "shopify:\/\/shop_images\/Rectangle_182.png",
           "use_specify_image": true,
           "parallax": false,
           "color": "#000000",
@@ -3967,6 +3974,20 @@
       "sidebar_shop": {
         "type": "sidebar_shop",
         "settings": {
+        }
+      },
+      "discount-explore": {
+        "type": "discount-explore",
+        "settings": {
+          "heading": "",
+          "buttontext": "",
+          "buttonlink": "",
+          "layout": "nt_boxed",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
         }
       }
     },
