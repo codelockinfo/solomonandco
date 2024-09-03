@@ -173,6 +173,20 @@
     line-height: 23.4px;
     color: #848484;
 }
+/* Header Search */
+.frm_search_ac .search_header__prs{
+    z-index: 22;
+    background-color: #fff;
+    width: calc(100% - 20px);
+    width: -webkit-calc(100% - 20px);
+    margin-top: 15px;
+    text-align: left;
+    max-height: 80vh;
+    overflow: hidden;
+    overflow-y: auto;
+    transition: opacity .4s cubic-bezier(0,1,.4,1), transform .4s cubic-bezier(.18,1.25,.4,1), visibility .4s linear;
+}
+/* Header Search */
 /* collection page */
 .cat_filter .btn_filter {
     display: none;

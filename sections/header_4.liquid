@@ -4,7 +4,10 @@
   assign blocktp = 't4'
   assign admin_sp = request.design_mode
   assign share_image = settings.share_image | default: page_image | default: settings.logo
-  assign h__bgimg = settings.h__bgimg -%}
+  assign h__bgimg = settings.h__bgimg
+  assign routes_search_url = routes.search_url
+  
+-%}
 
 {%- if template.suffix == "header" and template.name == 'search' -%}
   {%- render 'menu_import',section:section -%}
