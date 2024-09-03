@@ -1018,6 +1018,18 @@
               "lb_cl": ""
             }
           },
+          "menu_PHTC7b": {
+            "type": "menu",
+            "settings": {
+              "title": "Made To Order",
+              "url": "\/",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
           "mb_nav-4": {
             "type": "wis",
             "settings": {
@@ -1057,6 +1069,7 @@
           "mb_nav-3",
           "1585642887352",
           "menu_VUfWJn",
+          "menu_PHTC7b",
           "mb_nav-4",
           "mb_nav-5",
           "mb_nav-6",
