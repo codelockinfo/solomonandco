@@ -208,7 +208,7 @@
     "auto_hide_ofsock": false,
     "show_hide_ofsock": false,
     "pr_layout": "default",
-    "design_products": "4",
+    "design_products": "1",
     "size_img_pr": "2",
     "nav_img_pr": "medium",
     "use_sticky_des": false,
@@ -2806,7 +2806,7 @@
             "settings": {
               "title": "Men's",
               "url": "\/",
-              "open_link": "_self",
+              "open_link": "_blank",
               "icon": "",
               "cus_cl": true,
               "cl": "#000000",
@@ -2853,19 +2853,6 @@
               "lb_cl": "rgba(0,0,0,0)"
             }
           },
-          "simple_Q4hLeY": {
-            "type": "simple",
-            "settings": {
-              "title": "Travel Cases",
-              "url": "\/",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": true,
-              "cl": "#000000",
-              "lb": "",
-              "lb_cl": "rgba(0,0,0,0)"
-            }
-          },
           "simple_En9Tga": {
             "type": "simple",
             "settings": {
@@ -2883,6 +2870,19 @@
             "type": "simple",
             "settings": {
               "title": "Custom",
+              "url": "\/",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": true,
+              "cl": "#000000",
+              "lb": "",
+              "lb_cl": "rgba(0,0,0,0)"
+            }
+          },
+          "simple_Q4hLeY": {
+            "type": "simple",
+            "settings": {
+              "title": "Travel Cases",
               "url": "\/",
               "open_link": "_self",
               "icon": "",
@@ -2912,9 +2912,9 @@
           "simple_H3GTCF",
           "simple_EhtBnB",
           "simple_mVyKfA",
-          "simple_Q4hLeY",
           "simple_En9Tga",
           "simple_KGCtB9",
+          "simple_Q4hLeY",
           "simple_wT4d7Y"
         ],
         "settings": {
@@ -3815,8 +3815,8 @@
           "text_3zjMLN": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Rectangle_185_1.png",
-              "smallimg": "shopify:\/\/shop_images\/8ec1f1122866a8403506c5f321a7d7d6.png",
+              "image": "shopify:\/\/shop_images\/10_1.jpg",
+              "smallimg": "shopify:\/\/shop_images\/10_1_96a0e168-7d31-479e-8099-1565e68d9b47.png",
               "nametext": "<p>Busta<br\/><strong>Rhymes<\/strong><\/p>",
               "product": "copy-of-2-5mm-yellow-gold-10k-ice-chain"
             }
@@ -3824,8 +3824,8 @@
           "text_VYbg94": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Rectangle_186.png",
-              "smallimg": "shopify:\/\/shop_images\/edfcef34f5458fb0398432c95a37f9f5.png",
+              "image": "shopify:\/\/shop_images\/4_1.jpg",
+              "smallimg": "shopify:\/\/shop_images\/4_1.png",
               "nametext": "<p>Mr.\u2028<br\/><strong>Beast<\/strong><\/p>",
               "product": "70ctw-i-love-you-diamond-bracelet"
             }
