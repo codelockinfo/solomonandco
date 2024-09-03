@@ -204,6 +204,24 @@
     background-color: #FAF7F2;
     padding: 10px;
 }
+.page_section_heading .collection-heading{
+    font-family: Ivy Mode;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50.64px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #CAA45D;
+}
+.sp-breadcrumb a.dib {
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    text-transform: uppercase;
+}
 /* collection page */
 @media screen and (max-width: 1024px){
     .container-border:first-child,.container-border:nth-child(2){
@@ -251,4 +269,18 @@
         line-height: 18.2px;
         letter-spacing: 0.05em;
     }
+    /* collection page */
+    .page_section_heading .collection-heading{
+        font-weight: 700;
+    }
+    .sp-breadcrumb a.dib {
+        font-family: IBM Plex Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20.8px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    /* collection page */
 }
