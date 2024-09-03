@@ -3979,15 +3979,15 @@
       "discount-explore": {
         "type": "discount-explore",
         "settings": {
-          "heading": "",
-          "buttontext": "",
-          "buttonlink": "",
+          "heading": "Discounts up to 20% are waiting for you…",
+          "buttontext": "Explore",
+          "buttonlink": "shopify:\/\/collections\/all",
           "layout": "nt_boxed",
-          "cl_bg": "",
-          "mg": "50px,,50px,",
-          "pd": "",
+          "cl_bg": "#caa45d",
+          "mg": "50px,,,",
+          "pd": "30px,,30px,",
           "mg_mb": "",
-          "pd_mb": ""
+          "pd_mb": "25px,,25px,"
         }
       }
     },
