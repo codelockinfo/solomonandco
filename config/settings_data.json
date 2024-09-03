@@ -3564,40 +3564,10 @@
             "type": "collection",
             "settings": {
               "collection": "",
-              "image": "shopify:\/\/shop_images\/522d946d27c4fd7045c4a47e33546ebf_1.png",
+              "image": "shopify:\/\/shop_images\/1_bd99a8cd-5744-4118-86f2-a4669e839304.jpg",
               "img_align": "center",
               "title": "EARRINGS",
               "url": "shopify:\/\/collections\/earrings"
-            }
-          },
-          "collection_R3LfkP": {
-            "type": "collection",
-            "settings": {
-              "collection": "",
-              "image": "shopify:\/\/shop_images\/522d946d27c4fd7045c4a47e33546ebf_3.png",
-              "img_align": "center",
-              "title": "BRACELET",
-              "url": "shopify:\/\/collections\/bracelets"
-            }
-          },
-          "collection_egc4QH": {
-            "type": "collection",
-            "settings": {
-              "collection": "",
-              "image": "shopify:\/\/shop_images\/522d946d27c4fd7045c4a47e33546ebf_2.png",
-              "img_align": "center",
-              "title": "GOLD CHAINS",
-              "url": "shopify:\/\/collections\/gold-chains"
-            }
-          },
-          "collection_jyBgc9": {
-            "type": "collection",
-            "settings": {
-              "collection": "",
-              "image": "shopify:\/\/shop_images\/522d946d27c4fd7045c4a47e33546ebf_3_1.png",
-              "img_align": "center",
-              "title": "RING",
-              "url": "shopify:\/\/collections\/rings"
             }
           },
           "collection_jRjy7V": {
@@ -3610,11 +3580,31 @@
               "url": "shopify:\/\/collections\/watches"
             }
           },
-          "collection_NMHnr3": {
+          "collection_jyBgc9": {
             "type": "collection",
             "settings": {
               "collection": "",
-              "image": "shopify:\/\/shop_images\/522d946d27c4fd7045c4a47e33546ebf_3.png",
+              "image": "shopify:\/\/shop_images\/2_e591e5ec-2162-4137-b9e6-def69ff2d6fb.jpg",
+              "img_align": "center",
+              "title": "RING",
+              "url": "shopify:\/\/collections\/rings"
+            }
+          },
+          "collection_egc4QH": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image": "shopify:\/\/shop_images\/2023-09-09-16-13-11.jpg",
+              "img_align": "center",
+              "title": "GOLD CHAINS",
+              "url": "shopify:\/\/collections\/gold-chains"
+            }
+          },
+          "collection_R3LfkP": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image": "shopify:\/\/shop_images\/2023-10-22-11-58-11.jpg",
               "img_align": "center",
               "title": "BRACELET",
               "url": "shopify:\/\/collections\/bracelets"
@@ -3623,11 +3613,10 @@
         },
         "block_order": [
           "collection_hdJ69V",
-          "collection_R3LfkP",
-          "collection_egc4QH",
-          "collection_jyBgc9",
           "collection_jRjy7V",
-          "collection_NMHnr3"
+          "collection_jyBgc9",
+          "collection_egc4QH",
+          "collection_R3LfkP"
         ],
         "settings": {
           "title": "Collection list",
@@ -3640,7 +3629,7 @@
           "hoverz": true,
           "cat_design": "5",
           "cat_space": "30",
-          "image_ratio": "ratio_nt",
+          "image_ratio": "ratio1_1",
           "col": "15",
           "col_md": "3",
           "col_mb": "6",
