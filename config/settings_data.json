@@ -1888,7 +1888,7 @@
             "type": "pricereview",
             "settings": {
               "price": "0",
-              "show_available": true,
+              "show_available": false,
               "rating": true
             }
           },
@@ -2027,7 +2027,7 @@
         "settings": {
           "show": true,
           "bgimage": "shopify:\/\/shop_images\/Frame_2.png",
-          "title": "You might also like",
+          "title": "YOU MIGHT ALSO LIKE",
           "sub_title": "",
           "sub_font": "2",
           "style_title": "title_1",
@@ -4095,7 +4095,7 @@
           "image": "shopify:\/\/shop_images\/Rectangle_182.png",
           "use_specify_image": true,
           "parallax": false,
-          "color": "#000",
+          "color": "#000000",
           "overlay": 54,
           "padding": 50,
           "bg_pos": "center center",
