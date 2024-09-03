@@ -24,12 +24,12 @@
 
 {%- for i in (1..1) -%}
   {%- unless section.settings.show %}<style>#wrap_des_pr,#shopify-section-pr_description {display: none !important}</style>{% break %}{% endunless -%}
-  <ul class="ul_none ul_tabs is-flex fl_center fs__16 des_mb_{{cl_mb}} des_style_{{cl_des}}">
+  <ul class="ul_none ul_tabs is-flex fl_center fs__16 des_mb_{{cl_mb}} des_style_{{cl_des}} des_tab">
 
     {%- for block in section.blocks -%}
       {%- case block.type -%}
       {%- when 'add' %}{% if product.has_only_default_variant %}{% continue %}{% endif -%}
-      <li class="tab_title_block{% if ck %} active{% assign ck = false %}{% endif %}"><a class="db cg truncate pr" href="#tab_{{block.id}}">{{block.settings.title}}</a></li>
+      <li class="222222222222 tab_title_block{% if ck %} active{% assign ck = false %}{% endif %}"><a class="db cg truncate pr" href="#tab_{{block.id}}">{{block.settings.title}}</a></li>
       {%- when 'buy' %}{% if nav_up_size == 0 %}{% continue %}{% endif -%}
       <li class="tab_title_block{% if ck %} active{% assign ck = false %}{% endif %}"><a class="db cg truncate pr" href="#tab_{{block.id}}">{{block.settings.title}}</a></li>
       {%- when 'des' -%}

@@ -4,7 +4,12 @@
     padding: 15px;
 }
 
-
+.align-i-center {
+    align-items: center;
+}
+.color_gray{
+    color:#777777
+}
 /* OFFER SECTION  */
 
 
@@ -114,15 +119,16 @@
     .heading_offer {
         font-size: 80px;
     }
-   
+
 }
 
 @media (max-width:1024px) {
     .heading_offer {
         font-size: 72px;
     }
-    .section-title{
-        font-size: 64px  !important;
+
+    .section-title {
+        font-size: 64px !important;
     }
 }
 
@@ -193,8 +199,9 @@
     .offer_content_box {
         padding: 40px 0;
     }
-    .section-title{
-        font-size: 40px  !important;
+
+    .section-title {
+        font-size: 40px !important;
     }
 }
 
@@ -211,46 +218,52 @@
     padding: 20px;
 }
 
-.product-title  .cd{
+.product-title .cd {
     font-family: IBM Plex Sans !important;
     font-size: 16px !important;
     font-weight: 700 !important;
-    color: #000 !important ;
+    color: #000 !important;
 }
-.section-title{
+
+.section-title {
     font-family: Ivy Mode !important;
     font-size: 64px;
     font-weight: 600;
     color: #0A1229;
 }
+
 .product-info .price {
     font-family: IBM Plex Sans !important;
-font-size: 14px !important;
-font-weight: 600 !important;
-color: #CAA45D !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    color: #CAA45D !important;
 }
 
 .cat_grid_item__content {
     padding: 10px !important;
     background: #fff !important;
 }
-.positionremove{
+
+.positionremove {
     position: relative !important;
- bottom: 0 !important;
+    bottom: 0 !important;
 }
+
 .positionremove .cat_grid_item__title {
     font-family: IBM Plex Sans !important;
-font-size: 18px !important;
-font-weight: 600 !important;
-color: #0A1229 !important;
-/* line-height: 31.2px; */
-/* letter-spacing: 0.05em; */
-/* text-align: center; */
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    color: #0A1229 !important;
+    /* line-height: 31.2px; */
+    /* letter-spacing: 0.05em; */
+    /* text-align: center; */
 
 }
-.cat_design_5 .cat_grid_item__overlay{
+
+.cat_design_5 .cat_grid_item__overlay {
     margin-bottom: 5px !important;
 }
+
 .nt_se_collection_list_XqDyYF {
     background-size: contain;
     background-position: center center;
@@ -260,21 +273,148 @@ color: #0A1229 !important;
     left: 93.5% !important;
     top: -20% !important;
 }
-.flickity-prev-next-button.next {
+
+.testimonial_custom .flickity-prev-next-button.next {
     top: -20% !important;
 }
 
-.shipping_custom{
+.shipping_custom {
     justify-content: center;
+}
+
+.template-product .product_title {
+    font-family: IBM Plex Sans !important;
+    font-size: 32px !important;
+    font-weight: 600 !important;
+    line-height: 41.6px;
+    color: #282828;
+}
+
+.variations_form .shopify-payment-button {
+    margin-top: 0;
+}
+
+.custom_pay {
+    margin-top: 30px;
+}
+
+.template-product .shopify-payment-button__button {
+    border-radius: 0 !important;
+    background-color: #CAA45D;
+}
+
+.template-product .single_add_to_cart_button {
+    border-radius: 0 !important;
+    margin-left: 20px !important;
+    background-color: #282828 !important;
+}
+
+.d-none-d {
+    display: none !important;
+}
+
+.template-product .custom_wish {
+    color: #282828 !important;
+}
+
+.variations_form .quantity {
+    border-radius: 0 !important;
+    border: 1px solid #777777 !important;
+    background-color: #F9F9F9 !important;
+}
+
+.custom_prform {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.des_tab {
+    border-top: 1px solid #D9D9D9;
+    border-bottom: 1px solid #D9D9D9;
+    padding: 8px 0;
+}
+
+.des_tab .active {
+    background-color: #CAA45D !important;
+    color: #fff !important;
+    border: none !important;
+}
+
+.des_tab .active a {
+    color: #fff !important;
+    border: none !important;
+}
+
+.custom_pay {
+    justify-content: space-between;
+}
+
+.tab_title_block  a {
+    font-family: IBM Plex Sans !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    line-height: 26px !important;
+    color: #282828 !important;
+}
+.sp-tab-content{
+    color: #282828 !important;
+}
+.description_box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.description_box .info_box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 10px 0;
+
+}
+.description_heading{
+    font-family: IBM Plex Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 26px;
+text-align: left;
+color: #282828;
+}
+.info1{
+    font-family: IBM Plex Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 20.8px;
+text-align: left;
+color: #777777;
+min-width: 90px;
+}
+.info2{
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.8px;
+    text-align: left;    
+color: #282828;
 }
 @media (max-width:1440px) {
     .testimonial_custom .flickity-prev-next-button.previous {
         left: 93% !important;
     }
 }
+
 @media (max-width:1367px) {
     .testimonial_custom .flickity-prev-next-button.previous {
         left: 92.5% !important;
+    }
+}
+
+@media (max-width:1306px) {
+    .color_gray{
+        color:#282828;
+    }
+    .description_box .info_box{
+        width: 100%;
     }
 }
 @media (max-width:1300px) {
@@ -282,104 +422,144 @@ color: #0A1229 !important;
         left: 92% !important;
     }
 }
+
 @media (max-width:1200px) {
     .testimonial_custom .flickity-prev-next-button.previous {
         left: 91.5% !important;
     }
 }
+
 @media (max-width:1100px) {
     .testimonial_custom .flickity-prev-next-button.previous {
         left: 90.5% !important;
     }
 }
+
 @media (max-width:1024px) {
     .testimonial_custom .flickity-prev-next-button.previous {
         left: 90% !important;
     }
+
+    .template-product .single_add_to_cart_button {
+        margin-left: 0 !important;
+    }
+
+    .d-none-d {
+        display: block !important;
+    }
+
+    .d-none-m {
+        display: none !important;
+    }
+
+    .shopify-payment-button {
+        display: block !important;
+        width: 100%;
+    }
 }
+
 @media (max-width:991px) {
     .testimonial_custom .flickity-prev-next-button.previous {
         left: 89.5% !important;
     }
+
+
 }
+
 @media (max-width:939px) {
     .testimonial_custom .flickity-prev-next-button.previous {
         left: 88.5% !important;
     }
 }
+
 @media (max-width:859px) {
     .testimonial_custom .flickity-prev-next-button.previous {
         left: 87.5% !important;
     }
 }
+
 @media (max-width:768px) {
     .testimonial_custom .flickity-prev-next-button.previous {
         left: 86.5% !important;
     }
 }
+
 @media (max-width: 767px) {
-    
+
     .testimonial_custom .flickity-prev-next-button.previous {
         left: 43% !important;
         top: 105% !important;
     }
-    .flickity-prev-next-button.next {
+
+    .testimonial_custom .flickity-prev-next-button.next {
         right: 43% !important;
         top: 105% !important;
     }
-    .img_order_class1{
+
+    .img_order_class1 {
         order: 1;
     }
-    .img_order_class2{
+
+    .img_order_class2 {
         order: 2;
     }
 }
+
 @media (max-width: 649px) {
-    
+
     .testimonial_custom .flickity-prev-next-button.previous {
         left: 42% !important;
     }
-    .flickity-prev-next-button.next {
+
+    .testimonial_custom .flickity-prev-next-button.next {
         right: 42% !important;
     }
 
 }
+
 @media (max-width: 576px) {
-    
+
     .testimonial_custom .flickity-prev-next-button.previous {
         left: 41% !important;
     }
-    .flickity-prev-next-button.next {
+
+    .testimonial_custom .flickity-prev-next-button.next {
         right: 41% !important;
     }
 
 }
+
 @media (max-width: 499px) {
-    
+
     .testimonial_custom .flickity-prev-next-button.previous {
         left: 39% !important;
     }
-    .flickity-prev-next-button.next {
+
+    .testimonial_custom .flickity-prev-next-button.next {
         right: 39% !important;
     }
 
 }
+
 @media (max-width: 425px) {
-    
+
     .testimonial_custom .flickity-prev-next-button.previous {
         left: 38% !important;
     }
-    .flickity-prev-next-button.next {
+
+    .testimonial_custom .flickity-prev-next-button.next {
         right: 38% !important;
     }
 
 }
+
 @media (max-width: 375px) {
-    
+
     .testimonial_custom .flickity-prev-next-button.previous {
         left: 37% !important;
     }
-    .flickity-prev-next-button.next {
+
+    .testimonial_custom .flickity-prev-next-button.next {
         right: 37% !important;
     }
 
