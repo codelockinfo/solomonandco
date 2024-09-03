@@ -212,7 +212,7 @@
     "size_img_pr": "2",
     "nav_img_pr": "medium",
     "use_sticky_des": false,
-    "main_click": "zoom",
+    "main_click": "none",
     "zoom_tp": "2",
     "pswp_tp": "light",
     "show_zoom_img": true,
