@@ -3669,7 +3669,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Rectangle_38.png",
               "pos_img": "center center",
-              "size_img": "cover",
+              "size_img": "contain",
               "link_img1": "shopify:\/\/collections\/all",
               "open_link": "_blank",
               "caption_w": "2",
