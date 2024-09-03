@@ -3883,6 +3883,15 @@
               "nametext": "<p>Kareem<br\/>XYH<\/p>",
               "product": ""
             }
+          },
+          "text_pdhqqb": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/11_1.jpg",
+              "smallimg": "shopify:\/\/shop_images\/11_1.png",
+              "nametext": "<p>SUO<\/p><p>RGY<\/p>",
+              "product": ""
+            }
           }
         },
         "block_order": [
@@ -3893,7 +3902,8 @@
           "text_6DHXqL",
           "text_GGhe8M",
           "text_zfhYML",
-          "text_EwKwxh"
+          "text_EwKwxh",
+          "text_pdhqqb"
         ],
         "settings": {
           "sectionhead": "Celebrity Jewelry",
