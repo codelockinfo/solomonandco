@@ -2911,8 +2911,8 @@
             "type": "simple",
             "settings": {
               "title": "Made To Order",
-              "url": "\/",
-              "open_link": "_self",
+              "url": "shopify:\/\/collections",
+              "open_link": "_blank",
               "icon": "",
               "cus_cl": true,
               "cl": "#000000",
