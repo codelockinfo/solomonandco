@@ -3952,20 +3952,6 @@
           "clrmer": "#ffffff"
         }
       },
-      "discount_explore_9qqeyL": {
-        "type": "discount-explore",
-        "settings": {
-          "heading": "Discounts up to 20% are waiting for you…",
-          "buttontext": "Explore",
-          "buttonlink": "shopify:\/\/collections\/all",
-          "layout": "nt_boxed",
-          "cl_bg": "#caa45d",
-          "mg": "",
-          "pd": "30px,,30px,",
-          "mg_mb": "",
-          "pd_mb": "25px,,25px,"
-        }
-      },
       "testimonials_TeXgYA": {
         "type": "testimonials",
         "blocks": {
@@ -4116,8 +4102,7 @@
       "shipping_8RgVhV",
       "testimonials_TeXgYA",
       "text_marquee_taRjyi",
-      "faq_AEFrpd",
-      "discount_explore_9qqeyL"
+      "faq_AEFrpd"
     ]
   }
 }
