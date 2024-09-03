@@ -3889,7 +3889,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/11_1.jpg",
               "smallimg": "shopify:\/\/shop_images\/11_1.png",
-              "nametext": "<p>SUO<\/p><p>RGY<\/p>",
+              "nametext": "<p>SUO<br\/>RGY<\/p>",
               "product": ""
             }
           }
