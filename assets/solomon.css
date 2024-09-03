@@ -397,6 +397,32 @@ min-width: 90px;
     text-align: left;    
 color: #282828;
 }
+.quantity_head{
+    margin-right:10px;
+    font-family: IBM Plex Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 26px;
+text-align: left;
+color: #282828;
+}
+.price_varies del{
+    font-family: IBM Plex Sans;
+font-size: 24px;
+font-weight: 600;
+line-height: 31.2px;
+text-align: left;
+color: #777777;
+}
+.price_varies ins{
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.2px;
+    text-align: left;
+    color: #282828;
+}
+
 @media (max-width:1440px) {
     .testimonial_custom .flickity-prev-next-button.previous {
         left: 93% !important;
@@ -526,7 +552,10 @@ color: #282828;
     .testimonial_custom .flickity-prev-next-button.next {
         right: 41% !important;
     }
-
+    .product-title .cd{
+            font-size: 14px;
+    }
+    
 }
 
 @media (max-width: 499px) {
