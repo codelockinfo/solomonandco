@@ -1888,7 +1888,7 @@
             "type": "pricereview",
             "settings": {
               "price": "0",
-              "show_available": true,
+              "show_available": false,
               "rating": true
             }
           },
@@ -2026,7 +2026,8 @@
         "type": "product-recommendations",
         "settings": {
           "show": true,
-          "title": "You may also like",
+          "bgimage": "shopify:\/\/shop_images\/Frame_2.png",
+          "title": "You might also like",
           "sub_title": "",
           "sub_font": "2",
           "style_title": "title_1",
@@ -2062,7 +2063,7 @@
       "recently_viewed": {
         "type": "recently_viewed",
         "settings": {
-          "show": true,
+          "show": false,
           "unavailable_prs": "show",
           "title": "Recently viewed products",
           "sub_title": "",
@@ -4062,6 +4063,45 @@
           "pd": "30px,,30px,",
           "mg_mb": "",
           "pd_mb": "25px,,25px,"
+        }
+      },
+      "product_heading": {
+        "type": "product_heading",
+        "blocks": {
+          "product_heading-0": {
+            "type": "1",
+            "settings": {
+            }
+          },
+          "product_heading-1": {
+            "type": "2",
+            "disabled": true,
+            "settings": {
+            }
+          },
+          "3_E3MGPX": {
+            "type": "3",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "product_heading-0",
+          "product_heading-1",
+          "3_E3MGPX"
+        ],
+        "settings": {
+          "shown": true,
+          "image": "shopify:\/\/shop_images\/Rectangle_182.png",
+          "use_specify_image": true,
+          "parallax": false,
+          "color": "#000000",
+          "overlay": 54,
+          "padding": 50,
+          "bg_pos": "center center",
+          "bg_repeat": "no-repeat",
+          "bg_size": "cover",
+          "bg_att": "scroll"
         }
       }
     },
