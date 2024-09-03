@@ -4063,6 +4063,44 @@
           "mg_mb": "",
           "pd_mb": "25px,,25px,"
         }
+      },
+      "product_heading": {
+        "type": "product_heading",
+        "blocks": {
+          "product_heading-0": {
+            "type": "1",
+            "settings": {
+            }
+          },
+          "product_heading-1": {
+            "type": "2",
+            "disabled": true,
+            "settings": {
+            }
+          },
+          "3_E3MGPX": {
+            "type": "3",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "product_heading-0",
+          "product_heading-1",
+          "3_E3MGPX"
+        ],
+        "settings": {
+          "shown": true,
+          "use_specify_image": true,
+          "parallax": false,
+          "color": "#000",
+          "overlay": 54,
+          "padding": 50,
+          "bg_pos": "center center",
+          "bg_repeat": "no-repeat",
+          "bg_size": "cover",
+          "bg_att": "scroll"
+        }
       }
     },
     "content_for_index": [
