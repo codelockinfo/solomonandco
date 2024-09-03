@@ -3874,6 +3874,15 @@
               "nametext": "<p>GJU<br\/>Aik<\/p>",
               "product": ""
             }
+          },
+          "text_EwKwxh": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/5_1.jpg",
+              "smallimg": "shopify:\/\/shop_images\/5_1.png",
+              "nametext": "<p>Kareem<br\/>XYH<\/p>",
+              "product": ""
+            }
           }
         },
         "block_order": [
@@ -3883,7 +3892,8 @@
           "text_9MJFVW",
           "text_6DHXqL",
           "text_GGhe8M",
-          "text_zfhYML"
+          "text_zfhYML",
+          "text_EwKwxh"
         ],
         "settings": {
           "sectionhead": "Celebrity Jewelry",
