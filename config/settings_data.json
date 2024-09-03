@@ -2805,8 +2805,8 @@
           "header_4-0": {
             "type": "simple",
             "settings": {
-              "title": "Men's",
-              "url": "\/",
+              "title": "Chains",
+              "url": "shopify:\/\/collections\/gold-chains",
               "open_link": "_blank",
               "icon": "",
               "cus_cl": true,
@@ -2818,9 +2818,9 @@
           "simple_H3GTCF": {
             "type": "simple",
             "settings": {
-              "title": "Women's",
-              "url": "shopify:\/\/collections\/gold-chains",
-              "open_link": "_self",
+              "title": "Rings",
+              "url": "shopify:\/\/collections\/gold-rings",
+              "open_link": "_blank",
               "icon": "",
               "cus_cl": true,
               "cl": "#000000",
@@ -2831,9 +2831,9 @@
           "simple_EhtBnB": {
             "type": "simple",
             "settings": {
-              "title": "Gold Chains",
-              "url": "\/",
-              "open_link": "_self",
+              "title": "Earrings",
+              "url": "shopify:\/\/collections\/earrings",
+              "open_link": "_blank",
               "icon": "",
               "cus_cl": true,
               "cl": "#000000",
@@ -2844,9 +2844,9 @@
           "simple_mVyKfA": {
             "type": "simple",
             "settings": {
-              "title": "Engagement",
-              "url": "\/",
-              "open_link": "_self",
+              "title": "Pendants",
+              "url": "shopify:\/\/collections\/pendants",
+              "open_link": "_blank",
               "icon": "",
               "cus_cl": true,
               "cl": "#000000",
@@ -2854,12 +2854,25 @@
               "lb_cl": "rgba(0,0,0,0)"
             }
           },
+          "simple_cVPgAc": {
+            "type": "simple",
+            "settings": {
+              "title": "Bracelets",
+              "url": "shopify:\/\/collections\/bracelets",
+              "open_link": "_blank",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
           "simple_En9Tga": {
             "type": "simple",
             "settings": {
               "title": "Watches",
-              "url": "\/",
-              "open_link": "_self",
+              "url": "shopify:\/\/collections\/watches",
+              "open_link": "_blank",
               "icon": "",
               "cus_cl": true,
               "cl": "#000000",
@@ -2869,10 +2882,11 @@
           },
           "simple_KGCtB9": {
             "type": "simple",
+            "disabled": true,
             "settings": {
               "title": "Custom",
-              "url": "\/",
-              "open_link": "_self",
+              "url": "shopify:\/\/collections\/pendants",
+              "open_link": "_blank",
               "icon": "",
               "cus_cl": true,
               "cl": "#000000",
@@ -2884,8 +2898,8 @@
             "type": "simple",
             "settings": {
               "title": "Travel Cases",
-              "url": "\/",
-              "open_link": "_self",
+              "url": "shopify:\/\/pages\/different-location",
+              "open_link": "_blank",
               "icon": "",
               "cus_cl": true,
               "cl": "#000000",
@@ -2913,6 +2927,7 @@
           "simple_H3GTCF",
           "simple_EhtBnB",
           "simple_mVyKfA",
+          "simple_cVPgAc",
           "simple_En9Tga",
           "simple_KGCtB9",
           "simple_Q4hLeY",
