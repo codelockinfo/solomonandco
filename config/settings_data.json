@@ -245,16 +245,16 @@
     "img_size_thumb": "nt_cover",
     "img_pos_thumb": "8",
     "share_source": "2",
-    "use_quickview": true,
+    "use_quickview": false,
     "use_pr_rating": false,
-    "hide_btns": false,
+    "hide_btns": true,
     "use_qty": true,
     "sw_limit": true,
     "price_format": "1",
     "show_pr_img": "2",
     "hover_img": "2",
     "pr_overlay": 10,
-    "use_quickshop": true,
+    "use_quickshop": false,
     "use_buy_qs": true,
     "swatch_design": "2",
     "style_color": "1",
@@ -1006,6 +1006,30 @@
               "lb_cl": ""
             }
           },
+          "menu_VUfWJn": {
+            "type": "menu",
+            "settings": {
+              "title": "Custom",
+              "url": "\/",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "menu_PHTC7b": {
+            "type": "menu",
+            "settings": {
+              "title": "Made To Order",
+              "url": "\/",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
           "mb_nav-4": {
             "type": "wis",
             "settings": {
@@ -1044,6 +1068,8 @@
           "1585642908420",
           "mb_nav-3",
           "1585642887352",
+          "menu_VUfWJn",
+          "menu_PHTC7b",
           "mb_nav-4",
           "mb_nav-5",
           "mb_nav-6",
@@ -1639,14 +1665,21 @@
             "disabled": true,
             "settings": {
             }
+          },
+          "3_wcGKJL": {
+            "type": "3",
+            "settings": {
+            }
           }
         },
         "block_order": [
           "cat_heading-0",
-          "cat_heading-1"
+          "cat_heading-1",
+          "3_wcGKJL"
         ],
         "settings": {
           "shown": true,
+          "image": "shopify:\/\/shop_images\/Rectangle_182.png",
           "use_specify_image": true,
           "parallax": false,
           "color": "#000000",
@@ -3967,6 +4000,20 @@
       "sidebar_shop": {
         "type": "sidebar_shop",
         "settings": {
+        }
+      },
+      "discount-explore": {
+        "type": "discount-explore",
+        "settings": {
+          "heading": "Discounts up to 20% are waiting for you…",
+          "buttontext": "Explore",
+          "buttonlink": "shopify:\/\/collections\/all",
+          "layout": "nt_boxed",
+          "cl_bg": "#caa45d",
+          "mg": "",
+          "pd": "30px,,30px,",
+          "mg_mb": "",
+          "pd_mb": "25px,,25px,"
         }
       }
     },

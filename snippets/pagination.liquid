@@ -1,7 +1,10 @@
 <nav class="nt-pagination w__100 tc {{class}}">
   <ul class="pagination-page page-numbers">
     {%- if paginate.previous -%}
-    <li><a class="prev page-numbers{{cl_a}}" href="{{ paginate.previous.url }}">{{ 'collections.general.previous' | t }}</a></li>
+    <li><a class="prev page-numbers{{cl_a}}" href="{{ paginate.previous.url }}">
+      {% comment %} {{ 'collections.general.previous' | t }} {% endcomment %}
+      <svg class="flickityt4s-button-icon custom-pagination-arrow" viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 65,95 L 20,50  L 65,5 L 60,0 Z" class="arrow"></path></svg>
+      </a></li>
     {%- endif -%}
     {%- for part in paginate.parts -%}
       {%- if part.is_link -%}
@@ -15,7 +18,10 @@
       {%- endif -%}
     {%- endfor -%}
     {%- if paginate.next -%}
-    <li><a href="{{ paginate.next.url }}" class="next page-numbers{{cl_a}}">{{ 'collections.general.next' | t }}</a></li>
+    <li><a href="{{ paginate.next.url }}" class="next page-numbers{{cl_a}}">
+      {% comment %} {{ 'collections.general.next' | t }} {% endcomment %}
+      <svg class="flickityt4s-button-icon custom-pagination-arrow" viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 65,95 L 20,50  L 65,5 L 60,0 Z" class="arrow" transform="translate(100, 100) rotate(180) "></path></svg>
+      </a></li>
     {%- endif -%}
   </ul>
 </nav>

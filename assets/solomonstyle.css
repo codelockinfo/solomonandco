@@ -222,6 +222,12 @@
     text-align: center;
     text-transform: uppercase;
 }
+svg.custom-pagination-arrow {
+    width: auto;
+    height: 10px;
+    stroke: currentColor;
+    fill: currentcolor;
+}
 /* collection page */
 @media screen and (max-width: 1024px){
     .container-border:first-child,.container-border:nth-child(2){
