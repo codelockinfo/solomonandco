@@ -1888,7 +1888,7 @@
             "type": "pricereview",
             "settings": {
               "price": "0",
-              "show_available": false,
+              "show_available": true,
               "rating": true
             }
           },
@@ -3889,7 +3889,14 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/11_1.jpg",
               "smallimg": "shopify:\/\/shop_images\/11_1.png",
-              "nametext": "<p>SUO<\/p><p>RGY<\/p>",
+              "nametext": "<p>SUO<br\/>RGY<\/p>",
+              "product": ""
+            }
+          },
+          "text_DB8Ehf": {
+            "type": "text",
+            "settings": {
+              "nametext": "",
               "product": ""
             }
           }
@@ -3903,7 +3910,8 @@
           "text_GGhe8M",
           "text_zfhYML",
           "text_EwKwxh",
-          "text_pdhqqb"
+          "text_pdhqqb",
+          "text_DB8Ehf"
         ],
         "settings": {
           "sectionhead": "Celebrity Jewelry",
