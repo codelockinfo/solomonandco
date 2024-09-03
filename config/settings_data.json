@@ -3823,7 +3823,7 @@
               "image": "shopify:\/\/shop_images\/10_1.jpg",
               "smallimg": "shopify:\/\/shop_images\/10_1_96a0e168-7d31-479e-8099-1565e68d9b47.png",
               "nametext": "<p>Busta<br\/><strong>Rhymes<\/strong><\/p>",
-              "product": "copy-of-2-5mm-yellow-gold-10k-ice-chain"
+              "product": ""
             }
           },
           "text_VYbg94": {
@@ -3832,7 +3832,7 @@
               "image": "shopify:\/\/shop_images\/4_1.jpg",
               "smallimg": "shopify:\/\/shop_images\/4_1.png",
               "nametext": "<p>Mr.\u2028<br\/><strong>Beast<\/strong><\/p>",
-              "product": "70ctw-i-love-you-diamond-bracelet"
+              "product": ""
             }
           },
           "text_UpDzfT": {
@@ -3841,7 +3841,7 @@
               "image": "shopify:\/\/shop_images\/8_1.jpg",
               "smallimg": "shopify:\/\/shop_images\/8_1.png",
               "nametext": "<p>Kodak\u2028<br\/><strong>Black<\/strong><\/p>",
-              "product": "70ctw-i-love-you-diamond-bracelet"
+              "product": ""
             }
           },
           "text_9MJFVW": {
@@ -3850,7 +3850,7 @@
               "image": "shopify:\/\/shop_images\/9_1.jpg",
               "smallimg": "shopify:\/\/shop_images\/9_1.png",
               "nametext": "<p>Cardi<br\/><strong>B<\/strong><\/p>",
-              "product": "tennis-bracelet"
+              "product": ""
             }
           },
           "text_6DHXqL": {
@@ -3859,7 +3859,7 @@
               "image": "shopify:\/\/shop_images\/13_1.jpg",
               "smallimg": "shopify:\/\/shop_images\/13_1.png",
               "nametext": "<p>Busta<br\/><strong>Rhymes<\/strong><\/p>",
-              "product": "70ctw-i-love-you-diamond-bracelet"
+              "product": ""
             }
           },
           "text_GGhe8M": {
@@ -3897,13 +3897,6 @@
               "nametext": "<p>SUO<br\/>RGY<\/p>",
               "product": ""
             }
-          },
-          "text_DB8Ehf": {
-            "type": "text",
-            "settings": {
-              "nametext": "",
-              "product": ""
-            }
           }
         },
         "block_order": [
@@ -3915,8 +3908,7 @@
           "text_GGhe8M",
           "text_zfhYML",
           "text_EwKwxh",
-          "text_pdhqqb",
-          "text_DB8Ehf"
+          "text_pdhqqb"
         ],
         "settings": {
           "sectionhead": "Celebrity Jewelry",
