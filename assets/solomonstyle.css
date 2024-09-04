@@ -338,4 +338,7 @@ svg.custom-pagination-arrow {
     .shopify-tabs.sp-tabs .des_tab::-webkit-scrollbar {
         display: none; 
     }
+    .entry-summary .price, .entry-summary .price_range{
+        font-size: 20px;
+    }
 }
