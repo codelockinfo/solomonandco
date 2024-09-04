@@ -70,8 +70,11 @@
     text-transform: uppercase;
 }
 /* Menu  */
-.type_banner_collection  .se_t4_bg,.nt_se_product-recommendations.se_t4_bg {
+.type_banner_collection  .se_t4_bg {
     background-size: auto;
+}
+.nt_se_product-recommendations.se_t4_bg{
+    background-size: contain;
 }
 .text-content{
     font-size: 20px;
