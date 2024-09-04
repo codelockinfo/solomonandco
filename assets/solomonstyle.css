@@ -321,3 +321,18 @@ svg.custom-pagination-arrow {
     }
     /* collection page */
 }
+@media screen and (max-width: 500px){
+    .shopify-tabs.sp-tabs .des_tab{
+        overflow-x: auto;
+        white-space: nowrap;
+        padding-left: 60%;
+        padding-right: 10%;
+        flex-wrap: nowrap;
+        width: 100%;
+        -ms-overflow-style: none; 
+        scrollbar-width: none; 
+    }
+    .shopify-tabs.sp-tabs .des_tab::-webkit-scrollbar {
+        display: none; 
+    }
+}
