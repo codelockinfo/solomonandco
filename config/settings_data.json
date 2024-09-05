@@ -1884,6 +1884,12 @@
               "size": 16
             }
           },
+          "text_8zpPwT": {
+            "type": "text",
+            "settings": {
+              "text": "<p>Shipping calculated at checkout.<\/p>"
+            }
+          },
           "pr_summary-1": {
             "type": "pricereview",
             "settings": {
@@ -1998,6 +2004,7 @@
         },
         "block_order": [
           "pr_summary-0",
+          "text_8zpPwT",
           "pr_summary-1",
           "pr_summary-2",
           "pr_summary-3",
