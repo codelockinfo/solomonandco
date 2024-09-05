@@ -318,6 +318,8 @@
 
 .template-product .custom_wish {
     color: #282828 !important;
+    border: unset;
+    background: #EDE9EB;
 }
 
 .variations_form .quantity {

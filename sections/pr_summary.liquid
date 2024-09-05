@@ -83,7 +83,7 @@
           <a href="{{product.url | within: collection}}">{{ product.title }}</a>
         </h1>
       {%- endif -%}
-      <div class="flex align-i-center justy_between"><div class="rating"></div><div class="sku_div"><span class="sku_wrapper">{{ 'products.product.product_sku' | t }} <span class="sku value cb{% if current_variant.sku == blank %} dn{% endif %}" id="pr_sku{{call_cl}}">{{current_variant.sku}}</span><span class="sku value{% if current_variant.sku != blank %} dn{% endif %}" id="pr_sku_na{{call_cl}}">{{ 'products.product.na' | t }}</span></span></div></div>
+      <div class="flex align-i-center justy_between"><div class="rating"></div></div>
       {%- when 'pricereview' -%}
         <div class="flex wrap fl_between al_center price-review mt__15 pb__10 mb__20 price_stock">
           <p class="price_range" id="price{{call_cl}}">
@@ -138,6 +138,7 @@
           {%- if block.settings.show_available -%}
           <span class="available_wrapper"><span class="available value"><span id="txt_vl_in{{call_cl}}" class="value_in cb{% if no_sold_out == false %} dn{% endif %}"><span class="js_in_stock {{classdn1}}">{{ 'products.product.in_stock' | t }}</span><span class="js_in_stock_pre_oder {{classdn2}}">{{ 'products.product.in_stock_pre_oder' | t }}</span></span><span id="txt_vl_out{{call_cl}}" class="value_out{% if no_sold_out %} dn{% endif %}">{{ 'products.product.outofstock' | t }}</span></span></span>
           {%- endif -%}
+          <div class="sku_div"><span class="sku_wrapper">{{ 'products.product.product_sku' | t }} <span class="sku value cb{% if current_variant.sku == blank %} dn{% endif %}" id="pr_sku{{call_cl}}">{{current_variant.sku}}</span><span class="sku value{% if current_variant.sku != blank %} dn{% endif %}" id="pr_sku_na{{call_cl}}">{{ 'products.product.na' | t }}</span></span></div>
        </div>
 
         {%- if block.settings.rating -%}
@@ -252,9 +253,9 @@
             {%- assign cl_frm = 'nt_cart_form variations_form variations_form' | append: call_cl -%}
             {%- form 'product', product, id: id_frm, data-productid: pid, class: cl_frm -%}
               {% comment %} {{ form | payment_terms }} {% endcomment %}
-              {% comment %} {%- if no_sold_out and settings.enable_sub_reCharge %}{% include 'subscription-product' %}{% endif -%} {% endcomment %}
-              {% comment %} {%- if settings.enable_infiniteoptions %}<div id="infiniteoptions-container"></div>{% endif -%} {% endcomment %}
-              {% comment %} {%- if default -%}
+              {%- if no_sold_out and settings.enable_sub_reCharge %}{% include 'subscription-product' %}{% endif -%}
+              {%- if settings.enable_infiniteoptions %}<div id="infiniteoptions-container"></div>{% endif -%}
+              {%- if default -%}
                 <input name="id" data-productid="{{pid}}" value="{{ pr_variants.first.id }}" type="hidden">
                 <div
                   class="nt_pr_js lazypreload op__0"
@@ -413,29 +414,29 @@
                     </div>
                   {%- endif -%}
                 {%- endif -%}
-              {%- endif -%} {% endcomment %}
+              {%- endif -%}
 
 
               {% assign descriptioninformation = product.metafields.custom.details_information
               | remove: '["'
               | remove: '"]'
             %}
-               <div class="description_main">
-                   <div class="description_heading">Details</div>
-                  
-                   <div class="description_box">
-                     {% assign inforations = descriptioninformation | split: '","' %}
-                    {% for inforation in inforations %}
-                     <div class="info_box">
-                         {% assign inforationValue = inforation | remove: '\' | split: ':' %}
-                          <div class="info1">{{ inforationValue[0] }}</div>
-                          <div class="info2"><span class="color_gray">:</span> &nbsp&nbsp&nbsp {{ inforationValue[1] }}</div>
-                       </div>
-                      {% endfor %}
-                   </div>
-               </div>
-
-
+              {% if descriptioninformation !=  blank %}
+                <div class="description_main">
+                    <div class="description_heading">Details</div>
+                    
+                    <div class="description_box">
+                      {% assign inforations = descriptioninformation | split: '","' %}
+                      {% for inforation in inforations %}
+                      <div class="info_box">
+                          {% assign inforationValue = inforation | remove: '\' | split: ':' %}
+                            <div class="info1">{{ inforationValue[0] }}</div>
+                            <div class="info2"><span class="color_gray">:</span> &nbsp&nbsp&nbsp {{ inforationValue[1] }}</div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+              {% endif %}
 
               {%- if price_varies and current_variant.unit_price_measurement -%}
                 <span class="price">

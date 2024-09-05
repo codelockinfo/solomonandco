@@ -262,6 +262,14 @@ svg.custom-pagination-arrow {
     line-height: 18.2px;
     color:#282828;
 }
+h3.product-title, h3.product-title>a, h1.product_title.entry-title, .widget .product_list_widget .product-title, .widget .post_list_widget .article-title{
+    color: #282828;
+}
+/* arrow */
+.lazy_icons .flickity-button{
+    visibility: hidden;
+}
+/* arrow */
 /* product page */
 @media screen and (max-width: 1024px){
     .container-border:first-child,.container-border:nth-child(2){
@@ -325,6 +333,7 @@ svg.custom-pagination-arrow {
     /* collection page */
 }
 @media screen and (max-width: 500px){
+    /* product page */
     .shopify-tabs.sp-tabs .des_tab{
         overflow-x: auto;
         white-space: nowrap;
@@ -343,4 +352,14 @@ svg.custom-pagination-arrow {
     .priceoff{
         font-size: 20px;
     }
+    .page_section_heading .banner-heading{
+        font-size: 25px;
+        line-height: 39.64px;
+        letter-spacing: .02em;
+    }
+    .template-product .product_title{
+        font-size: 28px !important;
+        line-height: 36.6px;
+    }
+    /* product page */
 }
