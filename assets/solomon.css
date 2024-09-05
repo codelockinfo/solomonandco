@@ -377,13 +377,15 @@
     margin: 10px 0;
 
 }
-.description_heading{
+.description_heading,.swatch__title{
     font-family: IBM Plex Sans;
 font-size: 20px;
 font-weight: 600;
 line-height: 26px;
 text-align: left;
 color: #282828;
+text-transform: capitalize;
+
 }
 .info1{
     font-family: IBM Plex Sans;
