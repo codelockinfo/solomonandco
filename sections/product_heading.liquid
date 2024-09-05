@@ -22,10 +22,7 @@
                {%- when '3' -%}
                 <div class="cw">      
                     <div class="col">
-                          <nav class="sp-breadcrumb">
-                          <a href="{{ routes.root_url }}" class="dib">{{ 'general.breadcrumbs.home' | t }}</a>
-                          {% if product.url != blank %}<i class="facl facl-angle-right"></i><a href="{{product.url}}" class="dib">{{product.title}}</a>{% endif %}
-                          </nav>
+                    <nav class="sp-breadcrumb"><a href="{{ routes.root_url }}" class="dib">{{ 'general.breadcrumbs.home' | t }}</a>{% if collection.url != blank %}<i class="facl facl-angle-right"></i><a href="{{collection.url}}" class="dib">{{collection.title}}</a>{% endif %}<i class="facl facl-angle-right"></i>{{product.title}}</nav>
                     </div>
                 </div>
                {%- else %}{% if settings.cat_des == '1' %}<p class="mg__0">{{ product.description }}</p>{% endif -%}

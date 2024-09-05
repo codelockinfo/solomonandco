@@ -92,10 +92,9 @@
   if settings.back_next_pr and collection != blank
   assign ck_next_pr = true
   
-  section 'product_heading'
-  
   endif -%}
-
+  
+{% section 'product_heading' %}
 <div class="sp-single {{singles_sp}} des_pr_layout_{{des_pr_layout}} mb__60">
   {%- if ck_next_pr or settings.breadcrumb_pr -%}
   <div class="bgbl pt__20 pb__20 lh__1 dn">
