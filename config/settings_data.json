@@ -3922,7 +3922,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/DEION_SANDERS.jpg",
               "smallimg": "shopify:\/\/shop_images\/DEION_SANDERS.jpg",
-              "nametext": "<h6>DEION SANDERS<\/h6>",
+              "nametext": "<h6><strong>DEION SANDERS<\/strong><\/h6>",
               "product": ""
             }
           },
@@ -3931,7 +3931,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/SHAREEF_O_NEAL.jpg",
               "smallimg": "shopify:\/\/shop_images\/SHAREEF_O_NEAL.png",
-              "nametext": "<p>SHAREEF O'NEAL<\/p>",
+              "nametext": "<h6><strong>SHAREEF O'NEAL<\/strong><\/h6>",
               "product": ""
             }
           },
@@ -3940,7 +3940,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/MARIO_CHALMERS.jpg",
               "smallimg": "shopify:\/\/shop_images\/MARIO_CHALMERS.png",
-              "nametext": "<h6>MARIO CHALMERS<\/h6>",
+              "nametext": "<h6><strong>MARIO CHALMERS<\/strong><\/h6>",
               "product": ""
             }
           }
