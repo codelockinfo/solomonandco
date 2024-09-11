@@ -3886,61 +3886,61 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/KEVIN_GATES.jpg",
               "smallimg": "shopify:\/\/shop_images\/KEVIN_GATES.png",
-              "nametext": "<p><strong>KEVIN GATES<\/strong><\/p>",
+              "nametext": "<h6><strong>KEVIN GATES<\/strong><\/h6>",
               "product": ""
             }
           },
           "text_9MJFVW": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/9_1.jpg",
-              "smallimg": "shopify:\/\/shop_images\/9_1.png",
-              "nametext": "<p>Cardi<br\/><strong>B<\/strong><\/p>",
+              "image": "shopify:\/\/shop_images\/XAVIER_WORTHY.jpg",
+              "smallimg": "shopify:\/\/shop_images\/XAVIER_WORTHY.png",
+              "nametext": "<h6><strong>XAVIER WORTHY<\/strong><\/h6>",
               "product": ""
             }
           },
           "text_6DHXqL": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/13_1.jpg",
-              "smallimg": "shopify:\/\/shop_images\/13_1.png",
-              "nametext": "<p>Busta<br\/><strong>Rhymes<\/strong><\/p>",
+              "image": "shopify:\/\/shop_images\/JEFF_WILSON.jpg",
+              "smallimg": "shopify:\/\/shop_images\/JEFF_WILSON.jpg",
+              "nametext": "<h6><strong>JEFF WILSON<\/strong><\/h6>",
               "product": ""
             }
           },
           "text_GGhe8M": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/12_1.jpg",
-              "smallimg": "shopify:\/\/shop_images\/12_1.png",
-              "nametext": "<p>ABCD<br\/>Abg<\/p>",
+              "image": "shopify:\/\/shop_images\/MYKAL_WALKER.jpg",
+              "smallimg": "shopify:\/\/shop_images\/MYKAL_WALKER.png",
+              "nametext": "<h6><strong>MYKAL WALKER<\/strong><\/h6>",
               "product": ""
             }
           },
           "text_zfhYML": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/14_1.jpg",
-              "smallimg": "shopify:\/\/shop_images\/14_1.png",
-              "nametext": "<p>GJU<br\/>Aik<\/p>",
+              "image": "shopify:\/\/shop_images\/DEION_SANDERS.jpg",
+              "smallimg": "shopify:\/\/shop_images\/DEION_SANDERS.jpg",
+              "nametext": "<h6>DEION SANDERS<\/h6>",
               "product": ""
             }
           },
           "text_EwKwxh": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/5_1.jpg",
-              "smallimg": "shopify:\/\/shop_images\/5_1.png",
-              "nametext": "<p>Kareem<br\/>XYH<\/p>",
+              "image": "shopify:\/\/shop_images\/SHAREEF_O_NEAL.jpg",
+              "smallimg": "shopify:\/\/shop_images\/SHAREEF_O_NEAL.png",
+              "nametext": "<p>SHAREEF O'NEAL<\/p>",
               "product": ""
             }
           },
           "text_pdhqqb": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/11_1.jpg",
-              "smallimg": "shopify:\/\/shop_images\/11_1.png",
-              "nametext": "<p>SUO<br\/>RGY<\/p>",
+              "image": "shopify:\/\/shop_images\/MARIO_CHALMERS.jpg",
+              "smallimg": "shopify:\/\/shop_images\/MARIO_CHALMERS.png",
+              "nametext": "<h6>MARIO CHALMERS<\/h6>",
               "product": ""
             }
           }
