@@ -2961,23 +2961,6 @@
               "lb": "",
               "lb_cl": "rgba(0,0,0,0)"
             }
-          },
-          "mega_CfA6xx": {
-            "type": "mega",
-            "settings": {
-              "title": "Heading",
-              "url": "shopify:\/\/collections",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "",
-              "lazy_mn": true,
-              "pos": "default",
-              "wid": "cus",
-              "cus_wid": 1200
-            }
           }
         },
         "block_order": [
@@ -2990,8 +2973,7 @@
           "simple_En9Tga",
           "simple_KGCtB9",
           "simple_Q4hLeY",
-          "simple_wT4d7Y",
-          "mega_CfA6xx"
+          "simple_wT4d7Y"
         ],
         "settings": {
           "height": 62,
