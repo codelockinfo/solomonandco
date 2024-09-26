@@ -56,12 +56,12 @@
     "c_2": "",
     "c_3": "",
     "c_4": "",
-    "placeholder_img": "shopify:\/\/shop_images\/brand-logo_1.jpg",
+    "placeholder_img": "shopify://shop_images/brand-logo_1.jpg",
     "enable_meta": true,
     "enable_tag": true,
     "filter_price_list": "$7-$50, $50-$150, $150-$500",
     "logo_svg": "",
-    "logo": "shopify:\/\/shop_images\/SOLOMON_CO_2.png",
+    "logo": "shopify://shop_images/SOLOMON_CO_2.png",
     "logo_retina": "",
     "logo_width": 275,
     "logos": "",
@@ -308,7 +308,7 @@
     "currency_format": "money_format",
     "round_currency": false,
     "notify_currency": true,
-    "mess_currency": "All charges are billed in {{ currency }}. While the content of your cart is currently displayed in <span class=\"selected-currency\"><\/span>, the checkout will use {{ currency }} at the most current exchange rate.",
+    "mess_currency": "All charges are billed in {{ currency }}. While the content of your cart is currently displayed in <span class=\"selected-currency\"></span>, the checkout will use {{ currency }} at the most current exchange rate.",
     "hover_currency": false,
     "custom_css": false,
     "global_css": "",
@@ -325,14 +325,14 @@
     "share_email": true,
     "share_telegram": true,
     "share_whatsapp": true,
-    "social_facebook_link": "https:\/\/www.facebook.com\/profile.php?id=100062945365074",
+    "social_facebook_link": "https://www.facebook.com/profile.php?id=100062945365074",
     "social_twitter_link": "",
-    "social_instagram_link": "https:\/\/www.instagram.com\/solomonthejewelr\/",
+    "social_instagram_link": "https://www.instagram.com/solomonthejewelr/",
     "social_dribbble_link": "",
     "social_linkedin_link": "",
     "social_pinterest_link": "",
     "social_tumblr_link": "",
-    "social_youtube_link": "https:\/\/www.youtube.com\/@solomonjewelry",
+    "social_youtube_link": "https://www.youtube.com/@solomonjewelry",
     "social_behance_link": "",
     "social_soundcloud_link": "",
     "favicon": "",
@@ -369,7 +369,7 @@
     "fv_txtcolor": "#ffffff",
     "enable_pro_pp": false,
     "operation_days": "Mon:1700-2100,Tue:1700-2100,Wed:1700-2200,Thu:1700-2200,Fri:1700-2300,Sat:1200-2300,Sun:1200-2100",
-    "timezones": "America\/Los_Angeles",
+    "timezones": "America/Los_Angeles",
     "sale_cl": "#ec0101",
     "color_body_text": "#555555",
     "color_price_sale": "#ec0101",
@@ -445,7 +445,7 @@
             "type": "text2",
             "disabled": true,
             "settings": {
-              "text": "<p>A summer state of mind starts with the perfect stack<a href=\"\/collections\" title=\"All collections\"> Shop Now<\/a><\/p>",
+              "text": "<p>A summer state of mind starts with the perfect stack<a href=\"/collections\" title=\"All collections\"> Shop Now</a></p>",
               "effect": "1",
               "au_time": 3.5,
               "hide": false,
@@ -468,7 +468,7 @@
           "text_PkE6bz"
         ],
         "settings": {
-          "heading": "<p>Hurry up offer is running for a limited time only     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                       A summer state of mind starts with the perfect stack  <a href=\"\/collections\" title=\"All collections\">Shop Now<\/a>  <\/p>",
+          "heading": "<p>Hurry up offer is running for a limited time only     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                       A summer state of mind starts with the perfect stack  <a href=\"/collections\" title=\"All collections\">Shop Now</a>  </p>",
           "height": 50,
           "fontsize": 14,
           "cl": "#ffffff",
@@ -494,7 +494,7 @@
             "type": "mega",
             "settings": {
               "title": "DEMO",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -511,7 +511,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "HOMEPAGES",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "col": "3"
@@ -521,7 +521,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "HOMEPAGES",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "col": "3"
@@ -531,7 +531,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Header Layouts",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "col": "3"
@@ -541,7 +541,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "FEATURES",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "col": "3"
@@ -551,7 +551,7 @@
             "type": "mega",
             "settings": {
               "title": "SHOP",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -568,7 +568,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "SHOP PAGES",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "col": "2"
@@ -578,7 +578,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "FEATURES",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "col": "2"
@@ -608,7 +608,7 @@
             "type": "mega",
             "settings": {
               "title": "PRODUCT",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -625,7 +625,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "PRODUCT LAYOUT",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "col": "3"
@@ -635,7 +635,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "PRODUCT DETAIL",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "col": "3"
@@ -645,7 +645,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "PRODUCT SWATCH",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "col": "3"
@@ -655,7 +655,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "PRODUCT FEATURES",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "col": "3"
@@ -665,7 +665,7 @@
             "type": "dropdown",
             "settings": {
               "title": "PORTFOLIO",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -681,7 +681,7 @@
             "type": "dropdown",
             "settings": {
               "title": "LOOKBOOK",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -697,7 +697,7 @@
             "type": "dropdown",
             "settings": {
               "title": "BLOG",
-              "url": "shopify:\/\/blogs\/life-style",
+              "url": "shopify://blogs/life-style",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -743,7 +743,7 @@
           "1581507819652": {
             "type": "logo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/SOLOMON_CO_1.png",
+              "image": "shopify://shop_images/SOLOMON_CO_1.png",
               "logo_width": 100,
               "title": "",
               "content": "Experience unmatched elegance with our diamond and gold collection, where superior craftsmanship and timeless sophistication elevate your style, celebrating life's precious moments with radiant refinement.",
@@ -781,7 +781,7 @@
             "settings": {
               "logo_width": 100,
               "title": "Contact Details",
-              "content": "<p><i class=\"pegk pe-7s-map-marker\"> <\/i><span>4440 State Highway 121,\nSuite 50,\nLewisville, Texas 75056 <\/span><\/p>",
+              "content": "<p><i class=\"pegk pe-7s-map-marker\"> </i><span>4440 State Highway 121,\nSuite 50,\nLewisville, Texas 75056 </span></p>",
               "social_mode": "3",
               "order": "1",
               "cl": "4",
@@ -926,7 +926,7 @@
             "type": "menu",
             "settings": {
               "title": "Home",
-              "url": "\/",
+              "url": "/",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -938,7 +938,7 @@
             "type": "menu",
             "settings": {
               "title": "Men's",
-              "url": "shopify:\/\/collections\/gold-chains",
+              "url": "shopify://collections/gold-chains",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -950,7 +950,7 @@
             "type": "menu",
             "settings": {
               "title": "Women's",
-              "url": "shopify:\/\/collections\/earrings",
+              "url": "shopify://collections/earrings",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -962,7 +962,7 @@
             "type": "menu",
             "settings": {
               "title": "Gold Chains",
-              "url": "shopify:\/\/collections\/gold-chains",
+              "url": "shopify://collections/gold-chains",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -974,7 +974,7 @@
             "type": "menu",
             "settings": {
               "title": "Engagement",
-              "url": "shopify:\/\/collections\/gold-rings",
+              "url": "shopify://collections/gold-rings",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -986,7 +986,7 @@
             "type": "menu",
             "settings": {
               "title": "Travel Cases",
-              "url": "\/",
+              "url": "/",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -998,7 +998,7 @@
             "type": "menu",
             "settings": {
               "title": "Watches",
-              "url": "shopify:\/\/collections\/watches",
+              "url": "shopify://collections/watches",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -1010,7 +1010,7 @@
             "type": "menu",
             "settings": {
               "title": "Custom",
-              "url": "\/",
+              "url": "/",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -1022,7 +1022,7 @@
             "type": "menu",
             "settings": {
               "title": "Made To Order",
-              "url": "\/",
+              "url": "/",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -1050,7 +1050,7 @@
             "disabled": true,
             "settings": {
               "title": "Need help?",
-              "text": "<i class=\"pegk pe-7s-call fwb mr__10\"><\/i>+01 23456789<br><i class=\"pegk pe-7s-mail fwb mr__10\"><\/i><a class=\"cg\" href=\"mailto:gecko@domain.com\">gecko@domain.com<\/a>"
+              "text": "<i class=\"pegk pe-7s-call fwb mr__10\"></i>+01 23456789<br><i class=\"pegk pe-7s-mail fwb mr__10\"></i><a class=\"cg\" href=\"mailto:gecko@domain.com\">gecko@domain.com</a>"
             }
           },
           "mb_nav-8": {
@@ -1280,8 +1280,8 @@
           "1585640154849": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Rectangle_5.png",
-              "image_mb": "shopify:\/\/shop_images\/for_mobile_1_1.png",
+              "image": "shopify://shop_images/Rectangle_5.png",
+              "image_mb": "shopify://shop_images/for_mobile_1_1.png",
               "pos_img": "center center",
               "cl_img": "",
               "link_img1": "",
@@ -1329,7 +1329,7 @@
           "1585640447349": {
             "type": "hd",
             "settings": {
-              "title": "<span class=\"cp\">One stop <\/span><br>\n<span class=\"cp\">\nJewelry shopping<\/span>",
+              "title": "<span class=\"cp\">One stop </span><br>\n<span class=\"cp\">\nJewelry shopping</span>",
               "color": "#ffffff",
               "fw_text": 700,
               "fs_text": 50,
@@ -1373,7 +1373,7 @@
             "type": "btn",
             "settings": {
               "title": "SHOP NOW",
-              "btn_link": "shopify:\/\/collections",
+              "btn_link": "shopify://collections",
               "title2": "",
               "btn_link2": "",
               "btn_round": false,
@@ -1450,7 +1450,7 @@
             "type": "hd",
             "disabled": true,
             "settings": {
-              "title": "<span class=\"cp\">NEW ARRIVALS <\/span> COLLECTION",
+              "title": "<span class=\"cp\">NEW ARRIVALS </span> COLLECTION",
               "color": "#ffffff",
               "fw_text": 700,
               "fs_text": 50,
@@ -1474,7 +1474,7 @@
             "disabled": true,
             "settings": {
               "title": "SHOP NOW",
-              "btn_link": "shopify:\/\/collections\/trending",
+              "btn_link": "shopify://collections/trending",
               "title2": "",
               "btn_link2": "",
               "btn_round": false,
@@ -1536,9 +1536,9 @@
       "header_banner": {
         "type": "header_banner",
         "settings": {
-          "link": "shopify:\/\/collections\/trending",
-          "text": "Today deal sale off <strong>70% <\/strong>. End in [countdown].  Hurry Up <i class=\"las la-arrow-right\"><\/i>",
-          "countdown": "2020\/12\/19",
+          "link": "shopify://collections/trending",
+          "text": "Today deal sale off <strong>70% </strong>. End in [countdown].  Hurry Up <i class=\"las la-arrow-right\"></i>",
+          "countdown": "2020/12/19",
           "height": 41,
           "fontsize": 12,
           "cl": "#fff",
@@ -1679,7 +1679,7 @@
         ],
         "settings": {
           "shown": true,
-          "image": "shopify:\/\/shop_images\/Rectangle_182.png",
+          "image": "shopify://shop_images/Rectangle_182.png",
           "use_specify_image": true,
           "parallax": false,
           "color": "#000000",
@@ -1887,7 +1887,7 @@
           "text_8zpPwT": {
             "type": "text",
             "settings": {
-              "text": "<p>Shipping calculated at checkout.<\/p>"
+              "text": "<p>Shipping calculated at checkout.</p>"
             }
           },
           "pr_summary-1": {
@@ -2068,7 +2068,7 @@
         "type": "product-recommendations",
         "settings": {
           "show": true,
-          "bgimage": "shopify:\/\/shop_images\/Frame_2.png",
+          "bgimage": "shopify://shop_images/Frame_2.png",
           "title": "You might also like",
           "sub_title": "",
           "sub_font": "2",
@@ -2835,7 +2835,7 @@
             "type": "simple",
             "settings": {
               "title": "Home",
-              "url": "\/",
+              "url": "/",
               "open_link": "_self",
               "icon": "",
               "cus_cl": true,
@@ -2848,8 +2848,8 @@
             "type": "simple",
             "settings": {
               "title": "Chains",
-              "url": "shopify:\/\/collections\/gold-chains",
-              "open_link": "_blank",
+              "url": "shopify://collections/gold-chains",
+              "open_link": "_self",
               "icon": "",
               "cus_cl": true,
               "cl": "#000000",
@@ -2861,8 +2861,8 @@
             "type": "simple",
             "settings": {
               "title": "Rings",
-              "url": "shopify:\/\/collections\/gold-rings",
-              "open_link": "_blank",
+              "url": "shopify://collections/gold-rings",
+              "open_link": "_self",
               "icon": "",
               "cus_cl": true,
               "cl": "#000000",
@@ -2874,8 +2874,8 @@
             "type": "simple",
             "settings": {
               "title": "Earrings",
-              "url": "shopify:\/\/collections\/earrings",
-              "open_link": "_blank",
+              "url": "shopify://collections/earrings",
+              "open_link": "_self",
               "icon": "",
               "cus_cl": true,
               "cl": "#000000",
@@ -2887,8 +2887,8 @@
             "type": "simple",
             "settings": {
               "title": "Pendants",
-              "url": "shopify:\/\/collections\/pendants",
-              "open_link": "_blank",
+              "url": "shopify://collections/pendants",
+              "open_link": "_self",
               "icon": "",
               "cus_cl": true,
               "cl": "#000000",
@@ -2900,8 +2900,8 @@
             "type": "simple",
             "settings": {
               "title": "Bracelets",
-              "url": "shopify:\/\/collections\/bracelets",
-              "open_link": "_blank",
+              "url": "shopify://collections/bracelets",
+              "open_link": "_self",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
@@ -2913,8 +2913,8 @@
             "type": "simple",
             "settings": {
               "title": "Watches",
-              "url": "shopify:\/\/collections\/watches",
-              "open_link": "_blank",
+              "url": "shopify://collections/watches",
+              "open_link": "_self",
               "icon": "",
               "cus_cl": true,
               "cl": "#000000",
@@ -2924,11 +2924,10 @@
           },
           "simple_KGCtB9": {
             "type": "simple",
-            "disabled": true,
             "settings": {
               "title": "Custom",
-              "url": "shopify:\/\/collections\/pendants",
-              "open_link": "_blank",
+              "url": "shopify://collections/pendants",
+              "open_link": "_self",
               "icon": "",
               "cus_cl": true,
               "cl": "#000000",
@@ -2940,7 +2939,7 @@
             "type": "simple",
             "settings": {
               "title": "Travel Cases",
-              "url": "shopify:\/\/pages\/different-location",
+              "url": "shopify://pages/different-location",
               "open_link": "_blank",
               "icon": "",
               "cus_cl": true,
@@ -2953,7 +2952,7 @@
             "type": "simple",
             "settings": {
               "title": "Made To Order",
-              "url": "shopify:\/\/collections",
+              "url": "shopify://collections",
               "open_link": "_blank",
               "icon": "",
               "cus_cl": true,
@@ -3125,7 +3124,7 @@
           "hover": "hover_side_up",
           "bg": "#56cfe1",
           "cl_txt": "#ffffff",
-          "text": "<i class=\"las la-phone fs__14\"><\/i> +01 23456789 <i class=\"las la-envelope fs__14 ml__15\"><\/i> <a class=\"cg\" href=\"mailto:Gecko@domain.com\">Gecko@domain.com<\/a>",
+          "text": "<i class=\"las la-phone fs__14\"></i> +01 23456789 <i class=\"las la-envelope fs__14 ml__15\"></i> <a class=\"cg\" href=\"mailto:Gecko@domain.com\">Gecko@domain.com</a>",
           "shop_cat": true,
           "txt_cat": "SHOP BY CATEGORY",
           "bgcat": "#007e91",
@@ -3228,7 +3227,7 @@
           "us_heading-1": {
             "type": "2",
             "settings": {
-              "text": "<p>Follow your passion, and sucess will follow you<\/p>"
+              "text": "<p>Follow your passion, and sucess will follow you</p>"
             }
           }
         },
@@ -3254,7 +3253,7 @@
             "type": "1",
             "settings": {
               "title": "OUR MISSION",
-              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae<\/em> vitae dicta sunt explicabo nemo enim ipsam.",
+              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</em> vitae dicta sunt explicabo nemo enim ipsam.",
               "al": "txtn",
               "cl": "6",
               "cl_mb": "12"
@@ -3264,7 +3263,7 @@
             "type": "1",
             "settings": {
               "title": "OUR MISSION",
-              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae<\/em> vitae dicta sunt explicabo nemo enim ipsam.",
+              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</em> vitae dicta sunt explicabo nemo enim ipsam.",
               "al": "txtn",
               "cl": "6",
               "cl_mb": "12"
@@ -3274,7 +3273,7 @@
             "type": "1",
             "settings": {
               "title": "OUR MISSION",
-              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae<\/em> vitae dicta sunt explicabo nemo enim ipsam.",
+              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</em> vitae dicta sunt explicabo nemo enim ipsam.",
               "al": "txtn",
               "cl": "6",
               "cl_mb": "12"
@@ -3284,7 +3283,7 @@
             "type": "1",
             "settings": {
               "title": "OUR MISSION",
-              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae<\/em> vitae dicta sunt explicabo nemo enim ipsam.",
+              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</em> vitae dicta sunt explicabo nemo enim ipsam.",
               "al": "txtn",
               "cl": "6",
               "cl_mb": "12"
@@ -3332,7 +3331,7 @@
           "4143db8f-06cf-493a-ae3c-e9974cd2e53f": {
             "type": "6",
             "settings": {
-              "html": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae<\/em> vitae dicta sunt explicabo nemo enim ipsam.<\/p>",
+              "html": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</em> vitae dicta sunt explicabo nemo enim ipsam.</p>",
               "cl": "12",
               "cl_mb": "12"
             }
@@ -3451,12 +3450,12 @@
           "text_Ynjhnx"
         ],
         "settings": {
-          "desktop_bg_image": "shopify:\/\/shop_images\/Rectangle_36_1.png",
-          "mobile_bg_image": "shopify:\/\/shop_images\/Rectangle_36_4.png",
+          "desktop_bg_image": "shopify://shop_images/Rectangle_36_1.png",
+          "mobile_bg_image": "shopify://shop_images/Rectangle_36_4.png",
           "heading": "Sale 50% Off",
           "paragraph": "Exclusive offer: Enjoy exceptional savings on our premium diamond and gold jewelry collection.",
           "btntext": "Shop Now",
-          "btnurl": "shopify:\/\/collections\/bracelets"
+          "btnurl": "shopify://collections/bracelets"
         }
       },
       "shipping_8RgVhV": {
@@ -3465,7 +3464,7 @@
           "shipping_8FjhfE": {
             "type": "shipping",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Group_1000004462.png",
+              "image": "shopify://shop_images/Group_1000004462.png",
               "icon": "",
               "title": "MONEY RETURN",
               "text": "7 days for free return"
@@ -3474,7 +3473,7 @@
           "shipping_Q3Tw94": {
             "type": "shipping",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Vector_2.png",
+              "image": "shopify://shop_images/Vector_2.png",
               "icon": "",
               "title": "ONLINE SUPPORT",
               "text": "Support 24 hours a day"
@@ -3483,7 +3482,7 @@
           "shipping_HyPth3": {
             "type": "shipping",
             "settings": {
-              "image": "shopify:\/\/shop_images\/handshake_1.png",
+              "image": "shopify://shop_images/handshake_1.png",
               "icon": "",
               "title": "DEALS & PROMOTIONS",
               "text": "Price savings, discounts"
@@ -3492,7 +3491,7 @@
           "shipping_D7VceY": {
             "type": "shipping",
             "settings": {
-              "image": "shopify:\/\/shop_images\/fast_1.png",
+              "image": "shopify://shop_images/fast_1.png",
               "icon": "",
               "title": "FREE SHIPPING",
               "text": "Free shipping all order"
@@ -3532,10 +3531,10 @@
           "img_7iqxFT": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/bracelet.jpg",
+              "image": "shopify://shop_images/bracelet.jpg",
               "pos_img": "center center",
               "size_img": "cover",
-              "link_img1": "shopify:\/\/collections\/all",
+              "link_img1": "shopify://collections/all",
               "open_link": "_blank",
               "caption_w": "2",
               "cap_v_pos": 50,
@@ -3580,7 +3579,7 @@
           "image_position": "8",
           "layout": "container",
           "cl_bg": "#ffffff",
-          "bgimage": "shopify:\/\/shop_images\/Frame_4_1.png",
+          "bgimage": "shopify://shop_images/Frame_4_1.png",
           "mg": "50px,,50px,",
           "pd": "",
           "mg_mb": "",
@@ -3610,50 +3609,50 @@
             "type": "collection",
             "settings": {
               "collection": "",
-              "image": "shopify:\/\/shop_images\/1_bd99a8cd-5744-4118-86f2-a4669e839304.jpg",
+              "image": "shopify://shop_images/1_bd99a8cd-5744-4118-86f2-a4669e839304.jpg",
               "img_align": "center",
               "title": "EARRINGS",
-              "url": "shopify:\/\/collections\/earrings"
+              "url": "shopify://collections/earrings"
             }
           },
           "collection_jRjy7V": {
             "type": "collection",
             "settings": {
               "collection": "",
-              "image": "shopify:\/\/shop_images\/522d946d27c4fd7045c4a47e33546ebf_2_1.png",
+              "image": "shopify://shop_images/522d946d27c4fd7045c4a47e33546ebf_2_1.png",
               "img_align": "center",
               "title": "WATCHES",
-              "url": "shopify:\/\/collections\/watches"
+              "url": "shopify://collections/watches"
             }
           },
           "collection_jyBgc9": {
             "type": "collection",
             "settings": {
               "collection": "",
-              "image": "shopify:\/\/shop_images\/2_e591e5ec-2162-4137-b9e6-def69ff2d6fb.jpg",
+              "image": "shopify://shop_images/2_e591e5ec-2162-4137-b9e6-def69ff2d6fb.jpg",
               "img_align": "center",
               "title": "RING",
-              "url": "shopify:\/\/collections\/rings"
+              "url": "shopify://collections/rings"
             }
           },
           "collection_egc4QH": {
             "type": "collection",
             "settings": {
               "collection": "",
-              "image": "shopify:\/\/shop_images\/2023-09-09-16-13-11.jpg",
+              "image": "shopify://shop_images/2023-09-09-16-13-11.jpg",
               "img_align": "center",
               "title": "GOLD CHAINS",
-              "url": "shopify:\/\/collections\/gold-chains"
+              "url": "shopify://collections/gold-chains"
             }
           },
           "collection_R3LfkP": {
             "type": "collection",
             "settings": {
               "collection": "",
-              "image": "shopify:\/\/shop_images\/2023-10-22-11-58-11.jpg",
+              "image": "shopify://shop_images/2023-10-22-11-58-11.jpg",
               "img_align": "center",
               "title": "BRACELET",
-              "url": "shopify:\/\/collections\/bracelets"
+              "url": "shopify://collections/bracelets"
             }
           }
         },
@@ -3696,7 +3695,7 @@
           "cp_code": false,
           "layout": "wrap",
           "cl_bg": "#f6f5f3",
-          "image": "shopify:\/\/shop_images\/Frame_4_1.png",
+          "image": "shopify://shop_images/Frame_4_1.png",
           "mg": "",
           "pd": "50px,,50px,",
           "mg_mb": "",
@@ -3709,10 +3708,10 @@
           "img_EKC8Kb": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/earrings.jpg",
+              "image": "shopify://shop_images/earrings.jpg",
               "pos_img": "center center",
               "size_img": "cover",
-              "link_img1": "shopify:\/\/collections\/all",
+              "link_img1": "shopify://collections/all",
               "open_link": "_blank",
               "caption_w": "2",
               "cap_v_pos": 34,
@@ -3757,7 +3756,7 @@
           "image_position": "8",
           "layout": "container",
           "cl_bg": "#ffffff",
-          "bgimage": "shopify:\/\/shop_images\/Frame_4_1.png",
+          "bgimage": "shopify://shop_images/Frame_4_1.png",
           "mg": "50px,,50px,",
           "pd": "",
           "mg_mb": "",
@@ -3787,35 +3786,35 @@
             "type": "faq",
             "settings": {
               "title": "Where is SOLOMON JEWELRS located?",
-              "content": "<p>SOLOMON JEWELRS located at 4440 State Highway 121,Suite 50,Lewisville, Texas 75056<\/p>"
+              "content": "<p>SOLOMON JEWELRS located at 4440 State Highway 121,Suite 50,Lewisville, Texas 75056</p>"
             }
           },
           "faq_LMTW3M": {
             "type": "faq",
             "settings": {
               "title": "How to buy custom jewelry?",
-              "content": "<p><strong>SOLOMON JEWELERS<\/strong> specializes in full customization,<br\/>and can create the jewelry piece you desire. Please send us pictures that you<br\/>want to customize and DM us all your requirements.<\/p>"
+              "content": "<p><strong>SOLOMON JEWELERS</strong> specializes in full customization,<br/>and can create the jewelry piece you desire. Please send us pictures that you<br/>want to customize and DM us all your requirements.</p>"
             }
           },
           "faq_8yMjHP": {
             "type": "faq",
             "settings": {
               "title": "How long it takes to deliver?",
-              "content": "<p>We have products which are ready to ship. Please visit our shop to check jewelry in-person. Made-to-order or custom products will take 1-2 weeks to<br\/>stud the stones & check quality product.<\/p>"
+              "content": "<p>We have products which are ready to ship. Please visit our shop to check jewelry in-person. Made-to-order or custom products will take 1-2 weeks to<br/>stud the stones & check quality product.</p>"
             }
           },
           "faq_KXgAQU": {
             "type": "faq",
             "settings": {
               "title": "Does your diamond passes the diamond tester?",
-              "content": "<p>We sell genuine natural diamond, lab grown diamond and moissanite jewelry. So yes, our diamonds pass the diamond tester. <\/p>"
+              "content": "<p>We sell genuine natural diamond, lab grown diamond and moissanite jewelry. So yes, our diamonds pass the diamond tester. </p>"
             }
           },
           "faq_riL7Hf": {
             "type": "faq",
             "settings": {
               "title": "What is the difference between gold-plating and solid gold?",
-              "content": "<p><strong>Gold-Plated:<\/strong><br\/>Gold plated products have a thin layer of gold applied over a base metal. They are generally more affordable but may wear off over time.<\/p><p><strong>Solid Gold:<\/strong><br\/>Made entirely from gold, these earrings are more durable and typically more expensive but retain their appearance longer.<\/p>"
+              "content": "<p><strong>Gold-Plated:</strong><br/>Gold plated products have a thin layer of gold applied over a base metal. They are generally more affordable but may wear off over time.</p><p><strong>Solid Gold:</strong><br/>Made entirely from gold, these earrings are more durable and typically more expensive but retain their appearance longer.</p>"
             }
           }
         },
@@ -3838,7 +3837,7 @@
           "use_pr": false,
           "layout": "nt_boxed",
           "cl_bg": "#e9e8e4",
-          "image": "shopify:\/\/shop_images\/Frame_6.png",
+          "image": "shopify://shop_images/Frame_6.png",
           "cl_overlay": "#000000",
           "cl_opacity": 0,
           "section_bg_color": "#e9e8e4",
@@ -3866,81 +3865,81 @@
           "text_3zjMLN": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/SHAQUILLE_O_NEAL.jpg",
-              "smallimg": "shopify:\/\/shop_images\/SHAQUILLE_O_NEAL_f9984b46-91c0-46e4-a0ad-c1b98e8e47bc.png",
-              "nametext": "<h6><strong>SHAQUILLE O'NEAL<\/strong><\/h6>",
+              "image": "shopify://shop_images/SHAQUILLE_O_NEAL.jpg",
+              "smallimg": "shopify://shop_images/SHAQUILLE_O_NEAL_f9984b46-91c0-46e4-a0ad-c1b98e8e47bc.png",
+              "nametext": "<h6><strong>SHAQUILLE O'NEAL</strong></h6>",
               "product": ""
             }
           },
           "text_VYbg94": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/BIGXTHAPLUG.jpg",
-              "smallimg": "shopify:\/\/shop_images\/BIGXTHAPLUG.png",
-              "nametext": "<h6><strong>BIGXTHAPLUG<\/strong><\/h6>",
+              "image": "shopify://shop_images/BIGXTHAPLUG.jpg",
+              "smallimg": "shopify://shop_images/BIGXTHAPLUG.png",
+              "nametext": "<h6><strong>BIGXTHAPLUG</strong></h6>",
               "product": ""
             }
           },
           "text_UpDzfT": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/KEVIN_GATES.jpg",
-              "smallimg": "shopify:\/\/shop_images\/KEVIN_GATES.png",
-              "nametext": "<h6><strong>KEVIN GATES<\/strong><\/h6>",
+              "image": "shopify://shop_images/KEVIN_GATES.jpg",
+              "smallimg": "shopify://shop_images/KEVIN_GATES.png",
+              "nametext": "<h6><strong>KEVIN GATES</strong></h6>",
               "product": ""
             }
           },
           "text_9MJFVW": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/XAVIER_WORTHY.jpg",
-              "smallimg": "shopify:\/\/shop_images\/XAVIER_WORTHY.png",
-              "nametext": "<h6><strong>XAVIER WORTHY<\/strong><\/h6>",
+              "image": "shopify://shop_images/XAVIER_WORTHY.jpg",
+              "smallimg": "shopify://shop_images/XAVIER_WORTHY.png",
+              "nametext": "<h6><strong>XAVIER WORTHY</strong></h6>",
               "product": ""
             }
           },
           "text_6DHXqL": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/JEFF_WILSON.jpg",
-              "smallimg": "shopify:\/\/shop_images\/JEFF_WILSON.jpg",
-              "nametext": "<h6><strong>JEFF WILSON<\/strong><\/h6>",
+              "image": "shopify://shop_images/JEFF_WILSON.jpg",
+              "smallimg": "shopify://shop_images/JEFF_WILSON.jpg",
+              "nametext": "<h6><strong>JEFF WILSON</strong></h6>",
               "product": ""
             }
           },
           "text_GGhe8M": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/MYKAL_WALKER.jpg",
-              "smallimg": "shopify:\/\/shop_images\/MYKAL_WALKER.png",
-              "nametext": "<h6><strong>MYKAL WALKER<\/strong><\/h6>",
+              "image": "shopify://shop_images/MYKAL_WALKER.jpg",
+              "smallimg": "shopify://shop_images/MYKAL_WALKER.png",
+              "nametext": "<h6><strong>MYKAL WALKER</strong></h6>",
               "product": ""
             }
           },
           "text_zfhYML": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/DEION_SANDERS.jpg",
-              "smallimg": "shopify:\/\/shop_images\/DEION_SANDERS.jpg",
-              "nametext": "<h6><strong>DEION SANDERS<\/strong><\/h6>",
+              "image": "shopify://shop_images/DEION_SANDERS.jpg",
+              "smallimg": "shopify://shop_images/DEION_SANDERS.jpg",
+              "nametext": "<h6><strong>DEION SANDERS</strong></h6>",
               "product": ""
             }
           },
           "text_EwKwxh": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/SHAREEF_O_NEAL.jpg",
-              "smallimg": "shopify:\/\/shop_images\/SHAREEF_O_NEAL.png",
-              "nametext": "<h6><strong>SHAREEF O'NEAL<\/strong><\/h6>",
+              "image": "shopify://shop_images/SHAREEF_O_NEAL.jpg",
+              "smallimg": "shopify://shop_images/SHAREEF_O_NEAL.png",
+              "nametext": "<h6><strong>SHAREEF O'NEAL</strong></h6>",
               "product": ""
             }
           },
           "text_pdhqqb": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/MARIO_CHALMERS.jpg",
-              "smallimg": "shopify:\/\/shop_images\/MARIO_CHALMERS.png",
-              "nametext": "<h6><strong>MARIO CHALMERS<\/strong><\/h6>",
+              "image": "shopify://shop_images/MARIO_CHALMERS.jpg",
+              "smallimg": "shopify://shop_images/MARIO_CHALMERS.png",
+              "nametext": "<h6><strong>MARIO CHALMERS</strong></h6>",
               "product": ""
             }
           }
@@ -3958,28 +3957,28 @@
         ],
         "settings": {
           "sectionhead": "Celebrity Jewelry",
-          "backimg": "shopify:\/\/shop_images\/Frame_4_1.png"
+          "backimg": "shopify://shop_images/Frame_4_1.png"
         }
       },
       "image_text_B4eceG": {
         "type": "image_text",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Group_1000004498.png",
+          "image": "shopify://shop_images/Group_1000004498.png",
           "img_align": "center",
           "img_position": "2",
           "image_ratio": "auto",
           "text_size": "60,18",
           "title": "Discounts up to <br>20% are waiting for you…",
-          "text": "<p>Discover stunning deals on luxurious jewelry! Our exclusive discount event offers significant savings on diamond and gold pieces.<\/p>",
+          "text": "<p>Discover stunning deals on luxurious jewelry! Our exclusive discount event offers significant savings on diamond and gold pieces.</p>",
           "button_label": "Shop Now",
-          "button_link": "shopify:\/\/collections\/all",
+          "button_link": "shopify://collections/all",
           "open_link": "_blank",
           "txt_align": "tl",
           "use_shadow": false,
           "cl_txt": "dark",
           "layout": "container",
           "cl_bg": "#f6f5f3",
-          "bgimage": "shopify:\/\/shop_images\/Frame_4_1.png",
+          "bgimage": "shopify://shop_images/Frame_4_1.png",
           "mg": "",
           "pd": "50px,,50px,",
           "mg_mb": "",
@@ -4000,7 +3999,7 @@
           "quote_QiTdnH": {
             "type": "quote",
             "settings": {
-              "content": "<p>The craftsmanship and quality of the gold chain I purchased are incredible.<\/p>",
+              "content": "<p>The craftsmanship and quality of the gold chain I purchased are incredible.</p>",
               "title": "Emily Johnson - Los Angeles, USA",
               "pos": "",
               "rating": 5,
@@ -4010,7 +4009,7 @@
           "quote_4d8dRY": {
             "type": "quote",
             "settings": {
-              "content": "<p>I bought a gold bracelet for my anniversary, and it exceeded all my expectations.<\/p>",
+              "content": "<p>I bought a gold bracelet for my anniversary, and it exceeded all my expectations.</p>",
               "title": "David Martinez - Miami, USA",
               "pos": "",
               "rating": 4,
@@ -4020,7 +4019,7 @@
           "quote_EU9izj": {
             "type": "quote",
             "settings": {
-              "content": "<p>The customer service was exceptional, and my ring arrived quickly the quality is good.<\/p>",
+              "content": "<p>The customer service was exceptional, and my ring arrived quickly the quality is good.</p>",
               "title": "Olivia Harris - Texas, USA",
               "pos": "",
               "rating": 4,
@@ -4030,7 +4029,7 @@
           "quote_zhw8N8": {
             "type": "quote",
             "settings": {
-              "content": "<p>This diamond bracelet is a masterpiece. The combination of gold and diamonds is perfect.<\/p>",
+              "content": "<p>This diamond bracelet is a masterpiece. The combination of gold and diamonds is perfect.</p>",
               "title": "Sophia Walker - Las Vegas, USA",
               "pos": "",
               "rating": 4,
@@ -4067,7 +4066,7 @@
           "dot_color": "1",
           "layout": "wrap",
           "cl_bg": "#f6f5f3",
-          "image": "shopify:\/\/shop_images\/Frame_5.png",
+          "image": "shopify://shop_images/Frame_5.png",
           "mg": "",
           "pd": "50px,,50px,",
           "mg_mb": "",
@@ -4084,7 +4083,7 @@
         "settings": {
           "heading": "Discounts up to 20% are waiting for you…",
           "buttontext": "Explore",
-          "buttonlink": "shopify:\/\/collections\/all",
+          "buttonlink": "shopify://collections/all",
           "layout": "nt_boxed",
           "cl_bg": "#caa45d",
           "mg": "",
@@ -4120,7 +4119,7 @@
         ],
         "settings": {
           "shown": true,
-          "image": "shopify:\/\/shop_images\/Rectangle_182.png",
+          "image": "shopify://shop_images/Rectangle_182.png",
           "use_specify_image": true,
           "parallax": false,
           "color": "#000000",
