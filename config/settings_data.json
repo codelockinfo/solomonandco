@@ -2948,6 +2948,16 @@
               "col": "3"
             }
           },
+          "link_K6xFXV": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Shop by Shape",
+              "url": "",
+              "open_link": "_self",
+              "menu": "shop-by-shape",
+              "col": "3"
+            }
+          },
           "simple_EhtBnB": {
             "type": "simple",
             "settings": {
@@ -3051,6 +3061,7 @@
           "link_339p7w",
           "link_GFqmEk",
           "link_GP6WPt",
+          "link_K6xFXV",
           "simple_EhtBnB",
           "simple_mVyKfA",
           "simple_cVPgAc",
