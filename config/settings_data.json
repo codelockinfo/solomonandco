@@ -2867,7 +2867,37 @@
               "tt_hd": "Moissanite",
               "url": "",
               "open_link": "_self",
-              "menu": "",
+              "menu": "moissanite-chain",
+              "col": "3"
+            }
+          },
+          "link_J49W3t": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Moissanite",
+              "url": "",
+              "open_link": "_self",
+              "menu": "lab-grown-chain",
+              "col": "3"
+            }
+          },
+          "link_6hc8JU": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Moissanite",
+              "url": "",
+              "open_link": "_self",
+              "menu": "moissanite-chain",
+              "col": "4"
+            }
+          },
+          "link_UzC63F": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Moissanite",
+              "url": "",
+              "open_link": "_self",
+              "menu": "moissanite-chain",
               "col": "4"
             }
           },
@@ -2980,6 +3010,9 @@
           "header_4-1",
           "mega_c937Xf",
           "link_bHAF7M",
+          "link_J49W3t",
+          "link_6hc8JU",
+          "link_UzC63F",
           "simple_H3GTCF",
           "simple_EhtBnB",
           "simple_mVyKfA",
