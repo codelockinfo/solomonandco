@@ -3131,10 +3131,10 @@
           "link_NBtaif": {
             "type": "link",
             "settings": {
-              "tt_hd": "Heading",
+              "tt_hd": "Women's Watch",
               "url": "",
               "open_link": "_self",
-              "menu": "",
+              "menu": "women-watch",
               "col": "4"
             }
           },
