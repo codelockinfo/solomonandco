@@ -2975,6 +2975,16 @@
               "cus_wid": 1200
             }
           },
+          "link_TWy4aU": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Moissanite",
+              "url": "",
+              "open_link": "_self",
+              "menu": "moissanite-earrings",
+              "col": "4"
+            }
+          },
           "simple_mVyKfA": {
             "type": "simple",
             "settings": {
@@ -3067,6 +3077,7 @@
           "link_GP6WPt",
           "link_K6xFXV",
           "mega_4VAfwn",
+          "link_TWy4aU",
           "simple_mVyKfA",
           "simple_cVPgAc",
           "simple_En9Tga",
