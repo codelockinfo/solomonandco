@@ -1281,7 +1281,7 @@
             "type": "img",
             "settings": {
               "image": "shopify://shop_images/01.jpg",
-              "image_mb": "shopify://shop_images/for_mobile_1_1.png",
+              "image_mb": "shopify://shop_images/01.png",
               "pos_img": "center center",
               "cl_img": "",
               "link_img1": "",
