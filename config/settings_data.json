@@ -3144,8 +3144,8 @@
               "image": "shopify://shop_images/2023-08-11-12-51-08-3.jpg",
               "cat_design": "1",
               "hoverz": true,
-              "collection": "",
-              "title": "Watches",
+              "collection": "watches",
+              "title": "",
               "col": "4"
             }
           },
