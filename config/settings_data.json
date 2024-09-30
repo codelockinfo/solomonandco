@@ -3118,6 +3118,26 @@
               "cus_wid": 1200
             }
           },
+          "link_AMcnQh": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Men’s Watch",
+              "url": "",
+              "open_link": "_self",
+              "menu": "men-s-watch",
+              "col": "4"
+            }
+          },
+          "link_NBtaif": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Heading",
+              "url": "",
+              "open_link": "_self",
+              "menu": "",
+              "col": "4"
+            }
+          },
           "simple_KGCtB9": {
             "type": "simple",
             "settings": {
@@ -3183,6 +3203,8 @@
           "link_EenyXG",
           "link_CADnLh",
           "mega_9qc9cA",
+          "link_AMcnQh",
+          "link_NBtaif",
           "simple_KGCtB9",
           "simple_Q4hLeY",
           "simple_wT4d7Y"
