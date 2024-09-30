@@ -2958,17 +2958,21 @@
               "col": "3"
             }
           },
-          "simple_EhtBnB": {
-            "type": "simple",
+          "mega_4VAfwn": {
+            "type": "mega",
             "settings": {
               "title": "Earrings",
-              "url": "shopify://collections/earrings",
+              "url": "",
               "open_link": "_self",
               "icon": "",
-              "cus_cl": true,
-              "cl": "#000000",
+              "cus_cl": false,
+              "cl": "#ec0101",
               "lb": "",
-              "lb_cl": "rgba(0,0,0,0)"
+              "lb_cl": "",
+              "lazy_mn": true,
+              "pos": "default",
+              "wid": "cus",
+              "cus_wid": 1200
             }
           },
           "simple_mVyKfA": {
@@ -3062,7 +3066,7 @@
           "link_GFqmEk",
           "link_GP6WPt",
           "link_K6xFXV",
-          "simple_EhtBnB",
+          "mega_4VAfwn",
           "simple_mVyKfA",
           "simple_cVPgAc",
           "simple_En9Tga",
