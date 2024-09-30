@@ -477,7 +477,9 @@ color: #282828;
 .quote_col .w-75{
     padding-left: 15px;
 }
-
+.template-page .container{
+    max-width: 1000px !important;
+}
 /* MEDIA QUERY */
 
 @media (max-width:1440px) {
