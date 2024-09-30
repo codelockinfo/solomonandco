@@ -3115,7 +3115,7 @@
               "lazy_mn": true,
               "pos": "default",
               "wid": "cus",
-              "cus_wid": 1200
+              "cus_wid": 1000
             }
           },
           "link_AMcnQh": {
@@ -3145,7 +3145,7 @@
               "cat_design": "1",
               "hoverz": true,
               "collection": "",
-              "title": "",
+              "title": "Watches",
               "col": "4"
             }
           },
