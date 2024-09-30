@@ -4398,7 +4398,7 @@
       "faqsection": {
         "type": "faqsection",
         "settings": {
-          "title": "Faqs",
+          "title": "",
           "sub_title": "",
           "sub_font": "2",
           "style_title": "title_1",
