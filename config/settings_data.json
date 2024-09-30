@@ -2918,6 +2918,26 @@
               "cus_wid": 1200
             }
           },
+          "link_339p7w": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Moissanite",
+              "url": "",
+              "open_link": "_self",
+              "menu": "moissanite-rings",
+              "col": "3"
+            }
+          },
+          "link_GFqmEk": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Lab Grown",
+              "url": "",
+              "open_link": "_self",
+              "menu": "lab-grown-rings",
+              "col": "3"
+            }
+          },
           "simple_EhtBnB": {
             "type": "simple",
             "settings": {
@@ -3018,6 +3038,8 @@
           "link_6hc8JU",
           "link_UzC63F",
           "mega_bTCtEV",
+          "link_339p7w",
+          "link_GFqmEk",
           "simple_EhtBnB",
           "simple_mVyKfA",
           "simple_cVPgAc",
