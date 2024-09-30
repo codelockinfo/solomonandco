@@ -320,6 +320,8 @@
 
 .template-product .custom_wish {
     color: #282828 !important;
+    border: unset;
+    background: #EDE9EB;
 }
 
 .variations_form .quantity {
@@ -338,7 +340,7 @@
 .des_tab {
     border-top: 1px solid #D9D9D9;
     border-bottom: 1px solid #D9D9D9;
-    padding: 8px 0;
+    padding: 5px 0;
 }
 
 .des_tab .active {
@@ -377,13 +379,15 @@
     margin: 10px 0;
 
 }
-.description_heading{
+.description_heading,.swatch__title{
     font-family: IBM Plex Sans;
 font-size: 20px;
 font-weight: 600;
 line-height: 26px;
 text-align: left;
 color: #282828;
+text-transform: capitalize;
+
 }
 .info1{
     font-family: IBM Plex Sans;
@@ -403,7 +407,7 @@ min-width: 90px;
 color: #282828;
 }
 .quantity_head{
-    margin-right:10px;
+    margin-right:20px;
     font-family: IBM Plex Sans;
 font-size: 20px;
 font-weight: 600;

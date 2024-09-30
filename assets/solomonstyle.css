@@ -73,6 +73,9 @@
 .type_banner_collection  .se_t4_bg {
     background-size: auto;
 }
+.nt_se_product-recommendations.se_t4_bg{
+    background-size: contain;
+}
 .text-content{
     font-size: 20px;
     font-weight: 400;
@@ -218,7 +221,7 @@
     background-color: #FAF7F2;
     padding: 10px;
 }
-.page_section_heading .collection-heading{
+.page_section_heading .banner-heading{
     font-family: Ivy Mode;
     font-size: 40px;
     font-weight: 400;
@@ -243,6 +246,31 @@ svg.custom-pagination-arrow {
     fill: currentcolor;
 }
 /* collection page */
+/* product page */
+.priceoff{
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31.2px;
+    text-align: left;
+    color: #C02727;
+}
+.pr_text{
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18.2px;
+    color:#282828;
+}
+h3.product-title, h3.product-title>a, h1.product_title.entry-title, .widget .product_list_widget .product-title, .widget .post_list_widget .article-title{
+    color: #282828;
+}
+/* arrow */
+.lazy_icons .flickity-button{
+    visibility: hidden;
+}
+/* arrow */
+/* product page */
 @media screen and (max-width: 1024px){
     .container-border:first-child,.container-border:nth-child(2){
         border-bottom: none;
@@ -290,7 +318,7 @@ svg.custom-pagination-arrow {
         letter-spacing: 0.05em;
     }
     /* collection page */
-    .page_section_heading .collection-heading{
+    .page_section_heading .banner-heading{
         font-weight: 700;
     }
     .sp-breadcrumb a.dib {
@@ -303,4 +331,35 @@ svg.custom-pagination-arrow {
         text-transform: uppercase;
     }
     /* collection page */
+}
+@media screen and (max-width: 500px){
+    /* product page */
+    .shopify-tabs.sp-tabs .des_tab{
+        overflow-x: auto;
+        white-space: nowrap;
+        padding-left: 60%;
+        padding-right: 10%;
+        flex-wrap: nowrap;
+        width: 100%;
+        -ms-overflow-style: none; 
+        scrollbar-width: none; 
+    }
+    .shopify-tabs.sp-tabs .des_tab::-webkit-scrollbar {
+        display: none; 
+    }
+    .price_varies del,
+    .price_varies ins,
+    .priceoff{
+        font-size: 20px;
+    }
+    .page_section_heading .banner-heading{
+        font-size: 25px;
+        line-height: 39.64px;
+        letter-spacing: .02em;
+    }
+    .template-product .product_title{
+        font-size: 28px !important;
+        line-height: 36.6px;
+    }
+    /* product page */
 }

@@ -18,16 +18,14 @@
        <div class="container pr z_100">
           {%- for block in se_bks -%}
             {%- case block.type -%}
-             {%- when '1' -%}<h1 class="mb__25 collection-heading">{{ collection.title }}</h1>
+             {%- when '1' -%}<h1 class="mb__25 banner-heading">{{ collection.title }}</h1>
              {%- when '3' -%}
               <div class="cw">      
                   <div class="col">
-                      {% if settings.breadcrumb_pr %}
-                        <nav class="sp-breadcrumb">
-                        <a href="{{ routes.root_url }}" class="dib">{{ 'general.breadcrumbs.home' | t }}</a>
-                        {% if collection.url != blank %}<i class="facl facl-angle-right"></i><a href="{{collection.url}}" class="dib">{{collection.title}}</a>{% endif %}
-                        </nav>
-                      {% endif %}
+                      <nav class="sp-breadcrumb">
+                      <a href="{{ routes.root_url }}" class="dib">{{ 'general.breadcrumbs.home' | t }}</a>
+                      {% if collection.url != blank %}<i class="facl facl-angle-right"></i><a href="{{collection.url}}" class="dib">{{collection.title}}</a>{% endif %}
+                      </nav>
                   </div>
               </div>
              {%- else %}{% if settings.cat_des == '1' %}<p class="mg__0">{{ collection.description }}</p>{% endif -%}

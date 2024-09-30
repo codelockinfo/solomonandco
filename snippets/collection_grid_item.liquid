@@ -1,0 +1,25 @@
+{%- liquid
+  assign cimg = 'https://placehold.jp/50/f76b6a/fff/530x600.png?text=Collection+Image'
+  
+  assign collection = collections[collection]
+  assign image = collection.image
+  assign home_t = 'homepage.onboarding.collection_title' | t  | append:' #' | append:for_i -%}
+
+<div id="bk_{{block.id}}" class="col-lg-{{col}} col-md-{{col_tb}} col-{{col_mb}} mt__30 cat_grid_item cat_space_item cat_grid_item_{{for_i}} {{ccol}}" {{ block.shopify_attributes }}>
+  <div class="cat_grid_item__content pr oh">
+    <a href="{{ collection.url }}" class="db cat_grid_item__link">
+      {%- if image != blank -%}
+        <img src="{{ image | img_url: 'medium' }}" alt="{{ collection.title }}" />
+        {% comment %} <div class="cat_grid_item__overlay item__position nt_bg_lz lazyload" data-bgset="{{ image | img_url: 'medium' }}" data-ratio="{{image.aspect_ratio}}" data-sizes="auto" data-parent-fit="width"{% if cat_grid_item %} style="padding-top:{{ 1 | divided_by: image.aspect_ratio | times: 100}}%;"{% endif %}></div> {% endcomment %}
+      {%- else -%}
+        <img src="https://placehold.jp/50/f76b6a/fff/530x600.png?text=No+Image+Available" alt="No Image Available" />
+        {% comment %} <div class="cat_grid_item__overlay item__position nt_bg_lz lazyload" data-bg="{{cimg}}"{% if cat_grid_item %} style="padding-top:100%;"{% endif %}></div> {% endcomment %}
+      {%- endif -%}
+    </a>
+    <div class="cat_grid_item__wrapper pe_none positionremove" >
+      <div class="cat_grid_item__title h3">{{ collection.title | default:home_t }}</div>
+      {%- if spn_txt != blank %}<div class="cat_grid_item__btn dn f__libre wrap al_center">{{spn_txt}} <i class="las la-long-arrow-alt-right"></i></div>{% endif -%}
+      {%- if pr_txt != blank %}<div class="cat_grid_item__count dn">{{collection.all_products_count}} {{pr_txt}}</div>{% endif -%}
+    </div>
+  </div>
+</div>
