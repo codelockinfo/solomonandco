@@ -651,5 +651,7 @@ color: #282828;
     .testimonial_custom .flickity-prev-next-button.next {
         right: 37% !important;
     }
-
+    .product-info .price {
+        font-size: 10px !important;
+    }
 }
