@@ -4398,7 +4398,7 @@
       "faqsection": {
         "type": "faqsection",
         "settings": {
-          "title": "",
+          "title": "Faqs",
           "sub_title": "",
           "sub_font": "2",
           "style_title": "title_1",
@@ -4425,7 +4425,7 @@
           "ct_cl": "#222",
           "bd_cl": "#f5f5f5",
           "mg": "",
-          "pd": "",
+          "pd": "50px,,50px,",
           "mg_mb": "",
           "pd_mb": ""
         }
