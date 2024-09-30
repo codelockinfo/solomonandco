@@ -474,7 +474,9 @@ color: #282828;
     width: 100% ;
 }
 
-
+.quote_col .w-75{
+    padding-left: 15px;
+}
 
 /* MEDIA QUERY */
 
