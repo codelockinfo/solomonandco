@@ -229,7 +229,10 @@
     font-weight: 700 !important;
     color: #000 !important;
 }
-
+.nt_pr h3.product-title{
+    height: 50px;
+    overflow: hidden;
+}
 .section-title {
     font-family: Ivy Mode !important;
     font-size: 64px;
