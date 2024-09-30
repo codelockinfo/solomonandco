@@ -2861,17 +2861,20 @@
               "cus_wid": 1200
             }
           },
-          "header_4-0": {
-            "type": "simple",
+          "dropdown_LRCT49": {
+            "type": "dropdown",
             "settings": {
-              "title": "Chains",
-              "url": "shopify://collections/gold-chains",
+              "title": "Heading",
+              "url": "",
               "open_link": "_self",
+              "menu": "",
               "icon": "",
-              "cus_cl": true,
-              "cl": "#000000",
+              "cus_cl": false,
+              "cl": "#ec0101",
               "lb": "",
-              "lb_cl": "rgba(0,0,0,0)"
+              "lb_cl": "",
+              "lazy_mn": true,
+              "pos": "right"
             }
           },
           "simple_H3GTCF": {
@@ -2982,7 +2985,7 @@
         "block_order": [
           "header_4-1",
           "mega_c937Xf",
-          "header_4-0",
+          "dropdown_LRCT49",
           "simple_H3GTCF",
           "simple_EhtBnB",
           "simple_mVyKfA",
