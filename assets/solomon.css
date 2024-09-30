@@ -579,10 +579,9 @@ color: #282828;
     }
        /* FOOETR  */
 
-.textwidget.widget_footer .footer-contact .db{
+.widget_footer .footer-contact .db{
     text-align: center !important;
   }
-  
 }
 
 @media (max-width: 649px) {
