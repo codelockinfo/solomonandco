@@ -2938,6 +2938,16 @@
               "col": "3"
             }
           },
+          "link_GP6WPt": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Natural",
+              "url": "",
+              "open_link": "_self",
+              "menu": "natural-rings",
+              "col": "3"
+            }
+          },
           "simple_EhtBnB": {
             "type": "simple",
             "settings": {
@@ -3040,6 +3050,7 @@
           "mega_bTCtEV",
           "link_339p7w",
           "link_GFqmEk",
+          "link_GP6WPt",
           "simple_EhtBnB",
           "simple_mVyKfA",
           "simple_cVPgAc",
