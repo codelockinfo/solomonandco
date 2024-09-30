@@ -3081,6 +3081,16 @@
               "col": "4"
             }
           },
+          "link_EenyXG": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Lab Grown",
+              "url": "",
+              "open_link": "_self",
+              "menu": "lab-grown-bracelets",
+              "col": "4"
+            }
+          },
           "simple_En9Tga": {
             "type": "simple",
             "settings": {
@@ -3156,6 +3166,7 @@
           "cat_AEz84C",
           "mega_xNXQNM",
           "link_icAfCc",
+          "link_EenyXG",
           "simple_En9Tga",
           "simple_KGCtB9",
           "simple_Q4hLeY",
