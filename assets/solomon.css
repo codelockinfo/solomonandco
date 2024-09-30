@@ -455,6 +455,15 @@ color: #282828;
 	line-height: 24.38px;
 	text-align: left;
 }
+.cmy_20{
+    margin: 20px 0;
+}
+.description_main{
+    margin-top: 15px ;
+}
+.variations_button {
+    width: 100% ;
+}
 @media (max-width:1440px) {
     .testimonial_custom .flickity-prev-next-button.previous {
         left: 93% !important;
