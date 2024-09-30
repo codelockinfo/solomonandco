@@ -3071,6 +3071,16 @@
               "cus_wid": 1200
             }
           },
+          "link_icAfCc": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Moissanite",
+              "url": "",
+              "open_link": "_self",
+              "menu": "moissanite-bracelets",
+              "col": "4"
+            }
+          },
           "simple_En9Tga": {
             "type": "simple",
             "settings": {
@@ -3145,6 +3155,7 @@
           "link_6RJVRV",
           "cat_AEz84C",
           "mega_xNXQNM",
+          "link_icAfCc",
           "simple_En9Tga",
           "simple_KGCtB9",
           "simple_Q4hLeY",
