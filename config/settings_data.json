@@ -3030,7 +3030,7 @@
               "lazy_mn": true,
               "pos": "default",
               "wid": "cus",
-              "cus_wid": 1200
+              "cus_wid": 600
             }
           },
           "link_6RJVRV": {
@@ -3046,9 +3046,10 @@
           "cat_AEz84C": {
             "type": "cat",
             "settings": {
+              "image": "shopify://shop_images/435-00004_Yg14k3.1g_6_d7434b43-b7f4-4386-9e43-a3fc37240bfb.jpg",
               "cat_design": "1",
               "hoverz": true,
-              "collection": "",
+              "collection": "pendants",
               "title": "",
               "col": "6"
             }
