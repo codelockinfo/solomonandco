@@ -3101,17 +3101,21 @@
               "col": "4"
             }
           },
-          "simple_En9Tga": {
-            "type": "simple",
+          "mega_9qc9cA": {
+            "type": "mega",
             "settings": {
               "title": "Watches",
-              "url": "shopify://collections/watches",
+              "url": "",
               "open_link": "_self",
               "icon": "",
-              "cus_cl": true,
-              "cl": "#000000",
+              "cus_cl": false,
+              "cl": "#ec0101",
               "lb": "",
-              "lb_cl": "rgba(0,0,0,0)"
+              "lb_cl": "",
+              "lazy_mn": true,
+              "pos": "default",
+              "wid": "cus",
+              "cus_wid": 1200
             }
           },
           "simple_KGCtB9": {
@@ -3178,7 +3182,7 @@
           "link_icAfCc",
           "link_EenyXG",
           "link_CADnLh",
-          "simple_En9Tga",
+          "mega_9qc9cA",
           "simple_KGCtB9",
           "simple_Q4hLeY",
           "simple_wT4d7Y"
