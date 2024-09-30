@@ -116,7 +116,11 @@
 
 
 
-
+.nt_menu div.menu-item>a, .nt_menu ul li a{
+  font-size: 16px !important;
+    font-weight: 500 !important;
+    color: black !important;
+}
 
 /* MEDIA QUERY  */
 
