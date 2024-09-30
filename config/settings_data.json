@@ -3009,7 +3009,7 @@
             "type": "cat",
             "settings": {
               "image": "shopify://shop_images/earrings.jpg",
-              "cat_design": "2",
+              "cat_design": "1",
               "hoverz": true,
               "collection": "earrings",
               "title": "",
