@@ -477,7 +477,7 @@ color: #282828;
 .quote_col .w-75{
     padding-left: 15px;
 }
-.template-page .container{
+.template-page #shopify-section-pages_heading .container{
     max-width: 1000px !important;
 }
 /* MEDIA QUERY */
