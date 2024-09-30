@@ -2995,6 +2995,16 @@
               "col": "4"
             }
           },
+          "link_KAE86g": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Natural",
+              "url": "",
+              "open_link": "_self",
+              "menu": "natural-earrings",
+              "col": "3"
+            }
+          },
           "simple_mVyKfA": {
             "type": "simple",
             "settings": {
@@ -3089,6 +3099,7 @@
           "mega_4VAfwn",
           "link_TWy4aU",
           "link_hKDmJL",
+          "link_KAE86g",
           "simple_mVyKfA",
           "simple_cVPgAc",
           "simple_En9Tga",
