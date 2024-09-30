@@ -2985,6 +2985,16 @@
               "col": "4"
             }
           },
+          "link_hKDmJL": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Lab Grown",
+              "url": "",
+              "open_link": "_self",
+              "menu": "lab-grown-earrings",
+              "col": "4"
+            }
+          },
           "simple_mVyKfA": {
             "type": "simple",
             "settings": {
@@ -3078,6 +3088,7 @@
           "link_K6xFXV",
           "mega_4VAfwn",
           "link_TWy4aU",
+          "link_hKDmJL",
           "simple_mVyKfA",
           "simple_cVPgAc",
           "simple_En9Tga",
