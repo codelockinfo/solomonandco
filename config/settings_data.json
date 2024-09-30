@@ -3054,17 +3054,21 @@
               "col": "6"
             }
           },
-          "simple_cVPgAc": {
-            "type": "simple",
+          "mega_xNXQNM": {
+            "type": "mega",
             "settings": {
               "title": "Bracelets",
-              "url": "shopify://collections/bracelets",
+              "url": "",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
               "lb": "",
-              "lb_cl": ""
+              "lb_cl": "",
+              "lazy_mn": true,
+              "pos": "default",
+              "wid": "cus",
+              "cus_wid": 1200
             }
           },
           "simple_En9Tga": {
@@ -3118,23 +3122,6 @@
               "lb": "",
               "lb_cl": "rgba(0,0,0,0)"
             }
-          },
-          "mega_xNXQNM": {
-            "type": "mega",
-            "settings": {
-              "title": "Bracelets",
-              "url": "",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "",
-              "lazy_mn": true,
-              "pos": "default",
-              "wid": "cus",
-              "cus_wid": 1200
-            }
           }
         },
         "block_order": [
@@ -3157,12 +3144,11 @@
           "mega_9JUedF",
           "link_6RJVRV",
           "cat_AEz84C",
-          "simple_cVPgAc",
+          "mega_xNXQNM",
           "simple_En9Tga",
           "simple_KGCtB9",
           "simple_Q4hLeY",
-          "simple_wT4d7Y",
-          "mega_xNXQNM"
+          "simple_wT4d7Y"
         ],
         "settings": {
           "height": 62,
