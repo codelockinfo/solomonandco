@@ -3009,11 +3009,11 @@
             "type": "cat",
             "settings": {
               "image": "shopify://shop_images/earrings.jpg",
-              "cat_design": "1",
+              "cat_design": "2",
               "hoverz": true,
               "collection": "earrings",
               "title": "",
-              "col": "4"
+              "col": "3"
             }
           },
           "simple_mVyKfA": {
