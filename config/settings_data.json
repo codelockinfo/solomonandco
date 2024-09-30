@@ -3040,7 +3040,17 @@
               "url": "",
               "open_link": "_self",
               "menu": "pendants",
-              "col": "4"
+              "col": "6"
+            }
+          },
+          "cat_AEz84C": {
+            "type": "cat",
+            "settings": {
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "",
+              "title": "",
+              "col": "6"
             }
           },
           "simple_cVPgAc": {
@@ -3128,6 +3138,7 @@
           "cat_Mi4zET",
           "mega_9JUedF",
           "link_6RJVRV",
+          "cat_AEz84C",
           "simple_cVPgAc",
           "simple_En9Tga",
           "simple_KGCtB9",
