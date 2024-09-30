@@ -2861,20 +2861,14 @@
               "cus_wid": 1200
             }
           },
-          "dropdown_LRCT49": {
-            "type": "dropdown",
+          "link_bHAF7M": {
+            "type": "link",
             "settings": {
-              "title": "Heading",
+              "tt_hd": "Moissanite",
               "url": "",
               "open_link": "_self",
               "menu": "",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "",
-              "lazy_mn": true,
-              "pos": "right"
+              "col": "4"
             }
           },
           "simple_H3GTCF": {
@@ -2985,7 +2979,7 @@
         "block_order": [
           "header_4-1",
           "mega_c937Xf",
-          "dropdown_LRCT49",
+          "link_bHAF7M",
           "simple_H3GTCF",
           "simple_EhtBnB",
           "simple_mVyKfA",
