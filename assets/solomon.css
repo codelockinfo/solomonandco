@@ -13,6 +13,8 @@
 .justy_between{
     justify-content: space-between;
 }
+
+
 /* OFFER SECTION  */
 
 
@@ -464,6 +466,11 @@ color: #282828;
 .variations_button {
     width: 100% ;
 }
+
+
+
+/* MEDIA QUERY */
+
 @media (max-width:1440px) {
     .testimonial_custom .flickity-prev-next-button.previous {
         left: 93% !important;
@@ -570,6 +577,12 @@ color: #282828;
     .img_order_class2 {
         order: 2;
     }
+       /* FOOETR  */
+
+.textwidget.widget_footer .footer-contact .db{
+    text-align: center !important;
+  }
+  
 }
 
 @media (max-width: 649px) {
@@ -596,7 +609,7 @@ color: #282828;
     .product-title .cd{
             font-size: 14px;
     }
-    
+ 
 }
 
 @media (max-width: 499px) {
