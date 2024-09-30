@@ -3005,6 +3005,17 @@
               "col": "3"
             }
           },
+          "cat_Mi4zET": {
+            "type": "cat",
+            "settings": {
+              "image": "shopify://shop_images/earrings.jpg",
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "earrings",
+              "title": "",
+              "col": "4"
+            }
+          },
           "simple_mVyKfA": {
             "type": "simple",
             "settings": {
@@ -3100,6 +3111,7 @@
           "link_TWy4aU",
           "link_hKDmJL",
           "link_KAE86g",
+          "cat_Mi4zET",
           "simple_mVyKfA",
           "simple_cVPgAc",
           "simple_En9Tga",
