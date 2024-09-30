@@ -3091,6 +3091,16 @@
               "col": "4"
             }
           },
+          "link_CADnLh": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Natural",
+              "url": "",
+              "open_link": "_self",
+              "menu": "natural-bracelets",
+              "col": "4"
+            }
+          },
           "simple_En9Tga": {
             "type": "simple",
             "settings": {
@@ -3167,6 +3177,7 @@
           "mega_xNXQNM",
           "link_icAfCc",
           "link_EenyXG",
+          "link_CADnLh",
           "simple_En9Tga",
           "simple_KGCtB9",
           "simple_Q4hLeY",
