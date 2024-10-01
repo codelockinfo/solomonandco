@@ -4409,6 +4409,7 @@
           "use_pr": false,
           "layout": "nt_boxed",
           "cl_bg": "#ffffff",
+          "image": "shopify://shop_images/Frame_6.png",
           "cl_overlay": "#000000",
           "cl_opacity": 0,
           "section_bg_color": "#ffffff",
