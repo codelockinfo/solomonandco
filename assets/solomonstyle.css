@@ -42,7 +42,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, #092B54 0%, rgba(10, 39, 73, 0) 49.85%);
+    /* background: linear-gradient(90deg, #092B54 0%, rgba(10, 39, 73, 0) 49.85%); */
     z-index: 1;
     pointer-events: none;
 }
