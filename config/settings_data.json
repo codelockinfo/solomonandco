@@ -2835,7 +2835,7 @@
             "type": "simple",
             "settings": {
               "title": "Home",
-              "url": "https://cdn.shopify.com/s/files/1/0555/9939/8957/files/Logo_PNG_6e305640-1b89-4e33-adb3-38218259f7ae.png?v=1728021606",
+              "url": "/",
               "open_link": "_self",
               "icon": "",
               "cus_cl": true,
