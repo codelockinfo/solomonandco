@@ -114,7 +114,7 @@
                     </div>
                  </div>
                  {%- render 'product_labels',on:'singe',product:product -%}
-                 {% comment %}{%- render 'p_group_btns',pr_media:pr_media -%}{% endcomment %}
+              {%- render 'p_group_btns',pr_media:pr_media -%}
               </div>
            {%- elsif pr_media_size > 0 -%}
               {%- render 'page_pr_img',se_id:se_id,product:product,pr_media:pr_media,sett_pr:sett_pr,eq_imgtb:eq_imgtb,e_imgnv:settings.ratio_img_thumb -%}
