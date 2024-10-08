@@ -484,6 +484,11 @@ color: #282828;
 .template-page #nt_content .container{
     max-width: 1000px !important;
 }
+
+.template-index .custom-hover-w ,.template-collection .custom-hover-w{
+  display:none;
+}
+
 /* MEDIA QUERY */
 
 @media (max-width:1440px) {
