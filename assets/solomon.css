@@ -486,7 +486,7 @@ color: #282828;
 }
 
 .template-index .custom-hover-w ,.template-collection .custom-hover-w{
-  display:none;
+  display:none !important;
 }
 
 /* MEDIA QUERY */
