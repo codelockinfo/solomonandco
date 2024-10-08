@@ -3,7 +3,7 @@
 	<a href="{{url_last | default:product.url }}" data-no-instant data-id="{{product.id}}" class="wishlistadd cb chp {{tooltip}}" rel="nofollow"><span class="tt_txt">{{ 'general.nt_tooltip.add_to_wishlist' | t }}</span><i class="facl facl-heart-o"></i></a>
 </div>
 {%- elsif settings.wishlist_type == "2" and shop.customer_accounts_enabled -%}
-<div class="nt_add_w ts__03 {{class}}">
+<div class="custom-hover-w nt_add_w ts__03 {{class}}">
 	{%- if customer -%}
 	    <a href="{{url_last | default:product.url }}" data-no-instant data-id="{{product.id}}" class="wishlistadd cb chp {{tooltip}}" rel="nofollow"><span class="tt_txt">{{ 'general.nt_tooltip.add_to_wishlist' | t }}</span><i class="facl facl-heart-o"></i></a>
 	{%- else -%}
