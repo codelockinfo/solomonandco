@@ -3058,7 +3058,7 @@
             "type": "mega",
             "settings": {
               "title": "Bracelets",
-              "url": "",
+              "url": "shopify://collections/bracelets",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
