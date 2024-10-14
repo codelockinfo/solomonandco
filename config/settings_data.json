@@ -3020,7 +3020,7 @@
             "type": "mega",
             "settings": {
               "title": "Pendants",
-              "url": "",
+              "url": "shopify://collections/pendants",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3105,7 +3105,7 @@
             "type": "mega",
             "settings": {
               "title": "Watches",
-              "url": "",
+              "url": "shopify://collections/watches",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3153,7 +3153,7 @@
             "type": "simple",
             "settings": {
               "title": "Custom",
-              "url": "shopify://collections/pendants",
+              "url": "shopify://pages/custom-orders-solomon-co",
               "open_link": "_self",
               "icon": "",
               "cus_cl": true,
