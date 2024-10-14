@@ -3783,7 +3783,7 @@
               "pos_img": "center center",
               "size_img": "cover",
               "link_img1": "shopify://collections/all",
-              "open_link": "_blank",
+              "open_link": "_self",
               "caption_w": "2",
               "cap_v_pos": 50,
               "cap_h_pos": 39,
