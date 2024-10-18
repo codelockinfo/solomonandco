@@ -1280,7 +1280,7 @@
           "1585640154849": {
             "type": "img",
             "settings": {
-              "image": "shopify://shop_images/01_-_02.jpg",
+              "image": "shopify://shop_images/01_-_02_copy.jpg",
               "image_mb": "shopify://shop_images/01_-_02.png",
               "pos_img": "center center",
               "cl_img": "",
@@ -1392,8 +1392,8 @@
           },
           "1585640159361": {
             "type": "img",
+            "disabled": true,
             "settings": {
-              "image": "shopify://shop_images/01_-_02_copy.jpg",
               "pos_img": "center center",
               "cl_img": "",
               "link_img1": "",
