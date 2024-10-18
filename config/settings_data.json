@@ -1423,7 +1423,6 @@
           },
           "1585640474337": {
             "type": "subhd",
-            "disabled": true,
             "settings": {
               "font": "f_body",
               "title": "SPRING - SUMMER 2020",
@@ -1440,7 +1439,6 @@
           },
           "1585640490350": {
             "type": "space",
-            "disabled": true,
             "settings": {
               "sp": 25,
               "sp_mb": 15
@@ -1448,7 +1446,6 @@
           },
           "1585640480446": {
             "type": "hd",
-            "disabled": true,
             "settings": {
               "title": "<span class=\"cp\">NEW ARRIVALS </span> COLLECTION",
               "color": "#ffffff",
@@ -1463,7 +1460,6 @@
           },
           "1585640492985": {
             "type": "space",
-            "disabled": true,
             "settings": {
               "sp": 25,
               "sp_mb": 15
@@ -1471,7 +1467,6 @@
           },
           "1585640485544": {
             "type": "btn",
-            "disabled": true,
             "settings": {
               "title": "SHOP NOW",
               "btn_link": "shopify://collections/trending",
