@@ -1414,7 +1414,7 @@
               "bg_content_cl": "#ffffff",
               "bg_content_op": 50,
               "content_pd": "40px 80px",
-              "content_pd_mb": "50px 20px  0 20px",
+              "content_pd_mb": "10px 20px",
               "border_bl": false,
               "br_color": "#222222",
               "br_style": "solid",
