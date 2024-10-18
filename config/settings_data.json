@@ -1394,6 +1394,7 @@
             "type": "img",
             "disabled": true,
             "settings": {
+              "image": "shopify://shop_images/02.jpg",
               "pos_img": "center center",
               "cl_img": "",
               "link_img1": "",
