@@ -1479,10 +1479,10 @@
               "cl_bg": "rgba(0,0,0,0)",
               "cl_bd": "#ffffff",
               "fs_text": 18,
-              "fw_text": 400,
+              "fw_text": 600,
               "h": 42,
               "ls_text": 3,
-              "fs_mb_text": 14,
+              "fs_mb_text": 18,
               "h_mb": 40,
               "ls_mb_text": 0
             }
@@ -1551,7 +1551,7 @@
               "fs_text": 50,
               "lh_text": 0,
               "ls_text": 1,
-              "fs_mb_text": 25,
+              "fs_mb_text": 40,
               "lh_mb_text": 0,
               "ls_mb_text": 0
             }
@@ -1579,7 +1579,7 @@
               "fw_text": 600,
               "h": 42,
               "ls_text": 3,
-              "fs_mb_text": 14,
+              "fs_mb_text": 18,
               "h_mb": 40,
               "ls_mb_text": 0
             }
