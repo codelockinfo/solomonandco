@@ -1522,7 +1522,7 @@
             "type": "subhd",
             "settings": {
               "font": "f_body",
-              "title": "SPRING - SUMMER 2020",
+              "title": "",
               "color": "#ffffff",
               "fw_text": 400,
               "fs_text": 20,
@@ -1544,7 +1544,7 @@
           "hd_ymM7Hj": {
             "type": "hd",
             "settings": {
-              "title": "<span class=\"cp\">NEW ARRIVALS </span> COLLECTION",
+              "title": "<span class=\"cp\">CHAMPIONSHIP</span>  RINGS",
               "color": "#ffffff",
               "fw_text": 700,
               "fs_text": 50,
