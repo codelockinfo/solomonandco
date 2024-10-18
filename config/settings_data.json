@@ -1426,7 +1426,7 @@
             "type": "subhd",
             "settings": {
               "font": "f_body",
-              "title": "SPRING - SUMMER 2020",
+              "title": "Create Your Unique",
               "color": "#ffffff",
               "fw_text": 400,
               "fs_text": 20,
@@ -1448,7 +1448,7 @@
           "1585640480446": {
             "type": "hd",
             "settings": {
-              "title": "<span class=\"cp\">NEW ARRIVALS </span> COLLECTION",
+              "title": "<span class=\"cp\">CUSTOM</span> PIECE",
               "color": "#ffffff",
               "fw_text": 700,
               "fs_text": 50,
@@ -1470,7 +1470,7 @@
             "type": "btn",
             "settings": {
               "title": "SHOP NOW",
-              "btn_link": "shopify://collections/trending",
+              "btn_link": "/",
               "title2": "",
               "btn_link2": "",
               "btn_round": false,
