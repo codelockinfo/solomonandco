@@ -1523,7 +1523,7 @@
             "type": "subhd",
             "settings": {
               "font": "f_body",
-              "title": "Create Your Unique",
+              "title": "Timeless Wristwear",
               "color": "#ffffff",
               "fw_text": 400,
               "fs_text": 20,
@@ -1545,7 +1545,7 @@
           "hd_yFgr7Q": {
             "type": "hd",
             "settings": {
-              "title": "<span class=\"cp\">CUSTOM</span> PIECE",
+              "title": "<span class=\"cp\">BRACELETS</span> COLLECTIONS",
               "color": "#ffffff",
               "fw_text": 700,
               "fs_text": 50,
