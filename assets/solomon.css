@@ -484,6 +484,12 @@ color: #282828;
 .template-page #nt_content .container{
     max-width: 1000px !important;
 }
+
+
+.ringsize {
+    width: 50%;
+    margin-bottom: 30px;
+}
 /* MEDIA QUERY */
 
 @media (max-width:1440px) {
