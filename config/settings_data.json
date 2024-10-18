@@ -1491,6 +1491,7 @@
             "type": "img",
             "settings": {
               "image": "shopify://shop_images/04.jpg",
+              "image_mb": "shopify://shop_images/03.jpg",
               "pos_img": "center center",
               "cl_img": "",
               "link_img1": "",
