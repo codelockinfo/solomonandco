@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "general_layout": "wide",
@@ -61,7 +61,7 @@
     "enable_tag": true,
     "filter_price_list": "$7-$50, $50-$150, $150-$500",
     "logo_svg": "",
-    "logo": "shopify://shop_images/SOLOMON_CO_2.png",
+    "logo": "shopify://shop_images/1370_x_290_3910f00e-4f77-4f8d-8230-047166e9ab83.png",
     "logo_retina": "",
     "logo_width": 275,
     "logos": "",
@@ -335,7 +335,7 @@
     "social_youtube_link": "https://www.youtube.com/@solomonjewelry",
     "social_behance_link": "",
     "social_soundcloud_link": "",
-    "favicon": "",
+    "favicon": "shopify://shop_images/Logo_PNG_6e305640-1b89-4e33-adb3-38218259f7ae.png",
     "favicon_apple": "",
     "checkout_header_image": "",
     "checkout_logo_image": "",
@@ -781,7 +781,7 @@
             "settings": {
               "logo_width": 100,
               "title": "Contact Details",
-              "content": "<p><i class=\"pegk pe-7s-map-marker\"> </i><span>4440 State Highway 121,\nSuite 50,\nLewisville, Texas 75056 </span></p>",
+              "content": "<a href=\"tel:=+1%20(469)%20435-6348\"><i class=\"pegk pe-7s-call\"></i>+1 (469) 435-6348</a>\n<br>\n<a href=\"mailto:=theoneunitllc@gmail.com%0A\"><i class=\"pegk pe-7s-mail\"></i>theoneunitllc@gmail.com</a>\n<br>\n<i class=\"pegk pe-7s-map-marker\"> </i><span>4440 State Highway 121,\nSuite 50,\nLewisville, Texas 75056 </span>",
               "social_mode": "3",
               "order": "1",
               "cl": "4",
@@ -1280,8 +1280,8 @@
           "1585640154849": {
             "type": "img",
             "settings": {
-              "image": "shopify://shop_images/01_-_02.jpg",
-              "image_mb": "shopify://shop_images/01_-_02.png",
+              "image": "shopify://shop_images/01_-_02_copy_aee2e6ea-f6ee-42ec-a331-73be1d8f44de.jpg",
+              "image_mb": "shopify://shop_images/01_17bcb249-1bad-4880-be56-8f1c277f7dfd.jpg",
               "pos_img": "center center",
               "cl_img": "",
               "link_img1": "",
@@ -1295,8 +1295,8 @@
               "txt_align_mb": "tc",
               "cl_overlay": "#000000",
               "cl_opacity": 0,
-              "ani_img": "zoom",
-              "ani_txt": "bottom_top",
+              "ani_img": "tran_ef",
+              "ani_txt": "top_bottom",
               "bg_content_bl": false,
               "bg_content_cl": "#000000",
               "bg_content_op": 0,
@@ -1373,7 +1373,7 @@
             "type": "btn",
             "settings": {
               "title": "SHOP NOW",
-              "btn_link": "shopify://collections",
+              "btn_link": "shopify://collections/pendants",
               "title2": "",
               "btn_link2": "",
               "btn_round": false,
@@ -1392,8 +1392,9 @@
           },
           "1585640159361": {
             "type": "img",
-            "disabled": true,
             "settings": {
+              "image": "shopify://shop_images/02_37e043ef-4123-4ee5-9133-09063cc12fa8.jpg",
+              "image_mb": "shopify://shop_images/02_cab4ce7c-24bd-4243-85b3-3f23e19ebcb0.jpg",
               "pos_img": "center center",
               "cl_img": "",
               "link_img1": "",
@@ -1401,14 +1402,14 @@
               "caption_w": "1",
               "cap_v_pos": 50,
               "cap_h_pos": 50,
-              "txt_align": "tc_md",
-              "cap_v_pos_mb": 50,
+              "txt_align": "tl_md",
+              "cap_v_pos_mb": 87,
               "cap_h_pos_mb": 50,
               "txt_align_mb": "tc",
               "cl_overlay": "#000000",
               "cl_opacity": 10,
-              "ani_img": "zoom",
-              "ani_txt": "bottom_top",
+              "ani_img": "tran_ef",
+              "ani_txt": "top_bottom",
               "bg_content_bl": false,
               "bg_content_cl": "#ffffff",
               "bg_content_op": 50,
@@ -1423,10 +1424,9 @@
           },
           "1585640474337": {
             "type": "subhd",
-            "disabled": true,
             "settings": {
               "font": "f_body",
-              "title": "SPRING - SUMMER 2020",
+              "title": "Create Your Unique",
               "color": "#ffffff",
               "fw_text": 400,
               "fs_text": 20,
@@ -1440,7 +1440,6 @@
           },
           "1585640490350": {
             "type": "space",
-            "disabled": true,
             "settings": {
               "sp": 25,
               "sp_mb": 15
@@ -1448,22 +1447,20 @@
           },
           "1585640480446": {
             "type": "hd",
-            "disabled": true,
             "settings": {
-              "title": "<span class=\"cp\">NEW ARRIVALS </span> COLLECTION",
+              "title": "<span class=\"cp\">CUSTOM</span> PIECE",
               "color": "#ffffff",
               "fw_text": 700,
               "fs_text": 50,
               "lh_text": 0,
               "ls_text": 1,
-              "fs_mb_text": 25,
+              "fs_mb_text": 40,
               "lh_mb_text": 0,
               "ls_mb_text": 0
             }
           },
           "1585640492985": {
             "type": "space",
-            "disabled": true,
             "settings": {
               "sp": 25,
               "sp_mb": 15
@@ -1471,10 +1468,9 @@
           },
           "1585640485544": {
             "type": "btn",
-            "disabled": true,
             "settings": {
               "title": "SHOP NOW",
-              "btn_link": "shopify://collections/trending",
+              "btn_link": "/",
               "title2": "",
               "btn_link2": "",
               "btn_round": false,
@@ -1482,11 +1478,108 @@
               "cl_txt": "#ffffff",
               "cl_bg": "rgba(0,0,0,0)",
               "cl_bd": "#ffffff",
-              "fs_text": 11,
-              "fw_text": 400,
+              "fs_text": 18,
+              "fw_text": 600,
               "h": 42,
               "ls_text": 3,
-              "fs_mb_text": 14,
+              "fs_mb_text": 18,
+              "h_mb": 40,
+              "ls_mb_text": 0
+            }
+          },
+          "img_fAaEBG": {
+            "type": "img",
+            "settings": {
+              "image": "shopify://shop_images/05.jpg",
+              "image_mb": "shopify://shop_images/04_d7c8eac6-2d27-40bb-b7c5-8713b4f2f997.jpg",
+              "pos_img": "center center",
+              "cl_img": "",
+              "link_img1": "",
+              "open_link": "_blank",
+              "caption_w": "1",
+              "cap_v_pos": 50,
+              "cap_h_pos": 50,
+              "txt_align": "tl_md",
+              "cap_v_pos_mb": 90,
+              "cap_h_pos_mb": 50,
+              "txt_align_mb": "tc",
+              "cl_overlay": "#000000",
+              "cl_opacity": 10,
+              "ani_img": "tran_ef",
+              "ani_txt": "top_bottom",
+              "bg_content_bl": false,
+              "bg_content_cl": "#ffffff",
+              "bg_content_op": 50,
+              "content_pd": "40px 80px",
+              "content_pd_mb": "10px 20px",
+              "border_bl": false,
+              "br_color": "#222222",
+              "br_style": "solid",
+              "br_pd": 20,
+              "br_pd_mb": 10
+            }
+          },
+          "subhd_LBxb8y": {
+            "type": "subhd",
+            "settings": {
+              "font": "f_body",
+              "title": "Timeless Wristwear",
+              "color": "#ffffff",
+              "fw_text": 400,
+              "fs_text": 20,
+              "lh_text": 0,
+              "ls_text": 2,
+              "fs_mb_text": 15,
+              "lh_mb_text": 0,
+              "ls_mb_text": 0,
+              "hide": false
+            }
+          },
+          "space_MDyVrk": {
+            "type": "space",
+            "settings": {
+              "sp": 25,
+              "sp_mb": 15
+            }
+          },
+          "hd_yFgr7Q": {
+            "type": "hd",
+            "settings": {
+              "title": "<span class=\"cp\">BRACELETS</span> COLLECTIONS",
+              "color": "#ffffff",
+              "fw_text": 700,
+              "fs_text": 50,
+              "lh_text": 0,
+              "ls_text": 1,
+              "fs_mb_text": 40,
+              "lh_mb_text": 0,
+              "ls_mb_text": 0
+            }
+          },
+          "space_iDFkTH": {
+            "type": "space",
+            "settings": {
+              "sp": 25,
+              "sp_mb": 15
+            }
+          },
+          "btn_nD3xLN": {
+            "type": "btn",
+            "settings": {
+              "title": "SHOP NOW",
+              "btn_link": "/",
+              "title2": "",
+              "btn_link2": "",
+              "btn_round": false,
+              "btn_icon": false,
+              "cl_txt": "#ffffff",
+              "cl_bg": "rgba(0,0,0,0)",
+              "cl_bd": "#ffffff",
+              "fs_text": 18,
+              "fw_text": 600,
+              "h": 42,
+              "ls_text": 3,
+              "fs_mb_text": 18,
               "h_mb": 40,
               "ls_mb_text": 0
             }
@@ -1505,7 +1598,13 @@
           "1585640490350",
           "1585640480446",
           "1585640492985",
-          "1585640485544"
+          "1585640485544",
+          "img_fAaEBG",
+          "subhd_LBxb8y",
+          "space_MDyVrk",
+          "hd_yFgr7Q",
+          "space_iDFkTH",
+          "btn_nD3xLN"
         ],
         "settings": {
           "se_height": "adapt",
@@ -1515,7 +1614,7 @@
           "h_mb": "350px",
           "effect": "1",
           "loop": true,
-          "autoplay": true,
+          "autoplay": false,
           "au_time": 3,
           "au_hover": true,
           "button": false,
@@ -2848,7 +2947,7 @@
             "type": "mega",
             "settings": {
               "title": "Chains",
-              "url": "",
+              "url": "shopify://collections/gold-chains",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -2905,7 +3004,7 @@
             "type": "mega",
             "settings": {
               "title": "Rings",
-              "url": "",
+              "url": "shopify://collections/gold-rings",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -2962,7 +3061,7 @@
             "type": "mega",
             "settings": {
               "title": "Earrings",
-              "url": "",
+              "url": "shopify://collections/earrings",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3020,7 +3119,7 @@
             "type": "mega",
             "settings": {
               "title": "Pendants",
-              "url": "",
+              "url": "shopify://collections/pendants",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3058,7 +3157,7 @@
             "type": "mega",
             "settings": {
               "title": "Bracelets",
-              "url": "",
+              "url": "shopify://collections/bracelets",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3105,7 +3204,7 @@
             "type": "mega",
             "settings": {
               "title": "Watches",
-              "url": "",
+              "url": "shopify://collections/watches",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3153,7 +3252,7 @@
             "type": "simple",
             "settings": {
               "title": "Custom",
-              "url": "shopify://collections/pendants",
+              "url": "shopify://pages/custom-orders-solomon-co",
               "open_link": "_self",
               "icon": "",
               "cus_cl": true,
@@ -3167,7 +3266,7 @@
             "settings": {
               "title": "Travel Cases",
               "url": "shopify://pages/different-location",
-              "open_link": "_blank",
+              "open_link": "_self",
               "icon": "",
               "cus_cl": true,
               "cl": "#000000",
@@ -3180,7 +3279,7 @@
             "settings": {
               "title": "Made To Order",
               "url": "shopify://collections",
-              "open_link": "_blank",
+              "open_link": "_self",
               "icon": "",
               "cus_cl": true,
               "cl": "#000000",
@@ -3696,6 +3795,7 @@
           "text_bXtqyP",
           "text_Ynjhnx"
         ],
+        "disabled": true,
         "settings": {
           "desktop_bg_image": "shopify://shop_images/Rectangle_36_1.png",
           "mobile_bg_image": "shopify://shop_images/Rectangle_36_4.png",
@@ -3782,7 +3882,7 @@
               "pos_img": "center center",
               "size_img": "cover",
               "link_img1": "shopify://collections/all",
-              "open_link": "_blank",
+              "open_link": "_self",
               "caption_w": "2",
               "cap_v_pos": 50,
               "cap_h_pos": 39,
@@ -3878,7 +3978,7 @@
               "collection": "",
               "image": "shopify://shop_images/2_e591e5ec-2162-4137-b9e6-def69ff2d6fb.jpg",
               "img_align": "center",
-              "title": "RING",
+              "title": "RINGS",
               "url": "shopify://collections/rings"
             }
           },
@@ -3898,7 +3998,7 @@
               "collection": "",
               "image": "shopify://shop_images/2023-10-22-11-58-11.jpg",
               "img_align": "center",
-              "title": "BRACELET",
+              "title": "BRACELETS",
               "url": "shopify://collections/bracelets"
             }
           }
@@ -3959,7 +4059,7 @@
               "pos_img": "center center",
               "size_img": "cover",
               "link_img1": "shopify://collections/all",
-              "open_link": "_blank",
+              "open_link": "_self",
               "caption_w": "2",
               "cap_v_pos": 34,
               "cap_h_pos": 39,
@@ -4209,6 +4309,7 @@
       },
       "image_text_B4eceG": {
         "type": "image_text",
+        "disabled": true,
         "settings": {
           "image": "shopify://shop_images/Group_1000004498.png",
           "img_align": "center",
@@ -4443,6 +4544,14 @@
       "testimonials_TeXgYA",
       "text_marquee_taRjyi",
       "faq_AEFrpd"
-    ]
+    ],
+    "blocks": {
+      "13768625480086291342": {
+        "type": "shopify://apps/forms/blocks/forms/8744a304-fcb1-4347-b211-bb6b4759a76a",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   }
 }

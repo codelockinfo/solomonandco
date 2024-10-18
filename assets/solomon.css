@@ -490,6 +490,12 @@ color: #282828;
     width: 50%;
     margin-bottom: 30px;
 }
+
+.template-index .custom-hover-w ,.template-collection .custom-hover-w{
+  display:none !important;
+}
+
+
 /* MEDIA QUERY */
 
 @media (max-width:1440px) {
