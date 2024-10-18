@@ -1510,7 +1510,7 @@
               "bg_content_bl": false,
               "bg_content_cl": "#ffffff",
               "bg_content_op": 50,
-              "content_pd": "40px 80px",
+              "content_pd": "40px",
               "content_pd_mb": "10px 20px",
               "border_bl": false,
               "br_color": "#222222",
