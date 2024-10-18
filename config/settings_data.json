@@ -1506,7 +1506,7 @@
               "cl_overlay": "#000000",
               "cl_opacity": 10,
               "ani_img": "tran_ef",
-              "ani_txt": "bottom_top",
+              "ani_txt": "top_bottom",
               "bg_content_bl": false,
               "bg_content_cl": "#ffffff",
               "bg_content_op": 50,
