@@ -1500,7 +1500,7 @@
               "cap_v_pos": 50,
               "cap_h_pos": 50,
               "txt_align": "tl_md",
-              "cap_v_pos_mb": 50,
+              "cap_v_pos_mb": 90,
               "cap_h_pos_mb": 50,
               "txt_align_mb": "tc",
               "cl_overlay": "#000000",
