@@ -3885,6 +3885,7 @@
             "type": "img",
             "settings": {
               "image": "shopify://shop_images/06.jpg",
+              "image_mb": "shopify://shop_images/06.jpg",
               "pos_img": "center center",
               "size_img": "cover",
               "link_img1": "shopify://collections/all",
