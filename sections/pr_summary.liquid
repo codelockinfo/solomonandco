@@ -306,32 +306,33 @@
                     {%- endif -%}
                   {%- endfor -%}
                 </select>
-                {% if product.metafields.custom.   != blank %}
-                  <div class="ringsize product-block">
-                      <div class="ringsizelabel">
-                          {% assign jewelry_sizes = product.metafields.custom.jewelry_size | remove: '["' | remove: '"]' %}
-                            {%  if jewelry_sizes != blank %}
-                              <h4 class="swatch__title">Ring Size</h4> 
-                              <div>
-                              {% comment %} <a class="sizechartlabel cd chp btn_size_guide mr__20" href="#" data-no-instant="" rel="nofollow" data-src="https://cdn.shopify.com/s/files/1/0571/2825/5601/files/Ring_Size_Chart.webp?v=1717481681" data-width="600" data-height="600">SIZE CHART</a> {% endcomment %}
-                              </div>
-                            {% endif %}     
-                      </div>
-                      {% if product.metafields.custom.jewelry_size != blank %}
-                        {% assign jewelry_sizes = product.metafields.custom.jewelry_size | remove: '["' | remove: '"]' %}
-                        {%  if jewelry_sizes != blank %}
-                          <select class="customselect" name="properties[Jewelry Size]" id="SingleOptionSelector-{{ section_id }}-{{ product.id }}-option-{{ forloop.index0 }}" data-index="option{{ forloop.index }}">
-                              {% assign jewelry_size = jewelry_sizes | split:  '","' %}
-                              {% for jewelry_size_value in jewelry_size %}
-                              <option  value="{{ jewelry_size_value }}" class="variant-input"  data-index="{{ forloop.index }}">
-                                  {{ jewelry_size_value }}
-                              </option>
-                              {%- endfor -%}
-                          </select>           
-                        {% endif %}     
+                </select>
+                       {% if product.metafields.custom.jewelry_size != blank %}
+                        <div class="ringsize product-block">
+                            <div class="ringsizelabel">
+                                {% assign jewelry_sizes = product.metafields.custom.jewelry_size | remove: '["' | remove: '"]' %}
+                                  {%  if jewelry_sizes != blank %}
+                                    <h4 class="swatch__title">Ring Size</h4> 
+                                    <div>
+                                    {% comment %} <a class="sizechartlabel cd chp btn_size_guide mr__20" href="#" data-no-instant="" rel="nofollow" data-src="https://cdn.shopify.com/s/files/1/0571/2825/5601/files/Ring_Size_Chart.webp?v=1717481681" data-width="600" data-height="600">SIZE CHART</a> {% endcomment %}
+                                    </div>
+                                  {% endif %}     
+                            </div>
+                            {% if product.metafields.custom.jewelry_size != blank %}
+                              {% assign jewelry_sizes = product.metafields.custom.jewelry_size | remove: '["' | remove: '"]' %}
+                              {%  if jewelry_sizes != blank %}
+                                <select class="customselect" name="properties[Jewelry Size]" id="SingleOptionSelector-{{ section_id }}-{{ product.id }}-option-{{ forloop.index0 }}" data-index="option{{ forloop.index }}">
+                                    {% assign jewelry_size = jewelry_sizes | split:  '","' %}
+                                    {% for jewelry_size_value in jewelry_size %}
+                                    <option  value="{{ jewelry_size_value }}" class="variant-input"  data-index="{{ forloop.index }}">
+                                        {{ jewelry_size_value }}
+                                    </option>
+                                    {%- endfor -%}
+                                </select>           
+                              {% endif %}     
+                            {% endif %}
+                        </div>
                       {% endif %}
-                  </div>
-                {% endif %}
                 {%- case block.settings.swatch_design -%}
                   {%- when '1' -%}
                     {%- render 'swatch',
