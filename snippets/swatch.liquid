@@ -37,7 +37,7 @@ if pr_variants.size == 1
 	assign bclass = 'is-selected' 
 endif -%}
 
-<div class="variations mb__40 0000 style__circle size_{{block.settings.swatch_size | default:settings.swatch_size }} remove_soldout_{{remove_soldout}}">
+<div class="variations mb__40  style__circle size_{{block.settings.swatch_size | default:settings.swatch_size }} remove_soldout_{{remove_soldout}}">
 	{%- for option in product.options_with_values -%}{%- assign name = option.name | downcase -%}{%- assign svc = '' -%}{%- assign option_index = forloop.index0 -%}
 		{%- case option_index -%}{%- when 0 -%}{%- assign selected_value = current_variant.option1 |default:choose_an_option -%}{%- when 1 -%}{%- assign selected_value = current_variant.option2 |default:choose_an_option -%}{%- else -%}{%- assign selected_value = current_variant.option3 |default:choose_an_option -%}{%- endcase -%}
 		{%- if get_color contains name -%}
