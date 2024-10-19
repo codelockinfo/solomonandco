@@ -488,7 +488,7 @@ color: #282828;
 
 .ringsize {
     width: 50%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .template-index .custom-hover-w ,.template-collection .custom-hover-w{
@@ -557,6 +557,10 @@ color: #282828;
         display: block !important;
         width: 100%;
     }
+  .ringsize {
+    width: 100%;
+    margin-bottom: 20px;
+}
 }
 
 @media (max-width:991px) {
