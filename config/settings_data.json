@@ -1489,6 +1489,7 @@
           },
           "img_fAaEBG": {
             "type": "img",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/05.jpg",
               "image_mb": "shopify://shop_images/04_d7c8eac6-2d27-40bb-b7c5-8713b4f2f997.jpg",
@@ -1521,6 +1522,7 @@
           },
           "subhd_LBxb8y": {
             "type": "subhd",
+            "disabled": true,
             "settings": {
               "font": "f_body",
               "title": "Timeless Wristwear",
@@ -1537,6 +1539,7 @@
           },
           "space_MDyVrk": {
             "type": "space",
+            "disabled": true,
             "settings": {
               "sp": 25,
               "sp_mb": 15
@@ -1544,6 +1547,7 @@
           },
           "hd_yFgr7Q": {
             "type": "hd",
+            "disabled": true,
             "settings": {
               "title": "<span class=\"cp\">BRACELETS</span> COLLECTIONS",
               "color": "#ffffff",
@@ -1558,6 +1562,7 @@
           },
           "space_iDFkTH": {
             "type": "space",
+            "disabled": true,
             "settings": {
               "sp": 25,
               "sp_mb": 15
@@ -1565,6 +1570,7 @@
           },
           "btn_nD3xLN": {
             "type": "btn",
+            "disabled": true,
             "settings": {
               "title": "SHOP NOW",
               "btn_link": "/",
