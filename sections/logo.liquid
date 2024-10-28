@@ -1,0 +1,99 @@
+<div class="container">
+    <div class="trustedby_section">
+        {% if section.settings.heading != blank %}
+            <div class="row al_center fl_center title_10 mb__40 sub_title_size_0">
+                <div class="col-auto col-md"><h3 class="dib tc section-title fs__24">{{ section.settings.heading  }}</h3></div>
+            </div>
+     
+        {% endif %}
+        <div class="trustedby_images">
+            {% for block in section.blocks  %}
+                {% if block.settings.trusted_by_image != blank %}
+                <div class="trustedby_image">
+                    <img src="{{ block.settings.trusted_by_image | img_url: 'master' }}" alt="" class="lazyload" loading="lazy">
+                </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{%- schema -%}
+    {
+      "name": "Trusted By",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "heading"
+        }
+      ],
+      "blocks": [
+            {
+            "type": "image",
+            "name": "image",
+            "settings": [
+                {
+                "type": "image_picker",
+                "id": "trusted_by_image",
+                "label": "trusted_by_image"
+                }
+            ]
+        }
+       ],
+      "presets": [
+        {
+          "name": "Trusted By"
+        }
+      ]
+    }
+  {% endschema %}
+  <style>
+    .main_head {
+        color: #282828 !important;
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 83.43px;
+        letter-spacing: 3px;
+        font-family: 'Italiana' !important;
+        text-transform: capitalize !important;
+        position: relative;
+    }
+    .main_head::after {
+        /* background: linear-gradient(90deg, #f0f0f0 0%, #282828 48%, #f0f0f0 100%) !important;
+        height: 2px;
+        width: 40%;
+        bottom: -15px;
+        position: absolute;
+        content: '';
+        left: 30%;
+        right: 30%; */
+    }   
+    .trustedby_section {
+        width: 100%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .trustedby_images {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+    .trustedby_images img {
+        width: 100%;
+    }
+
+  @media (max-width: 576px) {
+    .main_head {
+        font-size: 36px;
+        line-height: 40.43px;
+    }
+    .trustedby_images{
+        flex-wrap: wrap;
+    }
+    .trustedby_image {
+        width: 45%;
+    }
+  }
+  </style>
