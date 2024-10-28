@@ -4551,6 +4551,51 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "logo_EttXCg": {
+        "type": "logo",
+        "blocks": {
+          "image_x3dA4B": {
+            "type": "image",
+            "settings": {
+              "trusted_by_image": "shopify://shop_images/01_copy_255b88a7-ed19-4ad2-9da6-a205741cf1f3_1.png"
+            }
+          },
+          "image_NqdMQd": {
+            "type": "image",
+            "settings": {
+              "trusted_by_image": "shopify://shop_images/02.png"
+            }
+          },
+          "image_z3kLnL": {
+            "type": "image",
+            "settings": {
+              "trusted_by_image": "shopify://shop_images/03.png"
+            }
+          },
+          "image_UPNqpc": {
+            "type": "image",
+            "settings": {
+              "trusted_by_image": "shopify://shop_images/05.webp"
+            }
+          },
+          "image_tD66jW": {
+            "type": "image",
+            "settings": {
+              "trusted_by_image": "shopify://shop_images/04_1_326f8e90-7b10-4b4a-8915-302df0c4905a.webp"
+            }
+          }
+        },
+        "block_order": [
+          "image_x3dA4B",
+          "image_NqdMQd",
+          "image_z3kLnL",
+          "image_UPNqpc",
+          "image_tD66jW"
+        ],
+        "settings": {
+          "heading": "Trusted By"
+        }
       }
     },
     "content_for_index": [
@@ -4564,7 +4609,8 @@
       "shipping_8RgVhV",
       "testimonials_TeXgYA",
       "text_marquee_taRjyi",
-      "faq_AEFrpd"
+      "faq_AEFrpd",
+      "logo_EttXCg"
     ],
     "blocks": {
       "13768625480086291342": {
