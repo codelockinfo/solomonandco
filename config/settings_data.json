@@ -4450,7 +4450,7 @@
       "discount-explore": {
         "type": "discount-explore",
         "settings": {
-          "heading": "Discounts up to 20% are waiting for you…",
+          "heading": "Discounts up to 10% are waiting for you…",
           "buttontext": "Explore",
           "buttonlink": "shopify://collections/all",
           "layout": "nt_boxed",
