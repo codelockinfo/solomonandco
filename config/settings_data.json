@@ -3240,7 +3240,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Men’s Watch",
-              "url": "",
+              "url": "shopify://collections/mens-watches",
               "open_link": "_self",
               "menu": "men-s-watch",
               "col": "4"
@@ -3250,7 +3250,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Women's Watch",
-              "url": "",
+              "url": "shopify://collections/womens-watches",
               "open_link": "_self",
               "menu": "women-watch",
               "col": "4"
