@@ -952,7 +952,7 @@
               "title": "Rings",
               "url": "shopify://collections/gold-rings",
               "open_link": "_self",
-              "menu": "",
+              "menu": "mobile-rings",
               "icon": "",
               "lb": "",
               "lb_cl": ""
@@ -964,7 +964,7 @@
               "title": "Earrings",
               "url": "shopify://collections/earrings",
               "open_link": "_self",
-              "menu": "",
+              "menu": "mobile-earrings",
               "icon": "",
               "lb": "",
               "lb_cl": ""
@@ -976,7 +976,7 @@
               "title": "Pendants",
               "url": "shopify://collections/pendants",
               "open_link": "_self",
-              "menu": "",
+              "menu": "mobile-pendants",
               "icon": "",
               "lb": "",
               "lb_cl": ""
@@ -988,7 +988,7 @@
               "title": "Bracelets",
               "url": "shopify://collections/bracelets",
               "open_link": "_self",
-              "menu": "",
+              "menu": "mobile-bracelets",
               "icon": "",
               "lb": "",
               "lb_cl": ""
@@ -1000,7 +1000,7 @@
               "title": "Watches",
               "url": "shopify://collections/watches",
               "open_link": "_self",
-              "menu": "",
+              "menu": "men-s-watch",
               "icon": "",
               "lb": "",
               "lb_cl": ""
