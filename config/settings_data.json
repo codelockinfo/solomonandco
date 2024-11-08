@@ -848,46 +848,38 @@
       },
       "nt_custom_color": {
         "type": "nt_custom_color",
-        "settings": {
-        }
+        "settings": {}
       },
       "cart_widget": {
         "type": "cart_widget",
         "blocks": {
           "cart_widget-0": {
             "type": "price",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart_widget-1": {
             "type": "tax",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart_widget-2": {
             "type": "agree",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart_widget-3": {
             "type": "btnc",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart_widget-4": {
             "type": "btnck",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart_widget-5": {
             "type": "btnmr",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart_widget-6": {
             "type": "img",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart_widget-7": {
             "type": "btn",
@@ -1044,18 +1036,15 @@
           },
           "mb_nav-4": {
             "type": "wis",
-            "settings": {
-            }
+            "settings": {}
           },
           "mb_nav-5": {
             "type": "sea",
-            "settings": {
-            }
+            "settings": {}
           },
           "mb_nav-6": {
             "type": "acc",
-            "settings": {
-            }
+            "settings": {}
           },
           "mb_nav-7": {
             "type": "help",
@@ -1068,8 +1057,7 @@
           "mb_nav-8": {
             "type": "cur",
             "disabled": true,
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -1089,8 +1077,7 @@
           "mb_nav-7",
           "mb_nav-8"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "mb_cat": {
         "type": "mb_cat",
@@ -1224,8 +1211,7 @@
           "1585642644518",
           "1585642780875"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "toolbar_mobile": {
         "type": "toolbar_mobile",
@@ -1775,19 +1761,16 @@
         "blocks": {
           "cat_heading-0": {
             "type": "1",
-            "settings": {
-            }
+            "settings": {}
           },
           "cat_heading-1": {
             "type": "2",
             "disabled": true,
-            "settings": {
-            }
+            "settings": {}
           },
           "3_wcGKJL": {
             "type": "3",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -1862,8 +1845,7 @@
           "1581913909406",
           "1581913174211"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "collection_page": {
         "type": "collection_page",
@@ -1891,18 +1873,15 @@
         "blocks": {
           "article-heading-0": {
             "type": "1",
-            "settings": {
-            }
+            "settings": {}
           },
           "article-heading-1": {
             "type": "2",
-            "settings": {
-            }
+            "settings": {}
           },
           "article-heading-2": {
             "type": "3",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -1929,13 +1908,11 @@
         "blocks": {
           "article-template-0": {
             "type": "content",
-            "settings": {
-            }
+            "settings": {}
           },
           "article-template-1": {
             "type": "tags",
-            "settings": {
-            }
+            "settings": {}
           },
           "article-template-2": {
             "type": "social",
@@ -1947,8 +1924,7 @@
           },
           "article-template-3": {
             "type": "nav",
-            "settings": {
-            }
+            "settings": {}
           },
           "article-template-4": {
             "type": "related",
@@ -1978,8 +1954,7 @@
           },
           "article-template-5": {
             "type": "comments",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -1990,8 +1965,7 @@
           "article-template-4",
           "article-template-5"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "pr_summary": {
         "type": "pr_summary",
@@ -2132,8 +2106,7 @@
           "pr_summary-6",
           "complementary_collection_FcX6VD"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "pr_description": {
         "type": "pr_description",
@@ -2320,28 +2293,23 @@
         "blocks": {
           "cart-template-0": {
             "type": "price",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart-template-1": {
             "type": "tax",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart-template-2": {
             "type": "agree",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart-template-3": {
             "type": "btnck",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart-template-4": {
             "type": "btnmr",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart-template-5": {
             "type": "img",
@@ -2407,13 +2375,11 @@
         "blocks": {
           "blog-heading-0": {
             "type": "1",
-            "settings": {
-            }
+            "settings": {}
           },
           "blog-heading-1": {
             "type": "2",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -2502,13 +2468,11 @@
         "blocks": {
           "bptf-heading-0": {
             "type": "1",
-            "settings": {
-            }
+            "settings": {}
           },
           "bptf-heading-1": {
             "type": "2",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -2555,13 +2519,11 @@
         "blocks": {
           "aptf-heading-0": {
             "type": "1",
-            "settings": {
-            }
+            "settings": {}
           },
           "aptf-heading-1": {
             "type": "2",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -2587,8 +2549,7 @@
         "blocks": {
           "aptf-template-0": {
             "type": "content",
-            "settings": {
-            }
+            "settings": {}
           },
           "aptf-template-1": {
             "type": "infos",
@@ -2608,8 +2569,7 @@
           },
           "aptf-template-3": {
             "type": "nav",
-            "settings": {
-            }
+            "settings": {}
           },
           "aptf-template-4": {
             "type": "related",
@@ -2654,8 +2614,7 @@
         "blocks": {
           "pages_heading-0": {
             "type": "1",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -2780,13 +2739,11 @@
       },
       "page_meta_ntt4": {
         "type": "page_meta_ntt4",
-        "settings": {
-        }
+        "settings": {}
       },
       "img_meta_ntt4": {
         "type": "img_meta_ntt4",
-        "settings": {
-        }
+        "settings": {}
       },
       "nt_filter2": {
         "type": "nt_filter2",
@@ -2850,8 +2807,7 @@
           "nt_filter2-4",
           "nt_filter2-5"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "sidebar_shop2": {
         "type": "sidebar_shop2",
@@ -2943,8 +2899,7 @@
           "tag2_wBHzLq",
           "tag2_qjjLV6"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header_4": {
         "type": "header_4",
@@ -3126,7 +3081,7 @@
           "cat_Mi4zET": {
             "type": "cat",
             "settings": {
-              "image": "shopify://shop_images/earrings.jpg",
+              "image": "shopify://shop_images/12_Earring_40431dea-2099-4788-8c0d-4723be44f210.jpg",
               "cat_design": "1",
               "hoverz": true,
               "collection": "earrings",
@@ -3164,7 +3119,7 @@
           "cat_AEz84C": {
             "type": "cat",
             "settings": {
-              "image": "shopify://shop_images/435-00004_Yg14k3.1g_6_d7434b43-b7f4-4386-9e43-a3fc37240bfb.jpg",
+              "image": "shopify://shop_images/14_Pendants.jpg",
               "cat_design": "1",
               "hoverz": true,
               "collection": "pendants",
@@ -3259,7 +3214,7 @@
           "cat_DkTeBC": {
             "type": "cat",
             "settings": {
-              "image": "shopify://shop_images/2023-08-11-12-51-08-3.jpg",
+              "image": "shopify://shop_images/13_Watch.jpg",
               "cat_design": "1",
               "hoverz": true,
               "collection": "watches",
@@ -3530,8 +3485,7 @@
           "hcat_nav-0",
           "hcat_nav-1"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header_9": {
         "type": "header_9",
@@ -3713,8 +3667,7 @@
           "page_about_us-7",
           "4143db8f-06cf-493a-ae3c-e9974cd2e53f"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header_1": {
         "type": "header_1",
@@ -3740,8 +3693,7 @@
           },
           "header_2-1": {
             "type": "logo",
-            "settings": {
-            }
+            "settings": {}
           },
           "header_2-2": {
             "type": "simple",
@@ -4444,8 +4396,7 @@
       },
       "sidebar_shop": {
         "type": "sidebar_shop",
-        "settings": {
-        }
+        "settings": {}
       },
       "discount-explore": {
         "type": "discount-explore",
@@ -4466,19 +4417,16 @@
         "blocks": {
           "product_heading-0": {
             "type": "1",
-            "settings": {
-            }
+            "settings": {}
           },
           "product_heading-1": {
             "type": "2",
             "disabled": true,
-            "settings": {
-            }
+            "settings": {}
           },
           "3_E3MGPX": {
             "type": "3",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -4616,8 +4564,7 @@
       "13768625480086291342": {
         "type": "shopify://apps/forms/blocks/forms/8744a304-fcb1-4347-b211-bb6b4759a76a",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "12608439564960700138": {
         "type": "shopify://apps/sezzle-widget/blocks/widget-embed/f3a53793-e118-4764-a86b-a79bfedb0d5f",
