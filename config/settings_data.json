@@ -3248,8 +3248,22 @@
               "lb_cl": "rgba(0,0,0,0)"
             }
           },
+          "simple_tdamy7": {
+            "type": "simple",
+            "settings": {
+              "title": "Blogs",
+              "url": "shopify://pages/blogs",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": true,
+              "cl": "#000000",
+              "lb": "",
+              "lb_cl": "rgba(0,0,0,0)"
+            }
+          },
           "simple_wT4d7Y": {
             "type": "simple",
+            "disabled": true,
             "settings": {
               "title": "Made To Order",
               "url": "shopify://collections",
@@ -3292,6 +3306,7 @@
           "cat_DkTeBC",
           "simple_KGCtB9",
           "simple_Q4hLeY",
+          "simple_tdamy7",
           "simple_wT4d7Y"
         ],
         "settings": {
