@@ -3,7 +3,9 @@
     margin: 0 auto;
     padding: 15px;
 }
-
+.template-page #nt_content .different_location .container {
+    max-width: 1600px !important;
+}
 .align-i-center {
     align-items: center;
 }
