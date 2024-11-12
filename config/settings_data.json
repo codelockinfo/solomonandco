@@ -2938,7 +2938,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Moissanite",
-              "url": "",
+              "url": "shopify://collections/moissanite-chains",
               "open_link": "_self",
               "menu": "moissanite-chain",
               "col": "3"
@@ -2948,7 +2948,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Lab Grown",
-              "url": "",
+              "url": "shopify://collections/lab-grown-diamond-chains",
               "open_link": "_self",
               "menu": "lab-grown-chain",
               "col": "3"
@@ -2958,7 +2958,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Natural",
-              "url": "",
+              "url": "shopify://collections/natural-diamond-chains",
               "open_link": "_self",
               "menu": "natural",
               "col": "3"
@@ -3052,7 +3052,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Moissanite",
-              "url": "",
+              "url": "shopify://collections/moissanite-earrings",
               "open_link": "_self",
               "menu": "moissanite-earrings",
               "col": "3"
@@ -3062,7 +3062,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Lab Grown",
-              "url": "",
+              "url": "shopify://collections/lab-grown-diamond-earrings",
               "open_link": "_self",
               "menu": "lab-grown-earrings",
               "col": "3"
@@ -3072,7 +3072,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Natural",
-              "url": "",
+              "url": "shopify://collections/natural-diamond-earrings",
               "open_link": "_self",
               "menu": "natural-earrings",
               "col": "3"
