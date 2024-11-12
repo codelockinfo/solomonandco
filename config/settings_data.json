@@ -4578,7 +4578,7 @@
           "cl_txt": "dark",
           "layout": "container",
           "cl_bg": "",
-          "mg": "50px,,50px,",
+          "mg": "20px,,0px,",
           "pd": "",
           "mg_mb": "",
           "pd_mb": ""
@@ -4602,7 +4602,7 @@
           "cl_txt": "dark",
           "layout": "container",
           "cl_bg": "",
-          "mg": "50px,,50px,",
+          "mg": "10px,,0px,",
           "pd": "",
           "mg_mb": "",
           "pd_mb": ""
@@ -4626,7 +4626,7 @@
           "cl_txt": "dark",
           "layout": "container",
           "cl_bg": "",
-          "mg": "50px,,50px,",
+          "mg": "10px,,20px,",
           "pd": "",
           "mg_mb": "",
           "pd_mb": ""
