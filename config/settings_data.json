@@ -4559,6 +4559,78 @@
         "settings": {
           "heading": "Trusted By"
         }
+      },
+      "image_text": {
+        "type": "image_text",
+        "settings": {
+          "image": "shopify://shop_images/BIG_T.png",
+          "img_align": "center",
+          "img_position": "1",
+          "image_ratio": "auto",
+          "text_size": "60,18",
+          "title": "",
+          "text": "<h2><strong>DALLAS, TEXAS</strong></h2><p>4515, Village Fair Drive,Suite #A21 Dallas, Texas</p>",
+          "button_label": "",
+          "button_link": "",
+          "open_link": "_blank",
+          "txt_align": "tc",
+          "use_shadow": false,
+          "cl_txt": "dark",
+          "layout": "container",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
+      },
+      "image_text1": {
+        "type": "image_text1",
+        "settings": {
+          "image": "shopify://shop_images/towne-east-square-01.png",
+          "img_align": "center",
+          "img_position": "2",
+          "image_ratio": "auto",
+          "text_size": "60,18",
+          "title": "",
+          "text": "<h2><strong>WICHITA, KANSAS</strong></h2><p>7700 E Kellogg Dr N,Wichita, Kansas 67207Lower Level Near Food Court</p>",
+          "button_label": "Shop Now",
+          "button_link": "",
+          "open_link": "_blank",
+          "txt_align": "tc",
+          "use_shadow": false,
+          "cl_txt": "dark",
+          "layout": "container",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
+      },
+      "image_text2": {
+        "type": "image_text2",
+        "settings": {
+          "image": "shopify://shop_images/IMG_0891.png",
+          "img_align": "center",
+          "img_position": "1",
+          "image_ratio": "auto",
+          "text_size": "60,18",
+          "title": "",
+          "text": "<h2><strong>Lewisville, Texas</strong></h2><p>4440 State Highway 121,Suite 50,Lewisville, Texas 75056</p>",
+          "button_label": "",
+          "button_link": "",
+          "open_link": "_blank",
+          "txt_align": "tc",
+          "use_shadow": false,
+          "cl_txt": "dark",
+          "layout": "container",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
       }
     },
     "content_for_index": [
