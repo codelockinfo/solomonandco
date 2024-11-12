@@ -942,7 +942,7 @@
             "type": "menu",
             "settings": {
               "title": "Rings",
-              "url": "shopify://collections/rings",
+              "url": "shopify://collections/gold-rings",
               "open_link": "_self",
               "menu": "mobile-rings",
               "icon": "",
@@ -2978,7 +2978,7 @@
             "type": "mega",
             "settings": {
               "title": "Rings",
-              "url": "shopify://collections/rings",
+              "url": "shopify://collections/gold-rings",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -2995,7 +2995,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Moissanite",
-              "url": "",
+              "url": "shopify://collections/moissanite-rings",
               "open_link": "_self",
               "menu": "moissanite-rings",
               "col": "3"
@@ -3005,7 +3005,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Lab Grown",
-              "url": "",
+              "url": "shopify://collections/lab-grown-diamond-rings",
               "open_link": "_self",
               "menu": "lab-grown-rings",
               "col": "3"
@@ -3015,7 +3015,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Natural",
-              "url": "",
+              "url": "shopify://collections/natural-diamond-rings",
               "open_link": "_self",
               "menu": "natural-rings",
               "col": "3"
@@ -3239,7 +3239,7 @@
             "type": "simple",
             "settings": {
               "title": "Travel Cases",
-              "url": "shopify://pages/our-stores",
+              "url": "shopify://pages/different-location",
               "open_link": "_self",
               "icon": "",
               "cus_cl": true,
@@ -4578,7 +4578,7 @@
           "cl_txt": "dark",
           "layout": "container",
           "cl_bg": "",
-          "mg": "20px,,0px,",
+          "mg": "50px,,50px,",
           "pd": "",
           "mg_mb": "",
           "pd_mb": ""
@@ -4602,7 +4602,7 @@
           "cl_txt": "dark",
           "layout": "container",
           "cl_bg": "",
-          "mg": "10px,,0px,",
+          "mg": "50px,,50px,",
           "pd": "",
           "mg_mb": "",
           "pd_mb": ""
@@ -4626,7 +4626,7 @@
           "cl_txt": "dark",
           "layout": "container",
           "cl_bg": "",
-          "mg": "10px,,20px,",
+          "mg": "50px,,50px,",
           "pd": "",
           "mg_mb": "",
           "pd_mb": ""
