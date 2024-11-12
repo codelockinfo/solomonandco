@@ -3226,7 +3226,7 @@
             "type": "simple",
             "settings": {
               "title": "Custom",
-              "url": "shopify://pages/custom-orders-solomon-co",
+              "url": "shopify://pages/custom-jewelry",
               "open_link": "_self",
               "icon": "",
               "cus_cl": true,
