@@ -2621,9 +2621,9 @@
           "pages_heading-0"
         ],
         "settings": {
-          "image": "",
+          "image": "shopify://shop_images/Rectangle_182.png",
           "parallax": false,
-          "color": "#000",
+          "color": "#000000",
           "overlay": 54,
           "padding": 50,
           "bg_pos": "center center",
