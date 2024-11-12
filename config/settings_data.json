@@ -3110,7 +3110,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Pendants",
-              "url": "",
+              "url": "shopify://collections/pendants",
               "open_link": "_self",
               "menu": "pendants",
               "col": "6"
@@ -3148,7 +3148,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Moissanite",
-              "url": "",
+              "url": "shopify://collections/moissanite-bracelets",
               "open_link": "_self",
               "menu": "moissanite-bracelets",
               "col": "4"
@@ -3158,7 +3158,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Lab Grown",
-              "url": "",
+              "url": "shopify://collections/lab-grown-diamond-bracelets",
               "open_link": "_self",
               "menu": "lab-grown-bracelets",
               "col": "4"
