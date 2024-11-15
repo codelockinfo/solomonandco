@@ -3060,6 +3060,7 @@
           },
           "link_hKDmJL": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "Lab Grown",
               "url": "shopify://collections/lab-grown-diamond-earrings",
@@ -3070,6 +3071,7 @@
           },
           "link_KAE86g": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "Natural",
               "url": "shopify://collections/natural-diamond-earrings",
