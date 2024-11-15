@@ -966,7 +966,7 @@
             "type": "menu",
             "settings": {
               "title": "Engagement",
-              "url": "shopify://collections/rings",
+              "url": "shopify://collections/diamond-rings",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -3499,7 +3499,7 @@
               "image": "shopify://shop_images/522d946d27c4fd7045c4a47e33546ebf_3_1.png",
               "img_align": "center",
               "title": "RING",
-              "url": "shopify://collections/rings"
+              "url": "shopify://collections/diamond-rings"
             }
           },
           "collection_jRjy7V": {
