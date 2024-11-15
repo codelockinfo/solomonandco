@@ -3195,6 +3195,7 @@
           },
           "link_AMcnQh": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "Men’s Watch",
               "url": "shopify://collections/mens-watches",
@@ -3205,6 +3206,7 @@
           },
           "link_NBtaif": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "Women's Watch",
               "url": "shopify://collections/womens-watches",
