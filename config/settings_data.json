@@ -2978,7 +2978,7 @@
             "type": "mega",
             "settings": {
               "title": "Rings",
-              "url": "shopify://collections/rings",
+              "url": "shopify://collections/diamond-rings",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3972,7 +3972,7 @@
               "image": "shopify://shop_images/03_6c74a3b3-5e4a-40e6-99c6-cf76e810b4a4.jpg",
               "img_align": "center",
               "title": "RINGS",
-              "url": "shopify://collections/rings"
+              "url": "shopify://collections/diamond-rings"
             }
           },
           "collection_egc4QH": {
