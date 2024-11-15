@@ -3158,6 +3158,7 @@
           },
           "link_EenyXG": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "Lab Grown",
               "url": "shopify://collections/lab-grown-diamond-bracelets",
@@ -3168,6 +3169,7 @@
           },
           "link_CADnLh": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "Natural",
               "url": "shopify://collections/natural-diamond-bracelets",
