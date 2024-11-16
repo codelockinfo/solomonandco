@@ -1014,7 +1014,7 @@
             "type": "menu",
             "settings": {
               "title": "Travel Cases",
-              "url": "/",
+              "url": "shopify://pages/our-stores",
               "open_link": "_self",
               "menu": "",
               "icon": "",
