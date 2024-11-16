@@ -3115,6 +3115,7 @@
           },
           "cat_Mi4zET": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/12_Earring_40431dea-2099-4788-8c0d-4723be44f210.jpg",
               "cat_design": "1",
