@@ -3245,7 +3245,7 @@
             "type": "simple",
             "settings": {
               "title": "Blogs",
-              "url": "shopify://pages/blogs",
+              "url": "shopify://blogs/news",
               "open_link": "_self",
               "icon": "",
               "cus_cl": true,
