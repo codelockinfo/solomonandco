@@ -3163,8 +3163,22 @@
               "col": "6"
             }
           },
+          "simple_kH6zC8": {
+            "type": "simple",
+            "settings": {
+              "title": "Bracelets",
+              "url": "shopify://collections/bracelets",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": true,
+              "cl": "#000000",
+              "lb": "",
+              "lb_cl": "rgba(0,0,0,0)"
+            }
+          },
           "mega_xNXQNM": {
             "type": "mega",
+            "disabled": true,
             "settings": {
               "title": "Bracelets",
               "url": "shopify://collections/bracelets",
@@ -3182,6 +3196,7 @@
           },
           "link_icAfCc": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "Moissanite",
               "url": "shopify://collections/moissanite-bracelets",
@@ -3338,6 +3353,7 @@
           "mega_9JUedF",
           "link_6RJVRV",
           "cat_AEz84C",
+          "simple_kH6zC8",
           "mega_xNXQNM",
           "link_icAfCc",
           "link_EenyXG",
