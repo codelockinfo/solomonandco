@@ -3241,7 +3241,7 @@
               "lazy_mn": true,
               "pos": "default",
               "wid": "cus",
-              "cus_wid": 1000
+              "cus_wid": 400
             }
           },
           "link_AMcnQh": {
@@ -3274,7 +3274,7 @@
               "hoverz": true,
               "collection": "watches",
               "title": "",
-              "col": "4"
+              "col": "12"
             }
           },
           "simple_KGCtB9": {
