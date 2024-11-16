@@ -2423,7 +2423,7 @@
           "bg": "#000000",
           "overlay": 90,
           "des_cnt": "1",
-          "use_eq_height": true,
+          "use_eq_height": false,
           "image_ratio": "ratio4_3",
           "image_size": "nt_contain",
           "image_position": "8",
