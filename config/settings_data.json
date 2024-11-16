@@ -3049,8 +3049,22 @@
               "col": "3"
             }
           },
+          "simple_zMrHmi": {
+            "type": "simple",
+            "settings": {
+              "title": "Earrings",
+              "url": "shopify://collections/earrings",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": true,
+              "cl": "#000000",
+              "lb": "",
+              "lb_cl": "rgba(0,0,0,0)"
+            }
+          },
           "mega_4VAfwn": {
             "type": "mega",
+            "disabled": true,
             "settings": {
               "title": "Earrings",
               "url": "shopify://collections/earrings",
@@ -3068,6 +3082,7 @@
           },
           "link_TWy4aU": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "Moissanite",
               "url": "shopify://collections/moissanite-earrings",
@@ -3313,6 +3328,7 @@
           "link_GFqmEk",
           "link_GP6WPt",
           "link_K6xFXV",
+          "simple_zMrHmi",
           "mega_4VAfwn",
           "link_TWy4aU",
           "link_hKDmJL",
