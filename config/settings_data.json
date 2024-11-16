@@ -1013,7 +1013,7 @@
           "mb_nav-3": {
             "type": "menu",
             "settings": {
-              "title": "Travel Cases",
+              "title": "Our Stores",
               "url": "shopify://pages/our-stores",
               "open_link": "_self",
               "menu": "",
@@ -3306,7 +3306,7 @@
           "simple_Q4hLeY": {
             "type": "simple",
             "settings": {
-              "title": "Travel Cases",
+              "title": "OUR STORES",
               "url": "shopify://pages/our-stores",
               "open_link": "_self",
               "icon": "",
