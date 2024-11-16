@@ -2403,7 +2403,7 @@
         "type": "blog-template",
         "settings": {
           "shop_des": "default",
-          "art_des": "1",
+          "art_des": "2 tc",
           "limit": 5,
           "space": 40,
           "use_pagination": "default",
