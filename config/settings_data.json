@@ -3137,17 +3137,48 @@
               "lazy_mn": true,
               "pos": "default",
               "wid": "cus",
-              "cus_wid": 600
+              "cus_wid": 1200
             }
           },
           "link_6RJVRV": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "Pendants",
               "url": "shopify://collections/pendants",
               "open_link": "_self",
               "menu": "pendants",
               "col": "6"
+            }
+          },
+          "link_FzxfC8": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Moissanite",
+              "url": "shopify://collections/moissanite-bracelets",
+              "open_link": "_self",
+              "menu": "moissanite-pendants",
+              "col": "3"
+            }
+          },
+          "link_JdY7nk": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Lab Grown",
+              "url": "shopify://collections/lab-grown-diamond-bracelets",
+              "open_link": "_self",
+              "menu": "lab-grown-pendants",
+              "col": "3"
+            }
+          },
+          "link_CADnLh": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Natural",
+              "url": "shopify://collections/natural-diamond-bracelets",
+              "open_link": "_self",
+              "menu": "natural-pendants",
+              "col": "3"
             }
           },
           "cat_AEz84C": {
@@ -3158,7 +3189,7 @@
               "hoverz": true,
               "collection": "pendants",
               "title": "",
-              "col": "6"
+              "col": "3"
             }
           },
           "simple_kH6zC8": {
@@ -3214,7 +3245,7 @@
               "col": "4"
             }
           },
-          "link_CADnLh": {
+          "link_EzUnGR": {
             "type": "link",
             "disabled": true,
             "settings": {
@@ -3397,12 +3428,15 @@
           "cat_Mi4zET",
           "mega_9JUedF",
           "link_6RJVRV",
+          "link_FzxfC8",
+          "link_JdY7nk",
+          "link_CADnLh",
           "cat_AEz84C",
           "simple_kH6zC8",
           "mega_xNXQNM",
           "link_icAfCc",
           "link_EenyXG",
-          "link_CADnLh",
+          "link_EzUnGR",
           "mega_9qc9cA",
           "link_AMcnQh",
           "link_NBtaif",
