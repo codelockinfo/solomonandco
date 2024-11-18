@@ -2945,7 +2945,7 @@
               "lazy_mn": true,
               "pos": "default",
               "wid": "cus",
-              "cus_wid": 1200
+              "cus_wid": 900
             }
           },
           "link_bHAF7M": {
@@ -2955,7 +2955,7 @@
               "url": "shopify://collections/moissanite-chains",
               "open_link": "_self",
               "menu": "moissanite-chain",
-              "col": "3"
+              "col": "4"
             }
           },
           "link_J49W3t": {
@@ -2965,7 +2965,7 @@
               "url": "shopify://collections/lab-grown-diamond-chains",
               "open_link": "_self",
               "menu": "lab-grown-chain",
-              "col": "3"
+              "col": "4"
             }
           },
           "link_6hc8JU": {
@@ -2975,7 +2975,7 @@
               "url": "shopify://collections/natural-diamond-chains",
               "open_link": "_self",
               "menu": "natural",
-              "col": "3"
+              "col": "4"
             }
           },
           "link_UzC63F": {
