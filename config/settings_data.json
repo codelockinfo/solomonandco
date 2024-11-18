@@ -916,6 +916,7 @@
         "blocks": {
           "mb_nav-0": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "title": "Home",
               "url": "/",
