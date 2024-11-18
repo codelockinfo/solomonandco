@@ -2950,7 +2950,6 @@
           },
           "link_bHAF7M": {
             "type": "link",
-            "disabled": true,
             "settings": {
               "tt_hd": "Moissanite",
               "url": "shopify://collections/moissanite-chains",
@@ -2961,7 +2960,6 @@
           },
           "link_J49W3t": {
             "type": "link",
-            "disabled": true,
             "settings": {
               "tt_hd": "Lab Grown",
               "url": "shopify://collections/lab-grown-diamond-chains",
@@ -2972,7 +2970,6 @@
           },
           "link_6hc8JU": {
             "type": "link",
-            "disabled": true,
             "settings": {
               "tt_hd": "Natural",
               "url": "shopify://collections/natural-diamond-chains",
