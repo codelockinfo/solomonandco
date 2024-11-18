@@ -2919,6 +2919,7 @@
           },
           "simple_8GXyHz": {
             "type": "simple",
+            "disabled": true,
             "settings": {
               "title": "Chains",
               "url": "shopify://collections/gold-chains",
@@ -2932,7 +2933,6 @@
           },
           "mega_c937Xf": {
             "type": "mega",
-            "disabled": true,
             "settings": {
               "title": "Chains",
               "url": "shopify://collections/gold-chains",
