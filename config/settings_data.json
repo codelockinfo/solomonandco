@@ -3126,7 +3126,7 @@
             "type": "simple",
             "settings": {
               "title": "Pendants",
-              "url": "shopify://collections/gold-chains",
+              "url": "shopify://collections/pendants",
               "open_link": "_self",
               "icon": "",
               "cus_cl": true,
