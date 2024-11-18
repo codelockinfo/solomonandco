@@ -3337,8 +3337,22 @@
               "col": "12"
             }
           },
+          "simple_PMd4Yy": {
+            "type": "simple",
+            "settings": {
+              "title": "Hip Hop Jewelry",
+              "url": "shopify://collections/hip-hop-jewelry",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": true,
+              "cl": "#000000",
+              "lb": "",
+              "lb_cl": "rgba(0,0,0,0)"
+            }
+          },
           "mega_6ENzYG": {
             "type": "mega",
+            "disabled": true,
             "settings": {
               "title": "Hip Hop Jewelry",
               "url": "shopify://collections/hip-hop-jewelry",
@@ -3356,6 +3370,7 @@
           },
           "link_EJcQ8K": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "Moissanite",
               "url": "/",
@@ -3366,6 +3381,7 @@
           },
           "link_FgXk8B": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "Lab Grown",
               "url": "shopify://collections/lab-grown-diamond-rings",
@@ -3376,6 +3392,7 @@
           },
           "link_GP6WPt": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "Natural",
               "url": "shopify://collections/natural-diamond-rings",
@@ -3473,6 +3490,7 @@
           "link_AMcnQh",
           "link_NBtaif",
           "cat_DkTeBC",
+          "simple_PMd4Yy",
           "mega_6ENzYG",
           "link_EJcQ8K",
           "link_FgXk8B",
