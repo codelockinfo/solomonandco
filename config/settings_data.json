@@ -3122,8 +3122,22 @@
               "cus_wid": 900
             }
           },
+          "simple_fhK8qR": {
+            "type": "simple",
+            "settings": {
+              "title": "Pendants",
+              "url": "shopify://collections/gold-chains",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": true,
+              "cl": "#000000",
+              "lb": "",
+              "lb_cl": "rgba(0,0,0,0)"
+            }
+          },
           "mega_9JUedF": {
             "type": "mega",
+            "disabled": true,
             "settings": {
               "title": "Pendants",
               "url": "shopify://collections/pendants",
@@ -3429,6 +3443,7 @@
           "cat_Mi4zET",
           "simple_8GXyHz",
           "mega_c937Xf",
+          "simple_fhK8qR",
           "mega_9JUedF",
           "link_6RJVRV",
           "link_FzxfC8",
