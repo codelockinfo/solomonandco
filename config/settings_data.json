@@ -3021,6 +3021,7 @@
           },
           "simple_zMrHmi": {
             "type": "simple",
+            "disabled": true,
             "settings": {
               "title": "Earrings",
               "url": "shopify://collections/earrings",
