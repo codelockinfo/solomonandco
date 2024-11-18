@@ -3029,7 +3029,7 @@
               "col": "3"
             }
           },
-          "link_GP6WPt": {
+          "link_VQJdbd": {
             "type": "link",
             "settings": {
               "tt_hd": "Natural",
@@ -3304,6 +3304,26 @@
               "col": "3"
             }
           },
+          "link_FgXk8B": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Lab Grown",
+              "url": "shopify://collections/lab-grown-diamond-rings",
+              "open_link": "_self",
+              "menu": "lab-grown-rings",
+              "col": "3"
+            }
+          },
+          "link_GP6WPt": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Natural",
+              "url": "shopify://collections/natural-diamond-rings",
+              "open_link": "_self",
+              "menu": "natural-rings",
+              "col": "3"
+            }
+          },
           "simple_KGCtB9": {
             "type": "simple",
             "settings": {
@@ -3369,7 +3389,7 @@
           "mega_bTCtEV",
           "link_339p7w",
           "link_GFqmEk",
-          "link_GP6WPt",
+          "link_VQJdbd",
           "link_K6xFXV",
           "simple_zMrHmi",
           "mega_4VAfwn",
@@ -3391,6 +3411,8 @@
           "cat_DkTeBC",
           "mega_6ENzYG",
           "link_EJcQ8K",
+          "link_FgXk8B",
+          "link_GP6WPt",
           "simple_KGCtB9",
           "simple_tdamy7",
           "simple_Q4hLeY",
