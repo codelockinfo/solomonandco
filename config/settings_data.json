@@ -3186,6 +3186,7 @@
           },
           "cat_AEz84C": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/14_Pendants.jpg",
               "cat_design": "1",
