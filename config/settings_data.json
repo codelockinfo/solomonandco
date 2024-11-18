@@ -2918,37 +2918,6 @@
               "lb_cl": "rgba(0,0,0,0)"
             }
           },
-          "simple_8GXyHz": {
-            "type": "simple",
-            "disabled": true,
-            "settings": {
-              "title": "Chains",
-              "url": "shopify://collections/gold-chains",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": true,
-              "cl": "#000000",
-              "lb": "",
-              "lb_cl": "rgba(0,0,0,0)"
-            }
-          },
-          "mega_c937Xf": {
-            "type": "mega",
-            "settings": {
-              "title": "Chains",
-              "url": "shopify://collections/gold-chains",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "",
-              "lazy_mn": true,
-              "pos": "default",
-              "wid": "cus",
-              "cus_wid": 900
-            }
-          },
           "link_bHAF7M": {
             "type": "link",
             "disabled": true,
@@ -3124,6 +3093,37 @@
               "collection": "earrings",
               "title": "",
               "col": "3"
+            }
+          },
+          "simple_8GXyHz": {
+            "type": "simple",
+            "disabled": true,
+            "settings": {
+              "title": "Chains",
+              "url": "shopify://collections/gold-chains",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": true,
+              "cl": "#000000",
+              "lb": "",
+              "lb_cl": "rgba(0,0,0,0)"
+            }
+          },
+          "mega_c937Xf": {
+            "type": "mega",
+            "settings": {
+              "title": "Chains",
+              "url": "shopify://collections/gold-chains",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "lazy_mn": true,
+              "pos": "default",
+              "wid": "cus",
+              "cus_wid": 900
             }
           },
           "mega_9JUedF": {
@@ -3416,8 +3416,6 @@
         },
         "block_order": [
           "header_4-1",
-          "simple_8GXyHz",
-          "mega_c937Xf",
           "link_bHAF7M",
           "link_J49W3t",
           "link_6hc8JU",
@@ -3433,6 +3431,8 @@
           "link_hKDmJL",
           "link_KAE86g",
           "cat_Mi4zET",
+          "simple_8GXyHz",
+          "mega_c937Xf",
           "mega_9JUedF",
           "link_6RJVRV",
           "link_FzxfC8",
