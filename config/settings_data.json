@@ -956,7 +956,7 @@
               "title": "Earrings",
               "url": "shopify://collections/earrings",
               "open_link": "_self",
-              "menu": "mobile-earrings",
+              "menu": "",
               "icon": "",
               "lb": "",
               "lb_cl": ""
@@ -980,7 +980,7 @@
               "title": "Bracelets",
               "url": "shopify://collections/bracelets",
               "open_link": "_self",
-              "menu": "mobile-bracelets",
+              "menu": "",
               "icon": "",
               "lb": "",
               "lb_cl": ""
@@ -992,7 +992,7 @@
               "title": "Watches",
               "url": "shopify://collections/watches",
               "open_link": "_self",
-              "menu": "men-s-watch",
+              "menu": "",
               "icon": "",
               "lb": "",
               "lb_cl": ""
