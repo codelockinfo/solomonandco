@@ -3294,6 +3294,16 @@
               "cus_wid": 400
             }
           },
+          "link_EJcQ8K": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Moissanite",
+              "url": "/",
+              "open_link": "_self",
+              "menu": "moissanite-rings",
+              "col": "3"
+            }
+          },
           "simple_KGCtB9": {
             "type": "simple",
             "settings": {
@@ -3380,6 +3390,7 @@
           "link_NBtaif",
           "cat_DkTeBC",
           "mega_6ENzYG",
+          "link_EJcQ8K",
           "simple_KGCtB9",
           "simple_tdamy7",
           "simple_Q4hLeY",
