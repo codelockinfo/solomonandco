@@ -3291,7 +3291,7 @@
               "lazy_mn": true,
               "pos": "default",
               "wid": "cus",
-              "cus_wid": 800
+              "cus_wid": 900
             }
           },
           "link_EJcQ8K": {
@@ -3301,7 +3301,7 @@
               "url": "/",
               "open_link": "_self",
               "menu": "moissanite-rings",
-              "col": "3"
+              "col": "4"
             }
           },
           "link_FgXk8B": {
@@ -3311,7 +3311,7 @@
               "url": "shopify://collections/lab-grown-diamond-rings",
               "open_link": "_self",
               "menu": "lab-grown-rings",
-              "col": "3"
+              "col": "4"
             }
           },
           "link_GP6WPt": {
@@ -3321,7 +3321,7 @@
               "url": "shopify://collections/natural-diamond-rings",
               "open_link": "_self",
               "menu": "natural-rings",
-              "col": "3"
+              "col": "4"
             }
           },
           "simple_KGCtB9": {
