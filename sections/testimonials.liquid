@@ -29,7 +29,7 @@
             {%- render 'quote_4',block:block,rating:block.settings.rating -%}
             {% if block.settings.product !=  blank %}
                 <div class="flex al_center fl_center">
-                  <div class="w-25"><img src="{{  block.settings.product.featured_media  |  img_url: "small"  }}" class="lazyload" loading="lazy"/></div>
+                  <div class="w-25"><img src="{{  block.settings.product.featured_media  |  img_url: "small"  }}" class="lazyload" loading="lazy" alt=""/></div>
                   <div class="w-75">
                     <div class="quote_producttitle">{{ block.settings.product.title | escape  }}</div>
                     <div class="quote_productvendor">{{ block.settings.product.vendor | escape  }}</div>
