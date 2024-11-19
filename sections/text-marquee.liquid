@@ -64,14 +64,16 @@
     ]
 }
 {% endschema %}
-<script src="//cdnjs.cloudflare.com/ajax/libs/jQuery.Marquee/1.5.0/jquery.marquee.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jQuery.Marquee/1.5.0/jquery.marquee.min.js" defer="defer"></script>
 <script>
-    $(' #{{ section.id }} .main-marq .text-marquee').marquee({
-        direction: 'left',
-        duration: 30000,
-        gap: 10,
-        delayBeforeStart: 0,
-        duplicated: true,
-        startVisible: true
+    $(document).ready(function () {
+        $(' #{{ section.id }} .main-marq .text-marquee').marquee({
+            direction: 'left',
+            duration: 30000,
+            gap: 10,
+            delayBeforeStart: 0,
+            duplicated: true,
+            startVisible: true
+        });
     });
 </script>
