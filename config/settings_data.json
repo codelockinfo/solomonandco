@@ -436,7 +436,7 @@
             "type": "text",
             "disabled": true,
             "settings": {
-              "text": "Hurry up offer is running for a limited time only",
+              "text": "Black Friday Limited time Sale",
               "hide": true,
               "col": "4"
             }
@@ -468,7 +468,7 @@
           "text_PkE6bz"
         ],
         "settings": {
-          "heading": "<p>Hurry up offer is running for a limited time only     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                       A summer state of mind starts with the perfect stack  <a href=\"/collections\" title=\"All collections\">Shop Now</a>  </p>",
+          "heading": "<p>Black Friday Mega Sale: Huge Discounts – Shop Now!                                 </p>",
           "height": 50,
           "fontsize": 14,
           "cl": "#ffffff",
