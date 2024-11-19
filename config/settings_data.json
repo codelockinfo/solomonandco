@@ -1316,7 +1316,7 @@
               "content_pd": "40px 80px",
               "content_pd_mb": "10px 20px",
               "border_bl": false,
-              "br_color": "#222222",
+              "br_color": "#000000",
               "br_style": "solid",
               "br_pd": 20,
               "br_pd_mb": 10
