@@ -1354,23 +1354,6 @@
               "br_pd_mb": 10
             }
           },
-          "1585640443284": {
-            "type": "subhd",
-            "disabled": true,
-            "settings": {
-              "font": "f_body",
-              "title": "MEGA SUMMER SALE",
-              "color": "#ffffff",
-              "fw_text": 400,
-              "fs_text": 20,
-              "lh_text": 0,
-              "ls_text": 2,
-              "fs_mb_text": 15,
-              "lh_mb_text": 0,
-              "ls_mb_text": 0,
-              "hide": false
-            }
-          },
           "1585640447349": {
             "type": "hd",
             "settings": {
@@ -1434,201 +1417,16 @@
               "h_mb": 40,
               "ls_mb_text": 0
             }
-          },
-          "1585640474337": {
-            "type": "subhd",
-            "disabled": true,
-            "settings": {
-              "font": "f_body",
-              "title": "Create Your Unique",
-              "color": "#ffffff",
-              "fw_text": 400,
-              "fs_text": 20,
-              "lh_text": 0,
-              "ls_text": 2,
-              "fs_mb_text": 15,
-              "lh_mb_text": 0,
-              "ls_mb_text": 0,
-              "hide": false
-            }
-          },
-          "1585640490350": {
-            "type": "space",
-            "disabled": true,
-            "settings": {
-              "sp": 25,
-              "sp_mb": 15
-            }
-          },
-          "1585640480446": {
-            "type": "hd",
-            "disabled": true,
-            "settings": {
-              "title": "<span class=\"cp\">CUSTOM</span> PIECE",
-              "color": "#ffffff",
-              "fw_text": 700,
-              "fs_text": 50,
-              "lh_text": 0,
-              "ls_text": 1,
-              "fs_mb_text": 40,
-              "lh_mb_text": 0,
-              "ls_mb_text": 0
-            }
-          },
-          "1585640492985": {
-            "type": "space",
-            "disabled": true,
-            "settings": {
-              "sp": 25,
-              "sp_mb": 15
-            }
-          },
-          "1585640485544": {
-            "type": "btn",
-            "disabled": true,
-            "settings": {
-              "title": "SHOP NOW",
-              "btn_link": "/",
-              "title2": "",
-              "btn_link2": "",
-              "btn_round": false,
-              "btn_icon": false,
-              "cl_txt": "#ffffff",
-              "cl_bg": "rgba(0,0,0,0)",
-              "cl_bd": "#ffffff",
-              "fs_text": 18,
-              "fw_text": 600,
-              "h": 42,
-              "ls_text": 3,
-              "fs_mb_text": 18,
-              "h_mb": 40,
-              "ls_mb_text": 0
-            }
-          },
-          "img_fAaEBG": {
-            "type": "img",
-            "disabled": true,
-            "settings": {
-              "image": "shopify://shop_images/05.jpg",
-              "image_mb": "shopify://shop_images/04_d7c8eac6-2d27-40bb-b7c5-8713b4f2f997.jpg",
-              "pos_img": "center center",
-              "cl_img": "",
-              "link_img1": "",
-              "open_link": "_blank",
-              "caption_w": "1",
-              "cap_v_pos": 50,
-              "cap_h_pos": 50,
-              "txt_align": "tl_md",
-              "cap_v_pos_mb": 90,
-              "cap_h_pos_mb": 50,
-              "txt_align_mb": "tc",
-              "cl_overlay": "#000000",
-              "cl_opacity": 10,
-              "ani_img": "tran_ef",
-              "ani_txt": "top_bottom",
-              "bg_content_bl": false,
-              "bg_content_cl": "#ffffff",
-              "bg_content_op": 50,
-              "content_pd": "40px 80px",
-              "content_pd_mb": "10px 20px",
-              "border_bl": false,
-              "br_color": "#222222",
-              "br_style": "solid",
-              "br_pd": 20,
-              "br_pd_mb": 10
-            }
-          },
-          "subhd_LBxb8y": {
-            "type": "subhd",
-            "disabled": true,
-            "settings": {
-              "font": "f_body",
-              "title": "Timeless Wristwear",
-              "color": "#ffffff",
-              "fw_text": 400,
-              "fs_text": 20,
-              "lh_text": 0,
-              "ls_text": 2,
-              "fs_mb_text": 15,
-              "lh_mb_text": 0,
-              "ls_mb_text": 0,
-              "hide": false
-            }
-          },
-          "space_MDyVrk": {
-            "type": "space",
-            "disabled": true,
-            "settings": {
-              "sp": 25,
-              "sp_mb": 15
-            }
-          },
-          "hd_yFgr7Q": {
-            "type": "hd",
-            "disabled": true,
-            "settings": {
-              "title": "<span class=\"cp\">BRACELETS</span> COLLECTIONS",
-              "color": "#ffffff",
-              "fw_text": 700,
-              "fs_text": 50,
-              "lh_text": 0,
-              "ls_text": 1,
-              "fs_mb_text": 40,
-              "lh_mb_text": 0,
-              "ls_mb_text": 0
-            }
-          },
-          "space_iDFkTH": {
-            "type": "space",
-            "disabled": true,
-            "settings": {
-              "sp": 25,
-              "sp_mb": 15
-            }
-          },
-          "btn_nD3xLN": {
-            "type": "btn",
-            "disabled": true,
-            "settings": {
-              "title": "SHOP NOW",
-              "btn_link": "/",
-              "title2": "",
-              "btn_link2": "",
-              "btn_round": false,
-              "btn_icon": false,
-              "cl_txt": "#ffffff",
-              "cl_bg": "rgba(0,0,0,0)",
-              "cl_bd": "#ffffff",
-              "fs_text": 18,
-              "fw_text": 600,
-              "h": 42,
-              "ls_text": 3,
-              "fs_mb_text": 18,
-              "h_mb": 40,
-              "ls_mb_text": 0
-            }
           }
         },
         "block_order": [
           "1585640159361",
           "1585640154849",
-          "1585640443284",
           "1585640447349",
           "1585640466340",
           "txt_xQbR7c",
           "1585640460694",
-          "1585640453760",
-          "1585640474337",
-          "1585640490350",
-          "1585640480446",
-          "1585640492985",
-          "1585640485544",
-          "img_fAaEBG",
-          "subhd_LBxb8y",
-          "space_MDyVrk",
-          "hd_yFgr7Q",
-          "space_iDFkTH",
-          "btn_nD3xLN"
+          "1585640453760"
         ],
         "settings": {
           "se_height": "adapt",
