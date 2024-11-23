@@ -3168,7 +3168,7 @@
               "lazy_mn": true,
               "pos": "default",
               "wid": "cus",
-              "cus_wid": 900
+              "cus_wid": 600
             }
           },
           "link_EJcQ8K": {
@@ -3178,7 +3178,18 @@
               "url": "/",
               "open_link": "_self",
               "menu": "moissanite-hip-hop-jewelry",
-              "col": "4"
+              "col": "6"
+            }
+          },
+          "cat_9W6wkB": {
+            "type": "cat",
+            "settings": {
+              "image": "shopify://shop_images/DSC02784_6d2fed91-2d36-4c58-8ebe-bd095abc59df.jpg",
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "hip-hop-jewelry",
+              "title": "",
+              "col": "6"
             }
           },
           "link_FgXk8B": {
@@ -3295,6 +3306,7 @@
           "simple_PMd4Yy",
           "mega_6ENzYG",
           "link_EJcQ8K",
+          "cat_9W6wkB",
           "link_FgXk8B",
           "link_GP6WPt",
           "simple_KGCtB9",
