@@ -1,11 +1,10 @@
 {%- layout none -%}{%- assign product = search.results.first -%}{%- assign pr_id = product.id -%}
-{%- comment -%}/search?view=nt_pr&ttype=product&q=id:prid%20OR%20the4nt1 , the4img1 - the4img2 - the4btn1 - the4btn2 - the4btn3{%- endcomment -%}
 {%- assign key = search.terms | remove:"ntt4ck" | split:" OR "-%}
 {%- if search.terms contains 'nthandle_' -%}{%- assign handle = key.last | remove:"nthandle_" -%}{%- assign collection = collections[handle] | default:product.collections.last -%}{%- endif -%}
 {%- assign pr_url = product.url | within: collection -%}
 {%- case key[1] -%}
-	{%- when 'the4colorp' -%}{%- assign key_nt = key[2] -%}{%- include 'gecko_check_variant' -%}{%- comment -%} /search?view=nt_pr&type=product&q=id:{{product.id}}%20OR%20the4colorp%20OR%20{{call_cl}} {%- endcomment -%}
-	{%- when 'the4jsonrp' -%}{%- assign key_nt = key[2] -%}{%- include 'product_js' -%}{%- comment -%} /search?view=nt_pr&type=product&q=id:{{product.id}}%20OR%20the4jsonrp%20OR%20{{call_cl}} {%- endcomment -%}
+	{%- when 'the4colorp' -%}{%- assign key_nt = key[2] -%}{%- include 'gecko_check_variant' -%}
+	{%- when 'the4jsonrp' -%}{%- assign key_nt = key[2] -%}{%- include 'product_js' -%}
 	{%- when 'the4img1' -%}
 		{%- assign stt_new_label = settings.use_new_label -%}{%- if stt_new_label -%}{%- assign nowTimestamp = 'now' | date: '%s' -%}{%- assign new_day_int = settings.new_day | default: 10 -%}{%- endif -%}
 		{%- assign stt_sale_label = settings.use_sale_label -%}

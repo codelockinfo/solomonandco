@@ -2,17 +2,7 @@
  layout none
  assign mb_cat = settings.mb_cat
  assign first_cat = settings.first_cat -%}
-{%- comment -%}
-{%- if settings.mb_search -%}
-<div class="search_header_mb">
-  <form action="{{ routes.search_url }}" method="get" class="search_frm_mb pr" role="search">
-    <input class="search_input_mb" type="text" name="q" placeholder="{{ 'general.search.placeholder' | t }}">
-    <button class="search_btn_mb pr" type="submit"><i class="iccl iccl-search"></i></button>
-  </form>
-</div>
-{%- endif -%}
-<i class="close_pp pegk pe-7s-close ts__03 cd"></i>
-{%- endcomment -%}
+
 {%- if first_cat and mb_cat -%}
 
   <div class="mb_nav_tabs flex al_center mb_cat_{{mb_cat}} first_cat_{{first_cat}}">
