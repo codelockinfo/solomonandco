@@ -3142,6 +3142,7 @@
           },
           "simple_PMd4Yy": {
             "type": "simple",
+            "disabled": true,
             "settings": {
               "title": "Hip Hop Jewelry",
               "url": "shopify://collections/hip-hop-jewelry",
@@ -3155,7 +3156,6 @@
           },
           "mega_6ENzYG": {
             "type": "mega",
-            "disabled": true,
             "settings": {
               "title": "Hip Hop Jewelry",
               "url": "shopify://collections/hip-hop-jewelry",
