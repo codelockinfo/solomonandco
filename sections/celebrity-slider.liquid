@@ -110,10 +110,10 @@
 $(document).ready(function () {
   // Initialize Swiper for the main container
   new Swiper('.celeb-container', {
-    loop: true,
+    loop: true, // Ensure looping is enabled
     autoplay: {
-      delay: 3000, // Adjust the delay (3000ms = 3 seconds)
-      disableOnInteraction: true, // Optional: Keeps autoplay running even after user interaction
+      delay: 5000, // Set a slower delay (5000ms = 5 seconds)
+      disableOnInteraction: false, // Allow autoplay to continue after interaction
     },
     navigation: {
       nextEl: '.button-next',
