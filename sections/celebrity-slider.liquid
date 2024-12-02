@@ -107,37 +107,42 @@
 </style>
 
 <script>
-  $(document).ready(function () {
-    // Initialize Swiper for the main container
-    new Swiper('.celeb-container', {
-      loop: true,
-      autoplay:true,
-      nextButton: '.button-next',
-      prevButton: '.button-prev',
-      slidesPerView: 4.2,
-      spaceBetween: 15,
-      breakpoints: {
-        500: {
-          slidesPerView: 1.2,
-          spaceBetween: 15,
-        },
-        576: {
-          slidesPerView: 2.2,
-          spaceBetween: 15,
-        },
-        768: {
-          slidesPerView: 3.2,
-          spaceBetween: 15,
-        },
-        991: {
-          slidesPerView: 3.2,
-          spaceBetween: 15,
-        },
-        1028: {
-          slidesPerView: 4.2,
-          spaceBetween: 15,
-        },
+$(document).ready(function () {
+  // Initialize Swiper for the main container
+  new Swiper('.celeb-container', {
+    loop: true,
+    autoplay: {
+      delay: 3000, // Adjust the delay (3000ms = 3 seconds)
+      disableOnInteraction: false, // Optional: Keeps autoplay running even after user interaction
+    },
+    navigation: {
+      nextEl: '.button-next',
+      prevEl: '.button-prev',
+    },
+    slidesPerView: 4.2,
+    spaceBetween: 15,
+    breakpoints: {
+      500: {
+        slidesPerView: 1.2,
+        spaceBetween: 15,
       },
-    });
+      576: {
+        slidesPerView: 2.2,
+        spaceBetween: 15,
+      },
+      768: {
+        slidesPerView: 3.2,
+        spaceBetween: 15,
+      },
+      991: {
+        slidesPerView: 3.2,
+        spaceBetween: 15,
+      },
+      1028: {
+        slidesPerView: 4.2,
+        spaceBetween: 15,
+      },
+    },
   });
+});
 </script>
