@@ -37,7 +37,8 @@
   {%- capture url_last -%}{{product.url | split:'/products/' | first}}{% if collection %}/collections/{{collection.handle}}{% endif %}/products/{{product.handle}}{%- endcapture -%}
 
 <div data-page="{{page_t4}}" class="col-lg-{{col}} col-md-{{col_tb}} col-{{col_mb}} mt__30 pr_grid_item pr_list_item product nt_pr desgin__{{inc_pr}}{% if pr_cdt %} pr_has_cdt4{% endif %}">
-  <div class="product-inner vvvvvv pr">
+  <div class="product-inner vvvvvv pr"> 
+     <div class="product-inner cccccccccccccccc pr">
     {%- if pr_cdt -%}
       <div class="pr_wr_dcimg pr oh">
         <div class="product-image pr oh lazyload" data-include="{{pr_url}}/?view=img{{sett_equal}}"><div class="nt_bg_lz nt_fk_lz"{% unless sett_equal %} style="padding-top:{{ 1 | divided_by: images_0.aspect_ratio | times: 100}}%;"{% endunless %}></div></div>
@@ -48,6 +49,7 @@
     {%- else -%}
        <div class="product-image pr oh lazyload" data-include="{{pr_url}}/?view=img{{sett_equal}}"><div class="nt_bg_lz nt_fk_lz"{% unless sett_equal %} style="padding-top:{{ 1 | divided_by: images_0.aspect_ratio | times: 100}}%;"{% endunless %}></div></div>
     {%- endif -%}
+
     <div class="product-info 4444 ">
       <div class="product-info__inner 5555">
          {%- if product.vendor.size > 0 and show_vendor -%}<div class="product-brand"><a class="cg chp" href="{{ product.vendor | url_for_vendor }}">{{ product.vendor }}</a></div>{%- endif -%}
@@ -55,6 +57,7 @@
          <a class="get-quote" href="/pages/custom-jewelry">Get a Quote</a>
          {% comment %} <span class="price dib mb__5 33333">{%- render 'product_price',product:product,inc_price:inc_price -%}</span>
          <div class="rte dn"><p class="mb__5">{% if description_excerpt != blank %}{{ description_excerpt }}{% else %}{{ product.content | strip_html | truncatewords: 30 }}{% endif %}</p></div> {% endcomment %}
+
          {%- if use_rating -%}{%- render 'rating',product:product,inc_rating:inc_rating -%}{%- endif -%}
          {%- if color_count > 0 -%}
          <div class="swatch__list_js swatch__list lh__1 nt_swatches_on_grid lazyload" data-colorCount="{{color_count}}" data-include="{{pr_url}}/?view=sw{{sett_equal}}"></div>
