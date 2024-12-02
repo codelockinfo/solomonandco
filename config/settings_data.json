@@ -2664,7 +2664,6 @@
         "blocks": {
           "sidebar_shop2-0": {
             "type": "title",
-            "disabled": true,
             "settings": {
               "hidden_block": false,
               "title": "By Title"
