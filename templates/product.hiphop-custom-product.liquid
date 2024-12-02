@@ -144,7 +144,7 @@
                            {%- if zoom_tp == '2' %}<div class="dt_img_zoom pa t__0 r__0 dib"></div>{% endif -%}
                         </div>
                      </div>
-                     <div class="{{class_summary}} col-12 product-infors pr_sticky_su"><div class="theiaStickySidebar">{%- section 'pr_summary' -%}{% if des_pr_layout == '2' %}{%- section 'pr_description' -%}{% if settings.social_pr %}<div class="social-share tc mt__ 40">{% if settings.share_source == '1' %}{%- render 'social-sharing' -%}{% else %}<div class="nt-social nt__addthis addthis_inline_share_toolbox_icxz"></div>{% endif %}</div>{% endif %}{% endif %}</div></div>
+                     <div class="{{class_summary}} col-12 product-infors pr_sticky_su"><div class="theiaStickySidebar">{%- section 'custom-pr-summary' -%}{% if des_pr_layout == '2' %}{%- section 'pr_description' -%}{% if settings.social_pr %}<div class="social-share tc mt__ 40">{% if settings.share_source == '1' %}{%- render 'social-sharing' -%}{% else %}<div class="nt-social nt__addthis addthis_inline_share_toolbox_icxz"></div>{% endif %}</div>{% endif %}{% endif %}</div></div>
                   </div>
                </div>
             </div>
@@ -182,7 +182,7 @@
                      {%- if zoom_tp == '2' %}<div class="dt_img_zoom pa t__0 r__0 dib"></div>{% endif -%}
                   </div>
                </div>
-               <div class="{{class_summary}} col-12 product-infors pr_sticky_su"><div class="theiaStickySidebar">{%- section 'pr_summary' -%}{% if des_pr_layout == '2' %}{%- section 'pr_description' -%}{% if settings.social_pr %}<div class="social-share tc mt__ 40">{% if settings.share_source == '1' %}{%- render 'social-sharing' -%}{% else %}<div class="nt-social nt__addthis addthis_inline_share_toolbox_icxz"></div>{% endif %}</div>{% endif %}{% endif %}</div></div>
+               <div class="{{class_summary}} col-12 product-infors pr_sticky_su"><div class="theiaStickySidebar">{%- section 'custom-pr-summary' -%}{% if des_pr_layout == '2' %}{%- section 'pr_description' -%}{% if settings.social_pr %}<div class="social-share tc mt__ 40">{% if settings.share_source == '1' %}{%- render 'social-sharing' -%}{% else %}<div class="nt-social nt__addthis addthis_inline_share_toolbox_icxz"></div>{% endif %}</div>{% endif %}{% endif %}</div></div>
             </div>
          </div>
       </div>

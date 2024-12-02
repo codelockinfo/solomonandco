@@ -77,7 +77,7 @@
   {%- case block.type -%}
     {%- when 'title' -%}
       {%- if call_cl == '_ppr' -%}
-        <h1 class="product_title entry-title" style="font-size: {{block.settings.size}}px">{{ product.title }}</h1>
+        <h1 class=" product_title entry-title" style="font-size: {{block.settings.size}}px">{{ product.title }}</h1>
       {%- else -%}
         <h1 class="product_title entry-title" style="font-size: {{block.settings.size}}px">
           <a href="{{product.url | within: collection}}">{{ product.title }}</a>
@@ -85,8 +85,8 @@
       {%- endif -%}
       <div class="flex align-i-center justy_between"><div class="rating"></div></div>
       {%- when 'pricereview' -%}
-        <div class=" flex wrap fl_between al_center price-review mt__15 pb__10 mb__20 price_stock">
-          <p class="price_range" id="price{{call_cl}}">
+        {% comment %} <div class=" flex wrap fl_between al_center price-review mt__15 pb__10 mb__20 price_stock">
+          <p class="price_range 1111111" id="price{{call_cl}}">
            {%- if nav_up_size == 0 and current_variant.unit_price_measurement -%}
                {%- if price_varies -%}<span class="price_varies">{%- endif -%}
                {%- if on_sale -%}<del>{{ current_variant.compare_at_price  | money }}</del><ins>{{ current_variant.price | money }}</ins>{%- else -%}{{ current_variant.price | money }}{%- endif -%}
@@ -101,7 +101,7 @@
                  {%- endif -%}
                </span>
               {%- endcapture -%}
-              <span class="price__unit db"><span class="unit_price">{{ current_variant.unit_price | money }}</span><span>/</span>{{- unit_price_base_unit -}}</span>
+              <span class="1111111 price__unit db"><span class="unit_price">{{ current_variant.unit_price | money }}</span><span>/</span>{{- unit_price_base_unit -}}</span>
            {%- elsif nav_up_size == 0 -%}
               {%- if price_varies -%}
                   {%- if block.settings.price == '1' -%}{{ product.price_min | money }} – {{ product.price_max | money }}
@@ -139,8 +139,11 @@
           <span class="available_wrapper"><span class="available value"><span id="txt_vl_in{{call_cl}}" class="value_in cb{% if no_sold_out == false %} dn{% endif %}"><span class="js_in_stock {{classdn1}}">{{ 'products.product.in_stock' | t }}</span><span class="js_in_stock_pre_oder {{classdn2}}">{{ 'products.product.in_stock_pre_oder' | t }}</span></span><span id="txt_vl_out{{call_cl}}" class="value_out{% if no_sold_out %} dn{% endif %}">{{ 'products.product.outofstock' | t }}</span></span></span>
           {%- endif -%}
           <div class="sku_div"><span class="sku_wrapper">{{ 'products.product.product_sku' | t }} <span class="sku value cb{% if current_variant.sku == blank %} dn{% endif %}" id="pr_sku{{call_cl}}">{{current_variant.sku}}</span><span class="sku value{% if current_variant.sku != blank %} dn{% endif %}" id="pr_sku_na{{call_cl}}">{{ 'products.product.na' | t }}</span></span></div>
-       </div>
-
+       </div> {% endcomment %}
+         <div class="custom-button-quote">
+            <a href="/pages/custom-jewelry" class="c-quote">Customize your piece</a>
+            <div class="c-sentance">Get a quote in 24 minutes | 2 weeks production</div>
+         </div>
         {%- if block.settings.rating -%}
           <a href="#tab_pr_reivew" class="rating_sp_kl{% if call_cl == '_qv' %} pe_none{% endif %}">
             {%- case settings.app_review -%}
@@ -416,21 +419,21 @@
                             {% endif %}
                         </div>
                       {% endif %}
-                                      {% comment %} custom properties {% endcomment %}
-                <div class="customize-properties mb__40">
-                  <h4 for="customization" class="swatch__title">Personalize Box</h4>
-                  <textarea
-                    class="personalizebox"
-                    id="personalize-box"
-                    type="text"
-                    name="properties[Personalize Box]"
-                    placeholder="Mention Your Personalization Size, Metal Color, etc. Here"
-                    spellcheck="false"
-                  ></textarea>
-                  {% comment %} <input  class="required" id="customization" name="properties[Personalization]" value="" /> {% endcomment %}
-                </div>
-                {% comment %} custom properties {% endcomment %}
-                <div
+                             {% comment %} custom properties {% endcomment %}
+                             <div class="customize-properties mb__40">
+                                <h4 for="customization" class="swatch__title">Personalize Box</h4>
+                                <textarea
+                                  class="personalizebox"
+                                  id="personalize-box"
+                                  type="text"
+                                  name="properties[Personalize Box]"
+                                  placeholder="Mention Your Personalization Size, Metal Color, etc. Here"
+                                  spellcheck="false"
+                                ></textarea>
+                                {% comment %} <input  class="required" id="customization" name="properties[Personalization]" value="" /> {% endcomment %}
+                              </div>
+                              {% comment %} custom properties {% endcomment %}
+                      <div
                   class="nt_pr_js lazypreload op__0"
                   data-id="{{call_cl}}"
                   data-include="{{locale_url}}/products/{{product.handle}}/?view=js{{call_cl}}"
@@ -479,7 +482,7 @@
                 </div>
               {% endif %}
 
-              {%- if price_varies and current_variant.unit_price_measurement -%}
+              {% comment %} {%- if price_varies and current_variant.unit_price_measurement -%}
                 <span class="price">
                   <span class="price_varies">
                     {%- if on_sale -%}
@@ -511,8 +514,8 @@
                 >
               {%- elsif price_varies -%}
                 <span class="price price_varies">{{ current_variant.price | money }}</span>
-              {%- endif -%}
-              <div class="variations_button in_flex column w__100">
+              {%- endif -%} {% endcomment %}
+              {% comment %} <div class="variations_button in_flex column w__100">
                 <div class="flex wrap  align-i-center custom_pay">
                   {%- if ck_external -%}
                     <a href="{{link}}" rel="nofollow" target="_blank" class="truncate external_btn button">
@@ -587,7 +590,7 @@
                   </button>
                   {%- render 'nt_add_w', class: 'order-3 d-none-m custom_wish', tooltip: 'ttip_nt tooltip_top_left' -%}
                 </div>
-              </div>
+              </div> {% endcomment %}
             {%- endform -%}
 
             {%- assign uavailable_v = pr_variants | where: 'available', false -%}

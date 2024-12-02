@@ -194,7 +194,7 @@ assign IsShowPRS = true -%}
      <div class="row">
         {%- if no_sidebar == false and admin_sp -%}<div class="js_sidebar sidebar sidebar_nt col-lg-{{class_sidebar}} col-12 space_{{settings.space_sidebar}} hidden_{{hidden_cat}}">{% if type_filters == '1' %}{%- section 'sidebar_shop' -%}{% else %}{%- section 'sidebar_shop2' -%}{% endif %}</div>
         {%- elsif no_sidebar == false -%}<div class="js_sidebar sidebar sidebar_nt col-lg-{{class_sidebar}} col-12 space_{{settings.space_sidebar}} hidden_{{hidden_cat}} {{lz_filter}} lazypreload" data-include="{{get_url}}section_id={{sidebar_shop}}"><div class="nt_svg_loader dn"></div></div>{%- endif -%}
-        <div class="col-lg-{{class_main}} col-12">{%- section 'collection_page' -%}</div>
+        <div class="col-lg-{{class_main}} col-12">{%- section 'custom-collection-page' -%}</div>
      </div>
   </div>
   {%- if cat_des == '3' %}<div class="cat_des_ntt4 container container_cat tc mb__60">{{ collection.description}}</div>{%- endif -%}
