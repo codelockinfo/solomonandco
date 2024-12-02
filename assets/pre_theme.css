@@ -3547,7 +3547,7 @@ html.wf-fontawesome5free-n4-loading .fas:before {opacity: 0}
       opacity: 1
     }
 
-  .remove_soldout_false.variations .swatch.is-color:not(.color_simple) .swatches-select>.nt_soldout>span.swatch__value_pr:before {
+  /* .remove_soldout_false.variations .swatch.is-color:not(.color_simple) .swatches-select>.nt_soldout>span.swatch__value_pr:before {
       content: " ";
       position: absolute;
       width: 100%;
@@ -3561,7 +3561,7 @@ html.wf-fontawesome5free-n4-loading .fas:before {opacity: 0}
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       border-radius: 50%;
-  }
+  } */
   .remove_soldout_false.variations.style_color .swatch.is-color .swatches-select>.nt_soldout>span.swatch__value_pr:before{
       background-image: url('sold_out.png?v=1994');
       background-size: cover;
