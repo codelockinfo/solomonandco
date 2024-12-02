@@ -1,5 +1,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js" defer="defer"></script>
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
 
 <section class="image_section">
   <div class="width-container">
@@ -110,12 +112,11 @@
 $(document).ready(function () {
   // Initialize Swiper for the main container
   new Swiper('.celeb-container', {
-    // loop: true, // Ensure looping is enabled
-    // freemode:true,
-    // autoplay: {
-    //   delay: 10000, // Set a slower delay (5000ms = 5 seconds)
-    //   disableOnInteraction: false, // Allow autoplay to continue after interaction
-    // },
+    loop: true, // Ensure looping is enabled
+    autoplay: {
+      delay: 2000, // Set a slower delay (5000ms = 5 seconds)
+      disableOnInteraction: false, // Allow autoplay to continue after interaction
+    },
     navigation: {
       nextEl: '.button-next',
       prevEl: '.button-prev',
@@ -123,6 +124,15 @@ $(document).ready(function () {
     slidesPerView: 4.2,
     spaceBetween: 15,
     breakpoints: {
+
+      0: {
+        slidesPerView: 1.2,
+        spaceBetween: 15,
+      },
+      375: {
+        slidesPerView: 1.2,
+        spaceBetween: 15,
+      },
       500: {
         slidesPerView: 1.2,
         spaceBetween: 15,
