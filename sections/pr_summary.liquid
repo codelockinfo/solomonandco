@@ -531,7 +531,7 @@
                     </a>
                     {%- render 'nt_add_w', tooltip: 'ttip_nt tooltip_top_left' -%}
                   {%- else -%}
-                  <div class="flex align-i-center">
+                  <div class="flex align-i-center q-margin">
                     <div class="quantity_head">Quantity</div>
                     <div class="quantity pr mr__10 order-1 qty__{{block.settings.show_qty}}" id="sp_qty{{call_cl}}">
                       <input
@@ -572,7 +572,7 @@
                   {%- endif -%}
                 </div>
 
-                <div class="custom_prform">
+                <div class="custom_prform q-margin">
                   {%- if block.settings.enable_payment_btn and ck_external == false and no_sold_out -%}
                     {{- form | payment_button -}}
                   {%- endif -%}
