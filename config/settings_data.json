@@ -211,7 +211,7 @@
     "design_products": "1",
     "size_img_pr": "2",
     "nav_img_pr": "medium",
-    "use_sticky_des": false,
+    "use_sticky_des": true,
     "main_click": "none",
     "zoom_tp": "2",
     "pswp_tp": "light",
