@@ -2972,31 +2972,6 @@
               "cus_wid": 900
             }
           },
-          "simple_fhK8qR": {
-            "type": "simple",
-            "disabled": true,
-            "settings": {
-              "title": "Pendants",
-              "url": "shopify://collections/pendants",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": true,
-              "cl": "#000000",
-              "lb": "",
-              "lb_cl": "rgba(0,0,0,0)"
-            }
-          },
-          "link_6RJVRV": {
-            "type": "link",
-            "disabled": true,
-            "settings": {
-              "tt_hd": "Pendants",
-              "url": "shopify://collections/pendants",
-              "open_link": "_self",
-              "menu": "pendants",
-              "col": "6"
-            }
-          },
           "mega_9JUedF": {
             "type": "mega",
             "settings": {
@@ -3022,40 +2997,6 @@
               "open_link": "_self",
               "menu": "pendants",
               "col": "12"
-            }
-          },
-          "link_JdY7nk": {
-            "type": "link",
-            "disabled": true,
-            "settings": {
-              "tt_hd": "Lab Grown",
-              "url": "shopify://collections/lab-grown-diamond-bracelets",
-              "open_link": "_self",
-              "menu": "lab-grown-pendants",
-              "col": "3"
-            }
-          },
-          "link_CADnLh": {
-            "type": "link",
-            "disabled": true,
-            "settings": {
-              "tt_hd": "Natural",
-              "url": "shopify://collections/natural-diamond-bracelets",
-              "open_link": "_self",
-              "menu": "natural-pendants",
-              "col": "3"
-            }
-          },
-          "cat_AEz84C": {
-            "type": "cat",
-            "disabled": true,
-            "settings": {
-              "image": "shopify://shop_images/14_Pendants.jpg",
-              "cat_design": "1",
-              "hoverz": true,
-              "collection": "pendants",
-              "title": "",
-              "col": "3"
             }
           },
           "simple_kH6zC8": {
@@ -3319,13 +3260,8 @@
           "cat_Mi4zET",
           "simple_8GXyHz",
           "mega_c937Xf",
-          "simple_fhK8qR",
-          "link_6RJVRV",
           "mega_9JUedF",
           "link_FzxfC8",
-          "link_JdY7nk",
-          "link_CADnLh",
-          "cat_AEz84C",
           "simple_kH6zC8",
           "mega_xNXQNM",
           "link_icAfCc",
