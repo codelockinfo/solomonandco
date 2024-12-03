@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "current": {
     "general_layout": "wide",
     "cus_w_bd": 1170,
@@ -2987,7 +2987,6 @@
           },
           "mega_9JUedF": {
             "type": "mega",
-            "disabled": true,
             "settings": {
               "title": "Pendants",
               "url": "shopify://collections/pendants",
