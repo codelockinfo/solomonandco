@@ -3011,21 +3011,22 @@
               "lazy_mn": true,
               "pos": "default",
               "wid": "cus",
-              "cus_wid": 1200
+              "cus_wid": 200
             }
           },
           "link_FzxfC8": {
             "type": "link",
             "settings": {
-              "tt_hd": "Moissanite",
+              "tt_hd": "Pandant",
               "url": "shopify://collections/moissanite-bracelets",
               "open_link": "_self",
-              "menu": "moissanite-pendants",
-              "col": "3"
+              "menu": "pendants",
+              "col": "12"
             }
           },
           "link_JdY7nk": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "Lab Grown",
               "url": "shopify://collections/lab-grown-diamond-bracelets",
@@ -3036,6 +3037,7 @@
           },
           "link_CADnLh": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "Natural",
               "url": "shopify://collections/natural-diamond-bracelets",
