@@ -2986,6 +2986,17 @@
               "lb_cl": "rgba(0,0,0,0)"
             }
           },
+          "link_6RJVRV": {
+            "type": "link",
+            "disabled": true,
+            "settings": {
+              "tt_hd": "Pendants",
+              "url": "shopify://collections/pendants",
+              "open_link": "_self",
+              "menu": "pendants",
+              "col": "6"
+            }
+          },
           "mega_9JUedF": {
             "type": "mega",
             "settings": {
@@ -3001,17 +3012,6 @@
               "pos": "default",
               "wid": "cus",
               "cus_wid": 1200
-            }
-          },
-          "link_6RJVRV": {
-            "type": "link",
-            "disabled": true,
-            "settings": {
-              "tt_hd": "Pendants",
-              "url": "shopify://collections/pendants",
-              "open_link": "_self",
-              "menu": "pendants",
-              "col": "6"
             }
           },
           "link_FzxfC8": {
@@ -3318,8 +3318,8 @@
           "simple_8GXyHz",
           "mega_c937Xf",
           "simple_fhK8qR",
-          "mega_9JUedF",
           "link_6RJVRV",
+          "mega_9JUedF",
           "link_FzxfC8",
           "link_JdY7nk",
           "link_CADnLh",
