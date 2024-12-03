@@ -2988,6 +2988,7 @@
           },
           "mega_9JUedF": {
             "type": "mega",
+            "disabled": true,
             "settings": {
               "title": "Pendants",
               "url": "shopify://collections/pendants",
@@ -3005,7 +3006,6 @@
           },
           "link_6RJVRV": {
             "type": "link",
-            "disabled": true,
             "settings": {
               "tt_hd": "Pendants",
               "url": "shopify://collections/pendants",
