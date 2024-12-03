@@ -2987,6 +2987,7 @@
           },
           "mega_9JUedF": {
             "type": "mega",
+            "disabled": true,
             "settings": {
               "title": "Pendants",
               "url": "shopify://collections/pendants",
@@ -3004,7 +3005,6 @@
           },
           "link_6RJVRV": {
             "type": "link",
-            "disabled": true,
             "settings": {
               "tt_hd": "Pendants",
               "url": "shopify://collections/pendants",
@@ -3015,7 +3015,6 @@
           },
           "link_FzxfC8": {
             "type": "link",
-            "disabled": true,
             "settings": {
               "tt_hd": "Moissanite",
               "url": "shopify://collections/moissanite-bracelets",
@@ -3026,7 +3025,6 @@
           },
           "link_JdY7nk": {
             "type": "link",
-            "disabled": true,
             "settings": {
               "tt_hd": "Lab Grown",
               "url": "shopify://collections/lab-grown-diamond-bracelets",
@@ -3037,7 +3035,6 @@
           },
           "link_CADnLh": {
             "type": "link",
-            "disabled": true,
             "settings": {
               "tt_hd": "Natural",
               "url": "shopify://collections/natural-diamond-bracelets",
