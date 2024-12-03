@@ -3005,6 +3005,7 @@
           },
           "link_6RJVRV": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "Pendants",
               "url": "shopify://collections/pendants",
