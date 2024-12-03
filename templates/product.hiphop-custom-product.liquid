@@ -127,7 +127,7 @@
                <div class="col-12 thumb_{{cl_tb}}">
                   <div class="row mb__50 pr_sticky_content"> 
                      <div class="{{class_images}} col-12 pr product-images img_action_{{settings.main_click}} pr_sticky_img" data-pr-single-media-group>
-                        <div class="row theiaStickySidebar">
+                        <div class="row theiaStickySidebar theiaStickySidebarProduct">
                            {%- if image != blank and pr_media.size < 2 -%}{%- assign ratio = image.aspect_ratio -%}{%- assign iw = image.width -%}
                               <div class="col-12">
                                  <div class="p-thumb images sp-pr-gallery equal_nt {{settings.img_size_main}} {{settings.ratio_img_main}} position_{{settings.img_pos_main}}">
@@ -299,3 +299,36 @@
 }
 </script>
 
+<script>
+
+$(document).ready(function() {
+    var $slider = $('.theiaStickySidebar.theiaStickySidebarProduct');
+    var $content = $('.product-infors');
+    
+    var offsetTop = $slider.offset().top;
+    var contentHeight = $content.height();
+    var sliderHeight = $slider.height();
+    
+    if ($(window).width() >= 768) {
+      $(window).scroll(function() {
+        var scrollTop = $(window).scrollTop();
+        var imagedivwidth = $slider.width();
+        $slider.css('width',imagedivwidth);
+        var contentBottom = offsetTop + contentHeight;
+        
+        // Stick the slider when scrolling
+        if (scrollTop > offsetTop && contentBottom >= scrollTop  + sliderHeight) {
+          $slider.addClass('sticky');
+          $slider.removeClass('slider-absolute');
+        }else if(contentBottom <= scrollTop  + sliderHeight){
+          $slider.addClass('slider-absolute');
+        } else {
+          $slider.removeClass('slider-absolute');
+          $slider.removeClass('sticky');
+        }
+      });
+    }
+    
+});
+
+</script>
