@@ -1290,11 +1290,11 @@
       "1581505806578": {
         "type": "slideshow",
         "blocks": {
-          "1585640159361": {
+          "img_iEqb7n": {
             "type": "img",
             "settings": {
-              "image": "shopify://shop_images/27_Cytber_monday_up_to_40_off_eac147ab-f7c5-4820-afb8-8fa285bfdeec.jpg",
-              "image_mb": "shopify://shop_images/27_Cytber_monday_up_to_40_off_M.jpg",
+              "image": "shopify://shop_images/28_Cristmas_90_21733029-ea5e-424f-80b9-dbe3ccff13f4.jpg",
+              "image_mb": "shopify://shop_images/28_Cristmas_M_4be0b64e-4664-4f3c-8eb9-416e0a093920.jpg",
               "pos_img": "center center",
               "cl_img": "",
               "link_img1": "",
@@ -1322,11 +1322,11 @@
               "br_pd_mb": 10
             }
           },
-          "img_iEqb7n": {
+          "1585640159361": {
             "type": "img",
             "settings": {
-              "image": "shopify://shop_images/28_Cristmas_90_21733029-ea5e-424f-80b9-dbe3ccff13f4.jpg",
-              "image_mb": "shopify://shop_images/28_Cristmas_M_4be0b64e-4664-4f3c-8eb9-416e0a093920.jpg",
+              "image": "shopify://shop_images/07_Blackfriday_8df92dbe-4e52-404c-8460-4e301cdbe386.jpg",
+              "image_mb": "shopify://shop_images/07_Blackfriday_M_de8f4df5-c507-4ee4-a318-41f04d9c80f5.jpg",
               "pos_img": "center center",
               "cl_img": "",
               "link_img1": "",
@@ -1452,8 +1452,8 @@
           }
         },
         "block_order": [
-          "1585640159361",
           "img_iEqb7n",
+          "1585640159361",
           "1585640154849",
           "1585640447349",
           "1585640466340",
