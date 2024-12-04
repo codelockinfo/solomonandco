@@ -83,6 +83,9 @@
           <a href="{{product.url | within: collection}}">{{ product.title }}</a>
         </h1>
       {%- endif -%}
+     <div class="jdgm-widget jdgm-preview-badge">
+            {{ product.metafields.judgeme.badge }}
+          </div>
       <div class="flex align-i-center justy_between"><div class="rating"></div></div>
       {%- when 'pricereview' -%}
         {% comment %} <div class=" flex wrap fl_between al_center price-review mt__15 pb__10 mb__20 price_stock">
