@@ -1322,38 +1322,6 @@
               "br_pd_mb": 10
             }
           },
-          "1585640159361": {
-            "type": "img",
-            "settings": {
-              "image": "shopify://shop_images/07_Blackfriday_8df92dbe-4e52-404c-8460-4e301cdbe386.jpg",
-              "image_mb": "shopify://shop_images/07_Blackfriday_M_de8f4df5-c507-4ee4-a318-41f04d9c80f5.jpg",
-              "pos_img": "center center",
-              "cl_img": "",
-              "link_img1": "",
-              "open_link": "_blank",
-              "caption_w": "1",
-              "cap_v_pos": 50,
-              "cap_h_pos": 50,
-              "txt_align": "tl_md",
-              "cap_v_pos_mb": 87,
-              "cap_h_pos_mb": 50,
-              "txt_align_mb": "tc",
-              "cl_overlay": "#000000",
-              "cl_opacity": 10,
-              "ani_img": "tran_ef",
-              "ani_txt": "top_bottom",
-              "bg_content_bl": false,
-              "bg_content_cl": "#ffffff",
-              "bg_content_op": 50,
-              "content_pd": "40px 80px",
-              "content_pd_mb": "10px 20px",
-              "border_bl": false,
-              "br_color": "#000000",
-              "br_style": "solid",
-              "br_pd": 20,
-              "br_pd_mb": 10
-            }
-          },
           "1585640154849": {
             "type": "img",
             "settings": {
@@ -1453,7 +1421,6 @@
         },
         "block_order": [
           "img_iEqb7n",
-          "1585640159361",
           "1585640154849",
           "1585640447349",
           "1585640466340",
