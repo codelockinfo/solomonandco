@@ -4264,7 +4264,7 @@
       "text_marquee_taRjyi": {
         "type": "text-marquee",
         "settings": {
-          "heading": " UP TO 60% OFF SPRING STYLES.    FREE DELIVERY WORLDWIDE.",
+          "heading": " UP TO 40% OFF SPRING STYLES.    FREE DELIVERY WORLDWIDE.",
           "bg-color": "#0a1229",
           "clrmer": "#ffffff"
         }
@@ -4356,7 +4356,7 @@
       "discount-explore": {
         "type": "discount-explore",
         "settings": {
-          "heading": "Black Friday: 15% Off – Don’t Miss Out!",
+          "heading": "Christmas Pre-Sale Get Up To 40% OFF",
           "buttontext": "Explore",
           "buttonlink": "shopify://collections/all",
           "layout": "nt_boxed",
