@@ -38,7 +38,7 @@
 
 {%- case media_type -%}
   {%- when 'image' -%} 
-   <div {% if alt contains 'imgt4_colorsolid' %}data-widths="[1]" {% endif %}data-grname="{{alt_arr | first | handleize }}" data-grpvl="{{alt_arr | last | handleize}}" class="img_ptw p_ptw js-sl-item p-item sp-pr-gallery__img w__100 nt_bg_lz lazyload media_id_{{media.id}}" data-mdid="{{media.id}}" data-mdtype="image" data-bgset="{{ image | img_url: '1x1' }}" data-ratio="{{ratio}}" data-rationav="{{ratio_nav}}" data-sizes="auto" data-src="{{ image | img_url: img_zoom_size }}" data-width="{{ image.width }}" data-height="{{ image.height }}" data-cap="{{ txt_alt }}"{% if eq_imgtb == 'ratio_imgtrue' %} style="padding-top:{{ 1 | divided_by: ratio | times: 100}}%;"{% endif %}>
+   <div {% if alt contains 'imgt4_colorsolid' %}data-widths="[1]" {% endif %}data-grname="{{alt_arr | first | handleize }}" data-grpvl="{{alt_arr | last | handleize}}" class="img_ptw p_ptw js-sl-item p-item sp-pr-gallery__img w__100 nt_bg_lz lazyload media_id_{{media.id}}" data-mdid="{{media.id}}" data-mdtype="image" data-bgset="{{ image | img_url: '1x1' }}" data-ratio="{{ratio}}" data-rationav="{{ratio_nav}}" data-sizes="auto" data-src="{{ image | img_url: img_zoom_size }}" data-width="{{ image.width }}" data-height="{{ image.height }}" data-cap="{{ txt_alt }}"{% if eq_imgtb == 'ratio_imgtrue' %} style="padding-top:{{ 1 | divided_by: ratio | times: 100}}%;"{% endif %} loading="lazy">
       <noscript><img src="{{ image | img_url: img_zoom_size }}" loading="lazy" alt="{{ txt_alt }}"></noscript>
    </div>
   {%- when 'external_video' -%}
