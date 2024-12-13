@@ -10,13 +10,7 @@
             {% for block in section.blocks  %}
                 {% if block.settings.trusted_by_image != blank %}
                 <div class="trustedby_image">
-                    
-                    {%- assign  image = block.settings.trusted_by_image -%}
-                    {%- assign  img_url = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-
-                    <img class="collection_img lazyload lz_op_ef w__100" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20{{image.width}}%20{{image.height}}%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="{{ img_url }}" data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]" data-sizes="auto" alt="{{image.alt | escape}}"  loading="lazy">
-                    {% comment %} <img src="{{ block.settings.trusted_by_image | img_url: 'master' }}" alt="" class="lazyload" loading="lazy"> {% endcomment %}
-
+                    <img src="{{ block.settings.trusted_by_image | img_url: 'master' }}" alt="" class="lazyload" loading="lazy">
                 </div>
                 {% endif %}
             {% endfor %}
