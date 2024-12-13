@@ -9,7 +9,9 @@
   <div class="cat_grid_item__content pr oh">
     <a href="{{ collection.url }}" class="db cat_grid_item__link">
       {%- if image != blank -%}
-        <img src="{{ image | img_url: 'medium' }}" alt="{{ collection.title }}" />
+        {%- assign img_url = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+        <img class="lazyload" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20{{image.width}}%20{{image.height}}%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="{{ img_url }}" data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]" data-sizes="auto" alt="{{image.alt | escape}}"  loading="lazy" />
+        {% comment %} <img src="{{ image | img_url: 'medium' }}" alt="{{ image.alt }}" class="lazyload" loading="lazy"/> {% endcomment %}
         {% comment %} <div class="cat_grid_item__overlay item__position nt_bg_lz lazyload" data-bgset="{{ image | img_url: 'medium' }}" data-ratio="{{image.aspect_ratio}}" data-sizes="auto" data-parent-fit="width"{% if cat_grid_item %} style="padding-top:{{ 1 | divided_by: image.aspect_ratio | times: 100}}%;"{% endif %}></div> {% endcomment %}
       {%- else -%}
         <img src="https://placehold.jp/50/f76b6a/fff/530x600.png?text=No+Image+Available" alt="No Image Available" />
