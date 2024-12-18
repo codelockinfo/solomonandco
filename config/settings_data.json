@@ -3808,7 +3808,7 @@
               "image_mb": "shopify://shop_images/07.jpg",
               "pos_img": "center center",
               "size_img": "cover",
-              "link_img1": "shopify://collections/all",
+              "link_img1": "shopify://collections/bracelets",
               "open_link": "_self",
               "caption_w": "2",
               "cap_v_pos": 50,
