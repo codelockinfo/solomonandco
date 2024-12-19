@@ -2219,7 +2219,7 @@
       "blog-template": {
         "type": "blog-template",
         "settings": {
-          "shop_des": "default",
+          "shop_des": "masonry",
           "art_des": "1 tc",
           "limit": 5,
           "space": 40,
