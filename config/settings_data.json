@@ -943,7 +943,7 @@
             "type": "menu",
             "settings": {
               "title": "Earrings",
-              "url": "shopify://collections/diamond-earrings",
+              "url": "shopify://collections/earrings",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -2841,7 +2841,7 @@
             "disabled": true,
             "settings": {
               "title": "Earrings",
-              "url": "shopify://collections/diamond-earrings",
+              "url": "shopify://collections/earrings",
               "open_link": "_self",
               "icon": "",
               "cus_cl": true,
@@ -2854,7 +2854,7 @@
             "type": "mega",
             "settings": {
               "title": "Earrings",
-              "url": "shopify://collections/diamond-earrings",
+              "url": "shopify://collections/earrings",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -2903,7 +2903,7 @@
               "image": "shopify://shop_images/12_Earring_40431dea-2099-4788-8c0d-4723be44f210.jpg",
               "cat_design": "1",
               "hoverz": true,
-              "collection": "diamond-earrings",
+              "collection": "earrings",
               "title": "",
               "col": "3"
             }
@@ -3886,7 +3886,7 @@
               "image": "shopify://shop_images/01_9bf41485-4a17-4f7b-a25b-bf129964a0fd.jpg",
               "img_align": "center",
               "title": "EARRINGS",
-              "url": "shopify://collections/diamond-earrings"
+              "url": "shopify://collections/earrings"
             }
           },
           "collection_jRjy7V": {
@@ -3986,7 +3986,7 @@
               "image_mb": "shopify://shop_images/06_d096ac65-eb77-46e9-babd-431ac35161d1.jpg",
               "pos_img": "center center",
               "size_img": "cover",
-              "link_img1": "shopify://collections/diamond-earrings",
+              "link_img1": "shopify://collections/earrings",
               "open_link": "_self",
               "caption_w": "2",
               "cap_v_pos": 34,
