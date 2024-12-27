@@ -18,7 +18,7 @@
           else
           assign html_layout = '__' | split:'__'
           endif -%}
-<div class="container">
+<div class="container meta-collection">
   <div class="complementary_product">
 
           {% if collection.metafields.custom.matching_collection != blank %}
@@ -575,4 +575,10 @@
   }
 {% endschema %}
 
-
+<style>
+  .meta-collection .cat_grid_item__content {
+    text-align: center;
+    padding: 10px !important;
+    background: #fff !important;
+}
+</style>
