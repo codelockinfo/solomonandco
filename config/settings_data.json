@@ -4575,7 +4575,7 @@
       "matching-collection": {
         "type": "matching-collection",
         "settings": {
-          "title": "Collection Slider",
+          "title": "",
           "sub_title": "Sub Text",
           "sub_font": "2",
           "btn_title": "See all products",
