@@ -4575,7 +4575,14 @@
       "matching-collection": {
         "type": "matching-collection",
         "settings": {
-          "complementarycollectionheading": "",
+          "title": "Collection Slider",
+          "sub_title": "Sub Text",
+          "sub_font": "2",
+          "btn_title": "See all products",
+          "style_title": "title_1",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "collection": "",
           "limit": 8,
           "space": 30,
           "use_pagination": "none",
@@ -4590,9 +4597,9 @@
           "use_cdt": false,
           "round_cd": false,
           "cdt_des": "1",
-          "loop": true,
+          "loop": false,
           "au_time": 0,
-          "au_hover": true,
+          "au_hover": false,
           "button": false,
           "btn_vi": "1",
           "btn_owl": "1",
@@ -4603,7 +4610,15 @@
           "use_eq_height": false,
           "image_ratio": "ratio_nt",
           "image_size": "nt_cover",
-          "image_position": "8"
+          "image_position": "8",
+          "hidden": false,
+          "cp_code": false,
+          "layout": "container",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
         }
       }
     },
