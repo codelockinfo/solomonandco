@@ -1293,7 +1293,7 @@
           "img_iEqb7n": {
             "type": "img",
             "settings": {
-              "image": "shopify://shop_images/01_a0075852-6d8f-47f5-8769-d57bd19bf125.jpg",
+              "image": "shopify://shop_images/28_Cristmas_90_21733029-ea5e-424f-80b9-dbe3ccff13f4.jpg",
               "image_mb": "shopify://shop_images/28_Cristmas_M_4be0b64e-4664-4f3c-8eb9-416e0a093920.jpg",
               "pos_img": "center center",
               "cl_img": "",
@@ -4570,6 +4570,40 @@
           "pd": "",
           "mg_mb": "",
           "pd_mb": ""
+        }
+      },
+      "matching-collection": {
+        "type": "matching-collection",
+        "settings": {
+          "complementarycollectionheading": "",
+          "limit": 3,
+          "space": 30,
+          "use_pagination": "view-all",
+          "btn_rd": true,
+          "btn_icon": false,
+          "btn_style": "default",
+          "col_pr": "3",
+          "col_pr_tb": "3",
+          "col_pr_mb": "6",
+          "pr_des": "1",
+          "show_vendor": false,
+          "use_cdt": false,
+          "round_cd": false,
+          "cdt_des": "1",
+          "loop": true,
+          "au_time": 0,
+          "au_hover": true,
+          "button": false,
+          "btn_vi": "1",
+          "btn_owl": "1",
+          "btn_color": "0",
+          "dot": true,
+          "dot_owl": "1",
+          "dot_color": "1",
+          "use_eq_height": false,
+          "image_ratio": "ratio_nt",
+          "image_size": "nt_cover",
+          "image_position": "8"
         }
       }
     },
