@@ -468,7 +468,7 @@
           "text_PkE6bz"
         ],
         "settings": {
-          "heading": "<p>Christmas Month Mega Sale: Get Up To 40% Off – Shop Now!                                       </p>",
+          "heading": "<p>Get Up To 40% Off – Shop Now!                                       </p>",
           "height": 50,
           "fontsize": 14,
           "cl": "#ffffff",
@@ -4356,7 +4356,7 @@
       "discount-explore": {
         "type": "discount-explore",
         "settings": {
-          "heading": "Christmas Pre-Sale Get Up To 40% OFF",
+          "heading": "Get Up To 40% OFF",
           "buttontext": "Explore",
           "buttonlink": "shopify://collections/all",
           "layout": "nt_boxed",
