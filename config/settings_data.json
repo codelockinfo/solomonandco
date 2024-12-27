@@ -942,7 +942,7 @@
             "type": "menu",
             "settings": {
               "title": "Women's",
-              "url": "shopify://collections/earrings",
+              "url": "shopify://collections/diamond-earrings",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -3469,7 +3469,7 @@
               "image": "shopify://shop_images/522d946d27c4fd7045c4a47e33546ebf_1.png",
               "img_align": "center",
               "title": "EARRINGS",
-              "url": "shopify://collections/earrings"
+              "url": "shopify://collections/diamond-earrings"
             }
           },
           "collection_R3LfkP": {
