@@ -4600,7 +4600,7 @@
           "dot": false,
           "dot_owl": "1",
           "dot_color": "1",
-          "use_eq_height": true,
+          "use_eq_height": false,
           "image_ratio": "ratio4_3",
           "image_size": "nt_cover",
           "image_position": "8",
