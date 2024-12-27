@@ -1,3 +1,24 @@
+{%- liquid
+          assign se_stts = block.settings
+          assign layout = se_stts.layout
+          assign image = se_stts.image
+          assign use_pagination = se_stts.use_pagination 
+          assign sett_equal = se_stts.use_eq_height
+          assign show_vendor = se_stts.show_vendor
+          assign col = se_stts.col_pr
+          assign col_tb = se_stts.col_pr_tb
+          assign col_mb = ' pr_animated done' | prepend:se_stts.col_pr_mb
+          assign inc_pr = se_stts.pr_des
+          assign limit = se_stts.limit
+          assign use_cdt = se_stts.use_cdt
+          assign txt_cd = 'products.grid_items.offer_end_in' | t
+          assign sid = block.id
+          if layout == 'wrap'
+          assign html_layout = '<div class="container">__</div>' | split:'__'
+          else
+          assign html_layout = '__' | split:'__'
+          endif -%}
+
 <div class="complementary_product">
 
           {% if collection.metafields.custom.matching_collection != blank %}
