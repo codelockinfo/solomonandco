@@ -4606,7 +4606,7 @@
           "image_position": "8",
           "hidden": false,
           "cp_code": false,
-          "layout": "container",
+          "layout": "wrap",
           "mg": "50px,,50px,",
           "pd": "",
           "mg_mb": "",
