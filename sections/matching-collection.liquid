@@ -18,8 +18,8 @@
           else
           assign html_layout = '__' | split:'__'
           endif -%}
-
-<div class="complementary_product">
+<div class="container">
+  <div class="complementary_product">
 
           {% if collection.metafields.custom.matching_collection != blank %}
             {% if section.settings.complementarycollectionheading  %}
@@ -42,6 +42,7 @@
               </div>
           {% endif %}
         </div>
+</div>
 
 {% schema %}
   {
