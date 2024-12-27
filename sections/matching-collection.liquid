@@ -1,5 +1,5 @@
 {%- liquid
-          assign se_stts = block.settings
+          assign se_stts = section.settings
           assign layout = se_stts.layout
           assign image = se_stts.image
           assign use_pagination = se_stts.use_pagination 
@@ -12,7 +12,7 @@
           assign limit = se_stts.limit
           assign use_cdt = se_stts.use_cdt
           assign txt_cd = 'products.grid_items.offer_end_in' | t
-          assign sid = block.id
+          assign sid = section
           if layout == 'wrap'
           assign html_layout = '<div class="container">__</div>' | split:'__'
           else
@@ -22,7 +22,7 @@
 <div class="complementary_product">
 
           {% if collection.metafields.custom.matching_collection != blank %}
-            {% if block.settings.complementarycollectionheading  %}
+            {% if section.settings.complementarycollectionheading  %}
               <h4 class="complementary_title">{{ block.settings.complementarycollectionheading }}</h4>
             {% endif %}
           
