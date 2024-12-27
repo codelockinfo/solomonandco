@@ -4589,7 +4589,7 @@
           "use_cdt": false,
           "round_cd": false,
           "cdt_des": "1",
-          "loop": false,
+          "loop": true,
           "au_time": 2,
           "au_hover": true,
           "button": false,
